@@ -394,10 +394,47 @@ window.CATALOGO = [
     },
     "imagen": "2do-sociales-10-cambios.jpg",
     "escena": "Two people at a cozy kitchen table covered with old photographs from a cardboard box: on the left, a girl with long black braided hair in a blue sweater drawing a timeline with small pictures on a long strip of paper; on the right, a gray-haired grandfather with glasses and no beard holding an old faded photo of an empty city lot; through the window behind them, a colorful community garden and a red brick library"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 11,
+    "estandar": "SS.2.H.2",
+    "es": {
+      "titulo": "El gran incendio, contado por todos",
+      "archivo": "2do-sociales-11-perspectivas.html",
+      "tema": "Un suceso visto desde varias perspectivas"
+    },
+    "en": {
+      "titulo": "The great fire, told by everyone",
+      "archivo": "grade2-social-studies-11-perspectives.html",
+      "tema": "One event seen from different perspectives"
+    },
+    "imagen": "2do-sociales-11-perspectivas.jpg",
+    "escena": "A school classroom play about the Great Chicago Fire of 1871: on a small stage, on the left, a boy with short curly brown hair and a red-and-white striped scarf wearing an old-fashioned red firefighter helmet; on the right, a girl with long black braided hair in a blue sweater wearing an old-fashioned shawl and holding a small cloth bundle; behind them a painted cardboard backdrop of old wooden houses with orange flames; classmates watching happily from their chairs; a teacher with short gray hair and glasses smiling at the side"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 12,
+    "estandar": "SS.2.CV · SS.2.EC · SS.2.G · SS.2.H",
+    "es": {
+      "titulo": "El mapa del barrio",
+      "archivo": "2do-sociales-12-repaso.html",
+      "tema": "Repaso: todo lo que aprendimos"
+    },
+    "en": {
+      "titulo": "The neighborhood map",
+      "archivo": "grade2-social-studies-12-review.html",
+      "tema": "Review: everything we learned"
+    },
+    "imagen": "2do-sociales-12-repaso.jpg",
+    "escena": "A cheerful neighborhood block party on a sunny street in front of a community garden: in the center, a girl with long black braided hair in a blue sweater and a boy with short curly brown hair and a red-and-white striped scarf proudly hold up a giant hand-drawn colorful map of their neighborhood with little drawings of a park, a garden, a bakery and a lake; around them, a gray-haired grandfather with glasses and no beard, an older woman in a wheelchair clapping, a baker in a white apron holding a tray of bread, and a teacher with short gray hair and glasses; string lights and balloons"
   }
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
 window.LIBROS = [
-  { grado: 2, area: 'ciencias', es: 'libro-2do-ciencias.html', en: 'book-grade2-science.html' }
+  { grado: 2, area: 'ciencias', es: 'libro-2do-ciencias.html', en: 'book-grade2-science.html' },
+  { grado: 2, area: 'sociales', es: 'libro-2do-sociales.html', en: 'book-grade2-social-studies.html' }
 ];
