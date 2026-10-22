@@ -250,6 +250,78 @@ window.CATALOGO = [
     },
     "imagen": "2do-ciencias-12-repaso.jpg",
     "escena": "Four people at a school science fair: on the left, a girl with long black braided hair in a blue sweater and, next to her, a boy with short curly brown hair in a striped shirt and a red-and-white striped scarf, both standing proudly beside a big colorful poster board covered with drawings of an umbrella, an ice cream, bean plants, a hummingbird, a frog in a pond, a red canyon, a volcano and a cardboard pencil box; on the right, a gray-haired grandfather with glasses and a teacher with short gray hair and glasses smiling at the poster; other display tables in a school gym behind them"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.2.EC.1",
+    "es": {
+      "titulo": "La pelota del recreo",
+      "archivo": "2do-sociales-03-decisiones.html",
+      "tema": "Nuestras decisiones afectan a otros"
+    },
+    "en": {
+      "titulo": "The recess ball",
+      "archivo": "grade2-social-studies-03-choices.html",
+      "tema": "Our choices affect others"
+    },
+    "imagen": "2do-sociales-03-decisiones.jpg",
+    "escena": "Many children playing together in a sunny school playground at recess: in the center, a boy with short curly brown hair and a red-and-white striped scarf happily passing a soccer ball to a group of smiling kids; on the left, a girl with long black braided hair in a blue sweater laughing while holding a jump rope; a big round clock on the brick school wall; a teacher with short gray hair and glasses watching kindly from the side"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.2.EC.2",
+    "es": {
+      "titulo": "Los tomates de Lucía",
+      "archivo": "2do-sociales-04-dinero.html",
+      "tema": "Para qué sirve el dinero"
+    },
+    "en": {
+      "titulo": "Lucía's tomatoes",
+      "archivo": "grade2-social-studies-04-money.html",
+      "tema": "What money is for"
+    },
+    "imagen": "2do-sociales-04-dinero.jpg",
+    "escena": "In front of a sunny neighborhood community garden, a girl with long black braided hair in a blue sweater stands behind a small wooden table selling paper bags full of red tomatoes; a smiling neighbor hands her a dollar bill; on the right, a gray-haired grandfather with glasses smiles proudly; tomato plants and sunflowers behind them, a small bakery with fresh bread in the window across the street"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.2.EC.3",
+    "es": {
+      "titulo": "El maíz del primo Tomás",
+      "archivo": "2do-sociales-05-bienes-servicios.html",
+      "tema": "Bienes y servicios de distintas comunidades"
+    },
+    "en": {
+      "titulo": "Cousin Tomás's corn",
+      "archivo": "grade2-social-studies-05-goods-services.html",
+      "tema": "Goods and services in different communities"
+    },
+    "imagen": "2do-sociales-05-bienes-servicios.jpg",
+    "escena": "A two-part scene divided down the middle: on the left half, a boy with short curly brown hair and a red-and-white striped scarf stands with a farmer in front of green cornfields, a red barn and a tractor; on the right half, a girl with long black braided hair in a blue sweater stands on a busy city street with tall buildings, a bakery, a doctor's office and a city bus; a road with a truck full of corn connects the two halves"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.2.EC.FL.1",
+    "es": {
+      "titulo": "La alcancía de Israel",
+      "archivo": "2do-sociales-06-ahorro.html",
+      "tema": "Ahorrar o gastar"
+    },
+    "en": {
+      "titulo": "Israel's piggy bank",
+      "archivo": "grade2-social-studies-06-saving.html",
+      "tema": "Saving or spending"
+    },
+    "imagen": "2do-sociales-06-ahorro.jpg",
+    "escena": "Two children at a cozy kitchen table: on the right, a boy with short curly brown hair and a red-and-white striped scarf happily counting dollar bills and coins poured out of a pink piggy bank; on the left, a girl with long black braided hair in a blue sweater smiling and clapping; a brand-new soccer ball on the table between them; a wall calendar with many days crossed off and a small potted plant on the windowsill"
   }
 ];
 
