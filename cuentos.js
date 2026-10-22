@@ -72,39 +72,64 @@
     }
     return null;
   }
+  /* Algunos navegadores cortan las lecturas largas. Por eso el texto se
+     divide en frases y se lee una tras otra. */
+  var turno = 0;
+  function enFrases(texto){
+    var t = String(texto).replace(/\s+/g,' ').trim();
+    var frases = t.match(/[^.!?…]+[.!?…]+["»”')]*\s*|[^.!?…]+$/g) || [t];
+    return frases.map(function(f){ return f.trim(); }).filter(Boolean);
+  }
   function decir(texto, alTerminar){
     if(!hayVoz) return;
     speechSynthesis.cancel();
-    var u = new SpeechSynthesisUtterance(texto);
+    var miTurno = ++turno;
+    var frases = enFrases(texto);
     var v = elegirVoz();
-    if(v) u.voice = v;
-    u.lang = v ? v.lang : (LANG === 'en' ? 'en-US' : 'es-US');
-    u.rate = 0.9;
-    if(alTerminar){ u.onend = alTerminar; u.onerror = alTerminar; }
-    speechSynthesis.speak(u);
+    var i = 0;
+    function siguiente(){
+      if(miTurno !== turno) return;          // se detuvo o empezó otra lectura
+      if(i >= frases.length){ if(alTerminar) alTerminar(); return; }
+      var u = new SpeechSynthesisUtterance(frases[i++]);
+      if(v) u.voice = v;
+      u.lang = v ? v.lang : (LANG === 'en' ? 'en-US' : 'es-US');
+      u.rate = 0.9;
+      u.onend = siguiente;
+      u.onerror = function(e){
+        if(e.error === 'interrupted' || e.error === 'canceled') return;
+        siguiente();
+      };
+      speechSynthesis.speak(u);
+    }
+    // Pequeña pausa tras cancel(): Chrome a veces descarta lo que se pide enseguida.
+    setTimeout(siguiente, 120);
   }
+  function callar(){ turno++; if(hayVoz) speechSynthesis.cancel(); }
+  var leyendoCuento = false;
 
   var btnVoz = $('btn-voz');
   if(btnVoz){
     btnVoz.textContent = T.escuchar;
     btnVoz.disabled = !hayVoz;
     btnVoz.addEventListener('click', function(){
-      if(speechSynthesis.speaking){
-        speechSynthesis.cancel();
-        btnVoz.textContent = T.escuchar;
-        btnVoz.setAttribute('aria-pressed','false');
-        return;
-      }
-      var partes = [$('titulo').textContent];
-      todos('#cuento p').forEach(function(p){ partes.push(p.textContent); });
-      decir(partes.join(' '), function(){
-        btnVoz.textContent = T.escuchar;
-        btnVoz.setAttribute('aria-pressed','false');
-      });
+      if(leyendoCuento){ callar(); botonCuentoEnReposo(); return; }
+      // El título va primero, con punto final para que la voz haga la pausa.
+      var partes = [$('titulo').textContent.trim() + '.'];
+      todos('.cuento p').forEach(function(p){ partes.push(p.textContent); });
+      decir(partes.join(' '), botonCuentoEnReposo);
+      leyendoCuento = true;
       btnVoz.textContent = T.detener;
       btnVoz.setAttribute('aria-pressed','true');
     });
   }
+  function botonCuentoEnReposo(){
+    leyendoCuento = false;
+    if(!btnVoz) return;
+    btnVoz.textContent = T.escuchar;
+    btnVoz.setAttribute('aria-pressed','false');
+  }
+  // Cualquier otra lectura (una palabra, una pregunta) detiene la del cuento.
+  function decirSuelto(texto){ botonCuentoEnReposo(); decir(texto); }
 
   /* ---------------------------------------------------------------
      2. TAMAÑO DE LETRA Y CONTRASTE
@@ -183,7 +208,7 @@
   function cerrarPanel(){
     if(panel.hidden) return;
     panel.hidden = true;
-    if(hayVoz) speechSynthesis.cancel();
+    if(!leyendoCuento) callar();
     if(origenPanel){ origenPanel.setAttribute('aria-expanded','false'); origenPanel.focus(); }
   }
   todos('.voz').forEach(function(b){
@@ -194,7 +219,7 @@
   $('panel-cerrar').addEventListener('click', cerrarPanel);
   $('panel-ir').addEventListener('click', function(){ panel.hidden = true; });
   $('panel-oir').addEventListener('click', function(){
-    decir($('panel-titulo').textContent + '. ' + $('panel-def').textContent);
+    decirSuelto($('panel-titulo').textContent + '. ' + $('panel-def').textContent);
   });
   document.addEventListener('keydown', function(e){ if(e.key === 'Escape') cerrarPanel(); });
 
@@ -299,7 +324,7 @@
       oir.addEventListener('click', function(){
         var t = q.querySelector('.texto-enunciado').textContent + '. ' +
                 opciones.map(function(o){ return o.textContent; }).join('. ');
-        decir(t);
+        decirSuelto(t);
       });
     }
   });
