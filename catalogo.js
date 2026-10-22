@@ -285,7 +285,7 @@ window.CATALOGO = [
       "tema": "What money is for"
     },
     "imagen": "2do-sociales-04-dinero.jpg",
-    "escena": "In front of a sunny neighborhood community garden, a girl with long black braided hair in a blue sweater stands behind a small wooden table selling paper bags full of red tomatoes; a smiling neighbor hands her a dollar bill; on the right, a gray-haired grandfather with glasses smiles proudly; tomato plants and sunflowers behind them, a small bakery with fresh bread in the window across the street"
+    "escena": "Exactly three people in front of a sunny neighborhood community garden. Behind a small wooden table with paper bags of red tomatoes stands only ONE girl, the seller: long black braided hair, blue sweater. In front of the table, a woman customer with short brown hair hands the girl a dollar bill. On the right, a gray-haired grandfather with glasses smiles proudly. Tomato plants and sunflowers behind them, a small bakery with bread in the window across the street"
   },
   {
     "grado": 2,
