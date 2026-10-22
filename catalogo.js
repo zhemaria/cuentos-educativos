@@ -322,6 +322,78 @@ window.CATALOGO = [
     },
     "imagen": "2do-sociales-06-ahorro.jpg",
     "escena": "Two children at a cozy kitchen table: on the right, a boy with short curly brown hair and a red-and-white striped scarf happily counting dollar bills and coins poured out of a pink piggy bank; on the left, a girl with long black braided hair in a blue sweater smiling and clapping; a brand-new soccer ball on the table between them; a wall calendar with many days crossed off and a small potted plant on the windowsill"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.2.G.1",
+    "es": {
+      "titulo": "El mapa del tesoro",
+      "archivo": "2do-sociales-07-mapas.html",
+      "tema": "Cómo leer un mapa"
+    },
+    "en": {
+      "titulo": "The treasure map",
+      "archivo": "grade2-social-studies-07-maps.html",
+      "tema": "How to read a map"
+    },
+    "imagen": "2do-sociales-07-mapas.jpg",
+    "escena": "Three people on a sunny neighborhood sidewalk: on the left, a girl with long black braided hair in a blue sweater pointing ahead with excitement; in the middle, a boy with short curly brown hair and a red-and-white striped scarf holding a big hand-drawn paper treasure map with little tree, book and cross symbols and a red X; on the right, a gray-haired grandfather with glasses and no beard smiling; a small brick library and a bakery along the street behind them"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.2.G.2",
+    "es": {
+      "titulo": "Una carta desde Puerto Rico",
+      "archivo": "2do-sociales-08-comunidades.html",
+      "tema": "Cómo es mi comunidad y cómo son otras"
+    },
+    "en": {
+      "titulo": "A letter from Puerto Rico",
+      "archivo": "grade2-social-studies-08-communities.html",
+      "tema": "What my community is like, and what others are like"
+    },
+    "imagen": "2do-sociales-08-comunidades.jpg",
+    "escena": "Two children sit at a classroom desk reading a colorful handwritten letter with photos: on the left, a girl with long black braided hair in a blue sweater; on the right, a boy with short curly brown hair and a red-and-white striped scarf; on the wall behind them, two large pictures side by side: a snowy city street beside a huge lake, and a green tropical rainforest with waterfalls and a tiny frog on a leaf; a teacher with short gray hair and glasses smiling nearby"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 9,
+    "estandar": "SS.2.G.3",
+    "es": {
+      "titulo": "De viaje por Illinois",
+      "archivo": "2do-sociales-09-ambiente-trabajo.html",
+      "tema": "La naturaleza de un lugar y el trabajo de su gente"
+    },
+    "en": {
+      "titulo": "A trip across Illinois",
+      "archivo": "grade2-social-studies-09-land-and-work.html",
+      "tema": "The land of a place and the work of its people"
+    },
+    "imagen": "2do-sociales-09-ambiente-trabajo.jpg",
+    "escena": "Three people stand on a grassy riverbank watching a long line of flat barges loaded with yellow corn moving down a very wide river: on the left, a girl with long black braided hair in a blue sweater; in the middle, a gray-haired grandfather with glasses and no beard pointing at the barges; on the right, a boy with short curly brown hair and a red-and-white striped scarf; flat green farm fields and a parked car behind them, summer afternoon light"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 10,
+    "estandar": "SS.2.H.1",
+    "es": {
+      "titulo": "Las fotos viejas del abuelo",
+      "archivo": "2do-sociales-10-cambios.html",
+      "tema": "Cómo ha cambiado mi comunidad"
+    },
+    "en": {
+      "titulo": "Grandpa's old photos",
+      "archivo": "grade2-social-studies-10-changes.html",
+      "tema": "How my community has changed"
+    },
+    "imagen": "2do-sociales-10-cambios.jpg",
+    "escena": "Two people at a cozy kitchen table covered with old photographs from a cardboard box: on the left, a girl with long black braided hair in a blue sweater drawing a timeline with small pictures on a long strip of paper; on the right, a gray-haired grandfather with glasses and no beard holding an old faded photo of an empty city lot; through the window behind them, a colorful community garden and a red brick library"
   }
 ];
 
