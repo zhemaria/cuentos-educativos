@@ -56,6 +56,8 @@
     AREAS.forEach(function(a){
       var lista = cat.filter(function(c){ return c.grado === g && c.area === a[0]; });
       html += '<div class="area" id="grade-' + g + '-' + a[0] + '"><h3>' + a[1] + '</h3>';
+      var libro = (window.LIBROS || []).filter(function(l){ return l.grado === g && l.area === a[0]; })[0];
+      if(libro){ html += '<p><a class="idioma" href="' + esc(libro.en) + '"><span aria-hidden="true">📖</span> Read the whole book</a></p>'; }
       if(!lista.length){ html += '<p class="pronto">Coming soon.</p>'; }
       else{
         html += '<ul class="lista">' + lista.map(function(c){

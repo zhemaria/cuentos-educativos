@@ -167,6 +167,40 @@ h2{font-size:1.4rem;margin:2rem 0 .9rem}
 .lista small{display:block;font-weight:400;color:var(--tinta-suave)}
 .pronto{color:var(--tinta-suave);font-style:italic;margin:0}
 
+/* --- Libro de cada grado ---------------------------------------- */
+.portada-libro{text-align:center;padding:1rem 0 1.5rem;border-bottom:3px double var(--tinta);margin-bottom:1.5rem}
+.portada-libro h1{font-size:clamp(2.1rem,8vw,3.2rem)}
+.portada-libro .subtitulo{font-size:1.2rem;color:var(--tinta-suave);margin:.2rem 0 1.2rem;font-style:italic}
+.mosaico{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:0 0 1.2rem;padding:0;list-style:none}
+.mosaico li{aspect-ratio:4/3;overflow:hidden;border-radius:8px;background:#efe8da}
+.mosaico img{display:block;width:100%;height:100%;object-fit:cover}
+.creditos{font-size:.9rem;color:var(--tinta-suave);margin:0}
+.indice-libro{list-style:none;margin:0 0 2rem;padding:0;display:grid;gap:.45rem;counter-reset:cap}
+.indice-libro a{display:flex;gap:.8rem;align-items:baseline;padding:.7rem 1rem;background:var(--papel-claro);
+  border:1px solid var(--borde);border-radius:12px;text-decoration:none;color:var(--tinta);font-weight:700}
+.indice-libro a:hover{border-color:var(--verde)}
+.indice-libro .num{flex:none;color:var(--rosa);min-width:1.6rem}
+.indice-libro small{display:block;font-weight:400;color:var(--tinta-suave)}
+.capitulo{margin-top:3rem;padding-top:1.5rem;border-top:3px double var(--borde-fuerte);scroll-margin-top:.5rem}
+.capitulo > h2{font-size:clamp(1.6rem,5.5vw,2.2rem);line-height:1.2;margin:.2rem 0 .4rem}
+.capitulo h3{font-size:1.25rem;margin:1.8rem 0 .8rem}
+.capitulo .clave h3{font-size:1.05rem;margin:0 0 .6rem}
+.capitulo .num-cap{display:block;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--rosa);font-weight:700}
+.herramientas-cap{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:0 0 1.2rem}
+.voz-capitulo{font:inherit;font-size:.9rem;min-height:44px;padding:.35rem .9rem;cursor:pointer;
+  background:var(--papel-claro);color:var(--tinta);border:1.5px solid var(--borde-fuerte);border-radius:10px}
+.voz-capitulo[aria-pressed="true"]{background:var(--verde);color:#fff;border-color:var(--verde)}
+.al-indice{font-size:.9rem;font-weight:700}
+@media print{
+  .portada-libro{break-after:page;border:none}
+  .indice-libro{break-after:page;gap:3px}
+  .indice-libro a{padding:.25rem .7rem;border-radius:6px}
+  .indice-libro small{display:inline;margin-left:.5rem}
+  .capitulo{break-before:page;border:none;margin-top:0}
+  .herramientas-cap,.al-indice{display:none!important}
+  .capitulo .preguntas-cap{break-before:page}
+}
+
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{transition:none!important;animation:none!important}

@@ -234,3 +234,8 @@ window.CATALOGO = [
     "escena": "Neighbors working together in a sunny community garden: in the center, a smiling older woman in a wheelchair rolling up a new wooden ramp beside three small steps; on the left, a girl with long black braided hair painting flowers on a blank wooden board; on the right, a boy with short curly brown hair pouring soil into a tall raised wooden garden bed; behind them a gray-haired grandfather with glasses and no beard holding a hammer, tomato plants and sunflowers around"
   }
 ];
+
+/* Libros en línea ya armados (uno por grado y área). */
+window.LIBROS = [
+  { grado: 2, area: 'ciencias', es: 'libro-2do-ciencias.html', en: 'book-grade2-science.html' }
+];

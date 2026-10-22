@@ -107,26 +107,37 @@
   function callar(){ turno++; if(hayVoz) speechSynthesis.cancel(); }
   var leyendoCuento = false;
 
-  var btnVoz = $('btn-voz');
-  if(btnVoz){
-    btnVoz.textContent = T.escuchar;
-    btnVoz.disabled = !hayVoz;
-    btnVoz.addEventListener('click', function(){
-      if(leyendoCuento){ callar(); botonCuentoEnReposo(); return; }
+  /* Botón de lectura: #btn-voz en un cuento suelto, o un .voz-capitulo
+     por capítulo en el libro (data-capitulo="N" señala #capitulo-N). */
+  var btnVoz = null;   // el botón que está leyendo ahora
+  var botonesVoz = todos('#btn-voz, .voz-capitulo');
+  botonesVoz.forEach(function(b){
+    b.textContent = T.escuchar;
+    b.disabled = !hayVoz;
+    b.setAttribute('aria-pressed','false');
+    b.addEventListener('click', function(){
+      var eraEste = leyendoCuento && btnVoz === b;
+      if(leyendoCuento){ callar(); botonCuentoEnReposo(); }
+      if(eraEste) return;
+      var cap = b.getAttribute('data-capitulo');
+      var ambito = cap ? $('capitulo-' + cap) : document;
+      var titulo = cap ? (ambito.querySelector('.titulo-cap') || ambito.querySelector('h2')) : $('titulo');
       // El título va primero, con punto final para que la voz haga la pausa.
-      var partes = [$('titulo').textContent.trim() + '.'];
-      todos('.cuento p').forEach(function(p){ partes.push(p.textContent); });
+      var partes = [titulo.textContent.trim() + '.'];
+      todos('.cuento p', ambito).forEach(function(p){ partes.push(p.textContent); });
+      btnVoz = b;
       decir(partes.join(' '), botonCuentoEnReposo);
       leyendoCuento = true;
-      btnVoz.textContent = T.detener;
-      btnVoz.setAttribute('aria-pressed','true');
+      b.textContent = T.detener;
+      b.setAttribute('aria-pressed','true');
     });
-  }
+  });
   function botonCuentoEnReposo(){
     leyendoCuento = false;
     if(!btnVoz) return;
     btnVoz.textContent = T.escuchar;
     btnVoz.setAttribute('aria-pressed','false');
+    btnVoz = null;
   }
   // Cualquier otra lectura (una palabra, una pregunta) detiene la del cuento.
   function decirSuelto(texto){ botonCuentoEnReposo(); decir(texto); }
@@ -256,9 +267,20 @@
   });
 
   var preguntas = todos('.pregunta');
-  var alPrimerIntento = 0, terminadas = 0;
+  /* El puntaje se lleva por grupo: la página entera en un cuento suelto,
+     o cada capítulo (elemento con data-capitulo) en el libro. */
+  var grupos = [];
+  function grupoDe(q){
+    var raiz = q.closest('[data-capitulo]') || document.body;
+    for(var i=0;i<grupos.length;i++) if(grupos[i].raiz === raiz) return grupos[i];
+    var g = {raiz:raiz, total:0, primer:0, hechas:0};
+    grupos.push(g);
+    return g;
+  }
+  preguntas.forEach(function(q){ grupoDe(q).total++; });
 
   preguntas.forEach(function(q){
+    var grupo = grupoDe(q);
     var correcta = parseInt(q.getAttribute('data-correcta'), 10);
     var opciones = todos('.opcion', q);
     var explicacion = q.querySelector('.explicacion');
@@ -293,9 +315,9 @@
           resp.className = 'respuesta bien';
           resp.innerHTML = '<strong>' + T.bien + '</strong>';
           if(explicacion) resp.appendChild(document.createTextNode(explicacion.textContent));
-          if(intentos === 1) alPrimerIntento++;
-          terminadas++;
-          if(terminadas === preguntas.length) mostrarPuntaje();
+          if(intentos === 1) grupo.primer++;
+          grupo.hechas++;
+          if(grupo.hechas === grupo.total) mostrarPuntaje(grupo);
         }else{
           op.disabled = true;
           op.classList.add('fallo');
@@ -329,10 +351,10 @@
     }
   });
 
-  function mostrarPuntaje(){
-    var p = $('puntaje');
+  function mostrarPuntaje(g){
+    var p = g.raiz.querySelector('.puntaje');
     if(!p) return;
-    p.textContent = T.puntaje(alPrimerIntento, preguntas.length);
+    p.textContent = T.puntaje(g.primer, g.total);
     p.hidden = false;
   }
 })();

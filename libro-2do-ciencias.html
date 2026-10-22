@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<!--
+  Cuentos educativos · Libro · Ciencias · 2do grado
+  José M. Fernández · Claude (Anthropic)
+  Licencia: Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ciencias · 2do grado · Cuentos educativos</title>
+<meta name="description" content="Libro en línea de Ciencias de 2do grado: 11 cuentos ilustrados con vocabulario, glosario y preguntas de comprensión.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#indice">Ir al índice</a>
+<main class="hoja">
+
+  <nav class="migas" aria-label="Ubicación">
+    <span><a href="index.html#grado-2">Cuentos educativos</a> · 2do grado · Ciencias</span>
+    <a class="idioma" href="book-grade2-science.html" lang="en" hreflang="en">Read in English</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Apoyos de lectura">
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Letra más pequeña</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Letra más grande</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">Alto contraste</button>
+    <button type="button" id="btn-imprimir">Imprimir o guardar en PDF</button>
+  </div>
+
+  <header class="portada-libro">
+    <p class="sello">Libro · 2do grado</p>
+    <h1>Ciencias</h1>
+    <p class="subtitulo">Cuentos de Lucía e Israel</p>
+    <ul class="mosaico" aria-hidden="true">
+      <li><img src="2do-ciencias-01-materiales.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-02-piezas.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-03-calor.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-04-plantas.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-05-polinizacion.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-06-habitats.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-07-cambios-tierra.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-08-erosion.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-09-relieve.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-10-agua.jpg" alt="" loading="lazy"></li>
+      <li><img src="2do-ciencias-11-ingenieria.jpg" alt="" loading="lazy"></li>
+    </ul>
+    <p class="creditos">José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustraciones generadas con inteligencia artificial</p>
+  </header>
+
+  <nav aria-labelledby="indice">
+    <h2 id="indice" tabindex="-1">Índice</h2>
+    <ol class="indice-libro" id="t-indice-lista">
+      <li><a href="#capitulo-1"><span class="num">1</span><span>Un paraguas para Canela<small>Propiedades de los materiales</small></span></a></li>
+      <li><a href="#capitulo-2"><span class="num">2</span><span>El castillo que se volvió puente<small>Armar y desarmar objetos</small></span></a></li>
+      <li><a href="#capitulo-3"><span class="num">3</span><span>El helado que volvió a congelarse<small>Cambios por calor y frío</small></span></a></li>
+      <li><a href="#capitulo-4"><span class="num">4</span><span>Tres frijoles en el salón<small>Lo que necesitan las plantas para crecer</small></span></a></li>
+      <li><a href="#capitulo-5"><span class="num">5</span><span>Lucía y el colibrí de la huerta<small>Polinización y dispersión de semillas</small></span></a></li>
+      <li><a href="#capitulo-6"><span class="num">6</span><span>La excursión de los tres hábitats<small>Diversidad de seres vivos en los hábitats</small></span></a></li>
+      <li><a href="#capitulo-7"><span class="num">7</span><span>El cañón y el volcán<small>Cambios rápidos y lentos de la Tierra</small></span></a></li>
+      <li><a href="#capitulo-8"><span class="num">8</span><span>La colina de la huerta<small>Soluciones para frenar la erosión</small></span></a></li>
+      <li><a href="#capitulo-9"><span class="num">9</span><span>El mundo de plastilina<small>Formas de la tierra y del agua</small></span></a></li>
+      <li><a href="#capitulo-10"><span class="num">10</span><span>El lago que se volvió hielo<small>Dónde está el agua de la Tierra</small></span></a></li>
+      <li><a href="#capitulo-11"><span class="num">11</span><span>Los lápices que se escapaban<small>Resolver un problema con ingeniería</small></span></a></li>
+    </ol>
+  </nav>
+
+  <article class="capitulo" id="capitulo-1" data-capitulo="1" aria-labelledby="c1-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-01-materiales.jpg" loading="lazy" alt="Dos niños prueban gotas de agua sobre papel, tela y plástico junto a una ventana lluviosa; un osito de peluche tiene un paraguas pequeño.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-PS1-1 · 2-PS1-2</p>
+    <h2 id="c1-titulo"><span class="num-cap">Capítulo 1</span><span class="titulo-cap">Un paraguas para Canela</span></h2>
+    <p class="entrada">Un cuento sobre cómo elegir el mejor material.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="1"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-01-materiales.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c1-material">material</button></li>
+      <li><button type="button" class="voz" data-g="c1-propiedad">propiedad</button></li>
+      <li><button type="button" class="voz" data-g="c1-textura">textura</button></li>
+      <li><button type="button" class="voz" data-g="c1-flexible">flexible</button></li>
+      <li><button type="button" class="voz" data-g="c1-absorber">absorber</button></li>
+      <li><button type="button" class="voz" data-g="c1-impermeable">impermeable</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c1-p1">Israel es amigo de Lucía. Tiene un osito de peluche que se llama Canela. Un día de lluvia, Israel dijo: —Quiero llevar a Canela al parque, pero se va a mojar.</p>
+
+    <p id="c1-p2">Lucía tuvo una idea. —¡Hagámosle un paraguas! Primero tenemos que elegir el mejor <button type="button" class="voz" data-g="c1-material">material</button>. <span class="cita" id="c1-c-a">Un material es aquello de lo que están hechas las cosas, como el papel, la tela o el plástico.</span></p>
+
+    <p id="c1-p3">Los niños juntaron tres materiales: una hoja de papel, un pedazo de toalla y una bolsa de plástico. Los observaron con cuidado para conocer sus <button type="button" class="voz" data-g="c1-propiedad">propiedades</button>. Una propiedad es una característica que podemos ver o sentir, como el color, la forma o la <button type="button" class="voz" data-g="c1-textura">textura</button>.</p>
+
+    <p id="c1-p4"><span class="cita" id="c1-c-b">La toalla tenía una textura suave. El papel era liso. El plástico era liso y brillante.</span> Los tres eran <button type="button" class="voz" data-g="c1-flexible">flexibles</button>, porque se podían doblar sin romperse.</p>
+
+    <p id="c1-p5">Luego hicieron una prueba. Echaron unas gotas de agua sobre cada material. <span class="cita" id="c1-c-c">El papel y la toalla se mojaron por completo, porque los dos pueden <button type="button" class="voz" data-g="c1-absorber">absorber</button> el agua.</span> El papel mojado, además, se rompió.</p>
+
+    <p id="c1-p6">Con el plástico pasó otra cosa. <span class="cita" id="c1-c-d">Las gotas resbalaron y no pasaron al otro lado. El plástico es <button type="button" class="voz" data-g="c1-impermeable">impermeable</button>: no deja pasar el agua.</span></p>
+
+    <p id="c1-p7">—¡El plástico es el mejor material para un paraguas! —dijo Israel. Lucía y Israel cortaron un pedazo de la bolsa, lo pegaron a un palito y le hicieron un paraguas a Canela.</p>
+
+    <p id="c1-p8">Esa tarde, Canela paseó por el parque sin mojarse. Los niños aprendieron que cada material tiene propiedades distintas, y que hay que elegirlo según para qué lo vamos a usar.</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c1-material"><dt>material</dt><dd>Aquello de lo que están hechas las cosas. El papel, la tela, el plástico y la madera son materiales.</dd></div>
+    <div id="g-c1-propiedad"><dt>propiedad</dt><dd>Una característica de un material que podemos observar, como el color, la forma, la textura o si es duro o blando.</dd></div>
+    <div id="g-c1-textura"><dt>textura</dt><dd>Cómo se siente algo al tocarlo: suave, áspero, liso o rugoso.</dd></div>
+    <div id="g-c1-flexible"><dt>flexible</dt><dd>Que se puede doblar sin romperse.</dd></div>
+    <div id="g-c1-absorber"><dt>absorber</dt><dd>Recoger un líquido y guardarlo adentro, como hace una esponja con el agua.</dd></div>
+    <div id="g-c1-impermeable"><dt>impermeable</dt><dd>Que no deja pasar el agua.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c1-pregunta-a" data-cita="c1-c-a" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué es un material?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">El color que tienen las cosas</button>
+        <button class="opcion">Aquello de lo que están hechas las cosas</button>
+        <button class="opcion">El lugar donde se guardan las cosas</button>
+      </div>
+      <p class="explicacion" hidden>Un material es aquello de lo que están hechas las cosas, como el papel, la tela o el plástico.</p>
+    </li>
+
+    <li class="pregunta" id="c1-pregunta-b" data-cita="c1-c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Qué textura tenía la toalla?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Suave</button>
+        <button class="opcion">Lisa y brillante</button>
+        <button class="opcion">Dura y áspera</button>
+      </div>
+      <p class="explicacion" hidden>El cuento dice que la toalla tenía una textura suave.</p>
+    </li>
+
+    <li class="pregunta" id="c1-pregunta-c" data-cita="c1-c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Qué pasó con el papel y la toalla en la prueba del agua?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Las gotas resbalaron</button>
+        <button class="opcion">Se pusieron muy duros</button>
+        <button class="opcion">Se mojaron por completo</button>
+      </div>
+      <p class="explicacion" hidden>El papel y la toalla se mojaron por completo, porque los dos absorben el agua.</p>
+    </li>
+
+    <li class="pregunta" id="c1-pregunta-d" data-cita="c1-c-d" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Por qué el plástico sirve para hacer un paraguas?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Porque absorbe el agua</button>
+        <button class="opcion">Porque es impermeable</button>
+        <button class="opcion">Porque es muy brillante</button>
+      </div>
+      <p class="explicacion" hidden>El plástico es impermeable: no deja pasar el agua, y eso es lo que necesita un paraguas.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-PS1-1 · 2-PS1-2: describir y clasificar materiales por sus propiedades, y elegir el material adecuado para un uso.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-2" data-capitulo="2" aria-labelledby="c2-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-02-piezas.jpg" loading="lazy" alt="Dos niños construyen un puente de bloques de madera sobre una cinta azul en el piso mientras un carrito lo cruza; el abuelo los mira desde el sillón.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-PS1-3</p>
+    <h2 id="c2-titulo"><span class="num-cap">Capítulo 2</span><span class="titulo-cap">El castillo que se volvió puente</span></h2>
+    <p class="entrada">Un cuento sobre cómo las mismas piezas pueden formar objetos nuevos.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="2"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-02-piezas.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c2-pieza">pieza</button></li>
+      <li><button type="button" class="voz" data-g="c2-desarmar">desarmar</button></li>
+      <li><button type="button" class="voz" data-g="c2-construir">construir</button></li>
+      <li><button type="button" class="voz" data-g="c2-estructura">estructura</button></li>
+      <li><button type="button" class="voz" data-g="c2-evidencia">evidencia</button></li>
+      <li><button type="button" class="voz" data-g="c2-observar">observar</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c2-p1">Lucía tiene una caja con veinte bloques de madera. Hay bloques largos, bloques cortos y dos arcos. Un sábado construyó un castillo muy alto en la sala.</p>
+
+    <p id="c2-p2">Al día siguiente, Israel llegó con una idea. —Mi carrito necesita cruzar el río —dijo, y señaló una cinta azul en el piso—. ¿Podemos hacer un puente?</p>
+
+    <p id="c2-p3">—¡Claro! —respondió Lucía—. Pero no tenemos más bloques. Vamos a usar las <button type="button" class="voz" data-g="c2-pieza">piezas</button> del castillo. <span class="cita" id="c2-c-a">Una pieza es cada una de las partes pequeñas que forman un objeto.</span></p>
+
+    <p id="c2-p4">Primero tuvieron que <button type="button" class="voz" data-g="c2-desarmar">desarmar</button> el castillo. Lo hicieron con cuidado, bloque por bloque. Mientras lo desarmaban, contaron las piezas. <span class="cita" id="c2-c-b">—¡Veinte! —dijo Israel—. Están todas.</span></p>
+
+    <p id="c2-p5">Después empezaron a <button type="button" class="voz" data-g="c2-construir">construir</button> el puente. Pusieron los dos arcos sobre el río. Encima colocaron los bloques largos, uno al lado del otro. Con los bloques cortos hicieron las rampas para subir y bajar.</p>
+
+    <p id="c2-p6">Israel pasó su carrito por encima. ¡El puente no se cayó! <span class="cita" id="c2-c-c">Era una <button type="button" class="voz" data-g="c2-estructura">estructura</button> fuerte, porque las piezas estaban bien colocadas.</span></p>
+
+    <p id="c2-p7">Lucía tomó su libreta. —Voy a escribir lo que pasó —dijo—. Así tendremos <button type="button" class="voz" data-g="c2-evidencia">evidencia</button>. Y escribió: «El castillo tenía 20 bloques. El puente tiene 20 bloques. Son los mismos».</p>
+
+    <p id="c2-p8">El abuelo los había estado <button type="button" class="voz" data-g="c2-observar">observando</button> desde el sillón. Sonrió y dijo: <span class="cita" id="c2-c-d">—Con las mismas piezas se pueden hacer objetos muy diferentes. Lo que cambia es cómo las colocamos.</span></p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c2-pieza"><dt>pieza</dt><dd>Cada una de las partes que forman un objeto.</dd></div>
+    <div id="g-c2-desarmar"><dt>desarmar</dt><dd>Separar las piezas de un objeto, una por una.</dd></div>
+    <div id="g-c2-construir"><dt>construir</dt><dd>Unir piezas o materiales para hacer algo nuevo.</dd></div>
+    <div id="g-c2-estructura"><dt>estructura</dt><dd>Algo construido con piezas unidas que lo sostienen, como un puente, una casa o una torre.</dd></div>
+    <div id="g-c2-evidencia"><dt>evidencia</dt><dd>Lo que vemos, contamos o medimos y que demuestra que algo es verdad.</dd></div>
+    <div id="g-c2-observar"><dt>observar</dt><dd>Mirar con atención para aprender cómo es algo o qué pasa.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c2-pregunta-a" data-cita="c2-c-a" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué es una pieza?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Un juguete que tiene ruedas</button>
+        <button class="opcion">Una caja para guardar juguetes</button>
+        <button class="opcion">Una parte pequeña de un objeto</button>
+      </div>
+      <p class="explicacion" hidden>Una pieza es cada una de las partes pequeñas que forman un objeto, como los bloques del castillo.</p>
+    </li>
+
+    <li class="pregunta" id="c2-pregunta-b" data-cita="c2-c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Cuántas piezas contaron al desarmar el castillo?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Veinte</button>
+        <button class="opcion">Doce</button>
+        <button class="opcion">Diez</button>
+      </div>
+      <p class="explicacion" hidden>Israel contó veinte piezas: estaban todas.</p>
+    </li>
+
+    <li class="pregunta" id="c2-pregunta-c" data-cita="c2-c-c" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Por qué el puente no se cayó?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Porque los bloques eran nuevos</button>
+        <button class="opcion">Porque las piezas estaban bien colocadas</button>
+        <button class="opcion">Porque el carrito era muy liviano</button>
+      </div>
+      <p class="explicacion" hidden>El puente era una estructura fuerte porque las piezas estaban bien colocadas.</p>
+    </li>
+
+    <li class="pregunta" id="c2-pregunta-d" data-cita="c2-c-d" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Qué les enseñó el abuelo a los niños?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Que el castillo era mejor que el puente</button>
+        <button class="opcion">Que hacían falta más bloques</button>
+        <button class="opcion">Que las mismas piezas forman objetos distintos</button>
+      </div>
+      <p class="explicacion" hidden>Con las mismas piezas se pueden hacer objetos diferentes; lo que cambia es cómo se colocan.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-PS1-3: observar y explicar con evidencia cómo un objeto hecho de piezas se puede desarmar y convertir en un objeto nuevo.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-3" data-capitulo="3" aria-labelledby="c3-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-03-calor.jpg" loading="lazy" alt="En la cocina, una niña mira sorprendida un tazón con helado derretido mientras su abuelo fríe un huevo en la estufa.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-PS1-4</p>
+    <h2 id="c3-titulo"><span class="num-cap">Capítulo 3</span><span class="titulo-cap">El helado que volvió a congelarse</span></h2>
+    <p class="entrada">Un cuento sobre los cambios que se pueden deshacer y los que no.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="3"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-03-calor.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c3-calentar">calentar</button></li>
+      <li><button type="button" class="voz" data-g="c3-enfriar">enfriar</button></li>
+      <li><button type="button" class="voz" data-g="c3-derretir">derretir</button></li>
+      <li><button type="button" class="voz" data-g="c3-congelar">congelar</button></li>
+      <li><button type="button" class="voz" data-g="c3-reversible">cambio reversible</button></li>
+      <li><button type="button" class="voz" data-g="c3-irreversible">cambio irreversible</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c3-p1">Hacía mucho calor en Chicago. Lucía sacó un helado de fresa del congelador, pero se distrajo jugando. Cuando volvió, el helado era un charquito rosado.</p>
+
+    <p id="c3-p2">—¡Se <button type="button" class="voz" data-g="c3-derretir">derritió</button>! —dijo, triste. —Es porque se calentó —explicó el abuelo—. <span class="cita" id="c3-c-a">Cuando <button type="button" class="voz" data-g="c3-calentar">calentamos</button> algo, le damos calor. El calor puede convertir un sólido en un líquido.</span></p>
+
+    <p id="c3-p3">—¿Y ahora qué hago? —preguntó Lucía. —Pon el charquito otra vez en el congelador. Allí se va a <button type="button" class="voz" data-g="c3-enfriar">enfriar</button>.</p>
+
+    <p id="c3-p4">Al día siguiente, el helado estaba duro otra vez. Se había <button type="button" class="voz" data-g="c3-congelar">congelado</button>. Ya no tenía la misma forma, pero volvía a ser sólido. <span class="cita" id="c3-c-b">—Este es un <button type="button" class="voz" data-g="c3-reversible">cambio reversible</button> —dijo el abuelo—. Es un cambio que se puede deshacer.</span></p>
+
+    <p id="c3-p5">Luego el abuelo calentó una sartén y rompió un huevo. La clara pasó de transparente a blanca, y el huevo se puso firme.</p>
+
+    <p id="c3-p6">—¿Y si lo enfriamos, vuelve a ser crudo? —preguntó Lucía. —No —respondió el abuelo—. <span class="cita" id="c3-c-c">Por más que lo enfríes, el huevo frito nunca vuelve a ser un huevo crudo. Es un <button type="button" class="voz" data-g="c3-irreversible">cambio irreversible</button>: no se puede deshacer.</span></p>
+
+    <p id="c3-p7">Lucía pensó en otras cosas de la cocina. El chocolate se derrite con el calor y se endurece al enfriarse: es reversible. <span class="cita" id="c3-c-d">El pan tostado no vuelve a ser pan blando: es irreversible.</span></p>
+
+    <p id="c3-p8">Esa noche, Lucía hizo una lista en su libreta con dos columnas: «Se puede deshacer» y «No se puede deshacer». ¡Ya era una pequeña científica!</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c3-calentar"><dt>calentar</dt><dd>Dar calor a algo para que suba su temperatura.</dd></div>
+    <div id="g-c3-enfriar"><dt>enfriar</dt><dd>Quitarle calor a algo para que baje su temperatura.</dd></div>
+    <div id="g-c3-derretir"><dt>derretir</dt><dd>Cambiar de sólido a líquido por el calor. El hielo se derrite y se vuelve agua.</dd></div>
+    <div id="g-c3-congelar"><dt>congelar</dt><dd>Cambiar de líquido a sólido por el frío. El agua se congela y se vuelve hielo.</dd></div>
+    <div id="g-c3-reversible"><dt>cambio reversible</dt><dd>Un cambio que se puede deshacer, como el hielo que se derrite y luego se congela otra vez.</dd></div>
+    <div id="g-c3-irreversible"><dt>cambio irreversible</dt><dd>Un cambio que no se puede deshacer, como un huevo frito o un pan tostado.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c3-pregunta-a" data-cita="c3-c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué le pasó al helado cuando se calentó?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Se derritió y se volvió líquido</button>
+        <button class="opcion">Se congeló y se puso más duro</button>
+        <button class="opcion">Se volvió de color azul</button>
+      </div>
+      <p class="explicacion" hidden>El calor convirtió el helado, que era sólido, en un líquido: se derritió.</p>
+    </li>
+
+    <li class="pregunta" id="c3-pregunta-b" data-cita="c3-c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Por qué el helado es un cambio reversible?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Porque se puede comer frío</button>
+        <button class="opcion">Porque el cambio se puede deshacer</button>
+        <button class="opcion">Porque está hecho de fresa</button>
+      </div>
+      <p class="explicacion" hidden>Al enfriarlo, el helado volvió a ser sólido. El cambio se pudo deshacer.</p>
+    </li>
+
+    <li class="pregunta" id="c3-pregunta-c" data-cita="c3-c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Qué pasa si enfrías un huevo frito?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Vuelve a ser un huevo crudo</button>
+        <button class="opcion">Se derrite igual que el helado</button>
+        <button class="opcion">Sigue siendo un huevo frito</button>
+      </div>
+      <p class="explicacion" hidden>Freír un huevo es un cambio irreversible: aunque lo enfríes, nunca vuelve a ser crudo.</p>
+    </li>
+
+    <li class="pregunta" id="c3-pregunta-d" data-cita="c3-c-d" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Qué tipo de cambio es tostar el pan?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Un cambio reversible</button>
+        <button class="opcion">Un cambio irreversible</button>
+        <button class="opcion">No es ningún cambio</button>
+      </div>
+      <p class="explicacion" hidden>El pan tostado no vuelve a ser pan blando, así que es un cambio irreversible.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-PS1-4: explicar con evidencia que algunos cambios causados por calentar o enfriar se pueden deshacer y otros no.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-4" data-capitulo="4" aria-labelledby="c4-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-04-plantas.jpg" loading="lazy" alt="En el salón, dos niños y su maestra observan tres plantas de frijol: una sana, una marchita y una pálida.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-LS2-1</p>
+    <h2 id="c4-titulo"><span class="num-cap">Capítulo 4</span><span class="titulo-cap">Tres frijoles en el salón</span></h2>
+    <p class="entrada">Un cuento sobre una investigación con plantas.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="4"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-04-plantas.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c4-investigacion">investigación</button></li>
+      <li><button type="button" class="voz" data-g="c4-luz-solar">luz solar</button></li>
+      <li><button type="button" class="voz" data-g="c4-tallo">tallo</button></li>
+      <li><button type="button" class="voz" data-g="c4-marchitarse">marchitarse</button></li>
+      <li><button type="button" class="voz" data-g="c4-raiz">raíz</button></li>
+      <li><button type="button" class="voz" data-g="c4-conclusion">conclusión</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c4-p1">En la escuela de Lucía y Israel, la maestra Ríos trajo tres macetas. En cada una había una plantita de frijol del mismo tamaño. —Vamos a hacer una <button type="button" class="voz" data-g="c4-investigacion">investigación</button> —dijo—. <span class="cita" id="c4-c-a">Queremos saber si las plantas necesitan luz y agua para crecer.</span></p>
+
+    <p id="c4-p2">La maestra le puso una letra a cada maceta. La planta A estaría junto a la ventana, con <button type="button" class="voz" data-g="c4-luz-solar">luz solar</button> y agua. La planta B estaría junto a la ventana, pero sin agua. La planta C tendría agua, pero viviría dentro de un armario oscuro.</p>
+
+    <p id="c4-p3">—En cada planta cambiamos una sola cosa —explicó la maestra—. Así sabremos qué causa cada resultado. Todos los días, los niños observaban las plantas y dibujaban lo que veían.</p>
+
+    <p id="c4-p4">Después de dos semanas, las tres plantas se veían muy distintas. <span class="cita" id="c4-c-b">La planta A había crecido alta y fuerte. Su <button type="button" class="voz" data-g="c4-tallo">tallo</button> era firme y sus hojas eran verdes.</span></p>
+
+    <p id="c4-p5"><span class="cita" id="c4-c-c">La planta B tenía las hojas caídas y secas. Se había <button type="button" class="voz" data-g="c4-marchitarse">marchitado</button> porque le faltó el agua.</span> Las <button type="button" class="voz" data-g="c4-raiz">raíces</button> toman el agua de la tierra, y esta planta no tenía agua que tomar.</p>
+
+    <p id="c4-p6">La planta C sorprendió a todos. Había crecido larga, pero estaba flaca y débil. <span class="cita" id="c4-c-d">Sus hojas no eran verdes, sino amarillas y pálidas, porque le faltó la luz solar.</span></p>
+
+    <p id="c4-p7">—¿Qué <button type="button" class="voz" data-g="c4-conclusion">conclusión</button> podemos sacar? —preguntó la maestra. Israel levantó la mano: —¡Las plantas necesitan luz y agua para crecer sanas!</p>
+
+    <p id="c4-p8">—¡Exacto! —dijo la maestra Ríos—. Ahora vamos a cuidar a las plantas B y C para que se recuperen. Lucía regó la planta B, y Israel llevó la planta C a la ventana.</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c4-investigacion"><dt>investigación</dt><dd>Una manera de buscar la respuesta a una pregunta haciendo pruebas y observando con cuidado.</dd></div>
+    <div id="g-c4-luz-solar"><dt>luz solar</dt><dd>La luz que viene del Sol. Las plantas la usan para fabricar su alimento.</dd></div>
+    <div id="g-c4-tallo"><dt>tallo</dt><dd>Parte de la planta que sostiene las hojas y las flores, y que lleva el agua desde las raíces.</dd></div>
+    <div id="g-c4-marchitarse"><dt>marchitarse</dt><dd>Ponerse seca, caída y débil una planta, por ejemplo cuando le falta agua.</dd></div>
+    <div id="g-c4-raiz"><dt>raíz</dt><dd>Parte de la planta que crece bajo la tierra. Sujeta la planta y toma el agua.</dd></div>
+    <div id="g-c4-conclusion"><dt>conclusión</dt><dd>Lo que aprendemos al final de una investigación, después de mirar los resultados.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c4-pregunta-a" data-cita="c4-c-a" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué querían saber con la investigación?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Cuál de las macetas era más bonita</button>
+        <button class="opcion">Cuántas hojas tiene cada frijol</button>
+        <button class="opcion">Si las plantas necesitan luz y agua</button>
+      </div>
+      <p class="explicacion" hidden>La maestra quería saber si las plantas necesitan luz y agua para crecer.</p>
+    </li>
+
+    <li class="pregunta" id="c4-pregunta-b" data-cita="c4-c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Cómo estaba la planta A, que tuvo luz y agua?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Seca y con las hojas caídas</button>
+        <button class="opcion">Alta, fuerte y de hojas verdes</button>
+        <button class="opcion">Flaca y con hojas amarillas</button>
+      </div>
+      <p class="explicacion" hidden>Con luz y agua, la planta A creció alta y fuerte, con el tallo firme y las hojas verdes.</p>
+    </li>
+
+    <li class="pregunta" id="c4-pregunta-c" data-cita="c4-c-c" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Por qué se marchitó la planta B?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Porque le faltó el agua</button>
+        <button class="opcion">Porque tuvo demasiada luz</button>
+        <button class="opcion">Porque vivía en el armario</button>
+      </div>
+      <p class="explicacion" hidden>La planta B estaba junto a la ventana, pero sin agua. Por eso se marchitó.</p>
+    </li>
+
+    <li class="pregunta" id="c4-pregunta-d" data-cita="c4-c-d" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Cómo quedaron las hojas de la planta C, que vivió sin luz?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Verdes y muy grandes</button>
+        <button class="opcion">Amarillas y pálidas</button>
+        <button class="opcion">Secas por falta de agua</button>
+      </div>
+      <p class="explicacion" hidden>Sin luz solar, las hojas de la planta C se pusieron amarillas y pálidas.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-LS2-1: planear y hacer una investigación para saber si las plantas necesitan luz solar y agua para crecer.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-5" data-capitulo="5" aria-labelledby="c5-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-05-polinizacion.jpg" loading="lazy" alt="Una niña y su abuelo miran en la huerta a un colibrí que bebe de una flor roja; cerca, una ardilla lleva una bellota.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-LS2-2</p>
+    <h2 id="c5-titulo"><span class="num-cap">Capítulo 5</span><span class="titulo-cap">Lucía y el colibrí de la huerta</span></h2>
+    <p class="entrada">Un cuento sobre cómo los animales ayudan a las plantas.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="5"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-05-polinizacion.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c5-nectar">néctar</button></li>
+      <li><button type="button" class="voz" data-g="c5-polen">polen</button></li>
+      <li><button type="button" class="voz" data-g="c5-polinizar">polinizar</button></li>
+      <li><button type="button" class="voz" data-g="c5-fruto">fruto</button></li>
+      <li><button type="button" class="voz" data-g="c5-semilla">semilla</button></li>
+      <li><button type="button" class="voz" data-g="c5-dispersar">dispersar</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c5-p1">Lucía vive en Chicago. Los sábados ayuda a su abuelo en la huerta del barrio. Allí crecen tomates, girasoles y flores de muchos colores.</p>
+
+    <p id="c5-p2">Una mañana, Lucía vio un pájaro muy pequeño. Movía las alas tan rápido que zumbaba. —¡Abuelo, mira! —dijo. <span class="cita" id="c5-c-a">—Es un colibrí —respondió el abuelo—. Viene a buscar <button type="button" class="voz" data-g="c5-nectar">néctar</button>.</span></p>
+
+    <p id="c5-p3">El néctar es un jugo dulce que las flores guardan adentro. El colibrí metió su pico largo en una flor roja. Bebió y bebió.</p>
+
+    <p id="c5-p4">Cuando salió, tenía un polvo amarillo en la cabeza. —Eso es <button type="button" class="voz" data-g="c5-polen">polen</button> —explicó el abuelo—. Las flores lo necesitan para hacer semillas.</p>
+
+    <p id="c5-p5">El colibrí voló a otra flor roja. El polen de su cabeza cayó dentro de esa flor. Así, sin saberlo, el colibrí ayudó a <button type="button" class="voz" data-g="c5-polinizar">polinizar</button>. <span class="cita" id="c5-c-b">Polinizar es llevar polen de una flor a otra flor.</span></p>
+
+    <p id="c5-p6">—¿Y para qué sirve eso? —preguntó Lucía. <span class="cita" id="c5-c-c">—Con el polen, la flor puede formar un <button type="button" class="voz" data-g="c5-fruto">fruto</button>. Dentro del fruto crecen las <button type="button" class="voz" data-g="c5-semilla">semillas</button>.</span> Y de cada semilla puede nacer una planta nueva.</p>
+
+    <p id="c5-p7">Más tarde, una ardilla pasó corriendo con una bellota en la boca. La bellota es el fruto del roble y guarda una semilla. La ardilla la enterró lejos del árbol. —La ardilla también ayuda —dijo el abuelo—. <span class="cita" id="c5-c-d">Al llevar las semillas a otro lugar, las <button type="button" class="voz" data-g="c5-dispersar">dispersa</button>.</span> Dispersar es repartir las semillas lejos de la planta madre. La ardilla olvida algunas bellotas, y en primavera nace un roble pequeño.</p>
+
+    <p id="c5-p8">Lucía sonrió. Ese día aprendió que las plantas y los animales trabajan en equipo. Los animales reciben alimento. Las plantas logran crecer en lugares nuevos.</p>
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c5-nectar"><dt>néctar</dt><dd>Jugo dulce que guardan las flores. Muchos animales lo beben como alimento.</dd></div>
+    <div id="g-c5-polen"><dt>polen</dt><dd>Polvo muy fino, casi siempre amarillo, que hacen las flores. La flor lo necesita para formar semillas.</dd></div>
+    <div id="g-c5-polinizar"><dt>polinizar</dt><dd>Llevar polen de una flor a otra flor. Lo hacen animales como las abejas, las mariposas y los colibríes.</dd></div>
+    <div id="g-c5-fruto"><dt>fruto</dt><dd>Parte de la planta que nace de la flor y guarda las semillas. La manzana y la bellota son frutos.</dd></div>
+    <div id="g-c5-semilla"><dt>semilla</dt><dd>Parte pequeña de la planta de la que puede nacer una planta nueva.</dd></div>
+    <div id="g-c5-dispersar"><dt>dispersar</dt><dd>Repartir las semillas lejos de la planta madre, para que crezcan en otros lugares.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c5-pregunta-a" data-cita="c5-c-a" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué buscaba el colibrí en las flores?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Semillas para comer</button>
+        <button class="opcion">Néctar, un jugo dulce</button>
+        <button class="opcion">Gotas de agua fresca</button>
+      </div>
+      <p class="explicacion" hidden>El abuelo dice que el colibrí viene a buscar néctar, el jugo dulce de las flores.</p>
+    </li>
+
+    <li class="pregunta" id="c5-pregunta-b" data-cita="c5-c-b" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Qué quiere decir polinizar?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Comer el polen de una flor</button>
+        <button class="opcion">Regar las flores con agua</button>
+        <button class="opcion">Llevar polen de una flor a otra</button>
+      </div>
+      <p class="explicacion" hidden>Polinizar es llevar polen de una flor a otra. El colibrí lo hizo con su cabeza.</p>
+    </li>
+
+    <li class="pregunta" id="c5-pregunta-c" data-cita="c5-c-c" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Qué puede formar la flor gracias al polen?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Un fruto con semillas</button>
+        <button class="opcion">Hojas verdes y nuevas</button>
+        <button class="opcion">Raíces largas y fuertes</button>
+      </div>
+      <p class="explicacion" hidden>Con el polen, la flor forma un fruto, y dentro del fruto crecen las semillas.</p>
+    </li>
+
+    <li class="pregunta" id="c5-pregunta-d" data-cita="c5-c-d" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Cómo ayuda la ardilla a las plantas?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Se come todas las bellotas</button>
+        <button class="opcion">Dispersa las semillas lejos</button>
+        <button class="opcion">Riega el roble cada mañana</button>
+      </div>
+      <p class="explicacion" hidden>La ardilla lleva las bellotas lejos del roble. Así dispersa las semillas, y algunas se convierten en robles nuevos.</p>
+    </li>
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-LS2-2: los animales ayudan a polinizar las plantas y a dispersar sus semillas.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-6" data-capitulo="6" aria-labelledby="c6-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-06-habitats.jpg" loading="lazy" alt="Dos niños y su maestra observan ranas y una tortuga en un estanque; detrás hay un bosque y una pradera con flores.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-LS4-1</p>
+    <h2 id="c6-titulo"><span class="num-cap">Capítulo 6</span><span class="titulo-cap">La excursión de los tres hábitats</span></h2>
+    <p class="entrada">Un cuento sobre los seres vivos que viven en lugares distintos.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="6"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-06-habitats.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c6-habitat">hábitat</button></li>
+      <li><button type="button" class="voz" data-g="c6-ser-vivo">ser vivo</button></li>
+      <li><button type="button" class="voz" data-g="c6-refugio">refugio</button></li>
+      <li><button type="button" class="voz" data-g="c6-estanque">estanque</button></li>
+      <li><button type="button" class="voz" data-g="c6-pradera">pradera</button></li>
+      <li><button type="button" class="voz" data-g="c6-diversidad">diversidad</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c6-p1">Un viernes, la maestra Ríos llevó a la clase a una reserva forestal cerca de Chicago. —Hoy vamos a observar tres <button type="button" class="voz" data-g="c6-habitat">hábitats</button> —dijo—. <span class="cita" id="c6-c-a">Un hábitat es el lugar donde vive un ser vivo y donde encuentra alimento, agua y refugio.</span></p>
+
+    <p id="c6-p2">Cada niño llevaba una libreta para contar los <button type="button" class="voz" data-g="c6-ser-vivo">seres vivos</button> que encontrara. Un ser vivo es algo que nace, crece y necesita alimento, como una planta o un animal.</p>
+
+    <p id="c6-p3">Primero visitaron el bosque. Había árboles altos, hongos en los troncos y una ardilla en una rama. Israel vio un pájaro carpintero que buscaba insectos en la corteza. Los árboles les daban sombra y <button type="button" class="voz" data-g="c6-refugio">refugio</button> a muchos animales.</p>
+
+    <p id="c6-p4">Después llegaron a un <button type="button" class="voz" data-g="c6-estanque">estanque</button>, un lago pequeño y tranquilo. <span class="cita" id="c6-c-b">Lucía contó ranas, peces pequeños, una tortuga y muchas plantas que flotaban en el agua.</span> —¡Aquí viven animales que necesitan mucha agua! —dijo.</p>
+
+    <p id="c6-p5">Por último caminaron por la <button type="button" class="voz" data-g="c6-pradera">pradera</button>. Allí casi no había árboles, pero sí pasto alto y flores. <span class="cita" id="c6-c-c">Vieron mariposas, abejas, saltamontes y un conejo que corrió a esconderse.</span></p>
+
+    <p id="c6-p6">De vuelta en el autobús, los niños compararon sus libretas. En cada hábitat habían encontrado seres vivos distintos. —El estanque tenía más animales de agua —dijo Israel—. Y la pradera tenía más insectos.</p>
+
+    <p id="c6-p7"><span class="cita" id="c6-c-d">—Eso se llama <button type="button" class="voz" data-g="c6-diversidad">diversidad</button> —explicó la maestra—. Es la variedad de seres vivos que hay en un lugar.</span> Cada hábitat tiene su propia diversidad, porque ofrece cosas diferentes.</p>
+
+    <p id="c6-p8">Esa noche, Lucía le contó todo al abuelo. —Cada animal vive donde encuentra lo que necesita —dijo—. ¡La rana no estaría bien en la pradera seca!</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c6-habitat"><dt>hábitat</dt><dd>El lugar donde vive un ser vivo y donde encuentra alimento, agua y refugio.</dd></div>
+    <div id="g-c6-ser-vivo"><dt>ser vivo</dt><dd>Algo que nace, crece, se alimenta y puede tener crías o semillas, como una planta o un animal.</dd></div>
+    <div id="g-c6-refugio"><dt>refugio</dt><dd>Un lugar donde un animal se protege del frío, de la lluvia o de otros animales.</dd></div>
+    <div id="g-c6-estanque"><dt>estanque</dt><dd>Un lago pequeño de agua tranquila, donde viven ranas, peces y plantas acuáticas.</dd></div>
+    <div id="g-c6-pradera"><dt>pradera</dt><dd>Un terreno amplio y casi plano, cubierto de pasto y flores, con pocos árboles.</dd></div>
+    <div id="g-c6-diversidad"><dt>diversidad</dt><dd>La variedad de seres vivos distintos que hay en un lugar.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c6-pregunta-a" data-cita="c6-c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué es un hábitat?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">El lugar donde vive un ser vivo</button>
+        <button class="opcion">Un animal que vive en el bosque</button>
+        <button class="opcion">Un viaje de la clase al campo</button>
+      </div>
+      <p class="explicacion" hidden>Un hábitat es el lugar donde vive un ser vivo y donde encuentra alimento, agua y refugio.</p>
+    </li>
+
+    <li class="pregunta" id="c6-pregunta-b" data-cita="c6-c-b" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Qué encontró Lucía en el estanque?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Hongos, ardillas y árboles</button>
+        <button class="opcion">Mariposas, abejas y un conejo</button>
+        <button class="opcion">Ranas, peces y una tortuga</button>
+      </div>
+      <p class="explicacion" hidden>En el estanque, Lucía contó ranas, peces pequeños, una tortuga y plantas que flotaban.</p>
+    </li>
+
+    <li class="pregunta" id="c6-pregunta-c" data-cita="c6-c-c" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Qué animales vieron en la pradera?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Peces, ranas y una tortuga</button>
+        <button class="opcion">Mariposas, abejas y un conejo</button>
+        <button class="opcion">Ardillas y un carpintero</button>
+      </div>
+      <p class="explicacion" hidden>En la pradera vieron mariposas, abejas, saltamontes y un conejo.</p>
+    </li>
+
+    <li class="pregunta" id="c6-pregunta-d" data-cita="c6-c-d" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Qué es la diversidad?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">La cantidad de agua de un lago</button>
+        <button class="opcion">El camino que sigue el autobús</button>
+        <button class="opcion">La variedad de seres vivos de un lugar</button>
+      </div>
+      <p class="explicacion" hidden>La maestra explicó que la diversidad es la variedad de seres vivos que hay en un lugar.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-LS4-1: observar plantas y animales para comparar la diversidad de vida en distintos hábitats.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-7" data-capitulo="7" aria-labelledby="c7-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-07-cambios-tierra.jpg" loading="lazy" alt="Dos niños y su abuelo miran en el sofá un álbum con la foto de un cañón de roca roja; afuera llueve.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-ESS1-1</p>
+    <h2 id="c7-titulo"><span class="num-cap">Capítulo 7</span><span class="titulo-cap">El cañón y el volcán</span></h2>
+    <p class="entrada">Un cuento sobre los cambios de la Tierra que tardan millones de años y los que ocurren en segundos.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="7"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-07-cambios-tierra.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c7-canon">cañón</button></li>
+      <li><button type="button" class="voz" data-g="c7-erosion">erosión</button></li>
+      <li><button type="button" class="voz" data-g="c7-superficie">superficie de la Tierra</button></li>
+      <li><button type="button" class="voz" data-g="c7-volcan">volcán</button></li>
+      <li><button type="button" class="voz" data-g="c7-lava">lava</button></li>
+      <li><button type="button" class="voz" data-g="c7-terremoto">terremoto</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c7-p1">Un domingo de lluvia, Lucía e Israel miraban el álbum de fotos del abuelo. En una foto se veía un valle enorme, con paredes de roca roja. —Es el Gran Cañón —dijo el abuelo—. Lo visité hace muchos años.</p>
+
+    <p id="c7-p2">—¿Quién lo hizo? —preguntó Israel. <span class="cita" id="c7-c-a">—Lo hizo un río —respondió el abuelo—. Un <button type="button" class="voz" data-g="c7-canon">cañón</button> es un valle muy hondo, con paredes altas de roca, que un río forma con el tiempo.</span></p>
+
+    <p id="c7-p3">El abuelo explicó que el río Colorado corre por el fondo del cañón. El agua arrastra arena y piedrecitas que rozan la roca. Poco a poco, la roca se gasta. <span class="cita" id="c7-c-b">Ese desgaste lento se llama <button type="button" class="voz" data-g="c7-erosion">erosión</button>.</span></p>
+
+    <p id="c7-p4">—¿Y tardó mucho? —preguntó Lucía. <span class="cita" id="c7-c-c">—¡Millones de años! —dijo el abuelo—. Algunos cambios de la <button type="button" class="voz" data-g="c7-superficie">superficie de la Tierra</button> son muy, muy lentos.</span> La superficie de la Tierra es la parte de afuera del planeta, donde están el suelo, las rocas y el agua.</p>
+
+    <p id="c7-p5">Luego pasaron la página. En otra foto había una montaña que echaba humo. —Es un <button type="button" class="voz" data-g="c7-volcan">volcán</button> de Hawái —explicó el abuelo—. Un volcán es una montaña por donde sale roca derretida del interior de la Tierra.</p>
+
+    <p id="c7-p6">Esa roca derretida se llama <button type="button" class="voz" data-g="c7-lava">lava</button>. Cuando la lava se enfría, se vuelve roca dura. —¡En pocos días, la lava puede formar tierra nueva! —dijo el abuelo—. <span class="cita" id="c7-c-d">Una erupción es un cambio muy rápido.</span></p>
+
+    <p id="c7-p7">—¿Hay otros cambios rápidos? —preguntó Israel. —Sí —dijo el abuelo—. Un <button type="button" class="voz" data-g="c7-terremoto">terremoto</button> sacude la tierra en pocos segundos. Puede abrir grietas en el suelo y mover rocas grandes.</p>
+
+    <p id="c7-p8">Lucía hizo un dibujo con dos columnas: «Cambios lentos», con el cañón, y «Cambios rápidos», con el volcán y el terremoto. —La Tierra siempre está cambiando —dijo—. ¡Unas veces despacio y otras veces muy rápido!</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c7-canon"><dt>cañón</dt><dd>Un valle muy hondo, con paredes altas de roca, que un río forma poco a poco.</dd></div>
+    <div id="g-c7-erosion"><dt>erosión</dt><dd>El desgaste lento de la roca y el suelo, causado por el agua o el viento.</dd></div>
+    <div id="g-c7-superficie"><dt>superficie de la Tierra</dt><dd>La parte de afuera del planeta, donde están el suelo, las rocas y el agua.</dd></div>
+    <div id="g-c7-volcan"><dt>volcán</dt><dd>Una montaña por donde sale roca derretida desde el interior de la Tierra.</dd></div>
+    <div id="g-c7-lava"><dt>lava</dt><dd>Roca derretida y muy caliente que sale de un volcán. Al enfriarse, se vuelve roca dura.</dd></div>
+    <div id="g-c7-terremoto"><dt>terremoto</dt><dd>Un movimiento fuerte y rápido de la tierra que dura pocos segundos.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c7-pregunta-a" data-cita="c7-c-a" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué formó el Gran Cañón?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Un volcán muy activo</button>
+        <button class="opcion">Un río, poco a poco</button>
+        <button class="opcion">Un terremoto muy fuerte</button>
+      </div>
+      <p class="explicacion" hidden>El abuelo explicó que el Gran Cañón lo formó un río con el tiempo.</p>
+    </li>
+
+    <li class="pregunta" id="c7-pregunta-b" data-cita="c7-c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Qué es la erosión?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">El desgaste lento de la roca</button>
+        <button class="opcion">Una montaña que echa humo</button>
+        <button class="opcion">Un temblor fuerte de la tierra</button>
+      </div>
+      <p class="explicacion" hidden>La erosión es el desgaste lento de la roca, causado aquí por el agua del río.</p>
+    </li>
+
+    <li class="pregunta" id="c7-pregunta-c" data-cita="c7-c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Cuánto tardó en formarse el Gran Cañón?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Unos pocos días</button>
+        <button class="opcion">Unos pocos segundos</button>
+        <button class="opcion">Millones de años</button>
+      </div>
+      <p class="explicacion" hidden>El Gran Cañón tardó millones de años: es un cambio muy lento.</p>
+    </li>
+
+    <li class="pregunta" id="c7-pregunta-d" data-cita="c7-c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Qué tipo de cambio es una erupción?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Un cambio muy rápido</button>
+        <button class="opcion">Un cambio muy lento</button>
+        <button class="opcion">No es ningún cambio</button>
+      </div>
+      <p class="explicacion" hidden>En pocos días, la lava puede formar tierra nueva. La erupción es un cambio muy rápido.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-ESS1-1: usar información de varias fuentes para mostrar que los cambios de la Tierra pueden ser rápidos o lentos.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-8" data-capitulo="8" aria-labelledby="c8-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-08-erosion.jpg" loading="lazy" alt="En la huerta, una niña siembra pasto en una colina mientras su abuelo y un niño construyen un muro bajo de piedras.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-ESS2-1</p>
+    <h2 id="c8-titulo"><span class="num-cap">Capítulo 8</span><span class="titulo-cap">La colina de la huerta</span></h2>
+    <p class="entrada">Un cuento sobre cómo evitar que la lluvia se lleve la tierra.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="8"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-08-erosion.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c8-pendiente">pendiente</button></li>
+      <li><button type="button" class="voz" data-g="c8-suelo">suelo</button></li>
+      <li><button type="button" class="voz" data-g="c8-erosion">erosión</button></li>
+      <li><button type="button" class="voz" data-g="c8-solucion">solución</button></li>
+      <li><button type="button" class="voz" data-g="c8-raiz">raíz</button></li>
+      <li><button type="button" class="voz" data-g="c8-muro">muro</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c8-p1">En la huerta del barrio hay una pequeña colina. Después de una tormenta fuerte, Lucía vio que la tierra de la colina había bajado hasta el camino. —¡Abuelo, la colina se está deshaciendo! —dijo.</p>
+
+    <p id="c8-p2"><span class="cita" id="c8-c-a">—El agua de la lluvia corre por la <button type="button" class="voz" data-g="c8-pendiente">pendiente</button> y se lleva el <button type="button" class="voz" data-g="c8-suelo">suelo</button> —explicó el abuelo.</span> Una pendiente es un terreno inclinado, y el suelo es la capa de tierra donde crecen las plantas. —Esto es <button type="button" class="voz" data-g="c8-erosion">erosión</button> —añadió—. El agua y el viento mueven la tierra de un lugar a otro.</p>
+
+    <p id="c8-p3">Israel llegó con su mamá a ayudar. Entre todos buscaron una <button type="button" class="voz" data-g="c8-solucion">solución</button>, es decir, una forma de resolver el problema. Tuvieron dos ideas, y decidieron probarlas en partes distintas de la colina.</p>
+
+    <p id="c8-p4">En la primera parte, Lucía sembró pasto y plantitas. <span class="cita" id="c8-c-b">Sus <button type="button" class="voz" data-g="c8-raiz">raíces</button> crecen bajo la tierra y la sujetan, como si fueran dedos.</span></p>
+
+    <p id="c8-p5">En la segunda parte, Israel y el abuelo construyeron un <button type="button" class="voz" data-g="c8-muro">muro</button> bajo con piedras. El muro frenaría el agua y la tierra antes de llegar al camino. En la tercera parte no hicieron nada. —Así podremos comparar —dijo el abuelo—. Sabremos si las soluciones funcionan de verdad.</p>
+
+    <p id="c8-p6">Pasaron unas semanas y el pasto creció. Entonces llegó otra tormenta, y al día siguiente volvieron a la huerta para observar los resultados.</p>
+
+    <p id="c8-p7"><span class="cita" id="c8-c-c">La parte sin nada había perdido mucha tierra.</span> La parte del muro había perdido un poco, porque el agua pasó por encima de algunas piedras. <span class="cita" id="c8-c-d">La parte con plantas casi no había perdido tierra, porque las raíces la sostenían muy bien.</span></p>
+
+    <p id="c8-p8">—Las dos soluciones ayudan —dijo Lucía—, pero las plantas fueron las mejores. Desde ese día, toda la colina de la huerta está cubierta de pasto y flores.</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c8-pendiente"><dt>pendiente</dt><dd>Un terreno inclinado, que sube o baja, como la ladera de una colina.</dd></div>
+    <div id="g-c8-suelo"><dt>suelo</dt><dd>La capa de tierra que cubre el terreno y donde crecen las plantas.</dd></div>
+    <div id="g-c8-erosion"><dt>erosión</dt><dd>Cuando el agua o el viento se llevan poco a poco la tierra o la roca de un lugar.</dd></div>
+    <div id="g-c8-solucion"><dt>solución</dt><dd>Una forma de resolver un problema.</dd></div>
+    <div id="g-c8-raiz"><dt>raíz</dt><dd>Parte de la planta que crece bajo la tierra. Sujeta la planta y también sujeta el suelo.</dd></div>
+    <div id="g-c8-muro"><dt>muro</dt><dd>Una pared, a veces baja, hecha de piedras, ladrillos u otros materiales.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c8-pregunta-a" data-cita="c8-c-a" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Por qué se estaba deshaciendo la colina?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Porque el sol secaba las plantas</button>
+        <button class="opcion">Porque los niños jugaban ahí</button>
+        <button class="opcion">Porque la lluvia se llevaba el suelo</button>
+      </div>
+      <p class="explicacion" hidden>El agua de la lluvia corría por la pendiente y se llevaba el suelo: eso es erosión.</p>
+    </li>
+
+    <li class="pregunta" id="c8-pregunta-b" data-cita="c8-c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Cómo ayudan las raíces de las plantas?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Hacen que llueva menos</button>
+        <button class="opcion">Sujetan la tierra del suelo</button>
+        <button class="opcion">Le dan color a la colina</button>
+      </div>
+      <p class="explicacion" hidden>Las raíces crecen bajo la tierra y la sujetan, como si fueran dedos.</p>
+    </li>
+
+    <li class="pregunta" id="c8-pregunta-c" data-cita="c8-c-c" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Qué pasó en la parte donde no hicieron nada?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Perdió mucha tierra</button>
+        <button class="opcion">Se llenó de flores</button>
+        <button class="opcion">Quedó igual que antes</button>
+      </div>
+      <p class="explicacion" hidden>Sin ninguna solución, la lluvia se llevó mucha tierra de esa parte.</p>
+    </li>
+
+    <li class="pregunta" id="c8-pregunta-d" data-cita="c8-c-d" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Qué solución funcionó mejor?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">El muro de piedras</button>
+        <button class="opcion">Las plantas con raíces</button>
+        <button class="opcion">No hacer nada</button>
+      </div>
+      <p class="explicacion" hidden>La parte con plantas casi no perdió tierra, porque las raíces la sostenían muy bien.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-ESS2-1: comparar soluciones que frenan o evitan que el viento o el agua cambien la forma del terreno.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-9" data-capitulo="9" aria-labelledby="c9-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-09-relieve.jpg" loading="lazy" alt="Dos niños hacen en el salón una maqueta de plastilina con una montaña, un valle con un río, una llanura, el océano y una isla.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-ESS2-2</p>
+    <h2 id="c9-titulo"><span class="num-cap">Capítulo 9</span><span class="titulo-cap">El mundo de plastilina</span></h2>
+    <p class="entrada">Un cuento sobre una maqueta con montañas, valles, ríos e islas.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="9"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-09-relieve.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c9-maqueta">maqueta</button></li>
+      <li><button type="button" class="voz" data-g="c9-montana">montaña</button></li>
+      <li><button type="button" class="voz" data-g="c9-valle">valle</button></li>
+      <li><button type="button" class="voz" data-g="c9-llanura">llanura</button></li>
+      <li><button type="button" class="voz" data-g="c9-oceano">océano</button></li>
+      <li><button type="button" class="voz" data-g="c9-isla">isla</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c9-p1">La maestra Ríos repartió plastilina de colores. —Hoy vamos a hacer una <button type="button" class="voz" data-g="c9-maqueta">maqueta</button> —dijo—. <span class="cita" id="c9-c-a">Una maqueta es un modelo pequeño que muestra cómo es algo grande.</span> Vamos a mostrar las formas de la tierra y del agua.</p>
+
+    <p id="c9-p2">Lucía e Israel trabajaron juntos sobre un cartón. Israel hizo una <button type="button" class="voz" data-g="c9-montana">montaña</button> con plastilina café. Era alta, con laderas empinadas y una punta blanca de nieve. A su lado puso una colina, que es más baja y redondeada.</p>
+
+    <p id="c9-p3">Entre la montaña y la colina quedó un espacio hondo. <span class="cita" id="c9-c-b">—¡Eso es un <button type="button" class="voz" data-g="c9-valle">valle</button>! —dijo Lucía—. Es la tierra baja que queda entre montañas o colinas.</span></p>
+
+    <p id="c9-p4">Por el valle hicieron correr un río de plastilina azul. Un río es agua que corre siempre en la misma dirección. El río bajaba por el valle y llegaba a un lago, que es agua quieta rodeada de tierra.</p>
+
+    <p id="c9-p5">Al otro lado del cartón, Lucía aplastó la plastilina verde hasta dejarla lisa. <span class="cita" id="c9-c-c">—Esta es una <button type="button" class="voz" data-g="c9-llanura">llanura</button> —explicó—. Es una tierra plana y extensa, sin montañas.</span> Israel le puso arbolitos y una granja.</p>
+
+    <p id="c9-p6">Al final, cubrieron la orilla del cartón de azul oscuro. Era el <button type="button" class="voz" data-g="c9-oceano">océano</button>, una masa enorme de agua salada. En medio del océano pusieron un pedacito de tierra verde.</p>
+
+    <p id="c9-p7"><span class="cita" id="c9-c-d">—¿Y eso qué es? —preguntó la maestra. —¡Una <button type="button" class="voz" data-g="c9-isla">isla</button>! —dijo Israel—. Es tierra rodeada de agua por todos lados.</span></p>
+
+    <p id="c9-p8">La maestra sonrió. —Su maqueta muestra montañas, colinas, valles, llanuras, ríos, lagos, el océano y una isla —dijo—. Así es nuestro planeta: tiene muchas formas de tierra y de agua.</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c9-maqueta"><dt>maqueta</dt><dd>Un modelo pequeño que muestra cómo es algo grande, como un lugar o un edificio.</dd></div>
+    <div id="g-c9-montana"><dt>montaña</dt><dd>Una elevación de tierra muy alta, con laderas empinadas. Es más alta que una colina.</dd></div>
+    <div id="g-c9-valle"><dt>valle</dt><dd>La tierra baja que queda entre montañas o colinas. Muchas veces la cruza un río.</dd></div>
+    <div id="g-c9-llanura"><dt>llanura</dt><dd>Una tierra plana y extensa, sin montañas ni colinas.</dd></div>
+    <div id="g-c9-oceano"><dt>océano</dt><dd>Una masa enorme de agua salada que cubre gran parte de la Tierra.</dd></div>
+    <div id="g-c9-isla"><dt>isla</dt><dd>Un pedazo de tierra rodeado de agua por todos lados.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c9-pregunta-a" data-cita="c9-c-a" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué es una maqueta?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Un dibujo hecho con colores</button>
+        <button class="opcion">Un modelo pequeño de algo grande</button>
+        <button class="opcion">Un libro con muchos mapas</button>
+      </div>
+      <p class="explicacion" hidden>Una maqueta es un modelo pequeño que muestra cómo es algo grande.</p>
+    </li>
+
+    <li class="pregunta" id="c9-pregunta-b" data-cita="c9-c-b" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Qué es un valle?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Agua quieta rodeada de tierra</button>
+        <button class="opcion">Una montaña muy alta y fría</button>
+        <button class="opcion">Tierra baja entre montañas</button>
+      </div>
+      <p class="explicacion" hidden>Un valle es la tierra baja que queda entre montañas o colinas.</p>
+    </li>
+
+    <li class="pregunta" id="c9-pregunta-c" data-cita="c9-c-c" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Cómo es una llanura?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Plana y extensa, sin montañas</button>
+        <button class="opcion">Alta y con nieve en la punta</button>
+        <button class="opcion">Rodeada de agua salada</button>
+      </div>
+      <p class="explicacion" hidden>Lucía explicó que una llanura es una tierra plana y extensa, sin montañas.</p>
+    </li>
+
+    <li class="pregunta" id="c9-pregunta-d" data-cita="c9-c-d" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Qué es una isla?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Agua que corre por un río</button>
+        <button class="opcion">Una tierra plana con granjas</button>
+        <button class="opcion">Tierra rodeada de agua</button>
+      </div>
+      <p class="explicacion" hidden>Israel dijo que una isla es tierra rodeada de agua por todos lados.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-ESS2-2: hacer un modelo que muestre las formas de la tierra y los cuerpos de agua de un lugar.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-10" data-capitulo="10" aria-labelledby="c10-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-10-agua.jpg" loading="lazy" alt="Dos niños y su abuelo, abrigados, miran el lago Michigan en invierno: hay hielo en la orilla y agua con olas más lejos.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · 2-ESS2-3</p>
+    <h2 id="c10-titulo"><span class="num-cap">Capítulo 10</span><span class="titulo-cap">El lago que se volvió hielo</span></h2>
+    <p class="entrada">Un cuento sobre el agua sólida y el agua líquida de nuestro planeta.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="10"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-10-agua.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c10-solido">sólido</button></li>
+      <li><button type="button" class="voz" data-g="c10-liquido">líquido</button></li>
+      <li><button type="button" class="voz" data-g="c10-globo">globo terráqueo</button></li>
+      <li><button type="button" class="voz" data-g="c10-agua-salada">agua salada</button></li>
+      <li><button type="button" class="voz" data-g="c10-agua-dulce">agua dulce</button></li>
+      <li><button type="button" class="voz" data-g="c10-glaciar">glaciar</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c10-p1">Era enero en Chicago. El abuelo llevó a Lucía e Israel a ver el lago Michigan. Todo estaba blanco. En la orilla había montañas de hielo, y la arena estaba cubierta de nieve.</p>
+
+    <p id="c10-p2">—¿El lago se congeló? —preguntó Israel. —Solo cerca de la orilla —respondió el abuelo—. <span class="cita" id="c10-c-a">Allí el agua está <button type="button" class="voz" data-g="c10-solido">sólida</button>: es hielo. Más lejos, el agua sigue <button type="button" class="voz" data-g="c10-liquido">líquida</button> y se mueve con las olas.</span></p>
+
+    <p id="c10-p3">El abuelo les explicó la diferencia. Un sólido tiene su propia forma, como un cubo de hielo. Un líquido no tiene forma propia: toma la forma del recipiente donde está, como el agua en un vaso.</p>
+
+    <p id="c10-p4">Al volver a casa, el abuelo sacó su <button type="button" class="voz" data-g="c10-globo">globo terráqueo</button>, un modelo redondo de la Tierra. —¿Por qué casi todo es azul? —preguntó Lucía. <span class="cita" id="c10-c-b">—Porque la mayor parte de la Tierra está cubierta de agua —dijo el abuelo—. Y casi toda esa agua está en los océanos.</span></p>
+
+    <p id="c10-p5"><span class="cita" id="c10-c-c">—El agua del océano es <button type="button" class="voz" data-g="c10-agua-salada">agua salada</button> —siguió el abuelo—. No se puede beber.</span> El agua de los ríos y de casi todos los lagos, como el lago Michigan, es <button type="button" class="voz" data-g="c10-agua-dulce">agua dulce</button>. No sabe a azúcar: se llama así porque tiene muy poca sal.</p>
+
+    <p id="c10-p6">Luego el abuelo señaló las partes blancas de arriba y de abajo del globo. —Aquí, en los polos, hace tanto frío que el agua está siempre congelada. También hay agua sólida en lo alto de algunas montañas.</p>
+
+    <p id="c10-p7"><span class="cita" id="c10-c-d">Las masas enormes de hielo que bajan muy despacio por las montañas se llaman <button type="button" class="voz" data-g="c10-glaciar">glaciares</button>.</span> —¡Son como el hielo del lago, pero gigantes! —dijo Israel.</p>
+
+    <p id="c10-p8">Esa noche, Lucía dibujó un mapa del agua de la Tierra: océanos, ríos, lagos, nieve y glaciares. Al lado escribió: «El agua puede ser líquida o sólida, y está en muchos lugares».</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c10-solido"><dt>sólido</dt><dd>Un estado en el que algo tiene su propia forma, como el hielo o una piedra.</dd></div>
+    <div id="g-c10-liquido"><dt>líquido</dt><dd>Un estado en el que algo no tiene forma propia y toma la forma de su recipiente, como el agua.</dd></div>
+    <div id="g-c10-globo"><dt>globo terráqueo</dt><dd>Un modelo redondo de la Tierra que muestra dónde están la tierra y el agua.</dd></div>
+    <div id="g-c10-agua-salada"><dt>agua salada</dt><dd>El agua de los océanos y los mares. Tiene mucha sal y no se puede beber.</dd></div>
+    <div id="g-c10-agua-dulce"><dt>agua dulce</dt><dd>El agua de los ríos y de casi todos los lagos. Tiene muy poca sal.</dd></div>
+    <div id="g-c10-glaciar"><dt>glaciar</dt><dd>Una masa enorme de hielo que se forma en las montañas o cerca de los polos y se mueve muy despacio.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c10-pregunta-a" data-cita="c10-c-a" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Cómo estaba el agua cerca de la orilla del lago?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Líquida y con olas</button>
+        <button class="opcion">Caliente y con vapor</button>
+        <button class="opcion">Sólida, convertida en hielo</button>
+      </div>
+      <p class="explicacion" hidden>Cerca de la orilla, el agua del lago estaba sólida: era hielo.</p>
+    </li>
+
+    <li class="pregunta" id="c10-pregunta-b" data-cita="c10-c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Dónde está casi toda el agua de la Tierra?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">En los océanos</button>
+        <button class="opcion">En los glaciares</button>
+        <button class="opcion">En los ríos y lagos</button>
+      </div>
+      <p class="explicacion" hidden>El abuelo explicó que casi toda el agua de la Tierra está en los océanos.</p>
+    </li>
+
+    <li class="pregunta" id="c10-pregunta-c" data-cita="c10-c-c" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Por qué no se puede beber el agua del océano?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Porque está congelada</button>
+        <button class="opcion">Porque es agua salada</button>
+        <button class="opcion">Porque es agua dulce</button>
+      </div>
+      <p class="explicacion" hidden>El agua del océano es agua salada, y por eso no se puede beber.</p>
+    </li>
+
+    <li class="pregunta" id="c10-pregunta-d" data-cita="c10-c-d" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Qué es un glaciar?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Un lago pequeño de agua dulce</button>
+        <button class="opcion">Una montaña cubierta de arena</button>
+        <button class="opcion">Una masa enorme de hielo</button>
+      </div>
+      <p class="explicacion" hidden>Un glaciar es una masa enorme de hielo que baja muy despacio por las montañas.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) 2-ESS2-3: buscar información para identificar dónde está el agua en la Tierra y que puede ser sólida o líquida.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <article class="capitulo" id="capitulo-11" data-capitulo="11" aria-labelledby="c11-titulo">
+    <figure class="lamina">
+      <img src="2do-ciencias-11-ingenieria.jpg" loading="lazy" alt="Dos niños prueban en el salón un vaso de papel volcado y una caja de cartón con agujeros que sostiene muchos lápices.">
+    </figure>
+    <p class="sello">2do grado · Ciencias · K-2-ETS1-1 · 2 · 3</p>
+    <h2 id="c11-titulo"><span class="num-cap">Capítulo 11</span><span class="titulo-cap">Los lápices que se escapaban</span></h2>
+    <p class="entrada">Un cuento sobre cómo piensan y trabajan los ingenieros.</p>
+    <div class="herramientas-cap">
+      <button type="button" class="voz-capitulo" data-capitulo="11"></button>
+      <a class="al-indice" href="#indice">↑ Volver al índice</a>
+      <a class="al-indice" href="2do-ciencias-11-ingenieria.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Palabras de ciencia">
+      <h3>Palabras de ciencia</h3>
+      <ul class="fichas">
+      <li><button type="button" class="voz" data-g="c11-ingenieria">ingeniería</button></li>
+      <li><button type="button" class="voz" data-g="c11-boceto">boceto</button></li>
+      <li><button type="button" class="voz" data-g="c11-diseno">diseño</button></li>
+      <li><button type="button" class="voz" data-g="c11-prueba">prueba</button></li>
+      <li><button type="button" class="voz" data-g="c11-resultado">resultado</button></li>
+      <li><button type="button" class="voz" data-g="c11-mejorar">mejorar</button></li>
+    </ul>
+    </section>
+    <h3 class="sr-only">El cuento</h3>
+    <div class="cuento">
+    <p id="c11-p1">En el salón de la maestra Ríos había un problema. Cada vez que alguien movía la mesa, los lápices rodaban y caían al piso. Israel pasaba el día recogiendo lápices.</p>
+
+    <p id="c11-p2">—¿Cómo podemos resolverlo? —preguntó la maestra—. Hoy vamos a pensar como ingenieros. <span class="cita" id="c11-c-a">La <button type="button" class="voz" data-g="c11-ingenieria">ingeniería</button> es usar lo que sabemos para inventar o mejorar objetos que resuelven problemas.</span></p>
+
+    <p id="c11-p3">Primero, cada niño hizo un <button type="button" class="voz" data-g="c11-boceto">boceto</button>, que es un dibujo sencillo de una idea. Lucía dibujó un vaso de papel pegado a la mesa. Israel dibujó una caja de cartón con agujeros, uno para cada lápiz.</p>
+
+    <p id="c11-p4">Luego construyeron sus dos <button type="button" class="voz" data-g="c11-diseno">diseños</button>. Un diseño es el plan de cómo será un objeto y cómo va a funcionar. Usaron vasos, cartón, tijeras y cinta adhesiva.</p>
+
+    <p id="c11-p5">Llegó el momento de la <button type="button" class="voz" data-g="c11-prueba">prueba</button>. Pusieron diez lápices en cada diseño y movieron la mesa con fuerza. <span class="cita" id="c11-c-b">Del vaso de Lucía cayeron cuatro lápices, porque el vaso se volcó.</span> <span class="cita" id="c11-c-c">De la caja de Israel no cayó ninguno: cada lápiz estaba bien sujeto en su agujero.</span></p>
+
+    <p id="c11-p6">Anotaron los <button type="button" class="voz" data-g="c11-resultado">resultados</button> en una tabla. —La caja funciona mejor —dijo Lucía—. Pero cuesta sacar los lápices rápido.</p>
+
+    <p id="c11-p7"><span class="cita" id="c11-c-d">—Entonces podemos <button type="button" class="voz" data-g="c11-mejorar">mejorar</button> el diseño —dijo Israel—. Hagamos los agujeros un poquito más grandes.</span> Así lo hicieron, y probaron otra vez. Ahora los lápices no caían y se sacaban con facilidad.</p>
+
+    <p id="c11-p8">La maestra puso la caja nueva en el centro de la mesa. —Así trabajan los ingenieros —dijo—: ven un problema, dibujan ideas, las prueban, comparan y mejoran. Desde ese día, ningún lápiz volvió a escaparse.</p>
+
+  </div>
+    <h3>Glosario</h3>
+    <dl class="glosario">
+    <div id="g-c11-ingenieria"><dt>ingeniería</dt><dd>Usar la ciencia y la creatividad para inventar o mejorar objetos que resuelven problemas.</dd></div>
+    <div id="g-c11-boceto"><dt>boceto</dt><dd>Un dibujo sencillo y rápido que muestra una idea.</dd></div>
+    <div id="g-c11-diseno"><dt>diseño</dt><dd>El plan de cómo será un objeto, de qué estará hecho y cómo va a funcionar.</dd></div>
+    <div id="g-c11-prueba"><dt>prueba</dt><dd>Usar un objeto para ver si funciona bien.</dd></div>
+    <div id="g-c11-resultado"><dt>resultado</dt><dd>Lo que pasa en una prueba. Se puede anotar en una tabla para compararlo.</dd></div>
+    <div id="g-c11-mejorar"><dt>mejorar</dt><dd>Cambiar algo para que funcione mejor.</dd></div>
+  </dl>
+    <div class="preguntas-cap">
+      <h3>Preguntas</h3>
+      <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+      <ol class="preguntas">
+    <li class="pregunta" id="c11-pregunta-a" data-cita="c11-c-a" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué es la ingeniería?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Dibujar cosas con muchos colores</button>
+        <button class="opcion">Inventar objetos que resuelven problemas</button>
+        <button class="opcion">Guardar los lápices en una caja</button>
+      </div>
+      <p class="explicacion" hidden>La ingeniería es usar lo que sabemos para inventar o mejorar objetos que resuelven problemas.</p>
+    </li>
+
+    <li class="pregunta" id="c11-pregunta-b" data-cita="c11-c-b" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Cuántos lápices cayeron del vaso de Lucía?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Diez</button>
+        <button class="opcion">Ninguno</button>
+        <button class="opcion">Cuatro</button>
+      </div>
+      <p class="explicacion" hidden>Del vaso de Lucía cayeron cuatro lápices, porque el vaso se volcó.</p>
+    </li>
+
+    <li class="pregunta" id="c11-pregunta-c" data-cita="c11-c-c" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Por qué no cayeron los lápices de la caja de Israel?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Cada lápiz estaba sujeto en su agujero</button>
+        <button class="opcion">La caja era de un color muy fuerte</button>
+        <button class="opcion">Pusieron menos lápices en la caja</button>
+      </div>
+      <p class="explicacion" hidden>En la caja de Israel, cada lápiz estaba bien sujeto en su agujero.</p>
+    </li>
+
+    <li class="pregunta" id="c11-pregunta-d" data-cita="c11-c-d" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Cómo mejoraron la caja?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Le pusieron más cinta</button>
+        <button class="opcion">Agrandaron un poco los agujeros</button>
+        <button class="opcion">La pintaron de otro color</button>
+      </div>
+      <p class="explicacion" hidden>Hicieron los agujeros un poquito más grandes para sacar los lápices con facilidad.</p>
+    </li>
+
+  </ol>
+      <p class="puntaje" hidden role="status" aria-live="polite"></p>
+    </div>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-2-ETS1-1 · 2 · 3: definir un problema, dibujar o construir una solución y comparar cómo funcionan dos diseños.</p>
+    <p><a class="al-indice" href="#indice">↑ Volver al índice</a></p>
+  </article>
+
+  <footer class="pie">
+    <p>José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustraciones generadas con inteligencia artificial.</p>
+    <p>Obra distribuida bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>
