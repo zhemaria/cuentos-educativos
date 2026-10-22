@@ -389,11 +389,21 @@
         }
       });
     });
-    // Enlaces del mosaico (y cualquier otro) hacia un capítulo.
+    // Enlaces hacia un capítulo. Desde el mosaico se va directo al texto del cuento.
     todos('a[href^="#capitulo-"]').forEach(function(a){
       a.addEventListener('click', function(e){
         e.preventDefault();
-        abrir(document.querySelector(a.getAttribute('href')), true);
+        var d = document.querySelector(a.getAttribute('href'));
+        if(!d) return;
+        if(!a.closest('.mosaico')){ abrir(d, true); return; }
+        d.open = true;
+        var texto = d.querySelector('.cuento');
+        texto.setAttribute('tabindex','-1');
+        // Pequeña espera para que el capítulo termine de abrirse antes de bajar.
+        setTimeout(function(){
+          texto.scrollIntoView({behavior: menosMovimiento ? 'auto' : 'smooth', block:'start'});
+          texto.focus({preventScroll:true});
+        }, 60);
       });
     });
     // «Cerrar y volver al índice».
