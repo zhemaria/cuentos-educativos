@@ -39,7 +39,7 @@ window.CATALOGO = [
       "tema": "Taking objects apart and building new ones"
     },
     "imagen": "2do-ciencias-02-piezas.jpg",
-    "escena": "A young girl with long black braided hair and a boy with short curly brown hair build a bridge of wooden toy blocks with two arches over a blue ribbon on a living room floor, a small red toy car crossing the bridge, the girl writing in a little notebook, a gray-haired grandfather with glasses smiling from an armchair, warm afternoon light"
+    "escena": "Two children playing together on a living room floor: on the left, a girl with long black braided hair writing in a small notebook; on the right, a boy with short curly brown hair kneeling and pushing a small red toy car across a wooden block bridge with two arches over a blue ribbon, both children smiling, warm afternoon light"
   },
   {
     "grado": 2,
@@ -75,7 +75,7 @@ window.CATALOGO = [
       "tema": "What plants need to grow"
     },
     "imagen": "2do-ciencias-04-plantas.jpg",
-    "escena": "In a bright elementary classroom, a young girl with long black braided hair and a boy with short curly brown hair look closely at three small bean plants in clay pots on a windowsill: one tall and green, one wilted and dry, one thin with pale yellow leaves; a kind teacher with short gray hair holds a clipboard, crayon drawings of plants on the wall"
+    "escena": "Exactly three small bean plants in clay pots in a row on a classroom windowsill: the left plant tall with bright green leaves, the middle plant wilted with dry brown drooping leaves, the right plant thin and pale yellow; a girl with long black braided hair and a boy with short curly brown hair look at them, a teacher with short gray hair holds a clipboard"
   },
   {
     grado: 2,
