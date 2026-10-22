@@ -1,0 +1,185 @@
+/* ==================================================================
+   Cuentos educativos · Hoja de estilo común
+   José M. Fernández · Licencia CC BY-NC-SA 4.0
+   https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+   Contrastes verificados conforme a WCAG 2.1 nivel AA.
+   ================================================================== */
+:root{
+  --tinta:#1f2a30;        /* 13.6:1 sobre papel */
+  --tinta-suave:#46555e;  /*  7.0:1 sobre papel */
+  --papel:#fbf7ef;
+  --papel-claro:#ffffff;
+  --verde:#1f5f52;        /*  7.2:1 sobre papel */
+  --verde-hondo:#164237;
+  --verde-claro:#e4efea;
+  --rosa:#8c3b2e;         /*  6.7:1 sobre papel */
+  --rosa-claro:#f8ebe7;
+  --ambar:#5c3900;        /* 10.3:1 sobre papel */
+  --ambar-claro:#fbf1dd;
+  --marca:#ffe27a;        /* resaltado; texto en --tinta */
+  --borde:#d9d1c1;
+  --borde-fuerte:#a99f8b;
+  --radio:14px;
+  --letra:"Andika","Atkinson Hyperlegible",ui-sans-serif,"Segoe UI",system-ui,sans-serif;
+  --escala:1;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--papel);color:var(--tinta);
+  font-family:var(--letra);line-height:1.7;
+  font-size:calc(1.15rem * var(--escala));
+}
+body.contraste-alto{
+  --tinta:#000;--tinta-suave:#1a1a1a;--papel:#fff;--papel-claro:#fff;
+  --verde:#00463a;--rosa:#7a1f12;--ambar:#4a2d00;--borde:#000;--borde-fuerte:#000;
+  --verde-claro:#fff;--rosa-claro:#fff;--ambar-claro:#fff;
+}
+.hoja{max-width:46rem;margin:0 auto;padding:1rem 1rem 6rem}
+
+a{color:var(--verde)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--rosa);outline-offset:3px}
+
+.salto{position:absolute;left:-9999px;top:0;background:var(--verde);color:#fff;padding:.6rem 1rem;z-index:99;border-radius:8px}
+.salto:focus{left:.5rem;top:.5rem}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* --- Migas y cambio de idioma ----------------------------------- */
+.migas{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;align-items:center;
+  font-size:.85rem;color:var(--tinta-suave);margin-bottom:.8rem}
+.migas a{font-weight:700}
+.idioma{display:inline-block;padding:.3rem .8rem;border:1.5px solid var(--verde);border-radius:999px;
+  text-decoration:none;font-weight:700;color:var(--verde);background:var(--papel-claro)}
+
+/* --- Barra de apoyos ------------------------------------------- */
+.apoyos{display:flex;flex-wrap:wrap;gap:.45rem;padding:.55rem;margin:0 0 1.2rem;
+  background:var(--papel-claro);border:1px solid var(--borde);border-radius:var(--radio)}
+.apoyos button{font:inherit;font-size:.9rem;min-height:44px;padding:.35rem .8rem;cursor:pointer;
+  background:transparent;color:var(--tinta);border:1.5px solid var(--borde-fuerte);border-radius:10px}
+.apoyos button[aria-pressed="true"]{background:var(--verde);color:#fff;border-color:var(--verde)}
+.apoyos button:disabled{opacity:.6;cursor:not-allowed}
+
+/* --- Portada del cuento ----------------------------------------- */
+.lamina{margin:0 0 1.2rem;border-radius:var(--radio);overflow:hidden;background:#efe8da;
+  border:1px solid var(--borde)}
+.lamina img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.lamina .vacia{display:grid;place-items:center;aspect-ratio:4/3;padding:1rem;text-align:center;
+  color:var(--tinta-suave);font-style:italic}
+.sello{display:inline-block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;
+  color:var(--ambar);background:var(--ambar-claro);border:1px solid var(--borde-fuerte);
+  border-radius:999px;padding:.25rem .8rem;margin:0 0 .6rem}
+h1{font-size:clamp(1.8rem,6vw,2.6rem);line-height:1.15;margin:0 0 .4rem;letter-spacing:-.01em}
+.entrada{color:var(--tinta-suave);margin:0 0 1.2rem;font-style:italic}
+
+/* --- Índice interno --------------------------------------------- */
+.indice{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.5rem;padding:0;list-style:none}
+.indice a{display:inline-block;padding:.4rem .9rem;min-height:44px;line-height:1.7;border-radius:999px;
+  background:var(--verde-claro);color:var(--verde-hondo);font-weight:700;text-decoration:none;font-size:.95rem}
+
+/* --- Palabras clave ---------------------------------------------- */
+.clave{background:var(--papel-claro);border:1px solid var(--borde);border-radius:var(--radio);
+  padding:1rem 1.1rem;margin:0 0 1.8rem}
+.clave h2{font-size:1.05rem;margin:0 0 .6rem}
+.fichas{display:flex;flex-wrap:wrap;gap:.45rem;margin:0;padding:0;list-style:none}
+
+h2{font-size:1.4rem;margin:2rem 0 .9rem}
+
+/* --- Cuento ------------------------------------------------------ */
+.cuento p{margin:0 0 1.1rem}
+.cuento p:first-of-type::first-letter{float:left;font-size:3.1em;line-height:.85;
+  padding:.06em .1em 0 0;color:var(--rosa);font-weight:700}
+.cita{transition:background-color .4s ease;border-radius:4px}
+.cita.resaltada{background:var(--marca);box-shadow:0 0 0 4px var(--marca);color:var(--tinta)}
+
+/* Palabra de ciencia: botón que abre la definición */
+.voz{font:inherit;font-weight:700;color:var(--verde-hondo);background:var(--verde-claro);
+  border:none;border-bottom:2px dotted var(--verde);border-radius:4px;padding:0 .1em;cursor:pointer;
+  line-height:inherit}
+.voz:hover{background:#d3e6de}
+.voz .ico{font-size:.7em;margin-left:.15em}
+
+/* --- Panel de definición (sirve en celular y tableta) ------------ */
+.panel{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--papel-claro);
+  border-top:3px solid var(--verde);box-shadow:0 -8px 24px rgba(0,0,0,.18);
+  padding:1rem 1rem calc(1rem + env(safe-area-inset-bottom))}
+.panel .dentro{max-width:46rem;margin:0 auto}
+.panel h3{margin:0 0 .3rem;font-size:1.3rem;color:var(--verde-hondo)}
+.panel p{margin:0 0 .8rem}
+.panel .botones{display:flex;flex-wrap:wrap;gap:.5rem}
+.panel button,.panel a{font:inherit;font-size:.95rem;min-height:44px;padding:.4rem .9rem;border-radius:10px;cursor:pointer;
+  border:1.5px solid var(--verde);background:var(--papel-claro);color:var(--verde);text-decoration:none;
+  display:inline-flex;align-items:center}
+.panel .cerrar{background:var(--verde);color:#fff}
+
+/* --- Glosario ---------------------------------------------------- */
+.glosario{margin:0;display:grid;gap:.6rem}
+.glosario > div{padding:.8rem 1rem;background:var(--papel-claro);border:1px solid var(--borde);
+  border-left:5px solid var(--verde);border-radius:10px;scroll-margin-top:1rem}
+.glosario > div:target{background:var(--ambar-claro)}
+.glosario dt{font-weight:700;font-size:1.1rem;color:var(--verde-hondo)}
+.glosario dd{margin:.15rem 0 0}
+
+/* --- Preguntas --------------------------------------------------- */
+.preguntas{list-style:none;margin:0;padding:0;display:grid;gap:1.2rem}
+.pregunta{padding:1rem 1.1rem;background:var(--papel-claro);border:1px solid var(--borde);
+  border-radius:var(--radio);scroll-margin-top:1rem}
+.enunciado{margin:0 0 .7rem;font-weight:700;display:flex;gap:.6rem;align-items:flex-start}
+.letra{flex:none;display:inline-grid;place-items:center;width:2rem;height:2rem;border-radius:50%;
+  background:var(--verde);color:#fff;font-size:1rem}
+.texto-enunciado{flex:1}
+.oir-pregunta{flex:none;font:inherit;min-width:44px;min-height:44px;margin-top:-.4rem;cursor:pointer;
+  background:var(--papel);border:1.5px solid var(--borde-fuerte);border-radius:10px}
+.opciones{display:grid;gap:.5rem}
+.opcion{text-align:left;font:inherit;min-height:48px;padding:.6rem .9rem;cursor:pointer;
+  background:var(--papel);color:var(--tinta);border:2px solid var(--borde-fuerte);border-radius:10px}
+.opcion:hover:not(:disabled){border-color:var(--verde);background:var(--verde-claro)}
+.opcion:disabled{cursor:default}
+.opcion.acierto{background:var(--verde-claro);border-color:var(--verde);font-weight:700}
+.opcion.fallo{background:var(--rosa-claro);border-color:var(--rosa);text-decoration:line-through}
+.opcion .marca{font-weight:700;margin-right:.35rem}
+.respuesta{margin:.8rem 0 0;padding:.7rem .9rem;border-radius:10px;font-size:1rem}
+.respuesta.bien{background:var(--verde-claro);color:var(--verde-hondo);border:1.5px solid var(--verde)}
+.respuesta.mal{background:var(--rosa-claro);color:var(--rosa);border:1.5px solid var(--rosa)}
+.respuesta strong{display:block}
+.ver-texto{font:inherit;font-size:.95rem;font-weight:700;min-height:44px;margin-top:.6rem;padding:.4rem .9rem;
+  border-radius:10px;cursor:pointer;border:1.5px solid var(--ambar);background:var(--ambar-claro);color:var(--ambar)}
+.puntaje{margin:1.2rem 0 0;padding:.9rem 1rem;border-radius:var(--radio);background:var(--ambar-claro);
+  border:1.5px solid var(--ambar);color:var(--ambar);font-weight:700}
+
+/* Botón flotante para volver a la pregunta */
+.volver{position:fixed;right:1rem;bottom:calc(1rem + env(safe-area-inset-bottom));z-index:40;
+  font:inherit;font-weight:700;font-size:1rem;min-height:48px;padding:.6rem 1.1rem;cursor:pointer;
+  background:var(--verde);color:#fff;border:none;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+
+/* --- Pie --------------------------------------------------------- */
+.pie{margin-top:3rem;padding-top:1.2rem;border-top:3px double var(--tinta);font-size:.88rem;color:var(--tinta-suave)}
+.pie p{margin:0 0 .5rem}
+
+/* --- Portada del repositorio ------------------------------------ */
+.grado{scroll-margin-top:1rem;margin-top:2rem}
+.grado h2{border-bottom:3px solid var(--verde);padding-bottom:.3rem}
+.area h3{font-size:1.1rem;margin:1.1rem 0 .5rem;color:var(--ambar)}
+.lista{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.lista a{display:block;padding:.8rem 1rem;background:var(--papel-claro);border:1px solid var(--borde);
+  border-radius:12px;text-decoration:none;color:var(--tinta);font-weight:700}
+.lista a:hover{border-color:var(--verde)}
+.lista small{display:block;font-weight:400;color:var(--tinta-suave)}
+.pronto{color:var(--tinta-suave);font-style:italic;margin:0}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+@media print{
+  .apoyos,.migas,.indice,.panel,.volver,.ver-texto,.respuesta,.salto,.puntaje{display:none!important}
+  body{background:#fff;font-size:12pt}
+  .hoja{max-width:none;padding:0}
+  .lamina{max-height:9cm;border:none}
+  .lamina img{max-height:9cm;object-fit:contain}
+  .voz{background:none;border-bottom:1px solid #000;color:#000}
+  .opcion{border:1px solid #000;background:#fff;text-decoration:none}
+  .opcion::before{content:"☐ "}
+  #preguntas{break-before:page}
+  .pregunta,.glosario > div{break-inside:avoid}
+}

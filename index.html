@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+  Cuentos educativos · Portada en español
+  Autor: José M. Fernández · Desarrollo: Claude (Anthropic)
+  Licencia: Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuentos educativos</title>
+<meta name="description" content="Cuentos ilustrados de ciencias y estudios sociales para 2do a 6to grado, con vocabulario y preguntas de comprensión.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#grados">Ir a los grados</a>
+<main class="hoja">
+  <nav class="migas" aria-label="Idioma">
+    <span>Cuentos educativos</span>
+    <a class="idioma" href="index-en.html" lang="en" hreflang="en">English version</a>
+  </nav>
+
+  <h1>Cuentos educativos</h1>
+  <p class="entrada">Cuentos ilustrados de ciencias y estudios sociales para repasar lo que aprendes en clase.</p>
+
+  <ul class="indice" id="grados" aria-label="Grados"></ul>
+  <div id="contenido"></div>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Desarrollo: Claude (Anthropic) · Ilustraciones generadas con inteligencia artificial (FLUX).</p>
+    <p>Obra distribuida bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+
+<script src="catalogo.js"></script>
+<script>
+(function(){
+  'use strict';
+  var GRADOS = [2,3,4,5,6];
+  var AREAS = [['ciencias','Ciencias'],['sociales','Estudios sociales']];
+  var NOMBRE = {2:'2do grado',3:'3er grado',4:'4to grado',5:'5to grado',6:'6to grado'};
+  var cat = (window.CATALOGO || []).slice().sort(function(a,b){ return a.orden - b.orden; });
+  function esc(s){ var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+  var indice = '', html = '';
+  GRADOS.forEach(function(g){
+    indice += '<li><a href="#grado-' + g + '">' + NOMBRE[g] + '</a></li>';
+    html += '<section class="grado" id="grado-' + g + '" aria-labelledby="t-grado-' + g + '"><h2 id="t-grado-' + g + '">' + NOMBRE[g] + '</h2>';
+    AREAS.forEach(function(a){
+      var lista = cat.filter(function(c){ return c.grado === g && c.area === a[0]; });
+      html += '<div class="area" id="grado-' + g + '-' + a[0] + '"><h3>' + a[1] + '</h3>';
+      if(!lista.length){ html += '<p class="pronto">Próximamente.</p>'; }
+      else{
+        html += '<ul class="lista">' + lista.map(function(c){
+          return '<li><a href="' + esc(c.es.archivo) + '">' + esc(c.es.titulo) +
+                 '<small>' + esc(c.es.tema) + ' · ' + esc(c.estandar) + '</small></a></li>';
+        }).join('') + '</ul>';
+      }
+      html += '</div>';
+    });
+    html += '</section>';
+  });
+  document.getElementById('grados').innerHTML = indice;
+  document.getElementById('contenido').innerHTML = html;
+  if(location.hash){ var d = document.querySelector(location.hash); if(d) d.scrollIntoView(); }
+})();
+</script>
+</body>
+</html>

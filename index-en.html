@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · English home page
+  Author: José M. Fernández · Development: Claude (Anthropic)
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Educational stories</title>
+<meta name="description" content="Illustrated science and social studies stories for Grades 2 to 6, with vocabulary and comprehension questions.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#grados">Skip to the grades</a>
+<main class="hoja">
+  <nav class="migas" aria-label="Language">
+    <span>Educational stories</span>
+    <a class="idioma" href="index.html" lang="es" hreflang="es">Versión en español</a>
+  </nav>
+
+  <h1>Educational stories</h1>
+  <p class="entrada">Illustrated science and social studies stories to review what you learn in class.</p>
+
+  <ul class="indice" id="grados" aria-label="Grades"></ul>
+  <div id="contenido"></div>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustrations generated with artificial intelligence (FLUX).</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+
+<script src="catalogo.js"></script>
+<script>
+(function(){
+  'use strict';
+  var GRADOS = [2,3,4,5,6];
+  var AREAS = [['ciencias','Science'],['sociales','Social studies']];
+  var NOMBRE = {2:'Grade 2',3:'Grade 3',4:'Grade 4',5:'Grade 5',6:'Grade 6'};
+  var cat = (window.CATALOGO || []).slice().sort(function(a,b){ return a.orden - b.orden; });
+  function esc(s){ var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+  var indice = '', html = '';
+  GRADOS.forEach(function(g){
+    indice += '<li><a href="#grade-' + g + '">' + NOMBRE[g] + '</a></li>';
+    html += '<section class="grado" id="grade-' + g + '" aria-labelledby="t-grado-' + g + '"><h2 id="t-grado-' + g + '">' + NOMBRE[g] + '</h2>';
+    AREAS.forEach(function(a){
+      var lista = cat.filter(function(c){ return c.grado === g && c.area === a[0]; });
+      html += '<div class="area" id="grade-' + g + '-' + a[0] + '"><h3>' + a[1] + '</h3>';
+      if(!lista.length){ html += '<p class="pronto">Coming soon.</p>'; }
+      else{
+        html += '<ul class="lista">' + lista.map(function(c){
+          return '<li><a href="' + esc(c.en.archivo) + '">' + esc(c.en.titulo) +
+                 '<small>' + esc(c.en.tema) + ' · ' + esc(c.estandar) + '</small></a></li>';
+        }).join('') + '</ul>';
+      }
+      html += '</div>';
+    });
+    html += '</section>';
+  });
+  document.getElementById('grados').innerHTML = indice;
+  document.getElementById('contenido').innerHTML = html;
+  if(location.hash){ var d = document.querySelector(location.hash); if(d) d.scrollIntoView(); }
+})();
+</script>
+</body>
+</html>
