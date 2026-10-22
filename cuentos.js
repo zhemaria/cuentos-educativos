@@ -362,4 +362,71 @@
     p.textContent = T.puntaje(g.primer, g.total);
     p.hidden = false;
   }
+
+  /* ---------------------------------------------------------------
+     6. LIBRO EN ACORDEÓN
+     Cada capítulo es un <details>. Se abre uno a la vez; los enlaces
+     a #capitulo-N (mosaico) lo abren; al imprimir se abren todos.
+     --------------------------------------------------------------- */
+  var capitulos = todos('details.capitulo');
+  var imprimiendo = false;
+  if(capitulos.length){
+    var abrir = function(d, enfocar){
+      if(!d) return;
+      d.open = true;
+      var s = d.querySelector('summary');
+      s.scrollIntoView({behavior: menosMovimiento ? 'auto' : 'smooth', block:'start'});
+      if(enfocar) s.focus({preventScroll:true});
+    };
+    capitulos.forEach(function(d){
+      d.addEventListener('toggle', function(){
+        if(imprimiendo) return;
+        if(d.open){
+          // Un solo capítulo abierto (por si el navegador no admite name="").
+          capitulos.forEach(function(o){ if(o !== d && o.open) o.open = false; });
+        }else if(btnVoz && d.contains(btnVoz)){
+          callar(); botonCuentoEnReposo();
+        }
+      });
+    });
+    // Enlaces del mosaico (y cualquier otro) hacia un capítulo.
+    todos('a[href^="#capitulo-"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        e.preventDefault();
+        abrir(document.querySelector(a.getAttribute('href')), true);
+      });
+    });
+    // «Cerrar y volver al índice».
+    todos('.cerrar-cap').forEach(function(a){
+      a.addEventListener('click', function(e){
+        e.preventDefault();
+        var d = a.closest('details');
+        if(d) d.open = false;
+        var s = d ? d.querySelector('summary') : $('indice');
+        irA(s);
+        s.focus({preventScroll:true});
+      });
+    });
+    // Si la dirección trae un ancla (#capitulo-3 o algo dentro de un capítulo), se abre.
+    var abrirPorAncla = function(){
+      if(!location.hash) return;
+      var destino = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      var d = destino && destino.closest('details.capitulo');
+      if(d){ d.open = true; setTimeout(function(){ irA(destino === d ? d.querySelector('summary') : destino); }, 50); }
+    };
+    abrirPorAncla();
+    window.addEventListener('hashchange', abrirPorAncla);
+    // Imprimir: abrir todos y después dejarlos como estaban.
+    var estadoAntes = null;
+    window.addEventListener('beforeprint', function(){
+      imprimiendo = true;
+      estadoAntes = capitulos.map(function(d){ return d.open; });
+      capitulos.forEach(function(d){ d.removeAttribute('name'); d.open = true; });
+    });
+    window.addEventListener('afterprint', function(){
+      if(!estadoAntes) return;
+      capitulos.forEach(function(d, i){ d.open = estadoAntes[i]; d.setAttribute('name','libro'); });
+      setTimeout(function(){ imprimiendo = false; }, 100);
+    });
+  }
 })();

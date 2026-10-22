@@ -39,51 +39,38 @@
     <p class="sello">Book · Grade 2</p>
     <h1>Science</h1>
     <p class="subtitulo">Stories of Lucía and Israel</p>
-    <ul class="mosaico" aria-hidden="true">
-      <li><img src="2do-ciencias-01-materiales.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-02-piezas.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-03-calor.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-04-plantas.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-05-polinizacion.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-06-habitats.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-07-cambios-tierra.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-08-erosion.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-09-relieve.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-10-agua.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-11-ingenieria.jpg" alt="" loading="lazy"></li>
-      <li><img src="2do-ciencias-12-repaso.jpg" alt="" loading="lazy"></li>
-    </ul>
+    <nav aria-label="Choose a story">
+      <ul class="mosaico">
+        <li><a href="#capitulo-1"><img src="2do-ciencias-01-materiales.jpg" alt="Chapter 1: An umbrella for Canela" loading="lazy"></a></li>
+        <li><a href="#capitulo-2"><img src="2do-ciencias-02-piezas.jpg" alt="Chapter 2: The castle that became a bridge" loading="lazy"></a></li>
+        <li><a href="#capitulo-3"><img src="2do-ciencias-03-calor.jpg" alt="Chapter 3: The ice cream that froze again" loading="lazy"></a></li>
+        <li><a href="#capitulo-4"><img src="2do-ciencias-04-plantas.jpg" alt="Chapter 4: Three beans in the classroom" loading="lazy"></a></li>
+        <li><a href="#capitulo-5"><img src="2do-ciencias-05-polinizacion.jpg" alt="Chapter 5: Lucía and the garden hummingbird" loading="lazy"></a></li>
+        <li><a href="#capitulo-6"><img src="2do-ciencias-06-habitats.jpg" alt="Chapter 6: The trip to three habitats" loading="lazy"></a></li>
+        <li><a href="#capitulo-7"><img src="2do-ciencias-07-cambios-tierra.jpg" alt="Chapter 7: The canyon and the volcano" loading="lazy"></a></li>
+        <li><a href="#capitulo-8"><img src="2do-ciencias-08-erosion.jpg" alt="Chapter 8: The hill in the garden" loading="lazy"></a></li>
+        <li><a href="#capitulo-9"><img src="2do-ciencias-09-relieve.jpg" alt="Chapter 9: The clay world" loading="lazy"></a></li>
+        <li><a href="#capitulo-10"><img src="2do-ciencias-10-agua.jpg" alt="Chapter 10: The lake that turned to ice" loading="lazy"></a></li>
+        <li><a href="#capitulo-11"><img src="2do-ciencias-11-ingenieria.jpg" alt="Chapter 11: The runaway pencils" loading="lazy"></a></li>
+        <li><a href="#capitulo-12"><img src="2do-ciencias-12-repaso.jpg" alt="Chapter 12: The science fair" loading="lazy"></a></li>
+      </ul>
+    </nav>
+    <p class="pista">Tap a picture or a title to open its story.</p>
     <p class="creditos">José M. Fernández · Development: Claude (Anthropic) · Illustrations generated with artificial intelligence</p>
   </header>
 
-  <nav aria-labelledby="indice">
-    <h2 id="indice" tabindex="-1">Contents</h2>
-    <ol class="indice-libro" id="t-indice-lista">
-      <li><a href="#capitulo-1"><span class="num">1</span><span>An umbrella for Canela<small>Properties of materials</small></span></a></li>
-      <li><a href="#capitulo-2"><span class="num">2</span><span>The castle that became a bridge<small>Taking objects apart and building new ones</small></span></a></li>
-      <li><a href="#capitulo-3"><span class="num">3</span><span>The ice cream that froze again<small>Changes from heating and cooling</small></span></a></li>
-      <li><a href="#capitulo-4"><span class="num">4</span><span>Three beans in the classroom<small>What plants need to grow</small></span></a></li>
-      <li><a href="#capitulo-5"><span class="num">5</span><span>Lucía and the garden hummingbird<small>Pollination and seed dispersal</small></span></a></li>
-      <li><a href="#capitulo-6"><span class="num">6</span><span>The trip to three habitats<small>Diversity of living things in habitats</small></span></a></li>
-      <li><a href="#capitulo-7"><span class="num">7</span><span>The canyon and the volcano<small>Fast and slow changes on Earth</small></span></a></li>
-      <li><a href="#capitulo-8"><span class="num">8</span><span>The hill in the garden<small>Solutions to slow down erosion</small></span></a></li>
-      <li><a href="#capitulo-9"><span class="num">9</span><span>The clay world<small>Landforms and bodies of water</small></span></a></li>
-      <li><a href="#capitulo-10"><span class="num">10</span><span>The lake that turned to ice<small>Where water is found on Earth</small></span></a></li>
-      <li><a href="#capitulo-11"><span class="num">11</span><span>The runaway pencils<small>Solving a problem with engineering</small></span></a></li>
-      <li><a href="#capitulo-12"><span class="num">12</span><span>The science fair<small>Review: everything we learned</small></span></a></li>
-    </ol>
-  </nav>
-
-  <article class="capitulo" id="capitulo-1" data-capitulo="1" aria-labelledby="c1-titulo">
+  <h2 id="indice" tabindex="-1">Contents</h2>
+  <div class="acordeon">
+  <details class="capitulo" id="capitulo-1" data-capitulo="1" name="libro">
+    <summary><span class="num" aria-hidden="true">1</span><span class="cab"><h2 id="c1-titulo"><span class="sr-only">Chapter 1: </span><span class="titulo-cap">An umbrella for Canela</span></h2><small>Properties of materials</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-01-materiales.jpg" loading="lazy" alt="Two children test water drops on paper, cloth, and plastic by a rainy window; a teddy bear holds a tiny umbrella.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-PS1-1 · 2-PS1-2</p>
-    <h2 id="c1-titulo"><span class="num-cap">Chapter 1</span><span class="titulo-cap">An umbrella for Canela</span></h2>
     <p class="entrada">A story about choosing the best material.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="1"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-01-materials.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -173,19 +160,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-PS1-1 · 2-PS1-2: describe and classify materials by their properties, and choose the right material for a purpose.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-2" data-capitulo="2" aria-labelledby="c2-titulo">
+  <details class="capitulo" id="capitulo-2" data-capitulo="2" name="libro">
+    <summary><span class="num" aria-hidden="true">2</span><span class="cab"><h2 id="c2-titulo"><span class="sr-only">Chapter 2: </span><span class="titulo-cap">The castle that became a bridge</span></h2><small>Taking objects apart and building new ones</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-02-piezas.jpg" loading="lazy" alt="Two children build a bridge of wooden blocks over a blue ribbon on the floor while a toy car crosses it; Grandpa watches from his armchair.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-PS1-3</p>
-    <h2 id="c2-titulo"><span class="num-cap">Chapter 2</span><span class="titulo-cap">The castle that became a bridge</span></h2>
     <p class="entrada">A story about how the same pieces can make new objects.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="2"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-02-pieces.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -275,19 +263,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-PS1-3: observe and explain with evidence how an object made of pieces can be taken apart and made into a new object.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-3" data-capitulo="3" aria-labelledby="c3-titulo">
+  <details class="capitulo" id="capitulo-3" data-capitulo="3" name="libro">
+    <summary><span class="num" aria-hidden="true">3</span><span class="cab"><h2 id="c3-titulo"><span class="sr-only">Chapter 3: </span><span class="titulo-cap">The ice cream that froze again</span></h2><small>Changes from heating and cooling</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-03-calor.jpg" loading="lazy" alt="In the kitchen, a girl looks surprised at a bowl of melted ice cream while her grandfather fries an egg on the stove.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-PS1-4</p>
-    <h2 id="c3-titulo"><span class="num-cap">Chapter 3</span><span class="titulo-cap">The ice cream that froze again</span></h2>
     <p class="entrada">A story about changes that can be undone and changes that cannot.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="3"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-03-heat.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -377,19 +366,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-PS1-4: explain with evidence that some changes caused by heating or cooling can be reversed and some cannot.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-4" data-capitulo="4" aria-labelledby="c4-titulo">
+  <details class="capitulo" id="capitulo-4" data-capitulo="4" name="libro">
+    <summary><span class="num" aria-hidden="true">4</span><span class="cab"><h2 id="c4-titulo"><span class="sr-only">Chapter 4: </span><span class="titulo-cap">Three beans in the classroom</span></h2><small>What plants need to grow</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-04-plantas.jpg" loading="lazy" alt="In the classroom, two children and their teacher observe three bean plants: one healthy, one wilted, and one pale.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-LS2-1</p>
-    <h2 id="c4-titulo"><span class="num-cap">Chapter 4</span><span class="titulo-cap">Three beans in the classroom</span></h2>
     <p class="entrada">A story about an investigation with plants.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="4"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-04-plants.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -479,19 +469,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-LS2-1: plan and carry out an investigation to find out if plants need sunlight and water to grow.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-5" data-capitulo="5" aria-labelledby="c5-titulo">
+  <details class="capitulo" id="capitulo-5" data-capitulo="5" name="libro">
+    <summary><span class="num" aria-hidden="true">5</span><span class="cab"><h2 id="c5-titulo"><span class="sr-only">Chapter 5: </span><span class="titulo-cap">Lucía and the garden hummingbird</span></h2><small>Pollination and seed dispersal</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-05-polinizacion.jpg" loading="lazy" alt="A girl and her grandfather watch a hummingbird drink from a red flower in a garden; nearby, a squirrel carries an acorn.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-LS2-2</p>
-    <h2 id="c5-titulo"><span class="num-cap">Chapter 5</span><span class="titulo-cap">Lucía and the garden hummingbird</span></h2>
     <p class="entrada">A story about how animals help plants.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="5"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-05-pollination.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -579,19 +570,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-LS2-2: animals help pollinate plants and disperse their seeds.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-6" data-capitulo="6" aria-labelledby="c6-titulo">
+  <details class="capitulo" id="capitulo-6" data-capitulo="6" name="libro">
+    <summary><span class="num" aria-hidden="true">6</span><span class="cab"><h2 id="c6-titulo"><span class="sr-only">Chapter 6: </span><span class="titulo-cap">The trip to three habitats</span></h2><small>Diversity of living things in habitats</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-06-habitats.jpg" loading="lazy" alt="Two children and their teacher look at frogs and a turtle in a pond; behind them are a forest and a meadow with flowers.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-LS4-1</p>
-    <h2 id="c6-titulo"><span class="num-cap">Chapter 6</span><span class="titulo-cap">The trip to three habitats</span></h2>
     <p class="entrada">A story about the living things that live in different places.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="6"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-06-habitats.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -681,19 +673,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-LS4-1: observe plants and animals to compare the diversity of life in different habitats.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-7" data-capitulo="7" aria-labelledby="c7-titulo">
+  <details class="capitulo" id="capitulo-7" data-capitulo="7" name="libro">
+    <summary><span class="num" aria-hidden="true">7</span><span class="cab"><h2 id="c7-titulo"><span class="sr-only">Chapter 7: </span><span class="titulo-cap">The canyon and the volcano</span></h2><small>Fast and slow changes on Earth</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-07-cambios-tierra.jpg" loading="lazy" alt="Two children and their grandfather look at a photo album on the sofa with a picture of a red rock canyon; it is raining outside.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-ESS1-1</p>
-    <h2 id="c7-titulo"><span class="num-cap">Chapter 7</span><span class="titulo-cap">The canyon and the volcano</span></h2>
     <p class="entrada">A story about Earth changes that take millions of years and changes that happen in seconds.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="7"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-07-earth-changes.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -783,19 +776,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-ESS1-1: use information from several sources to show that Earth events can happen quickly or slowly.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-8" data-capitulo="8" aria-labelledby="c8-titulo">
+  <details class="capitulo" id="capitulo-8" data-capitulo="8" name="libro">
+    <summary><span class="num" aria-hidden="true">8</span><span class="cab"><h2 id="c8-titulo"><span class="sr-only">Chapter 8: </span><span class="titulo-cap">The hill in the garden</span></h2><small>Solutions to slow down erosion</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-08-erosion.jpg" loading="lazy" alt="In the garden, a girl plants grass on a hill while her grandfather and a boy build a low stone wall.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-ESS2-1</p>
-    <h2 id="c8-titulo"><span class="num-cap">Chapter 8</span><span class="titulo-cap">The hill in the garden</span></h2>
     <p class="entrada">A story about how to keep the rain from washing the soil away.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="8"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-08-erosion.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -885,19 +879,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-ESS2-1: compare solutions designed to slow or prevent wind or water from changing the shape of the land.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-9" data-capitulo="9" aria-labelledby="c9-titulo">
+  <details class="capitulo" id="capitulo-9" data-capitulo="9" name="libro">
+    <summary><span class="num" aria-hidden="true">9</span><span class="cab"><h2 id="c9-titulo"><span class="sr-only">Chapter 9: </span><span class="titulo-cap">The clay world</span></h2><small>Landforms and bodies of water</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-09-relieve.jpg" loading="lazy" alt="Two children in the classroom make a clay model with a mountain, a valley with a river, a plain, the ocean, and an island.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-ESS2-2</p>
-    <h2 id="c9-titulo"><span class="num-cap">Chapter 9</span><span class="titulo-cap">The clay world</span></h2>
     <p class="entrada">A story about a model with mountains, valleys, rivers, and islands.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="9"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-09-landforms.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -987,19 +982,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-ESS2-2: develop a model to show the shapes and kinds of land and bodies of water in an area.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-10" data-capitulo="10" aria-labelledby="c10-titulo">
+  <details class="capitulo" id="capitulo-10" data-capitulo="10" name="libro">
+    <summary><span class="num" aria-hidden="true">10</span><span class="cab"><h2 id="c10-titulo"><span class="sr-only">Chapter 10: </span><span class="titulo-cap">The lake that turned to ice</span></h2><small>Where water is found on Earth</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-10-agua.jpg" loading="lazy" alt="Two children and their grandfather, bundled up, look at Lake Michigan in winter: there is ice on the shore and water with waves farther out.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-ESS2-3</p>
-    <h2 id="c10-titulo"><span class="num-cap">Chapter 10</span><span class="titulo-cap">The lake that turned to ice</span></h2>
     <p class="entrada">A story about solid water and liquid water on our planet.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="10"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-10-water.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -1089,19 +1085,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-ESS2-3: obtain information to identify where water is found on Earth and that it can be solid or liquid.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-11" data-capitulo="11" aria-labelledby="c11-titulo">
+  <details class="capitulo" id="capitulo-11" data-capitulo="11" name="libro">
+    <summary><span class="num" aria-hidden="true">11</span><span class="cab"><h2 id="c11-titulo"><span class="sr-only">Chapter 11: </span><span class="titulo-cap">The runaway pencils</span></h2><small>Solving a problem with engineering</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-11-ingenieria.jpg" loading="lazy" alt="In the classroom, two children test a tipped-over paper cup and a cardboard box with holes that holds many pencils.">
     </figure>
     <p class="sello">Grade 2 · Science · K-2-ETS1-1 · 2 · 3</p>
-    <h2 id="c11-titulo"><span class="num-cap">Chapter 11</span><span class="titulo-cap">The runaway pencils</span></h2>
     <p class="entrada">A story about how engineers think and work.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="11"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-11-engineering.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -1191,19 +1188,20 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) K-2-ETS1-1 · 2 · 3: define a problem, sketch or build a solution, and compare how two designs work.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
 
-  <article class="capitulo" id="capitulo-12" data-capitulo="12" aria-labelledby="c12-titulo">
+  <details class="capitulo" id="capitulo-12" data-capitulo="12" name="libro">
+    <summary><span class="num" aria-hidden="true">12</span><span class="cab"><h2 id="c12-titulo"><span class="sr-only">Chapter 12: </span><span class="titulo-cap">The science fair</span></h2><small>Review: everything we learned</small></span></summary>
+    <div class="cuerpo-cap">
     <figure class="lamina">
       <img src="2do-ciencias-12-repaso.jpg" loading="lazy" alt="At the science fair, Lucía and Israel present a poster full of drawings; Grandpa and the teacher smile as they look at it.">
     </figure>
     <p class="sello">Grade 2 · Science · 2-PS1 · 2-LS2 · 2-LS4 · 2-ESS1 · 2-ESS2 · K-2-ETS1</p>
-    <h2 id="c12-titulo"><span class="num-cap">Chapter 12</span><span class="titulo-cap">The science fair</span></h2>
     <p class="entrada">A story to remember everything Lucía and Israel learned this year.</p>
     <div class="herramientas-cap">
       <button type="button" class="voz-capitulo" data-capitulo="12"></button>
-      <a class="al-indice" href="#indice">↑ Back to contents</a>
       <a class="al-indice" href="grade2-science-12-review.html">Open this story alone</a>
     </div>
     <section class="clave" aria-label="Science words">
@@ -1293,8 +1291,11 @@
       <p class="puntaje" hidden role="status" aria-live="polite"></p>
     </div>
     <p style="font-size:.85rem;color:var(--tinta-suave)">Illinois standard (NGSS) 2-PS1 · 2-LS2 · 2-LS4 · 2-ESS1 · 2-ESS2 · K-2-ETS1: review of all Grade 2 science topics.</p>
-    <p><a class="al-indice" href="#indice">↑ Back to contents</a></p>
-  </article>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Close and go back to contents</a></p>
+    </div>
+  </details>
+
+  </div>
 
   <footer class="pie">
     <p>José M. Fernández · Development: Claude (Anthropic) · Illustrations generated with artificial intelligence.</p>

@@ -181,8 +181,27 @@ h2{font-size:1.4rem;margin:2rem 0 .9rem}
 .indice-libro a:hover{border-color:var(--verde)}
 .indice-libro .num{flex:none;color:var(--rosa);min-width:1.6rem}
 .indice-libro small{display:block;font-weight:400;color:var(--tinta-suave)}
-.capitulo{margin-top:3rem;padding-top:1.5rem;border-top:3px double var(--borde-fuerte);scroll-margin-top:.5rem}
-.capitulo > h2{font-size:clamp(1.6rem,5.5vw,2.2rem);line-height:1.2;margin:.2rem 0 .4rem}
+.mosaico a{display:block;width:100%;height:100%;border-radius:8px}
+.mosaico a img{transition:transform .25s ease}
+.mosaico a:hover img{transform:scale(1.06)}
+.pista{font-size:.95rem;color:var(--tinta-suave);margin:0 0 .6rem}
+.acordeon{display:grid;gap:.55rem;margin:0 0 2rem}
+details.capitulo{background:var(--papel-claro);border:1px solid var(--borde);border-radius:14px;scroll-margin-top:.5rem}
+details.capitulo > summary{list-style:none;cursor:pointer;display:flex;gap:.8rem;align-items:center;
+  padding:.75rem 1rem;min-height:56px;border-radius:14px}
+details.capitulo > summary::-webkit-details-marker{display:none}
+details.capitulo > summary:hover{background:var(--verde-claro)}
+details.capitulo > summary:focus-visible{outline:3px solid var(--rosa);outline-offset:2px}
+details.capitulo > summary::after{content:"";flex:none;margin-left:auto;width:.6rem;height:.6rem;
+  border-right:3px solid var(--verde);border-bottom:3px solid var(--verde);transform:rotate(45deg);transition:transform .2s ease}
+details.capitulo[open] > summary::after{transform:rotate(-135deg)}
+details.capitulo[open] > summary{border-bottom:1px solid var(--borde);border-radius:14px 14px 0 0;background:var(--verde-claro)}
+details.capitulo .num{flex:none;display:inline-grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:50%;
+  background:var(--rosa);color:#fff;font-weight:700}
+details.capitulo .cab{flex:1}
+details.capitulo summary h2{font-size:1.15rem;line-height:1.3;margin:0}
+details.capitulo summary small{display:block;color:var(--tinta-suave);font-size:.9rem}
+.cuerpo-cap{padding:1rem}
 .capitulo h3{font-size:1.25rem;margin:1.8rem 0 .8rem}
 .capitulo .clave h3{font-size:1.05rem;margin:0 0 .6rem}
 .capitulo .num-cap{display:block;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--rosa);font-weight:700}
@@ -196,7 +215,12 @@ h2{font-size:1.4rem;margin:2rem 0 .9rem}
   .indice-libro{break-after:page;gap:3px}
   .indice-libro a{padding:.25rem .7rem;border-radius:6px}
   .indice-libro small{display:inline;margin-left:.5rem}
-  .capitulo{break-before:page;border:none;margin-top:0}
+  .capitulo{break-before:page;border:none!important;margin-top:0;background:#fff}
+  details.capitulo > summary::after{display:none}
+  details.capitulo > summary{background:#fff!important;padding-left:0;border:none!important}
+  details.capitulo summary h2{font-size:1.6rem}
+  .cuerpo-cap{padding:0}
+  .pista{display:none}
   .herramientas-cap,.al-indice{display:none!important}
   .capitulo .preguntas-cap{break-before:page}
 }
