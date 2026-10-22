@@ -160,5 +160,77 @@ window.CATALOGO = [
     },
     "imagen": "2do-ciencias-09-relieve.jpg",
     "escena": "Two children sit at a classroom table building a colorful clay model of landforms on a large piece of cardboard: on the left, a girl with long black braided hair pressing flat green clay into a plain with tiny trees; on the right, a boy with short curly brown hair shaping a brown mountain with a white snowy top; between them a valley with a blue river flowing into a lake, and a dark blue ocean with a small green island at the edge"
+  },
+  {
+    "grado": 2,
+    "area": "ciencias",
+    "orden": 10,
+    "estandar": "2-ESS2-3",
+    "es": {
+      "titulo": "El lago que se volvió hielo",
+      "archivo": "2do-ciencias-10-agua.html",
+      "tema": "Dónde está el agua de la Tierra"
+    },
+    "en": {
+      "titulo": "The lake that turned to ice",
+      "archivo": "grade2-science-10-water.html",
+      "tema": "Where water is found on Earth"
+    },
+    "imagen": "2do-ciencias-10-agua.jpg",
+    "escena": "Three people in warm winter coats stand on a snowy beach of a huge lake in winter: on the left, a girl with long black braided hair in a blue coat; in the middle, a gray-haired grandfather with glasses and no beard pointing at the water; on the right, a boy with short curly brown hair in a striped scarf; piles of white ice along the shore, open blue water with small waves farther out, a city skyline far away"
+  },
+  {
+    "grado": 2,
+    "area": "ciencias",
+    "orden": 11,
+    "estandar": "K-2-ETS1-1 · 2 · 3",
+    "es": {
+      "titulo": "Los lápices que se escapaban",
+      "archivo": "2do-ciencias-11-ingenieria.html",
+      "tema": "Resolver un problema con ingeniería"
+    },
+    "en": {
+      "titulo": "The runaway pencils",
+      "archivo": "grade2-science-11-engineering.html",
+      "tema": "Solving a problem with engineering"
+    },
+    "imagen": "2do-ciencias-11-ingenieria.jpg",
+    "escena": "Two children at a classroom table testing two pencil holders they made: on the left, a girl with long black braided hair looking at a tipped-over paper cup with a few pencils fallen on the table; on the right, a boy with short curly brown hair smiling at a cardboard box with round holes holding many pencils upright; a teacher with short gray hair watching behind them, scissors and tape on the table"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.2.CV.1",
+    "es": {
+      "titulo": "El columpio roto",
+      "archivo": "2do-sociales-01-gobierno.html",
+      "tema": "Para qué sirve el gobierno"
+    },
+    "en": {
+      "titulo": "The broken swing",
+      "archivo": "grade2-social-studies-01-government.html",
+      "tema": "What the government does"
+    },
+    "imagen": "2do-sociales-01-gobierno.jpg",
+    "escena": "Three people at a picnic table in a sunny neighborhood park: on the left, a girl with long black braided hair writing a letter on a sheet of paper; in the middle, a gray-haired grandfather with glasses and no beard smiling and helping; on the right, a boy with short curly brown hair holding a pencil; behind them a playground swing set where one swing is broken and missing its seat, trees and city houses in the background"
+  },
+  {
+    "grado": 2,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.2.CV.2",
+    "es": {
+      "titulo": "Una huerta para todos",
+      "archivo": "2do-sociales-02-comunidad.html",
+      "tema": "La comunidad colabora"
+    },
+    "en": {
+      "titulo": "A garden for everyone",
+      "archivo": "grade2-social-studies-02-community.html",
+      "tema": "A community works together"
+    },
+    "imagen": "2do-sociales-02-comunidad.jpg",
+    "escena": "Neighbors working together in a sunny community garden: in the center, a smiling older woman in a wheelchair rolling up a new wooden ramp beside three small steps; on the left, a girl with long black braided hair painting flowers on a blank wooden board; on the right, a boy with short curly brown hair pouring soil into a tall raised wooden garden bed; behind them a gray-haired grandfather with glasses and no beard holding a hammer, tomato plants and sunflowers around"
   }
 ];
