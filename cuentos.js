@@ -171,17 +171,22 @@
   /* ---------------------------------------------------------------
      3. ILUSTRACIÓN AUSENTE
      --------------------------------------------------------------- */
-  var img = document.querySelector('.lamina img');
-  if(img){
+  todos('.lamina img').forEach(function(img){
     var sinImagen = function(){
       var d = document.createElement('div');
       d.className = 'vacia';
       d.textContent = T.sinLamina;
-      img.parentNode.replaceChild(d, img);
+      if(img.parentNode) img.parentNode.replaceChild(d, img);
     };
     if(img.complete && img.naturalWidth === 0) sinImagen();
     else img.addEventListener('error', sinImagen);
-  }
+  });
+  // En el mosaico del libro, una lámina que falta deja solo el recuadro de color.
+  todos('.mosaico img').forEach(function(img){
+    var ocultar = function(){ img.style.visibility = 'hidden'; };
+    if(img.complete && img.naturalWidth === 0) ocultar();
+    else img.addEventListener('error', ocultar);
+  });
 
   /* ---------------------------------------------------------------
      4. PALABRAS DE CIENCIA: panel con la definición

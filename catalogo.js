@@ -232,6 +232,24 @@ window.CATALOGO = [
     },
     "imagen": "2do-sociales-02-comunidad.jpg",
     "escena": "Neighbors working together in a sunny community garden: in the center, a smiling older woman in a wheelchair rolling up a new wooden ramp beside three small steps; on the left, a girl with long black braided hair painting flowers on a blank wooden board; on the right, a boy with short curly brown hair pouring soil into a tall raised wooden garden bed; behind them a gray-haired grandfather with glasses and no beard holding a hammer, tomato plants and sunflowers around"
+  },
+  {
+    "grado": 2,
+    "area": "ciencias",
+    "orden": 12,
+    "estandar": "2-PS1 · 2-LS2 · 2-LS4 · 2-ESS1 · 2-ESS2 · K-2-ETS1",
+    "es": {
+      "titulo": "La feria de ciencias",
+      "archivo": "2do-ciencias-12-repaso.html",
+      "tema": "Repaso: todo lo que aprendimos"
+    },
+    "en": {
+      "titulo": "The science fair",
+      "archivo": "grade2-science-12-review.html",
+      "tema": "Review: everything we learned"
+    },
+    "imagen": "2do-ciencias-12-repaso.jpg",
+    "escena": "Four people at a school science fair: on the left, a girl with long black braided hair in a blue sweater and, next to her, a boy with short curly brown hair in a striped shirt and a red-and-white striped scarf, both standing proudly beside a big colorful poster board covered with drawings of an umbrella, an ice cream, bean plants, a hummingbird, a frog in a pond, a red canyon, a volcano and a cardboard pencil box; on the right, a gray-haired grandfather with glasses and a teacher with short gray hair and glasses smiling at the poster; other display tables in a school gym behind them"
   }
 ];
 
