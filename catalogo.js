@@ -88,5 +88,77 @@ window.CATALOGO = [
           tema: 'Pollination and seed dispersal' },
     imagen: '2do-ciencias-05-polinizacion.jpg',
     escena: 'A young girl with dark braided hair kneels in a small neighborhood community garden, watching a tiny ruby-throated hummingbird sip from a bright red trumpet flower, yellow pollen dusting its head, her grandfather smiling and pointing beside her, sunflowers and tomato plants behind, a squirrel holding an acorn near an oak tree, soft morning light, wide composition'
+  },
+  {
+    "grado": 2,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "2-LS4-1",
+    "es": {
+      "titulo": "La excursión de los tres hábitats",
+      "archivo": "2do-ciencias-06-habitats.html",
+      "tema": "Diversidad de seres vivos en los hábitats"
+    },
+    "en": {
+      "titulo": "The trip to three habitats",
+      "archivo": "grade2-science-06-habitats.html",
+      "tema": "Diversity of living things in habitats"
+    },
+    "imagen": "2do-ciencias-06-habitats.jpg",
+    "escena": "Three people outdoors at the edge of a calm pond in a forest preserve: on the left, a girl with long black braided hair counting animals in a small notebook; in the middle, a boy with short curly brown hair pointing at frogs and a turtle sitting on a log; on the right, a smiling teacher with short gray hair; tall trees behind them and a meadow with wildflowers in the distance"
+  },
+  {
+    "grado": 2,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "2-ESS1-1",
+    "es": {
+      "titulo": "El cañón y el volcán",
+      "archivo": "2do-ciencias-07-cambios-tierra.html",
+      "tema": "Cambios rápidos y lentos de la Tierra"
+    },
+    "en": {
+      "titulo": "The canyon and the volcano",
+      "archivo": "grade2-science-07-earth-changes.html",
+      "tema": "Fast and slow changes on Earth"
+    },
+    "imagen": "2do-ciencias-07-cambios-tierra.jpg",
+    "escena": "Three people sit close together on a sofa looking at a big open photo album: on the left, a girl with long black braided hair; in the middle, a gray-haired grandfather with glasses and no beard pointing at a photo of a deep red rock canyon with a river at the bottom; on the right, a boy with short curly brown hair looking amazed; rain on the window behind them, cozy living room"
+  },
+  {
+    "grado": 2,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "2-ESS2-1",
+    "es": {
+      "titulo": "La colina de la huerta",
+      "archivo": "2do-ciencias-08-erosion.html",
+      "tema": "Soluciones para frenar la erosión"
+    },
+    "en": {
+      "titulo": "The hill in the garden",
+      "archivo": "grade2-science-08-erosion.html",
+      "tema": "Solutions to slow down erosion"
+    },
+    "imagen": "2do-ciencias-08-erosion.jpg",
+    "escena": "Three people work on a small grassy hill in a neighborhood community garden: on the left, a girl with long black braided hair planting small grass seedlings with a trowel; in the middle, a gray-haired grandfather with glasses and no beard carrying a flat stone; on the right, a boy with short curly brown hair placing stones in a low stone wall; a muddy path at the bottom of the hill, cloudy sky after rain"
+  },
+  {
+    "grado": 2,
+    "area": "ciencias",
+    "orden": 9,
+    "estandar": "2-ESS2-2",
+    "es": {
+      "titulo": "El mundo de plastilina",
+      "archivo": "2do-ciencias-09-relieve.html",
+      "tema": "Formas de la tierra y del agua"
+    },
+    "en": {
+      "titulo": "The clay world",
+      "archivo": "grade2-science-09-landforms.html",
+      "tema": "Landforms and bodies of water"
+    },
+    "imagen": "2do-ciencias-09-relieve.jpg",
+    "escena": "Two children sit at a classroom table building a colorful clay model of landforms on a large piece of cardboard: on the left, a girl with long black braided hair pressing flat green clay into a plain with tiny trees; on the right, a boy with short curly brown hair shaping a brown mountain with a white snowy top; between them a valley with a blue river flowing into a lake, and a dark blue ocean with a small green island at the edge"
   }
 ];
