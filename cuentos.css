@@ -63,7 +63,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:3px solid 
 /* --- Portada del cuento ----------------------------------------- */
 .lamina{margin:0 0 1.2rem;border-radius:var(--radio);overflow:hidden;background:#efe8da;
   border:1px solid var(--borde)}
-.lamina img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.lamina img{display:block;width:100%;height:auto}
 .lamina .vacia{display:grid;place-items:center;aspect-ratio:4/3;padding:1rem;text-align:center;
   color:var(--tinta-suave);font-style:italic}
 .sello{display:inline-block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;
