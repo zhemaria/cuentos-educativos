@@ -172,7 +172,10 @@ h2{font-size:1.4rem;margin:2rem 0 .9rem}
 /* --- Libro de cada grado ---------------------------------------- */
 .portada-libro{text-align:center;padding:1rem 0 1.5rem;border-bottom:3px double var(--tinta);margin-bottom:1.5rem}
 .portada-libro h1{font-size:clamp(2.1rem,8vw,3.2rem)}
-.portada-libro .subtitulo{font-size:1.2rem;color:var(--tinta-suave);margin:.2rem 0 1.2rem;font-style:italic}
+.portada-libro .subtitulo{font-size:1.2rem;color:var(--tinta-suave);margin:.2rem 0 .6rem;font-style:italic}
+.portada-libro .base{display:inline-block;font-size:.9rem;font-weight:700;color:var(--verde-hondo);background:var(--verde-claro);
+  border-radius:999px;padding:.3rem .9rem;margin:0 0 1.2rem}
+.base-sitio{font-size:.95rem;font-weight:700;color:var(--verde-hondo);margin:-.6rem 0 1.2rem}
 .mosaico{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:0 0 1.2rem;padding:0;list-style:none}
 .mosaico li{aspect-ratio:4/3;overflow:hidden;border-radius:8px;background:#efe8da}
 .mosaico img{display:block;width:100%;height:100%;object-fit:cover}
