@@ -375,7 +375,7 @@ window.CATALOGO = [
       "tema": "The land of a place and the work of its people"
     },
     "imagen": "2do-sociales-09-ambiente-trabajo.jpg",
-    "escena": "Three people stand on a grassy riverbank watching a long line of flat barges loaded with yellow corn moving down a very wide river: on the left, a girl with long black braided hair in a blue sweater; in the middle, a gray-haired grandfather with glasses and no beard pointing at the barges; on the right, a boy with short curly brown hair and a red-and-white striped scarf; flat green farm fields and a parked car behind them, summer afternoon light"
+    "escena": "Exactly three people, only ONE adult, stand on a grassy riverbank watching a long line of flat barges loaded with yellow corn moving down a very wide river. On the left, a girl with long black braided hair in a blue sweater. In the middle, the only adult: one gray-haired grandfather with glasses and no beard, pointing at the barges. On the right, a boy with short curly brown hair and a red-and-white striped scarf. Flat green farm fields and a parked blue car behind them"
   },
   {
     "grado": 2,
