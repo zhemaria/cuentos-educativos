@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+  Cuentos educativos · Kindergarten · Estudios sociales · SS.K.CV.2
+  «Las reglas de nuestro salón»
+  Autor: José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustración: FLUX (IA)
+  Licencia: Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Las reglas de nuestro salón · Cuentos educativos</title>
+<meta name="description" content="Cuento de estudios sociales para kindergarten: las reglas del salón nos cuidan y nos ayudan a aprender, y cada niño tiene una responsabilidad.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+<link rel="stylesheet" href="cuentos-kinder.css">
+</head>
+<body class="kinder">
+<a class="salto" href="#cuento">Ir al cuento</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Ubicación">
+    <span><a href="index.html#kinder">Cuentos educativos</a> · Kindergarten · Estudios sociales</span>
+    <a class="idioma" href="k-social-studies-01-rules.html" lang="en" hreflang="en">Read in English</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Apoyos de lectura">
+    <button type="button" id="k-escuchar" class="k-grande">▶ Escuchar el cuento</button>
+    <button type="button" id="k-parar" hidden>■ Parar</button>
+    <button type="button" id="btn-imprimir">Imprimir</button>
+  </div>
+
+  <figure class="lamina">
+    <img src="k-sociales-01-reglas.jpg" width="1024" height="768"
+         alt="La maestra Luna escribe las reglas del salón en un cartel mientras Adrián levanta la mano y Génesis sonríe a su lado.">
+  </figure>
+
+  <p class="sello">Kindergarten · Estudios sociales · SS.K.CV.2</p>
+  <h1 id="titulo">Las reglas de nuestro salón</h1>
+  <p class="entrada">Un cuento sobre las reglas que nos cuidan en la escuela.</p>
+
+  <ul class="indice" aria-label="Partes de esta página">
+    <li><a href="#palabras">Palabras nuevas</a></li>
+    <li><a href="#cuento">El cuento</a></li>
+    <li><a href="#preguntas">Preguntas</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Tres palabras nuevas</h2>
+    <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-regla" aria-expanded="false"><span class="k-emoji" aria-hidden="true">📋</span><span class="k-termino">regla</span></button><p class="k-def" hidden>Algo que todos debemos hacer para estar seguros y llevarnos bien.</p></li>
+      <li><button type="button" class="k-palabra" id="g-compartir" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🤝</span><span class="k-termino">compartir</span></button><p class="k-def" hidden>Dejar que otra persona use o juegue con algo tuyo.</p></li>
+      <li><button type="button" class="k-palabra" id="g-responsabilidad" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🪴</span><span class="k-termino">responsabilidad</span></button><p class="k-def" hidden>Un trabajo que te toca hacer a ti y que otros esperan que hagas.</p></li>
+    </ul>
+    <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">El cuento</h2>
+  <div class="cuento k-cuento">
+    <p class="frase" id="f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Es el primer día de kínder. Adrián entra corriendo al salón con su dinosaurio.</span></p>
+    <p class="frase" id="f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">¡Pum! Choca con una mesa y se le caen los crayones a Génesis.</span></p>
+    <p class="frase" id="f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La maestra Luna los ayuda a recogerlos. —Vamos a hacer las reglas del salón —dice.</span></p>
+    <p class="frase" id="f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c-a">—Una <span class="k-clave" data-g="regla">regla</span> nos dice cómo portarnos para estar seguros —explica.</span></span></p>
+    <p class="frase" id="f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Primera regla: dentro del salón caminamos. Así nadie se lastima.</span></p>
+    <p class="frase" id="f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Segunda regla: levantamos la mano para hablar. Así todos podemos escuchar.</span></p>
+    <p class="frase" id="f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c-b">Tercera regla: <span class="k-clave" data-g="compartir">compartimos</span> los juguetes. Así todos pueden jugar.</span></span></p>
+    <p class="frase" id="f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Después, la maestra le da a cada niño un trabajo.</span></p>
+    <p class="frase" id="f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c-c">Adrián riega la planta. Génesis reparte los papeles. Es su <span class="k-clave" data-g="responsabilidad">responsabilidad</span>.</span></span></p>
+    <p class="frase" id="f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Ahora Adrián camina despacito. ¡Y su dinosaurio también!</span></p>
+  </div>
+
+  <h2 id="preguntas">Preguntas</h2>
+  <p>Escucha la pregunta y toca el dibujo correcto.</p>
+  <ol class="k-preguntas">
+    <li class="k-pregunta" id="pregunta-a" data-cita="c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Para qué sirve una regla?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎂</span><span class="k-etiqueta">Para comer pastel</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🛡️</span><span class="k-etiqueta">Para estar seguros y llevarnos bien</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🏃</span><span class="k-etiqueta">Para correr más rápido</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Una regla nos dice cómo portarnos para estar seguros.</p>
+    </li>
+
+    <li class="k-pregunta" id="pregunta-b" data-cita="c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Por qué compartimos los juguetes?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧸</span><span class="k-etiqueta">Para que todos puedan jugar</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🙈</span><span class="k-etiqueta">Para esconderlos</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🗑️</span><span class="k-etiqueta">Para tirarlos</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Compartimos los juguetes para que todos puedan jugar.</p>
+    </li>
+
+    <li class="k-pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Cuál es la responsabilidad de Adrián?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📄</span><span class="k-etiqueta">Repartir los papeles</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎨</span><span class="k-etiqueta">Pintar la pared</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🪴</span><span class="k-etiqueta">Regar la planta</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Adrián riega la planta. Es su trabajo en el salón.</p>
+    </li>
+
+  </ol>
+  <p class="k-estrellas" id="k-estrellas" hidden role="status" aria-live="polite"></p>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Desarrollo: Claude (Anthropic) · Ilustración generada con inteligencia artificial (FLUX).</p>
+    <p>Estándar de Illinois de Estudios Sociales SS.K.CV.2: identificar las razones de las reglas y explicar cómo establecen responsabilidades y funciones en la escuela, el hogar y la comunidad.</p>
+    <p>Obra distribuida bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+
+<p id="k-aviso" class="sr-only" aria-live="polite"></p>
+<script src="cuentos-kinder.js"></script>
+</body>
+</html>

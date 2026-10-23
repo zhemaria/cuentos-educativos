@@ -574,6 +574,78 @@ window.CATALOGO = [
     },
     "imagen": "k-ciencias-08-tormenta.jpg",
     "escena": "A cozy living room on a stormy afternoon: through a big window, dark storm clouds and heavy rain over a backyard where the toys have been put away; inside, a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, sit safe and calm on a couch watching a small TV that shows a simple weather map with a storm cloud symbol; next to the couch, a blue recycling bin with plastic bottles, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.K.CV.2",
+    "es": {
+      "titulo": "Las reglas de nuestro salón",
+      "archivo": "k-sociales-01-reglas.html",
+      "tema": "Para qué sirven las reglas"
+    },
+    "en": {
+      "titulo": "Our classroom rules",
+      "archivo": "k-social-studies-01-rules.html",
+      "tema": "Why we have rules"
+    },
+    "imagen": "k-sociales-01-reglas.jpg",
+    "escena": "A sunny kindergarten classroom with small tables and colorful rugs: a kind young kindergarten teacher with curly brown hair in a green cardigan sits with a group of children on a round rug, writing on a big poster with simple drawings of a walking child, a raised hand and two hands sharing a toy; a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, raises his hand, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, sits next to him smiling; a little green plant on the windowsill, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.K.CV.2",
+    "es": {
+      "titulo": "Un sábado con la abuela",
+      "archivo": "k-sociales-02-comunidad.html",
+      "tema": "Las reglas fuera de la escuela"
+    },
+    "en": {
+      "titulo": "A Saturday with Grandma",
+      "archivo": "k-social-studies-02-community.html",
+      "tema": "Rules outside of school"
+    },
+    "imagen": "k-sociales-02-comunidad.jpg",
+    "escena": "A friendly neighborhood street corner on a sunny Saturday: a kind grandmother with short gray hair and a purple jacket holds hands with a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, as they wait at a crosswalk; the traffic light shows a little green walking person; across the street, a small park with a slide and a red brick public library with big windows, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.K.CV.1",
+    "es": {
+      "titulo": "¿Quién nos cuida?",
+      "archivo": "k-sociales-03-quien-cuida.html",
+      "tema": "Las personas que ayudan en la comunidad"
+    },
+    "en": {
+      "titulo": "Who takes care of us?",
+      "archivo": "k-social-studies-03-helpers.html",
+      "tema": "Community helpers"
+    },
+    "imagen": "k-sociales-03-quien-cuida.jpg",
+    "escena": "In front of a cheerful brick elementary school: a friendly firefighter in a tan uniform and helmet stands beside a shiny red fire truck, showing the truck to a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head; a smiling school principal with short black hair in a navy blazer stands at the school door; at the corner, a crossing guard in a bright yellow safety vest holds a red stop sign, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.K-2.IS.7",
+    "es": {
+      "titulo": "Un nombre para el pez",
+      "archivo": "k-sociales-04-votamos.html",
+      "tema": "Decidimos juntos votando"
+    },
+    "en": {
+      "titulo": "A name for the fish",
+      "archivo": "k-social-studies-04-vote.html",
+      "tema": "Deciding together by voting"
+    },
+    "imagen": "k-sociales-04-votamos.jpg",
+    "escena": "A cozy kindergarten classroom: a small round fishbowl with one bright orange goldfish sits on a low table; next to it, a big paper chart with three columns, each topped by a simple drawing (a bubble, a sun and a little dinosaur), with colorful round stickers in each column and the bubble column clearly the tallest; a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, places a sticker on the chart, and a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, smiles and claps; a kind young kindergarten teacher with curly brown hair in a green cardigan counts the stickers, simple bright scene for a kindergarten picture book"
   }
 ];
 
