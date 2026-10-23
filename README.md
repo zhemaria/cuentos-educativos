@@ -1,6 +1,6 @@
 # Cuentos educativos
 
-Cuentos ilustrados de ciencias y estudios sociales para 2do a 6to grado, en español y en inglés, alineados con los estándares de Illinois. Cada cuento incluye vocabulario científico, glosario y preguntas de comprensión con retroalimentación inmediata.
+Cuentos ilustrados de ciencias y estudios sociales de kindergarten a 6to grado, en español y en inglés, alineados con los estándares de Illinois. Cada cuento incluye vocabulario científico, glosario y preguntas de comprensión con retroalimentación inmediata.
 
 - Portada en español: `index.html`
 - English home page: `index-en.html`

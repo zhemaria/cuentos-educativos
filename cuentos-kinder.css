@@ -1,0 +1,66 @@
+/* ==================================================================
+   Cuentos educativos · Kindergarten
+   Se carga después de cuentos.css. Solo afecta a body.kinder.
+   José M. Fernández · Licencia CC BY-NC-SA 4.0
+   https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+   ================================================================== */
+body.kinder{font-size:calc(1.3rem * var(--escala))}
+.kinder h1{font-size:2rem;line-height:1.25}
+
+/* Botón grande para escuchar */
+.kinder .apoyos .k-grande{font-size:1.1rem;font-weight:700;background:var(--verde);color:#fff;border-color:var(--verde);padding:.5rem 1.2rem}
+.kinder .apoyos #k-parar{font-weight:700}
+
+/* Lámina que todavía no existe */
+.kinder .lamina .k-pronto{display:grid;place-items:center;aspect-ratio:4/3;text-align:center;color:var(--tinta-suave);font-size:1rem;padding:1rem}
+.kinder .lamina .k-pronto span{display:block;font-size:4rem;line-height:1.1}
+
+/* Tres palabras con dibujo */
+.k-palabras{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(6.5rem,1fr));gap:.6rem}
+.k-palabra{width:100%;display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.7rem .5rem;cursor:pointer;
+  font:inherit;font-weight:700;color:var(--verde-hondo);background:var(--papel-claro);border:2px solid var(--verde);border-radius:var(--radio);min-height:44px}
+.k-palabra .k-emoji{font-size:2.6rem;line-height:1.1}
+.k-palabra[aria-expanded="true"]{background:var(--verde-claro)}
+.k-def{margin:.4rem .2rem 0;font-size:1rem;line-height:1.45;text-align:center}
+.k-ayuda{margin:.7rem 0 0;font-size:.95rem}
+
+/* El cuento, frase por frase */
+.k-cuento .frase{display:flex;gap:.6rem;align-items:flex-start;margin:0 0 .8rem;padding:.35rem .5rem;border-radius:12px;
+  font-size:1.35em;line-height:1.55;transition:background .2s}
+.k-cuento .frase.leyendo{background:var(--marca)}
+.k-oir{flex:0 0 auto;width:44px;height:44px;border-radius:50%;border:2px solid var(--borde-fuerte);background:var(--papel-claro);
+  font-size:1.15rem;cursor:pointer;display:grid;place-items:center;padding:0;margin-top:.1rem}
+.k-clave{font-weight:700;color:var(--verde);text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:4px}
+.k-cuento .cita.resaltada{background:var(--marca);box-shadow:0 0 0 3px var(--marca);border-radius:4px}
+
+/* Preguntas con dibujos */
+.k-preguntas{list-style:none;padding:0;margin:0}
+.k-pregunta{background:var(--papel-claro);border:2px solid var(--borde);border-radius:var(--radio);padding:.8rem;margin:0 0 1rem}
+.k-enunciado{display:flex;gap:.6rem;align-items:flex-start;margin:0 0 .7rem;font-weight:700;font-size:1.15em;line-height:1.45}
+.k-enunciado .letra{flex:0 0 auto;display:inline-grid;place-items:center;width:2rem;height:2rem;border-radius:50%;
+  background:var(--verde);color:#fff;font-size:1rem;margin-top:.35rem}
+.k-opciones{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.6rem}
+.k-opcion{display:flex;flex-direction:column;align-items:center;gap:.3rem;padding:.6rem .4rem;cursor:pointer;
+  font:inherit;font-size:.95rem;line-height:1.3;color:var(--tinta);background:var(--papel);border:3px solid var(--borde-fuerte);border-radius:var(--radio);min-height:44px}
+.k-opcion .k-emoji{font-size:2.6rem;line-height:1.1}
+.k-opcion.bien{background:var(--verde-claro);border-color:var(--verde)}
+.k-opcion.mal{background:var(--rosa-claro);border-color:var(--rosa);animation:k-temblor .35s}
+.k-opcion:disabled{cursor:default}
+.k-pista{margin:.7rem 0 0;padding:.6rem .8rem;border-radius:10px;background:var(--ambar-claro);color:var(--ambar);font-weight:700}
+.k-explicacion{margin:.7rem 0 0;padding:.6rem .8rem;border-radius:10px;background:var(--verde-claro);color:var(--verde-hondo);font-weight:700}
+.k-estrellas{text-align:center;font-size:1.4rem;font-weight:700;color:var(--verde-hondo);background:var(--verde-claro);border-radius:var(--radio);padding:1rem}
+.k-estrellas .k-fila{display:block;font-size:2.6rem;letter-spacing:.2em}
+@keyframes k-temblor{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+
+@media (max-width:30rem){
+  .k-opciones{gap:.4rem}
+  .k-opcion{font-size:.85rem;padding:.5rem .25rem}
+  .k-opcion .k-emoji{font-size:2.2rem}
+  .k-cuento .frase{font-size:1.2em}
+}
+@media (prefers-reduced-motion:reduce){ .k-opcion.mal{animation:none} .k-cuento .frase{transition:none} }
+@media print{
+  .kinder .apoyos,.k-oir,.k-ayuda{display:none!important}
+  .k-def,.k-explicacion{display:block!important}
+  .k-pregunta{break-inside:avoid}
+}

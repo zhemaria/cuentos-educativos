@@ -1,6 +1,6 @@
 /* ==================================================================
    Cuentos educativos · Catálogo
-   Una entrada por cuento. Alimenta las portadas (index.html e
+   Una entrada por cuento. Kindergarten va como grado 0. Alimenta las portadas (index.html e
    index-en.html), el futuro libro de cada grado y el taller de láminas.
    Licencia CC BY-NC-SA 4.0
    ================================================================== */
@@ -430,6 +430,78 @@ window.CATALOGO = [
     },
     "imagen": "2do-sociales-12-repaso.jpg",
     "escena": "A cheerful neighborhood block party on a sunny street in front of a community garden: in the center, a girl with long black braided hair in a blue sweater and a boy with short curly brown hair and a red-and-white striped scarf proudly hold up a giant hand-drawn colorful map of their neighborhood with little drawings of a park, a garden, a bakery and a lake; around them, a gray-haired grandfather with glasses and no beard, an older woman in a wheelchair clapping, a baker in a white apron holding a tray of bread, and a teacher with short gray hair and glasses; string lights and balloons"
+  },
+  {
+    "grado": 0,
+    "area": "ciencias",
+    "orden": 1,
+    "estandar": "K-PS2-1",
+    "es": {
+      "titulo": "El carrito del dinosaurio",
+      "archivo": "k-ciencias-01-empujar.html",
+      "tema": "Empujar y jalar"
+    },
+    "en": {
+      "titulo": "The dinosaur's wagon",
+      "archivo": "k-science-01-push-pull.html",
+      "tema": "Pushes and pulls"
+    },
+    "imagen": "k-ciencias-01-empujar.jpg",
+    "escena": "On a sunny park path, a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, pushes a little red toy wagon from behind; inside the wagon rides a second green plush dinosaur; in front of the wagon, a small girl with black hair in a salmon-pink sundress, hugging a brown teddy bear with a small pink bow on its head, pulls the wagon gently by its rope; a small puddle on the path beside them, green grass and trees, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "ciencias",
+    "orden": 2,
+    "estandar": "K-PS2-2",
+    "es": {
+      "titulo": "La pelota que no llegaba",
+      "archivo": "k-ciencias-02-rampa.html",
+      "tema": "Una rampa para la pelota"
+    },
+    "en": {
+      "titulo": "The ball that would not roll",
+      "archivo": "k-science-02-ramp.html",
+      "tema": "A ramp for the ball"
+    },
+    "imagen": "k-ciencias-02-rampa.jpg",
+    "escena": "In a cozy home hallway with a wooden floor, a small girl with black hair in a salmon-pink sundress, hugging a brown teddy bear with a small pink bow on its head, and a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, kneel beside a ramp made of a flat wooden board resting on a stack of three picture books; a red ball rolls down the ramp toward an open toy box on the side, and a small wooden block on the floor bends its path; the brown teddy bear with a pink bow sits watching near the toy box, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "ciencias",
+    "orden": 3,
+    "estandar": "K-PS3-1",
+    "es": {
+      "titulo": "La acera que quemaba",
+      "archivo": "k-ciencias-03-sol.html",
+      "tema": "El sol calienta"
+    },
+    "en": {
+      "titulo": "The hot sidewalk",
+      "archivo": "k-science-03-sunlight.html",
+      "tema": "The sun warms things"
+    },
+    "imagen": "k-ciencias-03-sol.jpg",
+    "escena": "A bright summer backyard: a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, barefoot, hops on one foot on a sunny concrete sidewalk with a surprised face; a small girl with black hair in a salmon-pink sundress, hugging a brown teddy bear with a small pink bow on its head, barefoot, stands smiling on the same sidewalk in the cool shadow of a big leafy tree; the green plush dinosaur sits in the sunshine and the teddy bear sits in the shade; a pair of small red sandals nearby, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "ciencias",
+    "orden": 4,
+    "estandar": "K-PS3-2",
+    "es": {
+      "titulo": "Una sombra para Pelusa",
+      "archivo": "k-ciencias-04-sombra.html",
+      "tema": "Hacer sombra para refrescar"
+    },
+    "en": {
+      "titulo": "Shade for Pelusa",
+      "archivo": "k-science-04-shade.html",
+      "tema": "Making shade to stay cool"
+    },
+    "imagen": "k-ciencias-04-sombra.jpg",
+    "escena": "A sunny backyard lawn: a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sundress, hugging a brown teddy bear with a small pink bow on its head, proudly stand beside a simple shade shelter they built from a thick white bedsheet stretched over four wooden sticks; underneath, in the cool shade, a happy fluffy cream-colored puppy lies wagging its tail next to a water bowl; a thin striped towel lies on the grass nearby, simple bright scene for a kindergarten picture book"
   }
 ];
 

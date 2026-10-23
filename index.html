@@ -10,7 +10,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cuentos educativos</title>
-<meta name="description" content="Cuentos ilustrados de ciencias y estudios sociales para 2do a 6to grado, con vocabulario y preguntas de comprensión.">
+<meta name="description" content="Cuentos ilustrados de ciencias y estudios sociales de kindergarten a 6to grado, con vocabulario y preguntas de comprensión.">
 <meta name="author" content="José M. Fernández">
 <meta name="license" content="CC BY-NC-SA 4.0">
 <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
@@ -44,19 +44,20 @@
 <script>
 (function(){
   'use strict';
-  var GRADOS = [2,3,4,5,6];
+  var GRADOS = [0,2,3,4,5,6];
   var AREAS = [['ciencias','Ciencias'],['sociales','Estudios sociales']];
-  var NOMBRE = {2:'2do grado',3:'3er grado',4:'4to grado',5:'5to grado',6:'6to grado'};
+  var NOMBRE = {0:'Kindergarten',2:'2do grado',3:'3er grado',4:'4to grado',5:'5to grado',6:'6to grado'};
   var cat = (window.CATALOGO || []).slice().sort(function(a,b){ return a.orden - b.orden; });
   function esc(s){ var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 
   var indice = '', html = '';
+  function ancla(g){ return g === 0 ? 'kinder' : 'grado-' + g; }
   GRADOS.forEach(function(g){
-    indice += '<li><a href="#grado-' + g + '">' + NOMBRE[g] + '</a></li>';
-    html += '<section class="grado" id="grado-' + g + '" aria-labelledby="t-grado-' + g + '"><h2 id="t-grado-' + g + '">' + NOMBRE[g] + '</h2>';
+    indice += '<li><a href="#' + ancla(g) + '">' + NOMBRE[g] + '</a></li>';
+    html += '<section class="grado" id="' + ancla(g) + '" aria-labelledby="t-grado-' + g + '"><h2 id="t-grado-' + g + '">' + NOMBRE[g] + '</h2>';
     AREAS.forEach(function(a){
       var lista = cat.filter(function(c){ return c.grado === g && c.area === a[0]; });
-      html += '<div class="area" id="grado-' + g + '-' + a[0] + '"><h3>' + a[1] + '</h3>';
+      html += '<div class="area" id="' + ancla(g) + '-' + a[0] + '"><h3>' + a[1] + '</h3>';
       var libro = (window.LIBROS || []).filter(function(l){ return l.grado === g && l.area === a[0]; })[0];
       if(libro){ html += '<p><a class="idioma" href="' + esc(libro.es) + '"><span aria-hidden="true">📖</span> Leer el libro completo</a></p>'; }
       if(!lista.length){ html += '<p class="pronto">Próximamente.</p>'; }
