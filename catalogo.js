@@ -502,6 +502,78 @@ window.CATALOGO = [
     },
     "imagen": "k-ciencias-04-sombra.jpg",
     "escena": "A sunny backyard lawn: a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sundress, hugging a brown teddy bear with a small pink bow on its head, proudly stand beside a simple shade shelter they built from a thick white bedsheet stretched over four wooden sticks; underneath, in the cool shade, a happy fluffy cream-colored puppy lies wagging its tail next to a water bowl; a thin striped towel lies on the grass nearby, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "ciencias",
+    "orden": 5,
+    "estandar": "K-LS1-1",
+    "es": {
+      "titulo": "La matita y la tortuga",
+      "archivo": "k-ciencias-05-necesitan.html",
+      "tema": "Lo que necesitan las plantas y los animales"
+    },
+    "en": {
+      "titulo": "The little plant and the turtle",
+      "archivo": "k-science-05-needs.html",
+      "tema": "What plants and animals need"
+    },
+    "imagen": "k-ciencias-05-necesitan.jpg",
+    "escena": "A sunny kitchen: on the left, a small girl with black hair in a salmon-pink sundress, hugging a brown teddy bear with a small pink bow on its head, waters a small green bean plant in a pot on the windowsill with a little watering can; a second bean plant, pale yellow and droopy, sits in a dark corner of the counter; on the right, a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, drops food flakes into a small glass tank where a happy green pet turtle swims, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "K-ESS2-1",
+    "es": {
+      "titulo": "El calendario del tiempo",
+      "archivo": "k-ciencias-06-tiempo.html",
+      "tema": "El tiempo de cada día"
+    },
+    "en": {
+      "titulo": "The weather calendar",
+      "archivo": "k-science-06-weather.html",
+      "tema": "Weather every day"
+    },
+    "imagen": "k-ciencias-06-tiempo.jpg",
+    "escena": "A cheerful kindergarten classroom wall with a big hand-drawn weather chart for the week showing little drawings of a sun, a cloud, a rain cloud and a snowflake in a row of boxes; on the left, a small boy with jet-black hair in a red sweater and red rain boots, holding his green plush toy dinosaur, sticks a paper sun on the chart; on the right, a small girl with black hair in a salmon-pink raincoat, hugging a brown teddy bear with a small pink bow on its head, points at a window where raindrops slide down the glass, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "K-ESS2-2 · K-ESS3-1",
+    "es": {
+      "titulo": "La ardilla que cambia su parque",
+      "archivo": "k-ciencias-07-ardilla.html",
+      "tema": "Dónde y cómo viven los animales"
+    },
+    "en": {
+      "titulo": "The squirrel who changed the park",
+      "archivo": "k-science-07-squirrel.html",
+      "tema": "Where and how animals live"
+    },
+    "imagen": "k-ciencias-07-ardilla.jpg",
+    "escena": "An autumn park with orange and yellow leaves: a busy gray squirrel digs a small hole in the ground to bury an acorn, and a round nest of leaves and twigs sits high in an oak tree; on a park bench, a small boy with jet-black hair in a red sweater and red rain boots, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink raincoat, hugging a brown teddy bear with a small pink bow on its head, watch the squirrel with big curious eyes; a little pond with ducks in the background, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "K-ESS3-2 · K-ESS3-3",
+    "es": {
+      "titulo": "Preparados para la tormenta",
+      "archivo": "k-ciencias-08-tormenta.html",
+      "tema": "El tiempo fuerte y cuidar la Tierra"
+    },
+    "en": {
+      "titulo": "Ready for the storm",
+      "archivo": "k-science-08-storm.html",
+      "tema": "Severe weather and caring for the Earth"
+    },
+    "imagen": "k-ciencias-08-tormenta.jpg",
+    "escena": "Two halves of one cozy scene: on the left, through a living room window, dark storm clouds and rain over a backyard where the toys have been put away; inside, a small boy with jet-black hair in a red sweater and red rain boots, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink raincoat, hugging a brown teddy bear with a small pink bow on its head, sit safe on a couch watching a small TV that shows a simple weather map with a storm cloud symbol; on the right side of the room, a blue recycling bin with plastic bottles and a kitchen faucet that is turned off, simple bright scene for a kindergarten picture book"
   }
 ];
 
