@@ -447,7 +447,7 @@ window.CATALOGO = [
       "tema": "Pushes and pulls"
     },
     "imagen": "k-ciencias-01-empujar.jpg",
-    "escena": "On a sunny park path, a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, pushes a little red toy wagon from behind; inside the wagon rides a second green plush dinosaur; in front of the wagon, a small girl with black hair in a salmon-pink sundress, hugging a brown teddy bear with a small pink bow on its head, pulls the wagon gently by its rope; a small puddle on the path beside them, green grass and trees, simple bright scene for a kindergarten picture book"
+    "escena": "On a sunny park path: on the left, a small boy with jet-black hair in a red t-shirt stands behind a little red toy wagon with both hands on its back edge, pushing it forward; his green plush toy dinosaur rides inside the wagon, and it is the only dinosaur in the picture; on the right, at the front of the wagon, a small girl with black hair in a salmon-pink sundress, hugging a brown teddy bear with a small pink bow on its head, pulls the wagon gently by its rope with her free hand; a small puddle on the path ahead of the wagon, green grass and trees, simple bright scene for a kindergarten picture book"
   },
   {
     "grado": 0,
