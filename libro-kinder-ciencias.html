@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<!--
+  Cuentos educativos · Libro · Ciencias · Kindergarten
+  José M. Fernández · Claude (Anthropic)
+  Licencia: Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ciencias · Kindergarten · Cuentos educativos</title>
+<meta name="description" content="Libro en línea de ciencias de kindergarten: 8 cuentos cortos leídos en voz alta, con palabras nuevas y preguntas con dibujos.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+<link rel="stylesheet" href="cuentos-kinder.css">
+</head>
+<body class="kinder">
+<a class="salto" href="#indice">Ir al índice</a>
+<main class="hoja">
+
+  <nav class="migas" aria-label="Ubicación">
+    <span><a href="index.html#kinder">Cuentos educativos</a> · Kindergarten · Ciencias</span>
+    <a class="idioma" href="book-kindergarten-science.html" lang="en" hreflang="en">Read in English</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Apoyos de lectura">
+    <button type="button" id="btn-imprimir">Imprimir o guardar en PDF</button>
+  </div>
+
+  <header class="portada-libro">
+    <p class="sello">Libro · Kindergarten</p>
+    <h1>Ciencias</h1>
+    <p class="subtitulo">Cuentos de Adrián y Génesis</p>
+    <p class="base">Basado en los Estándares de Aprendizaje de Ciencias de Illinois (NGSS)</p>
+    <nav aria-label="Elige un cuento">
+      <ul class="mosaico">
+        <li><a href="#capitulo-1"><img src="k-ciencias-01-empujar.jpg" alt="Capítulo 1: El carrito del dinosaurio" loading="lazy"></a></li>
+        <li><a href="#capitulo-2"><img src="k-ciencias-02-rampa.jpg" alt="Capítulo 2: La pelota que no llegaba" loading="lazy"></a></li>
+        <li><a href="#capitulo-3"><img src="k-ciencias-03-sol.jpg" alt="Capítulo 3: La acera que quemaba" loading="lazy"></a></li>
+        <li><a href="#capitulo-4"><img src="k-ciencias-04-sombra.jpg" alt="Capítulo 4: Una sombra para Pelusa" loading="lazy"></a></li>
+        <li><a href="#capitulo-5"><img src="k-ciencias-05-necesitan.jpg" alt="Capítulo 5: La matita y la tortuga" loading="lazy"></a></li>
+        <li><a href="#capitulo-6"><img src="k-ciencias-06-tiempo.jpg" alt="Capítulo 6: El calendario del tiempo" loading="lazy"></a></li>
+        <li><a href="#capitulo-7"><img src="k-ciencias-07-ardilla.jpg" alt="Capítulo 7: La ardilla que cambia su parque" loading="lazy"></a></li>
+        <li><a href="#capitulo-8"><img src="k-ciencias-08-tormenta.jpg" alt="Capítulo 8: Preparados para la tormenta" loading="lazy"></a></li>
+      </ul>
+    </nav>
+    <p class="pista">Toca una ilustración o un título para abrir su cuento.</p>
+    <p class="creditos">José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustraciones generadas con inteligencia artificial</p>
+  </header>
+
+  <h2 id="indice" tabindex="-1">Índice</h2>
+  <div class="acordeon">
+  <details class="capitulo" id="capitulo-1" data-capitulo="1" name="libro">
+    <summary><span class="num" aria-hidden="true">1</span><span class="cab"><h2 id="c1-titulo"><span class="sr-only">Capítulo 1: </span><span class="titulo-cap">El carrito del dinosaurio</span></h2><small>Empujar y jalar</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="k-ciencias-01-empujar.jpg" width="1024" height="768"
+         alt="Adrián empuja un carrito rojo con su dinosaurio de peluche mientras Génesis lo jala de la cuerda en el parque.">
+  </figure>
+    <p class="sello">Kindergarten · Ciencias · K-PS2-1</p>
+    <p class="entrada">Un cuento sobre empujar, jalar y cómo se mueven las cosas.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="k-ciencias-01-empujar.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c1-empujar" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🛒</span><span class="k-termino">empujar</span></button><p class="k-def" hidden>Mover algo para alejarlo de ti.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c1-jalar" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🪢</span><span class="k-termino">jalar</span></button><p class="k-def" hidden>Mover algo para traerlo hacia ti.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c1-direccion" aria-expanded="false"><span class="k-emoji" aria-hidden="true">↪️</span><span class="k-termino">dirección</span></button><p class="k-def" hidden>El camino hacia donde va algo.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c1-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián tiene un dinosaurio de peluche.</span></p>
+    <p class="frase" id="c1-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Quiere llevarlo al parque en su carrito rojo.</span></p>
+    <p class="frase" id="c1-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián pone las manos detrás del carrito y lo <span class="k-clave" data-g="empujar">empuja</span>.</span></p>
+    <p class="frase" id="c1-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">¡El carrito se aleja de él!</span></p>
+    <p class="frase" id="c1-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis toma la cuerda del carrito y <span class="k-clave" data-g="jalar">jala</span>.</span></p>
+    <p class="frase" id="c1-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c1-c-a">¡El carrito viene hacia ella!</span></span></p>
+    <p class="frase" id="c1-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián empuja el carrito despacito. El carrito se mueve un poquito.</span></p>
+    <p class="frase" id="c1-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c1-c-b">Después lo empuja fuerte. ¡El carrito va rápido y llega lejos!</span></span></p>
+    <p class="frase" id="c1-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">¡Uy! El carrito va derecho hacia un charco.</span></p>
+    <p class="frase" id="c1-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c1-c-c">Adrián lo empuja de lado, y el carrito cambia de <span class="k-clave" data-g="direccion">dirección</span>.</span></span></p>
+    <p class="frase" id="c1-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Salvamos al dinosaurio! —ríe Adrián.</span></p>
+    <p class="frase" id="c1-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Un empujón o un jalón puede mover las cosas y cambiar su camino.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c1-pregunta-a" data-cita="c1-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Qué pasa cuando Génesis jala la cuerda?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🛑</span><span class="k-etiqueta">El carrito se queda quieto</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">⬅️</span><span class="k-etiqueta">El carrito viene hacia ella</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎈</span><span class="k-etiqueta">El carrito sale volando</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Al jalar, el carrito viene hacia Génesis.</p>
+    </li>
+
+    <li class="k-pregunta" id="c1-pregunta-b" data-cita="c1-c-b" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Cuándo llega más lejos el carrito?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🤏</span><span class="k-etiqueta">Con un empujón suave</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">😴</span><span class="k-etiqueta">Cuando nadie lo toca</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">💪</span><span class="k-etiqueta">Con un empujón fuerte</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Con un empujón fuerte, el carrito va rápido y llega lejos.</p>
+    </li>
+
+    <li class="k-pregunta" id="c1-pregunta-c" data-cita="c1-c-c" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Cómo salvó Adrián al dinosaurio del charco?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">↪️</span><span class="k-etiqueta">Empujó el carrito de lado</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌧️</span><span class="k-etiqueta">Esperó a que lloviera</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍦</span><span class="k-etiqueta">Se comió un helado</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Lo empujó de lado y el carrito cambió de dirección.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-PS2-1: comparar cómo se mueve un objeto con empujones y jalones de distinta fuerza y dirección.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  <details class="capitulo" id="capitulo-2" data-capitulo="2" name="libro">
+    <summary><span class="num" aria-hidden="true">2</span><span class="cab"><h2 id="c2-titulo"><span class="sr-only">Capítulo 2: </span><span class="titulo-cap">La pelota que no llegaba</span></h2><small>Una rampa para la pelota</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="k-ciencias-02-rampa.jpg" width="1024" height="768"
+         alt="Génesis y Adrián, de rodillas en el pasillo, sueltan una pelota roja por una rampa hecha con una tabla y tres libros.">
+  </figure>
+    <p class="sello">Kindergarten · Ciencias · K-PS2-2</p>
+    <p class="entrada">Un cuento sobre una rampa y una pelota muy viajera.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="k-ciencias-02-rampa.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c2-rampa" aria-expanded="false"><span class="k-emoji" aria-hidden="true">📐</span><span class="k-termino">rampa</span></button><p class="k-def" hidden>Una tabla inclinada: un lado está alto y el otro bajo.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c2-direccion" aria-expanded="false"><span class="k-emoji" aria-hidden="true">↪️</span><span class="k-termino">dirección</span></button><p class="k-def" hidden>El camino hacia donde va algo.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c2-diseno" aria-expanded="false"><span class="k-emoji" aria-hidden="true">📝</span><span class="k-termino">diseño</span></button><p class="k-def" hidden>Un plan que hacemos y probamos para resolver un problema.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c2-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis y Adrián juegan con una pelota roja en el pasillo.</span></p>
+    <p class="frase" id="c2-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián pone la pelota en el suelo, pero casi no se mueve.</span></p>
+    <p class="frase" id="c2-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Hagamos una <span class="k-clave" data-g="rampa">rampa</span>! —dice Génesis.</span></p>
+    <p class="frase" id="c2-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Ponen una tabla encima de un libro.</span></p>
+    <p class="frase" id="c2-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián suelta la pelota arriba de la rampa. ¡La pelota baja y rueda!</span></p>
+    <p class="frase" id="c2-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¿Y si la rampa es más alta? —pregunta Adrián. Ponen tres libros.</span></p>
+    <p class="frase" id="c2-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c2-c-a">Ahora la pelota baja más rápido y llega más lejos: ¡hasta la puerta!</span></span></p>
+    <p class="frase" id="c2-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Ahora quieren que la pelota entre en la caja de juguetes, que está a un lado.</span></p>
+    <p class="frase" id="c2-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c2-c-b">Génesis pone un bloque en el camino. La pelota choca, cambia de <span class="k-clave" data-g="direccion">dirección</span> y entra en la caja.</span></span></p>
+    <p class="frase" id="c2-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Nuestro <span class="k-clave" data-g="diseno">diseño</span> funciona! —gritan los dos.</span></p>
+    <p class="frase" id="c2-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c2-c-c">Para saber si funcionaba, lo probaron muchas veces y miraron hasta dónde llegaba la pelota.</span></span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c2-pregunta-a" data-cita="c2-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Qué pasó cuando la rampa fue más alta?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🐢</span><span class="k-etiqueta">La pelota fue más despacio</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">💨</span><span class="k-etiqueta">La pelota fue más rápido y más lejos</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🛑</span><span class="k-etiqueta">La pelota no se movió</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Con la rampa más alta, la pelota bajó más rápido y llegó hasta la puerta.</p>
+    </li>
+
+    <li class="k-pregunta" id="c2-pregunta-b" data-cita="c2-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Cómo hicieron que la pelota entrara en la caja?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧱</span><span class="k-etiqueta">Pusieron un bloque en el camino</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎈</span><span class="k-etiqueta">Inflaron la pelota</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧸</span><span class="k-etiqueta">La osita la cargó</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>El bloque le cambió la dirección a la pelota, y la pelota entró en la caja.</p>
+    </li>
+
+    <li class="k-pregunta" id="c2-pregunta-c" data-cita="c2-c-c" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Cómo supieron que su diseño funcionaba?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">😴</span><span class="k-etiqueta">Se fueron a dormir</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎨</span><span class="k-etiqueta">Lo pintaron de rojo</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔁</span><span class="k-etiqueta">Lo probaron muchas veces</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Lo probaron muchas veces y miraron hasta dónde llegaba la pelota.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-PS2-2: comprobar si un diseño sirve para cambiar la rapidez o la dirección de un objeto con un empujón o un jalón.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  <details class="capitulo" id="capitulo-3" data-capitulo="3" name="libro">
+    <summary><span class="num" aria-hidden="true">3</span><span class="cab"><h2 id="c3-titulo"><span class="sr-only">Capítulo 3: </span><span class="titulo-cap">La acera que quemaba</span></h2><small>El sol calienta</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="k-ciencias-03-sol.jpg" width="1024" height="768"
+         alt="Adrián salta descalzo sobre la acera caliente al sol mientras Génesis está fresca en la sombra de un árbol.">
+  </figure>
+    <p class="sello">Kindergarten · Ciencias · K-PS3-1</p>
+    <p class="entrada">Un cuento sobre el sol, la sombra y unos pies descalzos.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="k-ciencias-03-sol.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c3-sol" aria-expanded="false"><span class="k-emoji" aria-hidden="true">☀️</span><span class="k-termino">sol</span></button><p class="k-def" hidden>La estrella que nos da luz y calor durante el día.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c3-sombra" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🌳</span><span class="k-termino">sombra</span></button><p class="k-def" hidden>Un lugar oscuro y fresco donde algo tapa la luz del sol.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c3-calentar" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🔥</span><span class="k-termino">calentar</span></button><p class="k-def" hidden>Poner algo más caliente.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c3-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Es un día de verano. Adrián y Génesis salen al patio descalzos.</span></p>
+    <p class="frase" id="c3-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Ay, ay, ay! —salta Adrián—. ¡La acera quema!</span></p>
+    <p class="frase" id="c3-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c3-c-a">La acera que está bajo el <span class="k-clave" data-g="sol">sol</span> está muy caliente.</span></span></p>
+    <p class="frase" id="c3-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis camina hasta la <span class="k-clave" data-g="sombra">sombra</span> del árbol. —Aquí está fresquita —dice.</span></p>
+    <p class="frase" id="c3-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Tocan la acera con la mano. En el sol, caliente. En la sombra, fresca.</span></p>
+    <p class="frase" id="c3-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián deja su dinosaurio en el sol. Génesis deja su osita en la sombra.</span></p>
+    <p class="frase" id="c3-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c3-c-b">Al rato, el dinosaurio está calientito y la osita sigue fresca.</span></span></p>
+    <p class="frase" id="c3-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¿Por qué? —pregunta Adrián.</span></p>
+    <p class="frase" id="c3-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—Porque el sol <span class="k-clave" data-g="calentar">calienta</span> las cosas que toca —dice Génesis.</span></p>
+    <p class="frase" id="c3-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c3-c-c">El sol calienta la acera, la arena, el agua y hasta a tu dinosaurio.</span></span></p>
+    <p class="frase" id="c3-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián se pone sus sandalias. ¡Ya no quema!</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c3-pregunta-a" data-cita="c3-c-a" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Cómo estaba la acera bajo el sol?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧊</span><span class="k-etiqueta">Fría como el hielo</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">💧</span><span class="k-etiqueta">Mojada</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔥</span><span class="k-etiqueta">Muy caliente</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La acera que estaba bajo el sol estaba muy caliente.</p>
+    </li>
+
+    <li class="k-pregunta" id="c3-pregunta-b" data-cita="c3-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Cómo estaba el dinosaurio que se quedó al sol?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🥵</span><span class="k-etiqueta">Calientito</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🥶</span><span class="k-etiqueta">Muy frío</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌈</span><span class="k-etiqueta">De colores</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>El sol calentó al dinosaurio. La osita, en la sombra, siguió fresca.</p>
+    </li>
+
+    <li class="k-pregunta" id="c3-pregunta-c" data-cita="c3-c-c" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Qué cosas calienta el sol?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌙</span><span class="k-etiqueta">Solo la luna</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">☀️</span><span class="k-etiqueta">La acera, la arena y el agua</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">❄️</span><span class="k-etiqueta">Nada</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>El sol calienta la acera, la arena, el agua y todo lo que toca.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-PS3-1: observar el efecto de la luz del sol sobre la superficie de la Tierra.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  <details class="capitulo" id="capitulo-4" data-capitulo="4" name="libro">
+    <summary><span class="num" aria-hidden="true">4</span><span class="cab"><h2 id="c4-titulo"><span class="sr-only">Capítulo 4: </span><span class="titulo-cap">Una sombra para Pelusa</span></h2><small>Hacer sombra para refrescar</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="k-ciencias-04-sombra.jpg" width="1024" height="768"
+         alt="Adrián y Génesis, orgullosos junto a la sombra de sábana y palos que construyeron; debajo descansa un cachorrito feliz.">
+  </figure>
+    <p class="sello">Kindergarten · Ciencias · K-PS3-2</p>
+    <p class="entrada">Un cuento sobre un cachorrito con calor y una sombra hecha a mano.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="k-ciencias-04-sombra.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c4-sombra" aria-expanded="false"><span class="k-emoji" aria-hidden="true">⛱️</span><span class="k-termino">sombra</span></button><p class="k-def" hidden>Un lugar oscuro y fresco donde algo tapa la luz del sol.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c4-fresco" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🍃</span><span class="k-termino">fresco</span></button><p class="k-def" hidden>Un poco frío; agradable cuando hace calor.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c4-construir" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🔨</span><span class="k-termino">construir</span></button><p class="k-def" hidden>Hacer algo juntando partes, como palos y una sábana.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c4-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El cachorrito Pelusa juega en el patio. Hace mucho sol.</span></p>
+    <p class="frase" id="c4-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Pelusa jadea con la lengua afuera. ¡Tiene mucho calor!</span></p>
+    <p class="frase" id="c4-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Hagámosle una <span class="k-clave" data-g="sombra">sombra</span>! —dice Génesis.</span></p>
+    <p class="frase" id="c4-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián trae cuatro palos. Génesis trae una toalla delgada y una sábana gruesa.</span></p>
+    <p class="frase" id="c4-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Primero prueban con la toalla delgada. ¡La luz del sol pasa a través de ella!</span></p>
+    <p class="frase" id="c4-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c4-c-a">Luego ponen la sábana gruesa sobre los palos. Debajo hay una sombra grande.</span></span></p>
+    <p class="frase" id="c4-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Tocan el suelo con la mano.</span></p>
+    <p class="frase" id="c4-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c4-c-b">Debajo de la sábana, el suelo está más <span class="k-clave" data-g="fresco">fresco</span> que al sol.</span></span></p>
+    <p class="frase" id="c4-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Pelusa se acuesta en la sombra y mueve la cola.</span></p>
+    <p class="frase" id="c4-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Lo <span class="k-clave" data-g="construir">construimos</span> nosotros! —dice Adrián.</span></p>
+    <p class="frase" id="c4-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c4-c-c">La sábana tapa la luz del sol, y por eso el suelo de abajo se calienta menos.</span></span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c4-pregunta-a" data-cita="c4-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Qué usaron para hacer una sombra grande?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎈</span><span class="k-etiqueta">Un globo</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🛏️</span><span class="k-etiqueta">Una sábana gruesa</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧻</span><span class="k-etiqueta">Una servilleta</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Pusieron la sábana gruesa sobre los palos y debajo quedó una sombra grande.</p>
+    </li>
+
+    <li class="k-pregunta" id="c4-pregunta-b" data-cita="c4-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Cómo estaba el suelo debajo de la sábana?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍃</span><span class="k-etiqueta">Más fresco</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔥</span><span class="k-etiqueta">Más caliente</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">💧</span><span class="k-etiqueta">Lleno de agua</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Debajo de la sábana, el suelo estaba más fresco que al sol.</p>
+    </li>
+
+    <li class="k-pregunta" id="c4-pregunta-c" data-cita="c4-c-c" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Por qué la sombra se calienta menos?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎵</span><span class="k-etiqueta">Porque Pelusa canta</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌧️</span><span class="k-etiqueta">Porque está lloviendo</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">⛱️</span><span class="k-etiqueta">Porque la sábana tapa el sol</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La sábana tapa la luz del sol, y por eso el suelo de abajo se calienta menos.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-PS3-2: usar herramientas y materiales para diseñar y construir algo que reduzca el calor del sol sobre un lugar.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  <details class="capitulo" id="capitulo-5" data-capitulo="5" name="libro">
+    <summary><span class="num" aria-hidden="true">5</span><span class="cab"><h2 id="c5-titulo"><span class="sr-only">Capítulo 5: </span><span class="titulo-cap">La matita y la tortuga</span></h2><small>Lo que necesitan las plantas y los animales</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="k-ciencias-05-necesitan.jpg" width="1024" height="768"
+         alt="Génesis riega una matita junto a la ventana mientras Adrián le da comida a una tortuga en su pecera.">
+  </figure>
+    <p class="sello">Kindergarten · Ciencias · K-LS1-1</p>
+    <p class="entrada">Un cuento sobre lo que necesitan los seres vivos para vivir.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="k-ciencias-05-necesitan.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c5-agua" aria-expanded="false"><span class="k-emoji" aria-hidden="true">💧</span><span class="k-termino">agua</span></button><p class="k-def" hidden>Lo que todos los seres vivos necesitan beber o recibir para vivir.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c5-luz" aria-expanded="false"><span class="k-emoji" aria-hidden="true">☀️</span><span class="k-termino">luz</span></button><p class="k-def" hidden>Lo que nos deja ver; la luz del sol ayuda a las plantas a crecer.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c5-alimento" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🥕</span><span class="k-termino">alimento</span></button><p class="k-def" hidden>La comida que necesitan los animales y las personas.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c5-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis tiene dos matitas de frijol. Adrián tiene una tortuga que se llama Tortu.</span></p>
+    <p class="frase" id="c5-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Una matita está junto a la ventana. La otra está en un rincón oscuro.</span></p>
+    <p class="frase" id="c5-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis le da <span class="k-clave" data-g="agua">agua</span> a las dos matitas todos los días.</span></p>
+    <p class="frase" id="c5-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">A la semana, la matita de la ventana está verde y grande.</span></p>
+    <p class="frase" id="c5-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c5-c-a">La matita del rincón está pálida y caída. ¡No le llega la <span class="k-clave" data-g="luz">luz</span>!</span></span></p>
+    <p class="frase" id="c5-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis la pone junto a la ventana. Poco a poco se vuelve verde otra vez.</span></p>
+    <p class="frase" id="c5-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—Las plantas necesitan agua y luz para vivir —dice Génesis.</span></p>
+    <p class="frase" id="c5-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Tortu nada despacio hacia Adrián. ¡Tiene hambre!</span></p>
+    <p class="frase" id="c5-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c5-c-b">Adrián le da su <span class="k-clave" data-g="alimento">alimento</span> y le cambia el agua.</span></span></p>
+    <p class="frase" id="c5-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—Tortu no come luz como las plantas —se ríe Adrián—. ¡Come comida de tortuga!</span></p>
+    <p class="frase" id="c5-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c5-c-c">Las plantas necesitan agua y luz. Los animales necesitan agua y alimento.</span></span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c5-pregunta-a" data-cita="c5-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Por qué estaba pálida la matita del rincón?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎵</span><span class="k-etiqueta">Porque no oía música</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">☀️</span><span class="k-etiqueta">Porque no le llegaba la luz</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧦</span><span class="k-etiqueta">Porque tenía frío en los pies</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La matita del rincón no recibía luz, y las plantas necesitan luz para vivir.</p>
+    </li>
+
+    <li class="k-pregunta" id="c5-pregunta-b" data-cita="c5-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Qué le dio Adrián a Tortu?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🥕</span><span class="k-etiqueta">Su alimento y agua limpia</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧸</span><span class="k-etiqueta">Un osito de peluche</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔦</span><span class="k-etiqueta">Una linterna</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Adrián le dio su alimento y le cambió el agua.</p>
+    </li>
+
+    <li class="k-pregunta" id="c5-pregunta-c" data-cita="c5-c-c" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Qué necesitan los animales para vivir?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📺</span><span class="k-etiqueta">Ver la televisión</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎈</span><span class="k-etiqueta">Globos</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">💧</span><span class="k-etiqueta">Agua y alimento</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Los animales necesitan agua y alimento. Las plantas necesitan agua y luz.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-LS1-1: describir lo que necesitan las plantas y los animales (incluidas las personas) para vivir.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  <details class="capitulo" id="capitulo-6" data-capitulo="6" name="libro">
+    <summary><span class="num" aria-hidden="true">6</span><span class="cab"><h2 id="c6-titulo"><span class="sr-only">Capítulo 6: </span><span class="titulo-cap">El calendario del tiempo</span></h2><small>El tiempo de cada día</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="k-ciencias-06-tiempo.jpg" width="1024" height="768"
+         alt="Adrián pega un sol de papel en el calendario del tiempo y Génesis señala la lluvia en la ventana.">
+  </figure>
+    <p class="sello">Kindergarten · Ciencias · K-ESS2-1</p>
+    <p class="entrada">Un cuento sobre el sol, las nubes, la lluvia y la nieve.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="k-ciencias-06-tiempo.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c6-soleado" aria-expanded="false"><span class="k-emoji" aria-hidden="true">☀️</span><span class="k-termino">soleado</span></button><p class="k-def" hidden>Un día con sol y cielo azul.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c6-lluvioso" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🌧️</span><span class="k-termino">lluvioso</span></button><p class="k-def" hidden>Un día en que cae agua de las nubes.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c6-nevado" aria-expanded="false"><span class="k-emoji" aria-hidden="true">❄️</span><span class="k-termino">nevado</span></button><p class="k-def" hidden>Un día muy frío en que caen copos de nieve.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c6-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Cada mañana, Adrián y Génesis miran por la ventana.</span></p>
+    <p class="frase" id="c6-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Después pegan un dibujo en el calendario del tiempo.</span></p>
+    <p class="frase" id="c6-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El lunes el cielo está azul. Es un día <span class="k-clave" data-g="soleado">soleado</span>: pegan un sol.</span></p>
+    <p class="frase" id="c6-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c6-c-a">El martes caen gotas del cielo. Es un día <span class="k-clave" data-g="lluvioso">lluvioso</span>: pegan una nube con gotas.</span></span></p>
+    <p class="frase" id="c6-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El miércoles hay nubes grises, pero no llueve. Pegan una nube.</span></p>
+    <p class="frase" id="c6-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El jueves hace mucho frío y caen copos blancos.</span></p>
+    <p class="frase" id="c6-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c6-c-b">¡Es un día <span class="k-clave" data-g="nevado">nevado</span>! Adrián y Génesis hacen un muñeco de nieve.</span></span></p>
+    <p class="frase" id="c6-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El viernes vuelve a salir el sol. Pegan otro sol.</span></p>
+    <p class="frase" id="c6-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Al final de la semana cuentan los dibujos.</span></p>
+    <p class="frase" id="c6-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c6-c-c">—¡Hubo dos días de sol! Fue lo que más se repitió —dice Génesis.</span></span></p>
+    <p class="frase" id="c6-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Mirando el calendario, sabemos cómo ha estado el tiempo.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c6-pregunta-a" data-cita="c6-c-a" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Qué dibujo pegaron el martes?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">☀️</span><span class="k-etiqueta">Un sol</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">❄️</span><span class="k-etiqueta">Un copo de nieve</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌧️</span><span class="k-etiqueta">Una nube con gotas</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>El martes llovió, así que pegaron una nube con gotas.</p>
+    </li>
+
+    <li class="k-pregunta" id="c6-pregunta-b" data-cita="c6-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Qué hicieron el día nevado?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">⛄</span><span class="k-etiqueta">Un muñeco de nieve</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🏖️</span><span class="k-etiqueta">Fueron a la playa</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍦</span><span class="k-etiqueta">Comieron helado en el patio</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>El jueves nevó, y Adrián y Génesis hicieron un muñeco de nieve.</p>
+    </li>
+
+    <li class="k-pregunta" id="c6-pregunta-c" data-cita="c6-c-c" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Qué tiempo se repitió más en la semana?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌧️</span><span class="k-etiqueta">La lluvia</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">☀️</span><span class="k-etiqueta">El sol</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌪️</span><span class="k-etiqueta">Un tornado</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Hubo dos días de sol. Fue lo que más se repitió.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-ESS2-1: observar y anotar el tiempo de cada día para describir patrones a lo largo del tiempo.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  <details class="capitulo" id="capitulo-7" data-capitulo="7" name="libro">
+    <summary><span class="num" aria-hidden="true">7</span><span class="cab"><h2 id="c7-titulo"><span class="sr-only">Capítulo 7: </span><span class="titulo-cap">La ardilla que cambia su parque</span></h2><small>Dónde y cómo viven los animales</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="k-ciencias-07-ardilla.jpg" width="1024" height="768"
+         alt="Adrián y Génesis miran desde una banca a una ardilla que entierra una bellota; arriba, en el roble, está su nido.">
+  </figure>
+    <p class="sello">Kindergarten · Ciencias · K-ESS2-2 · K-ESS3-1</p>
+    <p class="entrada">Un cuento sobre una ardilla muy trabajadora.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="k-ciencias-07-ardilla.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c7-excavar" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🕳️</span><span class="k-termino">excavar</span></button><p class="k-def" hidden>Hacer un hoyo en la tierra.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c7-nido" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🐿️</span><span class="k-termino">nido</span></button><p class="k-def" hidden>La casita que hacen algunos animales con hojas y ramitas.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c7-refugio" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🏠</span><span class="k-termino">refugio</span></button><p class="k-def" hidden>Un lugar seguro donde un animal descansa y se protege.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c7-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Es otoño. Adrián y Génesis se sientan en una banca del parque.</span></p>
+    <p class="frase" id="c7-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Una ardilla gris corre por el pasto con una bellota en la boca.</span></p>
+    <p class="frase" id="c7-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c7-c-a">La ardilla <span class="k-clave" data-g="excavar">excava</span> un hoyito en la tierra y esconde la bellota.</span></span></p>
+    <p class="frase" id="c7-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Está guardando comida para el invierno! —dice Génesis.</span></p>
+    <p class="frase" id="c7-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Luego la ardilla sube al roble con hojas y ramitas.</span></p>
+    <p class="frase" id="c7-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c7-c-b">Arriba hace su <span class="k-clave" data-g="nido">nido</span>: una casita redonda para dormir calientita.</span></span></p>
+    <p class="frase" id="c7-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En el estanque, los patos nadan y comen plantas del agua.</span></p>
+    <p class="frase" id="c7-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c7-c-c">—Cada animal vive donde encuentra lo que necesita: comida, agua y un <span class="k-clave" data-g="refugio">refugio</span> —dice Adrián.</span></span></p>
+    <p class="frase" id="c7-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La ardilla cambió el parque: hizo hoyos y construyó un nido.</span></p>
+    <p class="frase" id="c7-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">¡Y quizá de una bellota olvidada nazca un roble nuevo!</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c7-pregunta-a" data-cita="c7-c-a" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Qué hizo la ardilla con la bellota?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🕳️</span><span class="k-etiqueta">La escondió en un hoyito</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">⚽</span><span class="k-etiqueta">Jugó a la pelota con ella</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🦆</span><span class="k-etiqueta">Se la dio a un pato</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La ardilla excavó un hoyito en la tierra y escondió la bellota.</p>
+    </li>
+
+    <li class="k-pregunta" id="c7-pregunta-b" data-cita="c7-c-b" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Para qué hizo la ardilla su nido?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎨</span><span class="k-etiqueta">Para pintar</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🏊</span><span class="k-etiqueta">Para nadar</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">😴</span><span class="k-etiqueta">Para dormir calientita</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>El nido es su casita redonda para dormir calientita.</p>
+    </li>
+
+    <li class="k-pregunta" id="c7-pregunta-c" data-cita="c7-c-c" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Dónde vive cada animal?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🚗</span><span class="k-etiqueta">Dentro de un carro</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍂</span><span class="k-etiqueta">Donde encuentra comida, agua y refugio</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🛒</span><span class="k-etiqueta">En la tienda</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Cada animal vive donde encuentra lo que necesita: comida, agua y un refugio.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-ESS2-2 · K-ESS3-1: explicar cómo los seres vivos cambian el lugar donde viven y cómo viven donde encuentran lo que necesitan.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  <details class="capitulo" id="capitulo-8" data-capitulo="8" name="libro">
+    <summary><span class="num" aria-hidden="true">8</span><span class="cab"><h2 id="c8-titulo"><span class="sr-only">Capítulo 8: </span><span class="titulo-cap">Preparados para la tormenta</span></h2><small>El tiempo fuerte y cuidar la Tierra</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina" data-video="k-ciencias-08-tormenta.mp4">
+    <img loading="lazy" src="k-ciencias-08-tormenta.jpg" width="1024" height="768"
+         alt="Adrián y Génesis, a salvo en el sofá, miran el pronóstico del tiempo mientras afuera llueve; al lado hay un bote de reciclaje.">
+  </figure>
+    <p class="k-mover"><button type="button" class="k-video">▶ Ver la lámina en movimiento</button></p>
+    <p class="sello">Kindergarten · Ciencias · K-ESS3-2 · K-ESS3-3</p>
+    <p class="entrada">Un cuento sobre una tormenta y sobre cuidar el agua y la Tierra.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="k-ciencias-08-tormenta.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c8-pronostico" aria-expanded="false"><span class="k-emoji" aria-hidden="true">📺</span><span class="k-termino">pronóstico</span></button><p class="k-def" hidden>Lo que nos dicen sobre cómo va a estar el tiempo.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c8-tormenta" aria-expanded="false"><span class="k-emoji" aria-hidden="true">⛈️</span><span class="k-termino">tormenta</span></button><p class="k-def" hidden>Mucha lluvia con viento, rayos y truenos.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c8-reciclar" aria-expanded="false"><span class="k-emoji" aria-hidden="true">♻️</span><span class="k-termino">reciclar</span></button><p class="k-def" hidden>Separar cosas usadas, como botellas, para hacer cosas nuevas.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c8-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Por la mañana, Adrián y Génesis ven el <span class="k-clave" data-g="pronostico">pronóstico</span> del tiempo en la televisión.</span></p>
+    <p class="frase" id="c8-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c8-c-a">—Hoy en la tarde habrá una <span class="k-clave" data-g="tormenta">tormenta</span> —dice la señora del tiempo.</span></span></p>
+    <p class="frase" id="c8-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c8-c-b">Por eso guardan los juguetes del patio y cierran las ventanas.</span></span></p>
+    <p class="frase" id="c8-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En la tarde, el cielo se pone oscuro. ¡Bum! Suena un trueno.</span></p>
+    <p class="frase" id="c8-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián y Génesis están a salvo dentro de la casa. Escuchan la lluvia.</span></p>
+    <p class="frase" id="c8-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Cuando pasa la tormenta, sale un arcoíris.</span></p>
+    <p class="frase" id="c8-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Antes de dormir, Adrián se lava los dientes y cierra la llave del agua.</span></p>
+    <p class="frase" id="c8-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—Así no se gasta el agua —dice.</span></p>
+    <p class="frase" id="c8-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis pone las botellas de plástico en el bote azul para <span class="k-clave" data-g="reciclar">reciclar</span>.</span></p>
+    <p class="frase" id="c8-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c8-c-c">—Cuidamos la Tierra cuando ahorramos agua y reciclamos —dice Génesis.</span></span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c8-pregunta-a" data-cita="c8-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Qué dijo la señora del tiempo?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">☀️</span><span class="k-etiqueta">Que haría mucho sol</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">⛈️</span><span class="k-etiqueta">Que habría una tormenta</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎂</span><span class="k-etiqueta">Que era su cumpleaños</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>El pronóstico dijo que en la tarde habría una tormenta.</p>
+    </li>
+
+    <li class="k-pregunta" id="c8-pregunta-b" data-cita="c8-c-b" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Qué hicieron para prepararse?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🏊</span><span class="k-etiqueta">Fueron a nadar</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🪁</span><span class="k-etiqueta">Volaron un papalote</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧸</span><span class="k-etiqueta">Guardaron los juguetes y cerraron las ventanas</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Guardaron los juguetes del patio y cerraron las ventanas.</p>
+    </li>
+
+    <li class="k-pregunta" id="c8-pregunta-c" data-cita="c8-c-c" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Cómo cuidamos la Tierra?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">♻️</span><span class="k-etiqueta">Ahorrando agua y reciclando</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🗑️</span><span class="k-etiqueta">Tirando basura al río</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🚿</span><span class="k-etiqueta">Dejando la llave abierta</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Cuidamos la Tierra cuando ahorramos agua y reciclamos.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois (NGSS) K-ESS3-2 · K-ESS3-3: usar el pronóstico del tiempo para prepararse ante el mal tiempo, y proponer maneras de reducir el impacto de las personas en la tierra, el agua, el aire y los seres vivos.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  </div>
+
+  <footer class="pie">
+    <p>José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustraciones generadas con inteligencia artificial.</p>
+    <p>Obra distribuida bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<p id="k-aviso" class="sr-only" aria-live="polite"></p>
+<script src="cuentos-kinder.js"></script>
+</body>
+</html>

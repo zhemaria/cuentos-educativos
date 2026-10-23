@@ -646,11 +646,85 @@ window.CATALOGO = [
     },
     "imagen": "k-sociales-04-votamos.jpg",
     "escena": "A cozy kindergarten classroom: a small round fishbowl with one bright orange goldfish sits on a low table; next to it, a big paper chart with three columns, each topped by a simple drawing (a bubble, a sun and a little dinosaur), with colorful round stickers in each column and the bubble column clearly the tallest; a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, places a sticker on the chart, and a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, smiles and claps; a kind young kindergarten teacher with curly brown hair in a green cardigan counts the stickers, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.K.EC.1",
+    "es": {
+      "titulo": "Un dólar para escoger",
+      "archivo": "k-sociales-05-elegir.html",
+      "tema": "No podemos tenerlo todo"
+    },
+    "en": {
+      "titulo": "One dollar to choose",
+      "archivo": "k-social-studies-05-choices.html",
+      "tema": "We can't have everything"
+    },
+    "imagen": "k-sociales-05-elegir.jpg",
+    "escena": "Inside a small, colorful neighborhood corner store: a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, stands in front of a low shelf, holding one green dollar bill and looking thoughtfully between a box of dinosaur stickers and a small ice cream freezer; next to him, a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, holds a blue ball in one hand and a box of crayons in the other, thinking; a smiling shopkeeper with a mustache and a white apron watches from behind the counter, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.K.G.1 · SS.K.G.2 · SS.K.G.3",
+    "es": {
+      "titulo": "El viaje de las manzanas",
+      "archivo": "k-sociales-06-manzanas.html",
+      "tema": "El tiempo y cómo llegan las cosas a la tienda"
+    },
+    "en": {
+      "titulo": "The apples' trip",
+      "archivo": "k-social-studies-06-apples.html",
+      "tema": "Weather, and how things get to the store"
+    },
+    "imagen": "k-sociales-06-manzanas.jpg",
+    "escena": "A cozy kitchen table on a snowy winter day: through the window, snow falls on a city street; a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, both in warm red and salmon-pink sweaters, look at a big simple hand-drawn map spread on the table, showing an apple orchard with red apple trees, a road with a small delivery truck, and a little grocery store, connected by a dotted line; a bowl of shiny red apples sits on the table, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.K.H.1",
+    "es": {
+      "titulo": "Cuando el abuelo era niño",
+      "archivo": "k-sociales-07-antes.html",
+      "tema": "Antes y ahora"
+    },
+    "en": {
+      "titulo": "When Grandpa was little",
+      "archivo": "k-social-studies-07-then-now.html",
+      "tema": "Then and now"
+    },
+    "imagen": "k-sociales-07-antes.jpg",
+    "escena": "A warm living room: a smiling grandfather with white hair and glasses sits on a sofa holding an old photo album open on his lap; a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, sit on each side of him looking at a black-and-white photo of a little boy playing with marbles; on the coffee table, an old rotary telephone next to a modern tablet, simple bright scene for a kindergarten picture book"
+  },
+  {
+    "grado": 0,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.K.H.1 · SS.K.CV.1",
+    "es": {
+      "titulo": "Los días de fiesta",
+      "archivo": "k-sociales-08-fiestas.html",
+      "tema": "Días de fiesta y personas que recordamos"
+    },
+    "en": {
+      "titulo": "Our holidays",
+      "archivo": "k-social-studies-08-holidays.html",
+      "tema": "Holidays and people we remember"
+    },
+    "imagen": "k-sociales-08-fiestas.jpg",
+    "escena": "A cheerful kindergarten classroom wall with a big paper calendar decorated by children: one drawing of a family sharing a turkey dinner around a table, one drawing of many children of different backgrounds holding hands under a big heart, and one drawing of colorful fireworks over a city at night; a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, proudly point at the drawings, simple bright scene for a kindergarten picture book"
   }
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
 window.LIBROS = [
   { grado: 2, area: 'ciencias', es: 'libro-2do-ciencias.html', en: 'book-grade2-science.html' },
+  { grado: 0, area: 'ciencias', es: 'libro-kinder-ciencias.html', en: 'book-kindergarten-science.html' },
+  { grado: 0, area: 'sociales', es: 'libro-kinder-sociales.html', en: 'book-kindergarten-social-studies.html' },
   { grado: 2, area: 'sociales', es: 'libro-2do-sociales.html', en: 'book-grade2-social-studies.html' }
 ];
