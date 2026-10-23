@@ -681,7 +681,7 @@ window.CATALOGO = [
       "tema": "Weather, and how things get to the store"
     },
     "imagen": "k-sociales-06-manzanas.jpg",
-    "escena": "A cozy kitchen table on a snowy winter day: through the window, snow falls on a city street; a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, both in warm red and salmon-pink sweaters, look at a big simple hand-drawn map spread on the table, showing an apple orchard with red apple trees, a road with a small delivery truck, and a little grocery store, connected by a dotted line; a bowl of shiny red apples sits on the table, simple bright scene for a kindergarten picture book"
+    "escena": "A cozy kitchen table on a snowy winter day: through the window, snow falls on a city street; a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, look at a big simple hand-drawn map spread on the table, showing an apple orchard with red apple trees, a road with a small delivery truck, and a little grocery store, connected by a dotted line; a bowl of shiny red apples sits on the table, simple bright scene for a kindergarten picture book"
   },
   {
     "grado": 0,
