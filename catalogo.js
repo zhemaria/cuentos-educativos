@@ -627,7 +627,7 @@ window.CATALOGO = [
       "tema": "Community helpers"
     },
     "imagen": "k-sociales-03-quien-cuida.jpg",
-    "escena": "In front of a cheerful brick elementary school: a friendly woman firefighter with a dark braid, in a tan uniform and helmet, stands beside a shiny red fire truck, showing the truck to a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head; a smiling school principal with short black hair in a navy blazer stands at the school door; at the corner, a crossing guard in a bright yellow safety vest holds a red stop sign, simple bright scene for a kindergarten picture book"
+    "escena": "In front of a cheerful brick elementary school: a friendly woman firefighter with a dark braid, in a tan uniform and helmet, stands beside a shiny red fire truck, showing the truck to a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head; a smiling man principal with short black hair in a navy blazer stands at the school door; at the corner, an older woman crossing guard with curly gray hair in a bright yellow safety vest holds a red stop sign, simple bright scene for a kindergarten picture book"
   },
   {
     "grado": 0,

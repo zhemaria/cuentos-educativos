@@ -64,3 +64,8 @@ body.kinder{font-size:calc(1.3rem * var(--escala))}
   .k-def,.k-explicacion{display:block!important}
   .k-pregunta{break-inside:avoid}
 }
+/* Botón para ver la lámina en movimiento */
+.k-mover{margin:-.6rem 0 1.2rem;text-align:center}
+.k-mover button{font:inherit;font-size:1rem;font-weight:700;min-height:44px;padding:.4rem 1rem;cursor:pointer;
+  border-radius:999px;border:2px solid var(--verde);background:var(--papel-claro);color:var(--verde)}
+@media print{ .k-mover{display:none} }

@@ -148,3 +148,26 @@
     });
   });
 })();
+
+/* ---------- Lámina en movimiento (opcional) ----------
+   Si la lámina tiene data-video, el botón la cambia por el video, con controles.
+   Nunca arranca sola: solo cuando el niño toca el botón. */
+(function(){
+  'use strict';
+  var boton = document.getElementById('k-video');
+  var fig = document.querySelector('.lamina[data-video]');
+  if(!boton || !fig) return;
+  boton.addEventListener('click', function(){
+    if('speechSynthesis' in window) speechSynthesis.cancel();
+    var img = fig.querySelector('img');
+    var v = document.createElement('video');
+    v.src = fig.getAttribute('data-video');
+    v.controls = true; v.playsInline = true; v.setAttribute('playsinline', '');
+    if(img){ v.poster = img.src; v.setAttribute('aria-label', img.alt); }
+    v.style.display = 'block'; v.style.width = '100%'; v.style.height = 'auto';
+    fig.innerHTML = ''; fig.appendChild(v);
+    boton.parentNode.hidden = true;
+    var p = v.play(); if(p && p.catch) p.catch(function(){});
+    v.focus();
+  });
+})();
