@@ -573,7 +573,7 @@ window.CATALOGO = [
       "tema": "Severe weather and caring for the Earth"
     },
     "imagen": "k-ciencias-08-tormenta.jpg",
-    "escena": "Two halves of one cozy scene: on the left, through a living room window, dark storm clouds and rain over a backyard where the toys have been put away; inside, a small boy with jet-black hair in a red sweater and red rain boots, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink raincoat, hugging a brown teddy bear with a small pink bow on its head, sit safe on a couch watching a small TV that shows a simple weather map with a storm cloud symbol; on the right side of the room, a blue recycling bin with plastic bottles and a kitchen faucet that is turned off, simple bright scene for a kindergarten picture book"
+    "escena": "A cozy living room on a stormy afternoon: through a big window, dark storm clouds and heavy rain over a backyard where the toys have been put away; inside, a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, sit safe and calm on a couch watching a small TV that shows a simple weather map with a storm cloud symbol; next to the couch, a blue recycling bin with plastic bottles, simple bright scene for a kindergarten picture book"
   }
 ];
 
