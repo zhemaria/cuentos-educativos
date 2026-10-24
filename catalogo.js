@@ -1009,6 +1009,27 @@ window.CATALOGO = [
     "escena": "On a sunny backyard patio: a kind gray-haired grandfather with glasses kneels and shows a wooden spinning top and colorful glass marbles from an old wooden box; a girl with long black braided hair, holds an old black-and-white photo of a boy, and a boy with short curly brown hair, holds a tablet showing a smiling cousin on a video call; marbles roll on the ground between them, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
   }
   /* ---- FIN PRIMER GRADO ---- */
+  ,
+  /* ---- TERCER GRADO (generado) ---- */
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 1,
+    "estandar": "3-PS2-1",
+    "es": {
+      "titulo": "El juego de la cuerda",
+      "archivo": "3ro-ciencias-01-fuerzas.html",
+      "tema": "Fuerzas equilibradas y desequilibradas"
+    },
+    "en": {
+      "titulo": "The tug-of-war",
+      "archivo": "grade3-science-01-forces.html",
+      "tema": "Balanced and unbalanced forces"
+    },
+    "imagen": "3ro-ciencias-01-fuerzas.jpg",
+    "escena": "At a sunny school field day with balloons and a banner: two teams play tug-of-war with a thick rope with a red ribbon in the middle; on one side a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, a boy about eight years old with short light brown hair and blue eyes and an African American boy with short black hair pull hard; on the other side a Latina girl about eight years old with a long black braid, an Asian American girl with a black bob and a Latina girl with curly hair pull too, while a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt and a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress run to grab the end of their rope to help; a smiling Asian American woman teacher with a whistle watches; a cardboard box sits on the grass nearby; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  }
+  /* ---- FIN TERCER GRADO ---- */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
