@@ -1118,6 +1118,114 @@ window.CATALOGO = [
     },
     "imagen": "3ro-ciencias-06-rasgos.jpg",
     "escena": "In a sunny backyard: a boy about eight years old with short light brown hair and blue eyes and a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes look at a mother golden retriever dog with her three puppies, each puppy a slightly different shade of gold; next to them, two potted bean plants sit on a table, one tall and green in the sun and one pale and thin in the shade; a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt rides a small bicycle with training wheels nearby; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "3-LS4-1",
+    "es": {
+      "titulo": "Sue y las conchas de Illinois",
+      "archivo": "3ro-ciencias-07-fosiles.html",
+      "tema": "Los fósiles nos cuentan el pasado"
+    },
+    "en": {
+      "titulo": "Sue and the Illinois seashells",
+      "archivo": "grade3-science-07-fossils.html",
+      "tema": "Fossils tell us about the past"
+    },
+    "imagen": "3ro-ciencias-07-fosiles.jpg",
+    "escena": "Inside the great hall of a natural history museum in Chicago: a huge Tyrannosaurus rex skeleton stands under bright windows; a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a Latina girl about eight years old with a long black braid look up at it with wide eyes, while a kind great-grandfather in his seventies with gray hair, glasses and a cap points at a glass case with fossil seashells and a strange fossil sea creature pressed in gray rock; other visiting families of different backgrounds walk around; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "3-LS4-2",
+    "es": {
+      "titulo": "El lagarto que se volvió invisible",
+      "archivo": "3ro-ciencias-08-camuflaje.html",
+      "tema": "Diferencias que ayudan a sobrevivir"
+    },
+    "en": {
+      "titulo": "The lizard that turned invisible",
+      "archivo": "grade3-science-08-camouflage.html",
+      "tema": "Differences that help living things survive"
+    },
+    "imagen": "3ro-ciencias-08-camuflaje.jpg",
+    "escena": "In a sunny, sandy backyard in Texas with cactus plants: a boy about eight years old with short light brown hair and blue eyes and a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes kneel and point at a horned lizard that is almost invisible against the sandy ground; on a picnic table nearby, a big sheet of newspaper is covered with small paper bugs, some bright red and yellow and some printed like newspaper; a Latina girl about eight years old with a long black braid uses tweezers to pick up the bright paper bugs while laughing; a bird watches from a fence; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 9,
+    "estandar": "3-LS4-3 · 3-LS4-4",
+    "es": {
+      "titulo": "Las ranas que volvieron",
+      "archivo": "3ro-ciencias-09-habitats.html",
+      "tema": "Cuando cambia el hábitat"
+    },
+    "en": {
+      "titulo": "The frogs that came back",
+      "archivo": "grade3-science-09-habitats.html",
+      "tema": "When a habitat changes"
+    },
+    "imagen": "3ro-ciencias-09-habitats.jpg",
+    "escena": "At a restored wetland pond in a Chicago neighborhood park: tall prairie grasses and cattails grow around the water, a green frog sits on a lily pad and a red-winged blackbird perches on a cattail; a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, a Latina girl about eight years old with a long black braid and a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt plant native flowers with small shovels next to a family of neighbors of different backgrounds, while a smiling park ranger shows a sign with a picture of the pond; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 10,
+    "estandar": "3-ESS2-1 · 3-ESS2-2",
+    "es": {
+      "titulo": "Nieve en Chicago, sol en Texas",
+      "archivo": "3ro-ciencias-10-clima.html",
+      "tema": "El tiempo atmosférico y el clima"
+    },
+    "en": {
+      "titulo": "Snow in Chicago, sun in Texas",
+      "archivo": "grade3-science-10-climate.html",
+      "tema": "Weather and climate"
+    },
+    "imagen": "3ro-ciencias-10-clima.jpg",
+    "escena": "A split scene: on the left, a snowy Chicago street in winter where a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes in a warm coat and hat holds a thermometer next to a snowman; on the right, a sunny Texas backyard in winter where a boy about eight years old with short light brown hair and blue eyes in a t-shirt holds a thermometer next to a palm tree; in the middle, a big hand-drawn bar graph of monthly temperatures with two colors floats like a poster between them; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 11,
+    "estandar": "3-ESS3-1",
+    "es": {
+      "titulo": "La casa que aguantó el viento",
+      "archivo": "3ro-ciencias-11-tormentas.html",
+      "tema": "Soluciones ante los peligros del tiempo"
+    },
+    "en": {
+      "titulo": "The house that stood up to the wind",
+      "archivo": "grade3-science-11-storms.html",
+      "tema": "Solutions for weather hazards"
+    },
+    "imagen": "3ro-ciencias-11-tormentas.jpg",
+    "escena": "In a bright third grade classroom: a diverse group of children, including a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, an African American boy and an Asian American girl, test small cardboard model houses on a table in front of a desk fan that blows paper streamers; one model has a tiny lightning rod and one sits on stilts above a tray of blue water; a smiling Asian American woman teacher holds a clipboard; on the wall, a poster shows a tornado safety sign and a weather radio; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 12,
+    "estandar": "3-PS2 · 3-LS1 · 3-LS2 · 3-LS3 · 3-LS4 · 3-ESS2 · 3-ESS3",
+    "es": {
+      "titulo": "La gran feria de ciencias",
+      "archivo": "3ro-ciencias-12-repaso.html",
+      "tema": "Repaso de todo el año"
+    },
+    "en": {
+      "titulo": "The great science fair",
+      "archivo": "grade3-science-12-review.html",
+      "tema": "Review of the whole year"
+    },
+    "imagen": "3ro-ciencias-12-repaso.jpg",
+    "escena": "A lively third grade science fair in a school gym decorated with paper banners: tables show a cardboard model house with a lightning rod, a butterfly life cycle poster, a magnet with paper clips, a fossil seashell, a bar graph of temperatures and a picture of a camouflaged lizard; a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes proudly presents at a table while a boy about eight years old with short light brown hair and blue eyes, a Latina girl about eight years old with a long black braid, a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt, a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress and a kind great-grandfather in his seventies with gray hair, glasses and a cap clap; classmates of different backgrounds and a smiling Asian American woman teacher walk between the tables; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
   }
   /* ---- FIN TERCER GRADO ---- */
 ];
@@ -1129,5 +1237,6 @@ window.LIBROS = [
   { grado: 2, area: 'ciencias', es: 'libro-2do-ciencias.html', en: 'book-grade2-science.html' },
   { grado: 0, area: 'ciencias', es: 'libro-kinder-ciencias.html', en: 'book-kindergarten-science.html' },
   { grado: 0, area: 'sociales', es: 'libro-kinder-sociales.html', en: 'book-kindergarten-social-studies.html' },
-  { grado: 2, area: 'sociales', es: 'libro-2do-sociales.html', en: 'book-grade2-social-studies.html' }
+  { grado: 2, area: 'sociales', es: 'libro-2do-sociales.html', en: 'book-grade2-social-studies.html' },
+  { grado: 3, area: 'ciencias', es: 'libro-3ro-ciencias.html', en: 'book-grade3-science.html' }
 ];
