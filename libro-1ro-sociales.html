@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<!--
+  Cuentos educativos · Libro · Estudios sociales · Primer grado
+  José M. Fernández · Claude (Anthropic)
+  Licencia: Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estudios sociales · Primer grado · Cuentos educativos</title>
+<meta name="description" content="Libro en línea de estudios sociales de primer grado: 8 cuentos cortos leídos en voz alta, con palabras nuevas y preguntas con dibujos.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+<link rel="stylesheet" href="cuentos-kinder.css">
+</head>
+<body class="kinder">
+<a class="salto" href="#indice">Ir al índice</a>
+<main class="hoja">
+
+  <nav class="migas" aria-label="Ubicación">
+    <span><a href="index.html#grado-1">Cuentos educativos</a> · Primer grado · Estudios sociales</span>
+    <a class="idioma" href="book-grade1-social-studies.html" lang="en" hreflang="en">Read in English</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Apoyos de lectura">
+    <button type="button" id="btn-imprimir">Imprimir o guardar en PDF</button>
+  </div>
+
+  <header class="portada-libro">
+    <p class="sello">Libro · Primer grado</p>
+    <h1>Estudios sociales</h1>
+    <p class="subtitulo">Cuentos de Génesis, Adrián, Israel y Lucía</p>
+    <p class="base">Basado en los Estándares de Aprendizaje de Ciencias Sociales de Illinois</p>
+    <nav aria-label="Elige un cuento">
+      <ul class="mosaico">
+        <li><a href="#capitulo-1"><img src="1ro-sociales-01-reglas.jpg" alt="Capítulo 1: Las reglas de la biblioteca" loading="lazy"></a></li>
+        <li><a href="#capitulo-2"><img src="1ro-sociales-02-comunidad.jpg" alt="Capítulo 2: Todos cuidamos el parque" loading="lazy"></a></li>
+        <li><a href="#capitulo-3"><img src="1ro-sociales-03-mapa.jpg" alt="Capítulo 3: El mapa del tesoro" loading="lazy"></a></li>
+        <li><a href="#capitulo-4"><img src="1ro-sociales-04-elegir.jpg" alt="Capítulo 4: El dólar de Israel" loading="lazy"></a></li>
+        <li><a href="#capitulo-5"><img src="1ro-sociales-05-bienes-servicios.jpg" alt="Capítulo 5: La panadería de la señora Carmen" loading="lazy"></a></li>
+        <li><a href="#capitulo-6"><img src="1ro-sociales-06-trabajo.jpg" alt="Capítulo 6: El puesto de limonada" loading="lazy"></a></li>
+        <li><a href="#capitulo-7"><img src="1ro-sociales-07-linea-tiempo.jpg" alt="Capítulo 7: El álbum de Génesis" loading="lazy"></a></li>
+        <li><a href="#capitulo-8"><img src="1ro-sociales-08-antes-ahora.jpg" alt="Capítulo 8: Cuando el abuelo era niño" loading="lazy"></a></li>
+      </ul>
+    </nav>
+    <p class="pista">Toca una ilustración o un título para abrir su cuento.</p>
+    <p class="creditos">José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustraciones generadas con inteligencia artificial</p>
+  </header>
+
+  <h2 id="indice" tabindex="-1">Índice</h2>
+  <div class="acordeon">
+  <details class="capitulo" id="capitulo-1" data-capitulo="1" name="libro">
+    <summary><span class="num" aria-hidden="true">1</span><span class="cab"><h2 id="c1-titulo"><span class="sr-only">Capítulo 1: </span><span class="titulo-cap">Las reglas de la biblioteca</span></h2><small>Reglas dentro y fuera de la escuela</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="1ro-sociales-01-reglas.jpg" width="1024" height="768"
+         alt="Lucía y Génesis leen en la biblioteca y hablan bajito, con el dedo sobre los labios.">
+  </figure>
+    <p class="sello">Primer grado · Estudios sociales · SS.1.CV.2</p>
+    <p class="entrada">Un cuento sobre las reglas de cada lugar.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="1ro-sociales-01-reglas.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c1-regla" aria-expanded="false"><span class="k-emoji" aria-hidden="true">📋</span><span class="k-termino">regla</span></button><p class="k-def" hidden>Algo que todos acordamos hacer para estar bien.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c1-biblioteca" aria-expanded="false"><span class="k-emoji" aria-hidden="true">📚</span><span class="k-termino">biblioteca</span></button><p class="k-def" hidden>Un lugar donde prestan libros.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c1-seguro" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🦺</span><span class="k-termino">seguro</span></button><p class="k-def" hidden>Sin peligro.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c1-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La clase de Lucía y Génesis fue de paseo a la <span class="k-clave" data-g="biblioteca">biblioteca</span>.</span></p>
+    <p class="frase" id="c1-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En el autobús, la maestra dijo: —Nos quedamos sentados y con el cinturón puesto.</span></p>
+    <p class="frase" id="c1-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c1-c-a">—Esa <span class="k-clave" data-g="regla">regla</span> nos mantiene <span class="k-clave" data-g="seguro">seguros</span> —dijo Lucía.</span></span></p>
+    <p class="frase" id="c1-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En la biblioteca había un letrero: «Habla en voz baja».</span></p>
+    <p class="frase" id="c1-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c1-c-b">—Aquí hablamos bajito para que todos puedan leer —susurró Génesis.</span></span></p>
+    <p class="frase" id="c1-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Las niñas escogieron libros y los trataron con cuidado.</span></p>
+    <p class="frase" id="c1-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Después fueron al parque a comer.</span></p>
+    <p class="frase" id="c1-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Allí había otra regla: «Tira la basura en el bote».</span></p>
+    <p class="frase" id="c1-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c1-c-c">Génesis tiró la envoltura de su sándwich en el bote.</span></span></p>
+    <p class="frase" id="c1-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">De regreso, Lucía pensó que cada lugar tiene sus reglas.</span></p>
+    <p class="frase" id="c1-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—En el parque podemos gritar, pero en la biblioteca no —rió.</span></p>
+    <p class="frase" id="c1-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Las reglas nos ayudan a estar seguros y a llevarnos bien en cada lugar.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c1-pregunta-a" data-cita="c1-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Para qué sirve la regla del autobús?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍭</span><span class="k-etiqueta">Para comer dulces</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🦺</span><span class="k-etiqueta">Para estar seguros</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎤</span><span class="k-etiqueta">Para cantar fuerte</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Ir sentados y con el cinturón nos mantiene seguros.</p>
+    </li>
+
+    <li class="k-pregunta" id="c1-pregunta-b" data-cita="c1-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Por qué hablan bajito en la biblioteca?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📖</span><span class="k-etiqueta">Para que todos puedan leer</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">😴</span><span class="k-etiqueta">Porque los libros duermen</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🙊</span><span class="k-etiqueta">Porque nunca se habla</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Hablar bajito deja leer a los demás.</p>
+    </li>
+
+    <li class="k-pregunta" id="c1-pregunta-c" data-cita="c1-c-c" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Qué hizo Génesis con la envoltura en el parque?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌳</span><span class="k-etiqueta">La dejó en el pasto</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🦆</span><span class="k-etiqueta">Se la dio a un pato</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🗑️</span><span class="k-etiqueta">La tiró en el bote</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Cumplió la regla del parque: la basura va en el bote.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois de Estudios Sociales SS.1.CV.2: identificar y explicar cómo funcionan las reglas en distintos lugares, dentro y fuera de la escuela.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-2" data-capitulo="2" name="libro">
+    <summary><span class="num" aria-hidden="true">2</span><span class="cab"><h2 id="c2-titulo"><span class="sr-only">Capítulo 2: </span><span class="titulo-cap">Todos cuidamos el parque</span></h2><small>Todos ayudamos en la comunidad</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="1ro-sociales-02-comunidad.jpg" width="1024" height="768"
+         alt="Israel y Adrián recogen latas para reciclar mientras los vecinos limpian y arreglan el parque.">
+  </figure>
+    <p class="sello">Primer grado · Estudios sociales · SS.1.CV.1</p>
+    <p class="entrada">Un cuento sobre cómo cada persona ayuda a su comunidad.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="1ro-sociales-02-comunidad.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c2-comunidad" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🏘️</span><span class="k-termino">comunidad</span></button><p class="k-def" hidden>Las personas que viven y trabajan cerca de ti.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c2-vecino" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🏠</span><span class="k-termino">vecino</span></button><p class="k-def" hidden>Alguien que vive cerca de tu casa.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c2-voluntario" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🙋</span><span class="k-termino">voluntario</span></button><p class="k-def" hidden>Alguien que ayuda sin que le paguen.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c2-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El parque del barrio estaba lleno de basura y hojas secas.</span></p>
+    <p class="frase" id="c2-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La alcaldesa no podía limpiarlo todo ella sola.</span></p>
+    <p class="frase" id="c2-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Entonces los <span class="k-clave" data-g="vecino">vecinos</span> decidieron ayudar el sábado.</span></p>
+    <p class="frase" id="c2-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La mamá de Israel trajo bolsas y guantes.</span></p>
+    <p class="frase" id="c2-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c2-c-a">Un señor arregló el columpio roto.</span></span></p>
+    <p class="frase" id="c2-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Israel y Adrián recogieron latas para reciclar.</span></p>
+    <p class="frase" id="c2-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Unas niñas pintaron la banca de verde.</span></p>
+    <p class="frase" id="c2-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c2-c-b">Nadie les pagó: todos eran <span class="k-clave" data-g="voluntario">voluntarios</span>.</span></span></p>
+    <p class="frase" id="c2-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Al final, el parque quedó limpio y bonito.</span></p>
+    <p class="frase" id="c2-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Lo hicimos entre todos! —gritó Adrián, con su dinosaurio en alto.</span></p>
+    <p class="frase" id="c2-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c2-c-c">—No solo los jefes ayudan —dijo la mamá de Israel—. Todos somos parte de la <span class="k-clave" data-g="comunidad">comunidad</span>.</span></span></p>
+    <p class="frase" id="c2-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Cada persona puede hacer algo importante por su comunidad.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c2-pregunta-a" data-cita="c2-c-a" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Qué arregló un señor?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🚗</span><span class="k-etiqueta">Un carro</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📺</span><span class="k-etiqueta">Una tele</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔧</span><span class="k-etiqueta">El columpio roto</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Un vecino arregló el columpio roto.</p>
+    </li>
+
+    <li class="k-pregunta" id="c2-pregunta-b" data-cita="c2-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Por qué eran voluntarios?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🤝</span><span class="k-etiqueta">Ayudaron sin que les pagaran</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">💰</span><span class="k-etiqueta">Les dieron mucho dinero</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🏆</span><span class="k-etiqueta">Ganaron un premio</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Los voluntarios ayudan sin que les paguen.</p>
+    </li>
+
+    <li class="k-pregunta" id="c2-pregunta-c" data-cita="c2-c-c" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Quiénes son parte de la comunidad?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">👑</span><span class="k-etiqueta">Solo los jefes</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">👨‍👩‍👧‍👦</span><span class="k-etiqueta">Todos</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🦖</span><span class="k-etiqueta">Solo los dinosaurios</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Todas las personas son parte de la comunidad y pueden ayudar.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois de Estudios Sociales SS.1.CV.1: explicar que todas las personas, no solo los líderes oficiales, tienen un papel importante en la comunidad.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-3" data-capitulo="3" name="libro">
+    <summary><span class="num" aria-hidden="true">3</span><span class="cab"><h2 id="c3-titulo"><span class="sr-only">Capítulo 3: </span><span class="titulo-cap">El mapa del tesoro</span></h2><small>Leer y hacer mapas</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="1ro-sociales-03-mapa.jpg" width="1024" height="768"
+         alt="Génesis sostiene un mapa del salón, Adrián señala la X y Lucía encuentra la caja del tesoro bajo la alfombra.">
+  </figure>
+    <p class="sello">Primer grado · Estudios sociales · SS.1.G.1</p>
+    <p class="entrada">Un cuento sobre cómo usar un mapa para encontrar un lugar.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="1ro-sociales-03-mapa.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c3-mapa" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🗺️</span><span class="k-termino">mapa</span></button><p class="k-def" hidden>Un dibujo de un lugar visto desde arriba.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c3-simbolo" aria-expanded="false"><span class="k-emoji" aria-hidden="true">⭐</span><span class="k-termino">símbolo</span></button><p class="k-def" hidden>Un dibujito que representa algo en el mapa.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c3-clave" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🔑</span><span class="k-termino">clave</span></button><p class="k-def" hidden>La lista que dice qué quiere decir cada símbolo.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c3-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La maestra escondió un tesoro en el salón y les dio un <span class="k-clave" data-g="mapa">mapa</span>.</span></p>
+    <p class="frase" id="c3-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El mapa era un dibujo del salón visto desde arriba, como lo vería un pájaro.</span></p>
+    <p class="frase" id="c3-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Cada mesa era un cuadrado, y la alfombra, un círculo. Eran <span class="k-clave" data-g="simbolo">símbolos</span>.</span></p>
+    <p class="frase" id="c3-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c3-c-a">En una esquina estaba la <span class="k-clave" data-g="clave">clave</span>: decía qué quería decir cada símbolo.</span></span></p>
+    <p class="frase" id="c3-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Una X roja marcaba el tesoro.</span></p>
+    <p class="frase" id="c3-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis encontró la puerta en el mapa. —¡Empezamos aquí!</span></p>
+    <p class="frase" id="c3-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c3-c-b">Siguiendo la flecha, caminaron hacia la ventana.</span></span></p>
+    <p class="frase" id="c3-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián dio vuelta al llegar al librero.</span></p>
+    <p class="frase" id="c3-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c3-c-c">Junto a la planta, debajo de la alfombra, ¡estaba la X!</span></span></p>
+    <p class="frase" id="c3-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El tesoro era una caja con calcomanías de estrellas.</span></p>
+    <p class="frase" id="c3-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Después, cada niño dibujó un mapa de su cuarto con su propia clave.</span></p>
+    <p class="frase" id="c3-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Un mapa nos ayuda a saber dónde están las cosas y a llegar a un lugar.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c3-pregunta-a" data-cita="c3-c-a" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Para qué sirve la clave del mapa?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔑</span><span class="k-etiqueta">Dice qué quiere decir cada símbolo</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🚪</span><span class="k-etiqueta">Abre la puerta</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍪</span><span class="k-etiqueta">Guarda galletas</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La clave explica los símbolos del mapa.</p>
+    </li>
+
+    <li class="k-pregunta" id="c3-pregunta-b" data-cita="c3-c-b" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Hacia dónde caminaron siguiendo la flecha?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🚽</span><span class="k-etiqueta">Hacia el baño</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🪟</span><span class="k-etiqueta">Hacia la ventana</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌳</span><span class="k-etiqueta">Al patio</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La flecha del mapa los llevó hacia la ventana.</p>
+    </li>
+
+    <li class="k-pregunta" id="c3-pregunta-c" data-cita="c3-c-c" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Dónde estaba el tesoro?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📚</span><span class="k-etiqueta">Dentro de un libro</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🛝</span><span class="k-etiqueta">En el patio</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🪴</span><span class="k-etiqueta">Junto a la planta, bajo la alfombra</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La X estaba junto a la planta, debajo de la alfombra.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois de Estudios Sociales SS.1.G.1: hacer e interpretar mapas y otras representaciones para moverse en un lugar conocido.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-4" data-capitulo="4" name="libro">
+    <summary><span class="num" aria-hidden="true">4</span><span class="cab"><h2 id="c4-titulo"><span class="sr-only">Capítulo 4: </span><span class="titulo-cap">El dólar de Israel</span></h2><small>Elegir algo y dejar otra cosa</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="1ro-sociales-04-elegir.jpg" width="1024" height="768"
+         alt="En una tienda, Israel piensa si compra una paleta o un lápiz de dinosaurio con su dólar, y Lucía lo ayuda a decidir.">
+  </figure>
+    <p class="sello">Primer grado · Estudios sociales · SS.1.EC.1</p>
+    <p class="entrada">Un cuento sobre cómo elegir cuando no podemos tenerlo todo.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="1ro-sociales-04-elegir.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c4-elegir" aria-expanded="false"><span class="k-emoji" aria-hidden="true">👉</span><span class="k-termino">elegir</span></button><p class="k-def" hidden>Escoger una cosa entre varias.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c4-decision" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🤔</span><span class="k-termino">decisión</span></button><p class="k-def" hidden>Lo que escoges después de pensar.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c4-ahorrar" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🐷</span><span class="k-termino">ahorrar</span></button><p class="k-def" hidden>Guardar dinero para después.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c4-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La abuela le dio un dólar a Israel.</span></p>
+    <p class="frase" id="c4-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En la tienda, Israel vio una paleta de fresa y un lápiz de dinosaurio.</span></p>
+    <p class="frase" id="c4-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c4-c-a">Cada cosa costaba un dólar. ¡Solo podía <span class="k-clave" data-g="elegir">elegir</span> una!</span></span></p>
+    <p class="frase" id="c4-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—Si compro la paleta, no puedo comprar el lápiz —pensó.</span></p>
+    <p class="frase" id="c4-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Lucía le dijo: —Piensa qué te sirve más.</span></p>
+    <p class="frase" id="c4-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La paleta se acaba en un ratito. El lápiz dura mucho tiempo.</span></p>
+    <p class="frase" id="c4-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c4-c-b">Israel tomó su <span class="k-clave" data-g="decision">decisión</span>: compró el lápiz.</span></span></p>
+    <p class="frase" id="c4-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">La paleta se quedó en la tienda. Eso fue lo que dejó.</span></p>
+    <p class="frase" id="c4-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Días después, Israel quiso una pelota de cinco dólares.</span></p>
+    <p class="frase" id="c4-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c4-c-c">Esta vez decidió <span class="k-clave" data-g="ahorrar">ahorrar</span> su dinero en una alcancía.</span></span></p>
+    <p class="frase" id="c4-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Mientras tanto, dibujó con su lápiz un dinosaurio para Adrián.</span></p>
+    <p class="frase" id="c4-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Cuando elegimos una cosa, dejamos otra. Por eso pensamos bien antes de decidir.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c4-pregunta-a" data-cita="c4-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Por qué Israel solo podía elegir una cosa?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🙅</span><span class="k-etiqueta">La tienda estaba cerrada</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">💵</span><span class="k-etiqueta">Solo tenía un dólar</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🐻</span><span class="k-etiqueta">Su osita no quería</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Cada cosa costaba un dólar y él tenía solo uno.</p>
+    </li>
+
+    <li class="k-pregunta" id="c4-pregunta-b" data-cita="c4-c-b" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Qué compró Israel?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍭</span><span class="k-etiqueta">La paleta</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">⚽</span><span class="k-etiqueta">La pelota</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">✏️</span><span class="k-etiqueta">El lápiz de dinosaurio</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Eligió el lápiz y dejó la paleta.</p>
+    </li>
+
+    <li class="k-pregunta" id="c4-pregunta-c" data-cita="c4-c-c" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Qué hizo para comprar la pelota?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🐷</span><span class="k-etiqueta">Ahorró en una alcancía</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">😭</span><span class="k-etiqueta">Lloró</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎲</span><span class="k-etiqueta">Jugó a los dados</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Guardó su dinero poco a poco en la alcancía.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois de Estudios Sociales SS.1.EC.1: explicar y dar ejemplos de que, cuando elegimos algo, dejamos otra cosa.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-5" data-capitulo="5" name="libro">
+    <summary><span class="num" aria-hidden="true">5</span><span class="cab"><h2 id="c5-titulo"><span class="sr-only">Capítulo 5: </span><span class="titulo-cap">La panadería de la señora Carmen</span></h2><small>Habilidades para hacer bienes y servicios</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="1ro-sociales-05-bienes-servicios.jpg" width="1024" height="768"
+         alt="La señora Carmen saca pan dulce del horno mientras Génesis y Lucía miran desde el mostrador.">
+  </figure>
+    <p class="sello">Primer grado · Estudios sociales · SS.1.EC.2</p>
+    <p class="entrada">Un cuento sobre lo que hay que saber para hacer pan y para cortar el pelo.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="1ro-sociales-05-bienes-servicios.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c5-bien" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🍞</span><span class="k-termino">bien</span></button><p class="k-def" hidden>Algo que se hace y se puede comprar, como el pan.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c5-servicio" aria-expanded="false"><span class="k-emoji" aria-hidden="true">💇</span><span class="k-termino">servicio</span></button><p class="k-def" hidden>Un trabajo que alguien hace para ayudarte, como cortar el pelo.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c5-habilidad" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🧑‍🍳</span><span class="k-termino">habilidad</span></button><p class="k-def" hidden>Algo que sabes hacer bien porque aprendiste y practicaste.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c5-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis y Lucía visitaron la panadería de la señora Carmen.</span></p>
+    <p class="frase" id="c5-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Ella se levanta muy temprano para hacer pan.</span></p>
+    <p class="frase" id="c5-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Sabe medir la harina, amasar y usar el horno sin quemarse.</span></p>
+    <p class="frase" id="c5-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c5-c-a">—Aprendí con mi abuela y practiqué muchos años —les contó.</span></span></p>
+    <p class="frase" id="c5-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Hacer pan es su <span class="k-clave" data-g="habilidad">habilidad</span>.</span></p>
+    <p class="frase" id="c5-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El pan es un <span class="k-clave" data-g="bien">bien</span>: una cosa que se hace y se compra.</span></p>
+    <p class="frase" id="c5-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Al lado estaba la peluquería de don Luis.</span></p>
+    <p class="frase" id="c5-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c5-c-b">Don Luis le cortó el pelo a un niño con mucho cuidado.</span></span></p>
+    <p class="frase" id="c5-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Cortar el pelo es un <span class="k-clave" data-g="servicio">servicio</span>: un trabajo que ayuda a otra persona.</span></p>
+    <p class="frase" id="c5-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c5-c-c">—Para cortar el pelo hay que saber usar las tijeras y el peine —dijo don Luis.</span></span></p>
+    <p class="frase" id="c5-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis compró pan dulce para toda su familia.</span></p>
+    <p class="frase" id="c5-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Para hacer bienes y dar servicios, las personas aprenden y practican.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c5-pregunta-a" data-cita="c5-c-a" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Cómo aprendió la señora Carmen a hacer pan?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📺</span><span class="k-etiqueta">Viendo la tele una vez</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🪄</span><span class="k-etiqueta">Con magia</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">👵</span><span class="k-etiqueta">Con su abuela, practicando mucho</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Aprendió con su abuela y practicó muchos años.</p>
+    </li>
+
+    <li class="k-pregunta" id="c5-pregunta-b" data-cita="c5-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Qué servicio dio don Luis?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">💇</span><span class="k-etiqueta">Cortó el pelo</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍞</span><span class="k-etiqueta">Hizo pan</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🚌</span><span class="k-etiqueta">Manejó el autobús</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Cortar el pelo es un servicio.</p>
+    </li>
+
+    <li class="k-pregunta" id="c5-pregunta-c" data-cita="c5-c-c" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Qué necesita saber usar don Luis?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔨</span><span class="k-etiqueta">Un martillo</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">✂️</span><span class="k-etiqueta">Las tijeras y el peine</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎸</span><span class="k-etiqueta">Una guitarra</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Para cortar el pelo hay que saber usar las tijeras y el peine.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois de Estudios Sociales SS.1.EC.2: describir las habilidades y los conocimientos que se necesitan para producir ciertos bienes y servicios.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-6" data-capitulo="6" name="libro">
+    <summary><span class="num" aria-hidden="true">6</span><span class="cab"><h2 id="c6-titulo"><span class="sr-only">Capítulo 6: </span><span class="titulo-cap">El puesto de limonada</span></h2><small>Trabajar para ganar dinero</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="1ro-sociales-06-trabajo.jpg" width="1024" height="768"
+         alt="Lucía e Israel venden limonada en un puesto frente a la casa, y un vecino les paga con monedas.">
+  </figure>
+    <p class="sello">Primer grado · Estudios sociales · SS.1.EC.FL.3</p>
+    <p class="entrada">Un cuento sobre el trabajo y el dinero que se gana con él.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="1ro-sociales-06-trabajo.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c6-trabajo" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🧹</span><span class="k-termino">trabajo</span></button><p class="k-def" hidden>Lo que una persona hace para ayudar o para ganar dinero.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c6-ganar" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🪙</span><span class="k-termino">ganar</span></button><p class="k-def" hidden>Recibir dinero por algo que hiciste.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c6-sueldo" aria-expanded="false"><span class="k-emoji" aria-hidden="true">💵</span><span class="k-termino">sueldo</span></button><p class="k-def" hidden>El dinero que te pagan por tu trabajo.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c6-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Lucía e Israel pusieron un puesto de limonada frente a la casa.</span></p>
+    <p class="frase" id="c6-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Exprimieron limones, mezclaron agua y azúcar, e hicieron un letrero.</span></p>
+    <p class="frase" id="c6-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">¡Fue mucho <span class="k-clave" data-g="trabajo">trabajo</span>!</span></p>
+    <p class="frase" id="c6-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Un vecino compró un vaso y les pagó cincuenta centavos.</span></p>
+    <p class="frase" id="c6-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c6-c-a">—¡Trabajamos, y por eso <span class="k-clave" data-g="ganar">ganamos</span> dinero! —dijo Israel.</span></span></p>
+    <p class="frase" id="c6-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En la tarde, la mamá de Lucía volvió del hospital, donde es enfermera.</span></p>
+    <p class="frase" id="c6-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—Mamá, ¿a ti también te pagan? —preguntó Lucía.</span></p>
+    <p class="frase" id="c6-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c6-c-b">—Sí. Cuido a los enfermos, y el hospital me paga un <span class="k-clave" data-g="sueldo">sueldo</span> —dijo su mamá.</span></span></p>
+    <p class="frase" id="c6-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c6-c-c">—Con ese dinero compramos comida y pagamos la casa.</span></span></p>
+    <p class="frase" id="c6-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El papá de Israel es mecánico: arregla carros, y le pagan por su trabajo.</span></p>
+    <p class="frase" id="c6-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Lucía e Israel guardaron sus monedas en un frasco.</span></p>
+    <p class="frase" id="c6-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Las personas trabajan y, a cambio, reciben dinero.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c6-pregunta-a" data-cita="c6-c-a" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Por qué ganaron dinero Lucía e Israel?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎁</span><span class="k-etiqueta">Se lo regalaron</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌳</span><span class="k-etiqueta">Lo encontraron en un árbol</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍋</span><span class="k-etiqueta">Porque trabajaron vendiendo limonada</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Trabajaron, y por eso ganaron dinero.</p>
+    </li>
+
+    <li class="k-pregunta" id="c6-pregunta-b" data-cita="c6-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Qué hace la mamá de Lucía en su trabajo?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🩺</span><span class="k-etiqueta">Cuida a los enfermos</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍞</span><span class="k-etiqueta">Hace pan</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">✈️</span><span class="k-etiqueta">Maneja aviones</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Es enfermera: cuida a los enfermos y le pagan un sueldo.</p>
+    </li>
+
+    <li class="k-pregunta" id="c6-pregunta-c" data-cita="c6-c-c" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Para qué usa la familia el sueldo?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎈</span><span class="k-etiqueta">Solo para globos</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🛒</span><span class="k-etiqueta">Para comprar comida y pagar la casa</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🗑️</span><span class="k-etiqueta">Para tirarlo</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Con el sueldo compran comida y pagan la casa.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois de Estudios Sociales SS.1.EC.FL.3: explicar cómo las personas ganan un pago o ingreso a cambio de su trabajo.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-7" data-capitulo="7" name="libro">
+    <summary><span class="num" aria-hidden="true">7</span><span class="cab"><h2 id="c7-titulo"><span class="sr-only">Capítulo 7: </span><span class="titulo-cap">El álbum de Génesis</span></h2><small>Ordenar sucesos en el tiempo</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="1ro-sociales-07-linea-tiempo.jpg" width="1024" height="768"
+         alt="Génesis ordena en fila cuatro fotos de su vida, de bebé a primer grado, mientras Adrián muestra su foto de bebé con su dinosaurio.">
+  </figure>
+    <p class="sello">Primer grado · Estudios sociales · SS.1.H.1</p>
+    <p class="entrada">Un cuento sobre cómo hacer una línea del tiempo.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="1ro-sociales-07-linea-tiempo.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c7-antes" aria-expanded="false"><span class="k-emoji" aria-hidden="true">⏪</span><span class="k-termino">antes</span></button><p class="k-def" hidden>En un tiempo que ya pasó.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c7-despues" aria-expanded="false"><span class="k-emoji" aria-hidden="true">⏩</span><span class="k-termino">después</span></button><p class="k-def" hidden>En un tiempo que viene más tarde.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c7-linea" aria-expanded="false"><span class="k-emoji" aria-hidden="true">📏</span><span class="k-termino">línea del tiempo</span></button><p class="k-def" hidden>Una fila de sucesos ordenados del primero al último.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c7-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Génesis encontró un álbum de fotos con su mamá.</span></p>
+    <p class="frase" id="c7-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En una foto, Génesis era una bebé en una cobija rosada.</span></p>
+    <p class="frase" id="c7-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En otra, daba sus primeros pasos.</span></p>
+    <p class="frase" id="c7-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">En otra, soplaba tres velitas en su pastel.</span></p>
+    <p class="frase" id="c7-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Y en otra, iba a su primer día de primer grado con su osita.</span></p>
+    <p class="frase" id="c7-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Las fotos estaban revueltas, así que Génesis las ordenó.</span></p>
+    <p class="frase" id="c7-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c7-c-a">Primero puso la foto de bebé, porque pasó <span class="k-clave" data-g="antes">antes</span> que todo.</span></span></p>
+    <p class="frase" id="c7-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c7-c-b"><span class="k-clave" data-g="despues">Después</span> puso los primeros pasos, luego las velitas y al final la escuela.</span></span></p>
+    <p class="frase" id="c7-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Así hizo una <span class="k-clave" data-g="linea">línea del tiempo</span>.</span></p>
+    <p class="frase" id="c7-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián trajo una foto de cuando era bebé, abrazado a su dinosaurio verde.</span></p>
+    <p class="frase" id="c7-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c7-c-c">—Yo nací después que tú —le dijo a Génesis—. Mi foto de bebé va más adelante en la línea.</span></span></p>
+    <p class="frase" id="c7-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Una línea del tiempo ordena las cosas desde la primera hasta la última.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c7-pregunta-a" data-cita="c7-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Qué foto puso Génesis primero?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎒</span><span class="k-etiqueta">La del primer día de escuela</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">👶</span><span class="k-etiqueta">La de bebé</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎂</span><span class="k-etiqueta">La de las velitas</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La foto de bebé va primero, porque pasó antes que todo.</p>
+    </li>
+
+    <li class="k-pregunta" id="c7-pregunta-b" data-cita="c7-c-b" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Qué foto puso al final?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">👶</span><span class="k-etiqueta">La de bebé</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">👣</span><span class="k-etiqueta">La de los primeros pasos</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎒</span><span class="k-etiqueta">La del primer día de primer grado</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La escuela pasó al último, por eso va al final.</p>
+    </li>
+
+    <li class="k-pregunta" id="c7-pregunta-c" data-cita="c7-c-c" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Por qué la foto de bebé de Adrián va más adelante?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📅</span><span class="k-etiqueta">Porque nació después que Génesis</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🦖</span><span class="k-etiqueta">Porque tiene un dinosaurio</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📸</span><span class="k-etiqueta">Porque la foto es más grande</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Adrián nació después, así que su foto va más adelante en la línea.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois de Estudios Sociales SS.1.H.1: ordenar varios sucesos en secuencia cronológica.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-8" data-capitulo="8" name="libro">
+    <summary><span class="num" aria-hidden="true">8</span><span class="cab"><h2 id="c8-titulo"><span class="sr-only">Capítulo 8: </span><span class="titulo-cap">Cuando el abuelo era niño</span></h2><small>El pasado y el presente</small></span></summary>
+    <div class="cuerpo-cap">
+    <figure class="lamina">
+    <img loading="lazy" src="1ro-sociales-08-antes-ahora.jpg" width="1024" height="768"
+         alt="El abuelo de Lucía les muestra un trompo y canicas a Lucía e Israel, que tienen una foto vieja y una tableta.">
+  </figure>
+    <p class="sello">Primer grado · Estudios sociales · SS.1.H.3</p>
+    <p class="entrada">Un cuento sobre cómo eran las cosas antes y cómo son ahora.</p>
+    <div class="apoyos">
+      <button type="button" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+      <button type="button" class="k-parar" hidden>■ Parar</button>
+      <a class="al-indice" href="1ro-sociales-08-antes-ahora.html">Abrir este cuento solo</a>
+    </div>
+    <section class="clave" aria-label="Tres palabras nuevas">
+      <h3>Tres palabras nuevas</h3>
+      <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-c8-pasado" aria-expanded="false"><span class="k-emoji" aria-hidden="true">⌛</span><span class="k-termino">pasado</span></button><p class="k-def" hidden>El tiempo que ya pasó.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c8-presente" aria-expanded="false"><span class="k-emoji" aria-hidden="true">📍</span><span class="k-termino">presente</span></button><p class="k-def" hidden>El tiempo de ahora.</p></li>
+      <li><button type="button" class="k-palabra" id="g-c8-recuerdo" aria-expanded="false"><span class="k-emoji" aria-hidden="true">💭</span><span class="k-termino">recuerdo</span></button><p class="k-def" hidden>Algo que pasó y que todavía guardas en la mente.</p></li>
+    </ul>
+      <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+    </section>
+    <h3>El cuento</h3>
+    <div class="cuento k-cuento">
+    <p class="frase" id="c8-f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">El abuelo de Lucía les mostró a Lucía y a Israel una caja de <span class="k-clave" data-g="recuerdo">recuerdos</span>.</span></p>
+    <p class="frase" id="c8-f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adentro había un trompo, unas canicas y una foto en blanco y negro.</span></p>
+    <p class="frase" id="c8-f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—En el <span class="k-clave" data-g="pasado">pasado</span>, cuando yo era niño, no había tabletas —dijo el abuelo.</span></p>
+    <p class="frase" id="c8-f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c8-c-a">—Jugábamos con trompos y canicas en la calle.</span></span></p>
+    <p class="frase" id="c8-f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c8-c-b">—Para hablar con mi tía, le escribía cartas, que tardaban muchos días en llegar.</span></span></p>
+    <p class="frase" id="c8-f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Israel pensó en el <span class="k-clave" data-g="presente">presente</span>.</span></p>
+    <p class="frase" id="c8-f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c8-c-c">—Ahora hablo con mi primo por video, ¡y lo veo al instante!</span></span></p>
+    <p class="frase" id="c8-f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Lucía comparó la foto vieja con una foto de su tableta.</span></p>
+    <p class="frase" id="c8-f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—Antes muchas fotos no tenían colores —dijo.</span></p>
+    <p class="frase" id="c8-f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Pero el abuelo también tenía cosas iguales a las de ellos: amigos, juegos y una escuela.</span></p>
+    <p class="frase" id="c8-f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Esa tarde, los tres jugaron a las canicas en el patio.</span></p>
+    <p class="frase" id="c8-f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Las cosas cambian con el tiempo, pero los niños de antes y los de ahora se parecen en mucho.</span></p>
+  </div>
+    <h3>Preguntas</h3>
+    <p>Escucha la pregunta y toca el dibujo correcto.</p>
+    <ol class="k-preguntas">
+    <li class="k-pregunta" id="c8-pregunta-a" data-cita="c8-c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Con qué jugaba el abuelo cuando era niño?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📱</span><span class="k-etiqueta">Con una tableta</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔵</span><span class="k-etiqueta">Con trompos y canicas</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🎮</span><span class="k-etiqueta">Con videojuegos</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>De niño, el abuelo jugaba con trompos y canicas.</p>
+    </li>
+
+    <li class="k-pregunta" id="c8-pregunta-b" data-cita="c8-c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Cómo hablaba el abuelo con su tía?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">✉️</span><span class="k-etiqueta">Le escribía cartas</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📱</span><span class="k-etiqueta">Por video</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📞</span><span class="k-etiqueta">Con un celular</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Le escribía cartas que tardaban muchos días.</p>
+    </li>
+
+    <li class="k-pregunta" id="c8-pregunta-c" data-cita="c8-c-c" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Cómo habla Israel con su primo ahora?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">✉️</span><span class="k-etiqueta">Con cartas que tardan días</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🕊️</span><span class="k-etiqueta">Con palomas</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📱</span><span class="k-etiqueta">Por video</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>En el presente, Israel habla por video con su primo.</p>
+    </li>
+
+  </ol>
+    <p class="k-estrellas" hidden role="status" aria-live="polite"></p>
+    <p style="font-size:.85rem;color:var(--tinta-suave)">Estándar de Illinois de Estudios Sociales SS.1.H.3: comparar lo que pensaban y vivían las personas del pasado con lo de las personas de hoy.</p>
+    <p><a class="al-indice cerrar-cap" href="#indice">↑ Cerrar y volver al índice</a></p>
+    </div>
+  </details>
+
+  </div>
+
+  <footer class="pie">
+    <p>José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustraciones generadas con inteligencia artificial.</p>
+    <p>Obra distribuida bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<p id="k-aviso" class="sr-only" aria-live="polite"></p>
+<script src="cuentos-kinder.js"></script>
+</body>
+</html>

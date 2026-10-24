@@ -718,11 +718,303 @@ window.CATALOGO = [
     },
     "imagen": "k-sociales-08-fiestas.jpg",
     "escena": "A cheerful kindergarten classroom wall with a big paper calendar decorated by children: one drawing of a family sharing a turkey dinner around a table, one drawing of many children of different backgrounds holding hands under a big heart, and one drawing of colorful fireworks over a city at night; a small boy with jet-black hair in a red sweater, holding his green plush toy dinosaur, and a small girl with black hair in a salmon-pink sweater, hugging a brown teddy bear with a small pink bow on its head, proudly point at the drawings, simple bright scene for a kindergarten picture book"
+  },
+  /* ---- PRIMER GRADO (generado) ---- */
+  {
+    "grado": 1,
+    "area": "ciencias",
+    "orden": 1,
+    "estandar": "1-PS4-1",
+    "es": {
+      "titulo": "El tambor de Adrián",
+      "archivo": "1ro-ciencias-01-sonido.html",
+      "tema": "El sonido y las vibraciones"
+    },
+    "en": {
+      "titulo": "Adrián's drum",
+      "archivo": "grade1-science-01-sound.html",
+      "tema": "Sound and vibrations"
+    },
+    "imagen": "1ro-ciencias-01-sonido.jpg",
+    "escena": "At a kitchen table by a sunny window: on the left, a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, watches a homemade drum made from an open cardboard box with a stretched yellow balloon on top, with tiny grains of rice jumping in the air above it; on the right, a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, taps the balloon drum with one finger; a stretched rubber band around a small box lies on the table, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "ciencias",
+    "orden": 2,
+    "estandar": "1-PS4-2",
+    "es": {
+      "titulo": "La cueva de cojines",
+      "archivo": "1ro-ciencias-02-luz.html",
+      "tema": "Para ver necesitamos luz"
+    },
+    "en": {
+      "titulo": "The pillow cave",
+      "archivo": "grade1-science-02-light.html",
+      "tema": "We need light to see"
+    },
+    "imagen": "1ro-ciencias-02-luz.jpg",
+    "escena": "Inside a cozy fort made of sofa cushions and a dark blue blanket with little stars, in a dim living room: a boy with short curly brown hair, shines a flashlight onto an open picture book, and a girl with long black braided hair, sitting beside him, looks at the bright page with wide eyes; a small brown teddy bear sits in the shadowy corner of the fort, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "ciencias",
+    "orden": 3,
+    "estandar": "1-PS4-3",
+    "es": {
+      "titulo": "¿Quién deja pasar la luz?",
+      "archivo": "1ro-ciencias-03-materiales-luz.html",
+      "tema": "Materiales y luz"
+    },
+    "en": {
+      "titulo": "What lets the light through?",
+      "archivo": "grade1-science-03-materials-light.html",
+      "tema": "Materials and light"
+    },
+    "imagen": "1ro-ciencias-03-materiales-luz.jpg",
+    "escena": "In a slightly darkened bedroom: a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, holds her teddy bear in front of a flashlight beam so that the bear's shadow, with its little bow, appears on the white wall; next to her, a girl with long black braided hair, holds a small round mirror that reflects a bright circle of light onto the ceiling; a clear drinking glass and a closed picture book sit on the floor nearby, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "ciencias",
+    "orden": 4,
+    "estandar": "1-PS4-4",
+    "es": {
+      "titulo": "El teléfono de vasos",
+      "archivo": "1ro-ciencias-04-comunicacion.html",
+      "tema": "Comunicarse con sonido y luz"
+    },
+    "en": {
+      "titulo": "The cup phone",
+      "archivo": "grade1-science-04-communication.html",
+      "tema": "Communicating with sound and light"
+    },
+    "imagen": "1ro-ciencias-04-comunicacion.jpg",
+    "escena": "Two children talking through a homemade cup phone in a sunny backyard: on the left, a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, speaks into a paper cup; a long tight string runs across the yard to a boy with short curly brown hair, on the right, who holds the other paper cup to his ear and smiles; a flashlight lies on the grass, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "ciencias",
+    "orden": 5,
+    "estandar": "1-LS1-1",
+    "es": {
+      "titulo": "Los abrojos de Pelusa",
+      "archivo": "1ro-ciencias-05-ideas-naturaleza.html",
+      "tema": "Ideas que copiamos de la naturaleza"
+    },
+    "en": {
+      "titulo": "Pelusa's burrs",
+      "archivo": "grade1-science-05-nature-ideas.html",
+      "tema": "Ideas we copy from nature"
+    },
+    "imagen": "1ro-ciencias-05-ideas-naturaleza.jpg",
+    "escena": "On a sunny porch: a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, looks through a big magnifying glass at a spiky round burr seed, while a girl with long black braided hair, kneels beside a small fluffy white dog covered with little brown burrs and gently picks them off its fur; a small turtle walks on the grass in front of the porch, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "1-LS1-2",
+    "es": {
+      "titulo": "La mamá pata y sus patitos",
+      "archivo": "1ro-ciencias-06-crias.html",
+      "tema": "Los padres cuidan a sus crías"
+    },
+    "en": {
+      "titulo": "Mother duck and her ducklings",
+      "archivo": "grade1-science-06-babies.html",
+      "tema": "Parents take care of their babies"
+    },
+    "imagen": "1ro-ciencias-06-crias.jpg",
+    "escena": "At the edge of a calm park pond with reeds: a mother duck walks with five yellow ducklings following her in a line; a boy with short curly brown hair, and a girl with long black braided hair, crouch on the grass watching them happily, next to a kind gray-haired grandfather with glasses who points at the ducks, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "1-LS3-1",
+    "es": {
+      "titulo": "Los gatitos de la señora Rosa",
+      "archivo": "1ro-ciencias-07-parecidos.html",
+      "tema": "Las crías se parecen a sus padres"
+    },
+    "en": {
+      "titulo": "Mrs. Rosa's kittens",
+      "archivo": "grade1-science-07-alike.html",
+      "tema": "Young animals are like their parents"
+    },
+    "imagen": "1ro-ciencias-07-parecidos.jpg",
+    "escena": "In a cozy neighbor's living room: a black-and-white mother cat lies in a basket with four kittens: two black-and-white kittens, one gray kitten and one tiny white kitten with a black spot on its nose; a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, and a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, kneel by the basket smiling, and a kind older woman with gray hair in a bun watches from an armchair, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "1-ESS1-1 · 1-ESS1-2",
+    "es": {
+      "titulo": "¿Adónde se va el sol?",
+      "archivo": "1ro-ciencias-08-sol-luna.html",
+      "tema": "Patrones del sol y de la luna"
+    },
+    "en": {
+      "titulo": "Where does the sun go?",
+      "archivo": "grade1-science-08-sun-moon.html",
+      "tema": "Patterns of the sun and moon"
+    },
+    "imagen": "1ro-ciencias-08-sol-luna.jpg",
+    "escena": "A winter evening on a snowy sidewalk in front of a brick house: a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, in a red winter coat, looks up at a thin crescent moon and the first stars in a deep blue sky, holding the hand of his father, a kind young man with black hair in a gray coat; the last orange light of sunset glows behind the rooftops, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.1.CV.2",
+    "es": {
+      "titulo": "Las reglas de la biblioteca",
+      "archivo": "1ro-sociales-01-reglas.html",
+      "tema": "Reglas dentro y fuera de la escuela"
+    },
+    "en": {
+      "titulo": "The library rules",
+      "archivo": "grade1-social-studies-01-rules.html",
+      "tema": "Rules inside and outside of school"
+    },
+    "imagen": "1ro-sociales-01-reglas.jpg",
+    "escena": "Inside a bright public library with tall colorful bookshelves: a girl with long black braided hair, and a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, sit at a low table looking at picture books and whispering with a finger on their lips; a small sign with a drawing of a finger over lips hangs on the shelf; a kind teacher with short dark hair stands behind them, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.1.CV.1",
+    "es": {
+      "titulo": "Todos cuidamos el parque",
+      "archivo": "1ro-sociales-02-comunidad.html",
+      "tema": "Todos ayudamos en la comunidad"
+    },
+    "en": {
+      "titulo": "We all take care of the park",
+      "archivo": "grade1-social-studies-02-community.html",
+      "tema": "Everyone helps the community"
+    },
+    "imagen": "1ro-sociales-02-comunidad.jpg",
+    "escena": "A neighborhood park cleanup on a sunny Saturday: a boy with short curly brown hair, and a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, put cans into a blue recycling bag; a woman with work gloves rakes dry leaves, an older man fixes a swing with a wrench, and two girls paint a park bench green; trees, a small playground and happy neighbors in the background, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.1.G.1",
+    "es": {
+      "titulo": "El mapa del tesoro",
+      "archivo": "1ro-sociales-03-mapa.html",
+      "tema": "Leer y hacer mapas"
+    },
+    "en": {
+      "titulo": "The treasure map",
+      "archivo": "grade1-social-studies-03-map.html",
+      "tema": "Reading and making maps"
+    },
+    "imagen": "1ro-sociales-03-mapa.jpg",
+    "escena": "In a cheerful first grade classroom: a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, holds a simple hand-drawn treasure map of the classroom seen from above, with squares for tables, a circle for the rug and a red X; a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, points at the map, and a girl with long black braided hair, lifts the corner of a round rug next to a potted plant to find a small treasure box with gold star stickers, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.1.EC.1",
+    "es": {
+      "titulo": "El dólar de Israel",
+      "archivo": "1ro-sociales-04-elegir.html",
+      "tema": "Elegir algo y dejar otra cosa"
+    },
+    "en": {
+      "titulo": "Israel's dollar",
+      "archivo": "grade1-social-studies-04-choices.html",
+      "tema": "Choosing one thing and giving up another"
+    },
+    "imagen": "1ro-sociales-04-elegir.jpg",
+    "escena": "In a small, colorful corner store: a boy with short curly brown hair, holds one dollar bill and looks thoughtfully at a strawberry lollipop in one hand and a green pencil with a little dinosaur on top in the other; a girl with long black braided hair, stands beside him smiling and pointing at the pencil; a pink piggy bank sits on the counter, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.1.EC.2",
+    "es": {
+      "titulo": "La panadería de la señora Carmen",
+      "archivo": "1ro-sociales-05-bienes-servicios.html",
+      "tema": "Habilidades para hacer bienes y servicios"
+    },
+    "en": {
+      "titulo": "Mrs. Carmen's bakery",
+      "archivo": "grade1-social-studies-05-goods-services.html",
+      "tema": "Skills for making goods and services"
+    },
+    "imagen": "1ro-sociales-05-bienes-servicios.jpg",
+    "escena": "Inside a warm neighborhood bakery: a smiling baker woman with gray hair in a white apron and cap takes a tray of golden sweet breads out of a big oven; a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, and a girl with long black braided hair, watch from the counter with big eyes; through the window, a barber shop with a striped pole is seen next door, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.1.EC.FL.3",
+    "es": {
+      "titulo": "El puesto de limonada",
+      "archivo": "1ro-sociales-06-trabajo.html",
+      "tema": "Trabajar para ganar dinero"
+    },
+    "en": {
+      "titulo": "The lemonade stand",
+      "archivo": "grade1-social-studies-06-work.html",
+      "tema": "Working to earn money"
+    },
+    "imagen": "1ro-sociales-06-trabajo.jpg",
+    "escena": "On a sunny sidewalk in front of a house: a girl with long black braided hair, and a boy with short curly brown hair, sit behind a small wooden lemonade stand with a pitcher of lemonade, paper cups and a hand-painted sign with a lemon; a friendly neighbor man in a cap hands them coins; in the background, a woman in light blue nurse scrubs walks home smiling, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.1.H.1",
+    "es": {
+      "titulo": "El álbum de Génesis",
+      "archivo": "1ro-sociales-07-linea-tiempo.html",
+      "tema": "Ordenar sucesos en el tiempo"
+    },
+    "en": {
+      "titulo": "Génesis's photo album",
+      "archivo": "grade1-social-studies-07-timeline.html",
+      "tema": "Putting events in order"
+    },
+    "imagen": "1ro-sociales-07-linea-tiempo.jpg",
+    "escena": "At a living room table: a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, lines up four photos in a row from left to right: a baby wrapped in a pink blanket, a toddler taking first steps, a little girl blowing three candles on a cake, and a girl with a backpack on her first day of school; a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, holds up a baby photo of himself hugging a green plush dinosaur; a smiling young mother with black hair sits beside them with an open photo album, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+  },
+  {
+    "grado": 1,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.1.H.3",
+    "es": {
+      "titulo": "Cuando el abuelo era niño",
+      "archivo": "1ro-sociales-08-antes-ahora.html",
+      "tema": "El pasado y el presente"
+    },
+    "en": {
+      "titulo": "When Grandpa was a boy",
+      "archivo": "grade1-social-studies-08-then-now.html",
+      "tema": "The past and the present"
+    },
+    "imagen": "1ro-sociales-08-antes-ahora.jpg",
+    "escena": "On a sunny backyard patio: a kind gray-haired grandfather with glasses kneels and shows a wooden spinning top and colorful glass marbles from an old wooden box; a girl with long black braided hair, holds an old black-and-white photo of a boy, and a boy with short curly brown hair, holds a tablet showing a smiling cousin on a video call; marbles roll on the ground between them, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
   }
+  /* ---- FIN PRIMER GRADO ---- */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
 window.LIBROS = [
+  { grado: 1, area: 'sociales', es: 'libro-1ro-sociales.html', en: 'book-grade1-social-studies.html' },
+  { grado: 1, area: 'ciencias', es: 'libro-1ro-ciencias.html', en: 'book-grade1-science.html' },
   { grado: 2, area: 'ciencias', es: 'libro-2do-ciencias.html', en: 'book-grade2-science.html' },
   { grado: 0, area: 'ciencias', es: 'libro-kinder-ciencias.html', en: 'book-kindergarten-science.html' },
   { grado: 0, area: 'sociales', es: 'libro-kinder-sociales.html', en: 'book-kindergarten-social-studies.html' },

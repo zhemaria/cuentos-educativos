@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+  Cuentos educativos · Primer grado · Ciencias · 1-PS4-4
+  «El teléfono de vasos»
+  Autor: José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustración: IA
+  Licencia: Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El teléfono de vasos · Cuentos educativos</title>
+<meta name="description" content="Cuento de ciencias para primer grado: con un teléfono de vasos y con señales de linterna se pueden mandar mensajes a distancia.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+<link rel="stylesheet" href="cuentos-kinder.css">
+</head>
+<body class="kinder">
+<a class="salto" href="#cuento">Ir al cuento</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Ubicación">
+    <span><a href="index.html#grado-1">Cuentos educativos</a> · Primer grado · Ciencias</span>
+    <a class="idioma" href="grade1-science-04-communication.html" lang="en" hreflang="en">Read in English</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Apoyos de lectura">
+    <button type="button" id="k-escuchar" class="k-escuchar k-grande">▶ Escuchar el cuento</button>
+    <button type="button" id="k-parar" class="k-parar" hidden>■ Parar</button>
+    <button type="button" id="btn-imprimir">Imprimir</button>
+  </div>
+
+  <figure class="lamina">
+    <img src="1ro-ciencias-04-comunicacion.jpg" width="1024" height="768"
+         alt="Adrián habla por un vaso de papel y la voz viaja por un hilo hasta Israel, que escucha en el otro vaso.">
+  </figure>
+
+  <p class="sello">Primer grado · Ciencias · 1-PS4-4</p>
+  <h1 id="titulo">El teléfono de vasos</h1>
+  <p class="entrada">Un cuento sobre cómo mandar mensajes con sonido y con luz.</p>
+
+  <ul class="indice" aria-label="Partes de esta página">
+    <li><a href="#palabras">Palabras nuevas</a></li>
+    <li><a href="#cuento">El cuento</a></li>
+    <li><a href="#preguntas">Preguntas</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Tres palabras nuevas</h2>
+    <ul class="k-palabras">
+      <li><button type="button" class="k-palabra" id="g-mensaje" aria-expanded="false"><span class="k-emoji" aria-hidden="true">✉️</span><span class="k-termino">mensaje</span></button><p class="k-def" hidden>Lo que le quieres decir a alguien.</p></li>
+      <li><button type="button" class="k-palabra" id="g-senal" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🚦</span><span class="k-termino">señal</span></button><p class="k-def" hidden>Un sonido o una luz que dice algo sin palabras.</p></li>
+      <li><button type="button" class="k-palabra" id="g-hilo" aria-expanded="false"><span class="k-emoji" aria-hidden="true">🧵</span><span class="k-termino">hilo</span></button><p class="k-def" hidden>Un cordón muy delgado.</p></li>
+    </ul>
+    <p class="k-ayuda">Toca un dibujo para oír la palabra y qué significa.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">El cuento</h2>
+  <div class="cuento k-cuento">
+    <p class="frase" id="f1"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián e Israel querían hablar de lejos sin gritar.</span></p>
+    <p class="frase" id="f2"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Hicieron un teléfono con dos vasos de papel y un <span class="k-clave" data-g="hilo">hilo</span> largo.</span></p>
+    <p class="frase" id="f3"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián habló dentro de su vaso: —¿Me oyes, Israel?</span></p>
+    <p class="frase" id="f4"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c-a">Su voz hizo vibrar el hilo, y el sonido viajó hasta el otro vaso.</span></span></p>
+    <p class="frase" id="f5"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Te oigo! —contestó Israel con el vaso en la oreja.</span></p>
+    <p class="frase" id="f6"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c-b">Pero cuando el hilo quedaba flojo, no se oía nada.</span></span></p>
+    <p class="frase" id="f7"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">—¡Hay que estirar el hilo! —dijo Adrián.</span></p>
+    <p class="frase" id="f8"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Más tarde, ya de noche, inventaron otra <span class="k-clave" data-g="senal">señal</span>.</span></p>
+    <p class="frase" id="f9"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto"><span class="cita" id="c-c">Con una linterna: una luz quería decir «hola», y dos luces, «ven a jugar».</span></span></p>
+    <p class="frase" id="f10"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Israel vio dos luces en la ventana y corrió a jugar.</span></p>
+    <p class="frase" id="f11"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Adrián llevó su dinosaurio verde para que también jugara.</span></p>
+    <p class="frase" id="f12"><button type="button" class="k-oir" aria-label="Escuchar esta frase">🔊</button><span class="k-texto">Con sonido o con luz podemos mandar un <span class="k-clave" data-g="mensaje">mensaje</span> a alguien que está lejos.</span></p>
+  </div>
+
+  <h2 id="preguntas">Preguntas</h2>
+  <p>Escucha la pregunta y toca el dibujo correcto.</p>
+  <ol class="k-preguntas">
+    <li class="k-pregunta" id="pregunta-a" data-cita="c-a" data-correcta="1">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">A</span><span class="k-texto"><span class="sr-only">Pregunta A. </span>¿Cómo llegó la voz de Adrián al otro vaso?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🕊️</span><span class="k-etiqueta">Con una paloma</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🧵</span><span class="k-etiqueta">Por el hilo que vibraba</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">📮</span><span class="k-etiqueta">Por el correo</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>La voz hizo vibrar el hilo, y el sonido viajó por él.</p>
+    </li>
+
+    <li class="k-pregunta" id="pregunta-b" data-cita="c-b" data-correcta="0">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">B</span><span class="k-texto"><span class="sr-only">Pregunta B. </span>¿Cuándo no se oía nada?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">〰️</span><span class="k-etiqueta">Cuando el hilo estaba flojo</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🌞</span><span class="k-etiqueta">Cuando había sol</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🍪</span><span class="k-etiqueta">Cuando comían galletas</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>El hilo tiene que estar estirado para que viaje el sonido.</p>
+    </li>
+
+    <li class="k-pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="k-enunciado"><button type="button" class="k-oir" aria-label="Escuchar la pregunta">🔊</button><span class="letra" aria-hidden="true">C</span><span class="k-texto"><span class="sr-only">Pregunta C. </span>¿Qué querían decir dos luces con la linterna?</span></p>
+      <div class="k-opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">👋</span><span class="k-etiqueta">Hola</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">😴</span><span class="k-etiqueta">A dormir</span></button>
+        <button type="button" class="k-opcion"><span class="k-emoji" aria-hidden="true">🔦</span><span class="k-etiqueta">Ven a jugar</span></button>
+      </div>
+      <p class="k-pista" hidden></p>
+      <p class="k-explicacion" hidden>Una luz era «hola» y dos luces, «ven a jugar».</p>
+    </li>
+
+  </ol>
+  <p class="k-estrellas" id="k-estrellas" hidden role="status" aria-live="polite"></p>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Desarrollo: Claude (Anthropic) · Ilustración generada con inteligencia artificial.</p>
+    <p>Estándar de Illinois (NGSS) 1-PS4-4: usar herramientas y materiales para diseñar y construir un aparato que use luz o sonido para comunicarse a distancia.</p>
+    <p>Obra distribuida bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+
+<p id="k-aviso" class="sr-only" aria-live="polite"></p>
+<script src="cuentos-kinder.js"></script>
+</body>
+</html>
