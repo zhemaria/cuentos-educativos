@@ -1189,7 +1189,7 @@ window.CATALOGO = [
       "tema": "Weather and climate"
     },
     "imagen": "3ro-ciencias-10-clima.jpg",
-    "escena": "A split scene: on the left, a snowy Chicago street in winter where a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes in a warm coat and hat holds a thermometer next to a snowman; on the right, a sunny Texas backyard in winter where a boy about eight years old with short light brown hair and blue eyes in a t-shirt holds a thermometer next to a palm tree; in the middle, a big hand-drawn bar graph of monthly temperatures with two colors floats like a poster between them; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+    "escena": "A split scene: on the left, a snowy Chicago street in winter where a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes in a warm coat and hat holds a thermometer next to a snowman; on the right, a sunny Texas backyard in winter where a boy about eight years old with short light brown hair and blue eyes in a t-shirt holds a thermometer next to a palm tree; in the middle, a big hand-drawn poster with a bar graph of monthly temperatures, with a blue bar for Chicago and an orange bar for Texas for each of all twelve months, labeled in order Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec, no month missing; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
   },
   {
     "grado": 3,
@@ -1226,6 +1226,222 @@ window.CATALOGO = [
     },
     "imagen": "3ro-ciencias-12-repaso.jpg",
     "escena": "A lively third grade science fair in a school gym decorated with paper banners: tables show a cardboard model house with a lightning rod, a butterfly life cycle poster, a magnet with paper clips, a fossil seashell, a bar graph of temperatures and a picture of a camouflaged lizard; a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes proudly presents at a table while a boy about eight years old with short light brown hair and blue eyes, a Latina girl about eight years old with a long black braid, a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt, a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress and a kind great-grandfather in his seventies with gray hair, glasses and a cap clap; classmates of different backgrounds and a smiling Asian American woman teacher walk between the tables; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.EC.2.3 · SS.CV.3.3",
+    "es": {
+      "titulo": "La carta del bache",
+      "archivo": "3ro-sociales-01-gobierno.html",
+      "tema": "Los niveles de gobierno y sus servicios"
+    },
+    "en": {
+      "titulo": "The pothole letter",
+      "archivo": "grade3-social-studies-01-government.html",
+      "tema": "Levels of government and their services"
+    },
+    "imagen": "3ro-sociales-01-gobierno.jpg",
+    "escena": "On a Chicago neighborhood street in autumn: a city road crew in orange vests fills a big pothole with steaming asphalt next to a small truck with the city seal; a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a Latina girl about eight years old with a long black braid watch from the sidewalk holding a handmade letter; behind them are a public library, a fire station with a red fire truck and a park with a playground; a kind great-grandfather in his seventies with gray hair, glasses and a cap smiles beside them; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.CV.2.3",
+    "es": {
+      "titulo": "Las reglas del recreo",
+      "archivo": "3ro-sociales-02-reglas.html",
+      "tema": "Reglas, responsabilidades y libertades"
+    },
+    "en": {
+      "titulo": "The recess rules",
+      "archivo": "grade3-social-studies-02-rules.html",
+      "tema": "Rules, responsibilities and freedoms"
+    },
+    "imagen": "3ro-sociales-02-reglas.jpg",
+    "escena": "In a bright third grade classroom: a diverse group of children, including a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, a Latina girl about eight years old with a long black braid, an African American boy and an Asian American girl, sit in a circle and raise their hands to vote; on the board is a large chart paper titled with a simple soccer ball drawing and three numbered rules; a smiling Asian American woman teacher holds a marker; through the window a schoolyard with a soccer field is visible; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.CV.1.3",
+    "es": {
+      "titulo": "Las manzanas del banco de comida",
+      "archivo": "3ro-sociales-03-comunidad.html",
+      "tema": "Cómo trabajamos juntos por la comunidad"
+    },
+    "en": {
+      "titulo": "The food bank apples",
+      "archivo": "grade3-social-studies-03-community.html",
+      "tema": "How we work together for the community"
+    },
+    "imagen": "3ro-sociales-03-comunidad.jpg",
+    "escena": "Inside a busy neighborhood food bank in a church hall in Chicago: volunteers of different backgrounds sort cans and fresh vegetables into boxes on long tables; a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a Latina girl about eight years old with a long black braid carry a box of apples together, a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt and a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress put cans on a low shelf, and a delivery truck with a grocery store logo unloads bread at the open door; a friendly firefighter drops off a box of donated food; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.CV.4.3 · SS.H.2.3",
+    "es": {
+      "titulo": "La casa que abrió sus puertas",
+      "archivo": "3ro-sociales-04-hull-house.html",
+      "tema": "Personas que mejoraron su comunidad"
+    },
+    "en": {
+      "titulo": "The house that opened its doors",
+      "archivo": "grade3-social-studies-04-hull-house.html",
+      "tema": "People who improved their community"
+    },
+    "imagen": "3ro-sociales-04-hull-house.jpg",
+    "escena": "A two-part watercolor scene: on the left, in old sepia tones from the 1890s, a kind woman in a long dress with her hair in a bun welcomes immigrant children of different backgrounds into a big brick house with a sign that says Hull-House, with children playing in a small playground next to it; on the right, in bright modern colors, a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a Latina girl about eight years old with a long black braid with a kind great-grandfather in his seventies with gray hair, glasses and a cap visit the same red brick house today as a museum, reading a sign; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.G.1.3",
+    "es": {
+      "titulo": "El mapa del tesoro de Illinois",
+      "archivo": "3ro-sociales-05-mapa.html",
+      "tema": "Ríos, lagos y relieve de Illinois"
+    },
+    "en": {
+      "titulo": "The Illinois treasure map",
+      "archivo": "grade3-social-studies-05-map.html",
+      "tema": "Rivers, lakes and land of Illinois"
+    },
+    "imagen": "3ro-sociales-05-mapa.jpg",
+    "escena": "On a living room floor: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a boy about eight years old with short light brown hair and blue eyes kneel over a big colorful paper map of the state of Illinois with Lake Michigan in blue at the top right, the Mississippi River along the left side, the Ohio River at the bottom, the Illinois River crossing the state and a star for Springfield and a dot for Chicago; Israel traces a river with his finger and Alejandro holds a compass rose sticker; a laptop nearby shows a video call map of Texas; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.G.2.3",
+    "es": {
+      "titulo": "El río que corre al revés",
+      "archivo": "3ro-sociales-06-rio.html",
+      "tema": "Cómo cambiamos el ambiente y nos adaptamos a él"
+    },
+    "en": {
+      "titulo": "The river that runs backward",
+      "archivo": "grade3-social-studies-06-river.html",
+      "tema": "How people change and adapt to the environment"
+    },
+    "imagen": "3ro-sociales-06-rio.jpg",
+    "escena": "On a sunny bridge over the green Chicago River downtown, with tall buildings, a tour boat and kayaks below: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a Latina girl about eight years old with a long black braid lean on the railing while a kind great-grandfather in his seventies with gray hair, glasses and a cap holds an old black-and-white photo of workers digging a big canal in 1900; on the right side of the scene, a small inset shows a boy about eight years old with short light brown hair and blue eyes in Texas next to a house with a big air conditioner and shade trees; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.G.3.3 · SS.EC.1.3",
+    "es": {
+      "titulo": "El desayuno que dio la vuelta al mundo",
+      "archivo": "3ro-sociales-07-desayuno.html",
+      "tema": "Lo que compramos nos une con lugares lejanos"
+    },
+    "en": {
+      "titulo": "The breakfast that traveled the world",
+      "archivo": "grade3-social-studies-07-breakfast.html",
+      "tema": "What we buy connects us to faraway places"
+    },
+    "imagen": "3ro-sociales-07-desayuno.jpg",
+    "escena": "At a sunny kitchen table in Chicago: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes sits in front of a breakfast of bananas, orange juice, a cup of hot chocolate, cornflakes and toast; floating watercolor bubbles around the table show where each food comes from: a banana farm in Central America, orange groves in Florida, cacao trees in a tropical forest and green Illinois corn and soybean fields with a red barn; a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress holds a spoon and smiles; a world map is pinned on the wall with strings connecting places; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.EC.FL.3.3 · SS.EC.FL.4.3",
+    "es": {
+      "titulo": "La bicicleta azul de Alejandro",
+      "archivo": "3ro-sociales-08-banco.html",
+      "tema": "El banco, el ahorro y pedir prestado"
+    },
+    "en": {
+      "titulo": "Alejandro's blue bike",
+      "archivo": "grade3-social-studies-08-bank.html",
+      "tema": "Banks, saving and borrowing"
+    },
+    "imagen": "3ro-sociales-08-banco.jpg",
+    "escena": "Inside a friendly neighborhood bank: a boy about eight years old with short light brown hair and blue eyes proudly hands a glass jar full of coins and bills to a smiling African American woman bank teller at the counter, while his mother stands beside him; on the wall is a poster of a piggy bank with a small plant growing coins; in a small inset on the right, a boy about eight years old with short light brown hair and blue eyes shows a new blue bicycle to his grandmother, who holds a little notebook with a payment chart; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 9,
+    "estandar": "SS.H.1.3 · SS.H.2.3",
+    "es": {
+      "titulo": "La línea de tiempo del barrio",
+      "archivo": "3ro-sociales-09-barrio.html",
+      "tema": "La historia de nuestra comunidad"
+    },
+    "en": {
+      "titulo": "The neighborhood timeline",
+      "archivo": "grade3-social-studies-09-neighborhood.html",
+      "tema": "The history of our community"
+    },
+    "imagen": "3ro-sociales-09-barrio.jpg",
+    "escena": "On a colorful street in the Pilsen neighborhood of Chicago, with old brick buildings covered in bright murals of families, corn, butterflies and musicians: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a Latina girl about eight years old with a long black braid hold a long paper timeline with drawings while a kind great-grandfather in his seventies with gray hair, glasses and a cap points at a mural; a small panadería and a church with twin towers are behind them; people of different backgrounds walk by; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 10,
+    "estandar": "SS.H.1.3 · SS.H.2.3",
+    "es": {
+      "titulo": "El Gran Incendio de Chicago",
+      "archivo": "3ro-sociales-10-incendio.html",
+      "tema": "Un suceso que cambió nuestra ciudad"
+    },
+    "en": {
+      "titulo": "The Great Chicago Fire",
+      "archivo": "grade3-social-studies-10-great-fire.html",
+      "tema": "An event that changed our city"
+    },
+    "imagen": "3ro-sociales-10-incendio.jpg",
+    "escena": "A two-part watercolor scene: on the left, Chicago in October 1871 at night, with wooden buildings and wooden sidewalks burning in orange flames, strong wind blowing sparks across the Chicago River, and families in old-fashioned clothes walking away safely toward the lake carrying bundles, no one hurt; on the right, in daylight today, a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, a Latina girl about eight years old with a long black braid and a kind great-grandfather in his seventies with gray hair, glasses and a cap stand in front of the old stone Chicago Water Tower, a castle-like tower, holding a paper timeline; each person has exactly two arms and two hands, gentle and not scary for children, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 11,
+    "estandar": "SS.H.3.3",
+    "es": {
+      "titulo": "¿Fue la vaca? Detectives de la historia",
+      "archivo": "3ro-sociales-11-fuentes.html",
+      "tema": "Fuentes primarias y secundarias"
+    },
+    "en": {
+      "titulo": "Was it the cow? History detectives",
+      "archivo": "grade3-social-studies-11-sources.html",
+      "tema": "Primary and secondary sources"
+    },
+    "imagen": "3ro-sociales-11-fuentes.jpg",
+    "escena": "Inside a history museum in Chicago: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a Latina girl about eight years old with a long black braid look through magnifying glasses at a glass case holding an old yellowed newspaper from 1871, a handwritten letter, a sepia photograph of burned buildings and a melted lump of glass marbles; next to the case, a kind great-grandfather in his seventies with gray hair, glasses and a cap holds a modern history book; a friendly Latina museum guide points at a small drawing of a cow with a big question mark; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "sociales",
+    "orden": 12,
+    "estandar": "SS.CV · SS.G · SS.EC · SS.H",
+    "es": {
+      "titulo": "El paseo en barco por Chicago",
+      "archivo": "3ro-sociales-12-repaso.html",
+      "tema": "Repaso de todo el año"
+    },
+    "en": {
+      "titulo": "The Chicago boat ride",
+      "archivo": "grade3-social-studies-12-review.html",
+      "tema": "Review of the whole year"
+    },
+    "imagen": "3ro-sociales-12-repaso.jpg",
+    "escena": "A sunny day on a Chicago architecture tour boat on the Chicago River, with skyscrapers on both sides and the city flag with its light blue stripes and four red stars waving at the back of the boat: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, a boy about eight years old with short light brown hair and blue eyes, a Latina girl about eight years old with a long black braid, a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt and a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress sit together with a kind great-grandfather in his seventies with gray hair, glasses and a cap, pointing at buildings and holding a folded map of Illinois; tourists of different backgrounds sit behind them; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
   }
   /* ---- FIN TERCER GRADO ---- */
 ];
@@ -1238,5 +1454,6 @@ window.LIBROS = [
   { grado: 0, area: 'ciencias', es: 'libro-kinder-ciencias.html', en: 'book-kindergarten-science.html' },
   { grado: 0, area: 'sociales', es: 'libro-kinder-sociales.html', en: 'book-kindergarten-social-studies.html' },
   { grado: 2, area: 'sociales', es: 'libro-2do-sociales.html', en: 'book-grade2-social-studies.html' },
-  { grado: 3, area: 'ciencias', es: 'libro-3ro-ciencias.html', en: 'book-grade3-science.html' }
+  { grado: 3, area: 'ciencias', es: 'libro-3ro-ciencias.html', en: 'book-grade3-science.html' },
+  { grado: 3, area: 'sociales', es: 'libro-3ro-sociales.html', en: 'book-grade3-social-studies.html' }
 ];

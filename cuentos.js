@@ -454,4 +454,20 @@
       setTimeout(function(){ imprimiendo = false; }, 100);
     });
   }
+  /* ---------- Lámina en movimiento (opcional): solo si la figura trae data-video; nunca arranca sola ---------- */
+  todos('figure.lamina[data-video]').forEach(function(fig){
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'ver-video';
+    b.textContent = LANG === 'en' ? '🎬 See the picture move' : '🎬 Ver la lámina en movimiento';
+    var caja = document.createElement('p'); caja.className = 'caja-video'; caja.appendChild(b);
+    fig.parentNode.insertBefore(caja, fig.nextSibling);
+    b.addEventListener('click', function(){
+      if(window.speechSynthesis) window.speechSynthesis.cancel();
+      var img = fig.querySelector('img'), v = document.createElement('video');
+      v.src = fig.getAttribute('data-video'); v.controls = true; v.playsInline = true; v.setAttribute('playsinline', '');
+      if(img){ v.poster = img.src; v.setAttribute('aria-label', img.alt); }
+      v.style.display = 'block'; v.style.width = '100%'; v.style.height = 'auto';
+      fig.innerHTML = ''; fig.appendChild(v); caja.remove();
+      var p = v.play(); if(p && p.catch) p.catch(function(){});
+    });
+  });
 })();

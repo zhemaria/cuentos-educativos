@@ -252,3 +252,8 @@ details.capitulo summary small{display:block;color:var(--tinta-suave);font-size:
   details.capitulo::details-content{content-visibility:visible;display:block;height:auto}
   details.capitulo > .cuerpo-cap{display:block!important}
 }
+
+/* Botón de la lámina en movimiento */
+.caja-video{text-align:center;margin:-.4rem 0 1rem}
+.caja-video button{font:inherit;font-weight:700;min-height:44px;padding:.4rem 1rem;cursor:pointer;border-radius:999px;border:2px solid currentColor;background:transparent}
+@media print{.caja-video{display:none}}

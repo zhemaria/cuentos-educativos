@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--
+  Cuentos educativos · 3er grado · Estudios sociales · SS.H.3.3
+  «¿Fue la vaca? Detectives de la historia»
+  Autor: José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustración: IA
+  Licencia: Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¿Fue la vaca? Detectives de la historia · Cuentos educativos</title>
+<meta name="description" content="Cuento de estudios sociales para 3er grado sobre fuentes primarias y secundarias, con vocabulario y preguntas de comprensión.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Ir al cuento</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Ubicación">
+    <span><a href="index.html#grado-3">Cuentos educativos</a> · 3er grado · Estudios sociales</span>
+    <a class="idioma" href="grade3-social-studies-11-sources.html" lang="en" hreflang="en">Read in English</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Apoyos de lectura">
+    <button type="button" id="btn-voz" aria-pressed="false">Escuchar el cuento</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Letra más pequeña</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Letra más grande</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">Alto contraste</button>
+    <button type="button" id="btn-imprimir">Imprimir</button>
+  </div>
+
+  <figure class="lamina">
+    <img src="3ro-sociales-11-fuentes.jpg" width="1376" height="768"
+         alt="En un museo, Israel y Lucía miran con lupa un periódico de 1871, una carta, una foto y canicas derretidas; una guía señala el dibujo de una vaca con un signo de interrogación.">
+  </figure>
+
+  <p class="sello">3er grado · Estudios sociales · SS.H.3.3</p>
+  <h1 id="titulo">¿Fue la vaca? Detectives de la historia</h1>
+  <p class="entrada">Un cuento sobre cómo los historiadores descubren la verdad.</p>
+
+  <ul class="indice" aria-label="Partes de esta página">
+    <li><a href="#palabras">Palabras de estudios sociales</a></li>
+    <li><a href="#cuento">El cuento</a></li>
+    <li><a href="#glosario">Glosario</a></li>
+    <li><a href="#preguntas">Preguntas</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Palabras de estudios sociales que vas a aprender</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="fuente">fuente histórica</button></li>
+      <li><button type="button" class="voz" data-g="primaria">fuente primaria</button></li>
+      <li><button type="button" class="voz" data-g="secundaria">fuente secundaria</button></li>
+      <li><button type="button" class="voz" data-g="artefacto">artefacto</button></li>
+      <li><button type="button" class="voz" data-g="historiador">historiador</button></li>
+      <li><button type="button" class="voz" data-g="leyenda">leyenda</button></li>
+      <li><button type="button" class="voz" data-g="evidencia">evidencia</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Toca una palabra verde para ver qué significa.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">El cuento</h2>
+  <div class="cuento">
+    <p id="p1">Después de aprender sobre el Gran Incendio, Israel tenía una pregunta: —¿Es verdad que lo empezó una vaca que pateó una lámpara? Su amigo Jamal le había contado esa historia.</p>
+
+    <p id="p2">El bisabuelo los llevó al museo de historia de Chicago. Allí, una guía les dijo: —Vamos a ser detectives de la historia. <span class="cita" id="c-a">Para saber qué pasó, los <button type="button" class="voz" data-g="historiador">historiadores</button> estudian <button type="button" class="voz" data-g="fuente">fuentes históricas</button>: documentos y objetos que nos dan información sobre el pasado.</span></p>
+
+    <p id="p3">En una vitrina había una carta escrita a mano en 1871 por una niña que vio el incendio, un periódico de esos días y una foto de los edificios quemados. <span class="cita" id="c-b">—Estas son <button type="button" class="voz" data-g="primaria">fuentes primarias</button> —explicó la guía—: las hicieron personas que vivieron los sucesos, en aquella época.</span></p>
+
+    <p id="p4">También había un montón de canicas de vidrio derretidas y pegadas por el calor del fuego. <span class="cita" id="c-c">—Un objeto hecho y usado por personas del pasado se llama <button type="button" class="voz" data-g="artefacto">artefacto</button> —dijo la guía—. Este artefacto es una <button type="button" class="voz" data-g="evidencia">evidencia</button> de lo caliente que estaba el fuego.</span></p>
+
+    <p id="p5">El bisabuelo levantó un libro de historia moderno. <span class="cita" id="c-d">—¿Y este libro? —preguntó—. —Ese es una <button type="button" class="voz" data-g="secundaria">fuente secundaria</button> —respondió Lucía—: lo escribió alguien después, estudiando las fuentes primarias.</span></p>
+
+    <p id="p6">Entonces la guía les mostró el dibujo de una vaca. <span class="cita" id="c-e">—La historia de la vaca de la señora O'Leary es una <button type="button" class="voz" data-g="leyenda">leyenda</button> —explicó—. En 1893, el periodista Michael Ahern confesó que él la había inventado para hacer más interesante su artículo.</span> En 1997, el Concejo de Chicago declaró oficialmente inocentes a la señora O'Leary y a su vaca.</p>
+
+    <p id="p7">—¡Pobre vaca! —rio Israel—. Durante más de cien años la culparon de algo que no se pudo probar.</p>
+
+    <p id="p8">Antes de irse, vieron otra cosa sorprendente: después del incendio, personas de Inglaterra enviaron más de 8,000 libros a Chicago. Esos libros ayudaron a crear la Biblioteca Pública de Chicago, ¡la misma donde Lucía tiene su tarjeta!</p>
+
+    <p id="p9">Esa noche, Israel le escribió a Jamal: «No fue la vaca. Lo comprobé con fuentes primarias». Y le dibujó una vaca con una sonrisa enorme.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glosario</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-fuente"><dt>fuente histórica</dt><dd>Un documento u objeto que nos da información sobre el pasado.</dd></div>
+    <div id="g-primaria"><dt>fuente primaria</dt><dd>Una fuente hecha por una persona que vivió el suceso, en esa época, como una carta, un diario o una foto.</dd></div>
+    <div id="g-secundaria"><dt>fuente secundaria</dt><dd>Una fuente escrita después por alguien que estudió el suceso, como un libro de texto o una enciclopedia.</dd></div>
+    <div id="g-artefacto"><dt>artefacto</dt><dd>Un objeto hecho o usado por personas del pasado, como una herramienta o una canica.</dd></div>
+    <div id="g-historiador"><dt>historiador</dt><dd>Una persona que estudia el pasado usando fuentes para saber qué pasó.</dd></div>
+    <div id="g-leyenda"><dt>leyenda</dt><dd>Una historia que la gente cuenta mucho, pero que no se puede probar o no es verdad.</dd></div>
+    <div id="g-evidencia"><dt>evidencia</dt><dd>Algo que nos ayuda a saber si una idea es verdadera.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Preguntas</h2>
+  <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué estudian los historiadores para saber qué pasó?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Fuentes históricas: documentos y objetos del pasado</button>
+        <button class="opcion">Solo los cuentos de los amigos</button>
+        <button class="opcion">Películas de dibujos animados</button>
+      </div>
+      <p class="explicacion" hidden>Los historiadores estudian fuentes históricas: documentos y objetos que dan información sobre el pasado.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Qué es una fuente primaria?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Un libro escrito hace poco</button>
+        <button class="opcion">Algo hecho por personas que vivieron los sucesos, en esa época</button>
+        <button class="opcion">Un dibujo de una vaca</button>
+      </div>
+      <p class="explicacion" hidden>Las fuentes primarias las hicieron personas que vivieron los sucesos, en aquella época.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Qué nos dicen las canicas derretidas?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">Que los niños jugaban mucho</button>
+        <button class="opcion">Que las canicas eran de plástico</button>
+        <button class="opcion">Lo caliente que estaba el fuego</button>
+      </div>
+      <p class="explicacion" hidden>Las canicas derretidas son un artefacto y una evidencia de lo caliente que estaba el fuego.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Por qué el libro de historia moderno es una fuente secundaria?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Porque lo escribió alguien después, estudiando las fuentes primarias</button>
+        <button class="opcion">Porque es muy viejo</button>
+        <button class="opcion">Porque tiene fotos</button>
+      </div>
+      <p class="explicacion" hidden>Lo escribió alguien después, estudiando las fuentes primarias.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Pregunta E. </span>¿Por qué la historia de la vaca es una leyenda?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta E">
+        <button class="opcion">Porque la vaca la contó</button>
+        <button class="opcion">Porque un periodista confesó que la había inventado</button>
+        <button class="opcion">Porque está en un libro</button>
+      </div>
+      <p class="explicacion" hidden>En 1893, el periodista Michael Ahern confesó que había inventado la historia de la vaca.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Desarrollo: Claude (Anthropic) · Ilustración generada con inteligencia artificial.</p>
+    <p>Estándar de Ciencias Sociales de Illinois SS.H.3.3: identificar artefactos y documentos como fuentes primarias o secundarias de información histórica.</p>
+    <p>Obra distribuida bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>
