@@ -1028,6 +1028,96 @@ window.CATALOGO = [
     },
     "imagen": "3ro-ciencias-01-fuerzas.jpg",
     "escena": "At a sunny school field day with balloons and a banner: two teams play tug-of-war with a thick rope with a red ribbon in the middle; on one side a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, a boy about eight years old with short light brown hair and blue eyes and an African American boy with short black hair pull hard; on the other side a Latina girl about eight years old with a long black braid, an Asian American girl with a black bob and a Latina girl with curly hair pull too, while a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt and a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress run to grab the end of their rope to help; a smiling Asian American woman teacher with a whistle watches; a cardboard box sits on the grass nearby; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 2,
+    "estandar": "3-PS2-2",
+    "es": {
+      "titulo": "El columpio que se podía predecir",
+      "archivo": "3ro-ciencias-02-patrones.html",
+      "tema": "Patrones de movimiento"
+    },
+    "en": {
+      "titulo": "The swing you could predict",
+      "archivo": "grade3-science-02-patterns.html",
+      "tema": "Patterns of motion"
+    },
+    "imagen": "3ro-ciencias-02-patrones.jpg",
+    "escena": "In a sunny neighborhood park in Chicago: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes gently pushes a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress on a swing, while a Latina girl about eight years old with a long black braid sits on a bench holding a notebook and a stopwatch, counting the swings; nearby, a simple pendulum made from a string and a metal washer hangs from a low tree branch; a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt watches a red ball roll down a small slide; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 3,
+    "estandar": "3-PS2-3 · 3-PS2-4",
+    "es": {
+      "titulo": "La puerta del gato Bigotes",
+      "archivo": "3ro-ciencias-03-imanes.html",
+      "tema": "Imanes y electricidad estática"
+    },
+    "en": {
+      "titulo": "Whiskers' cat door",
+      "archivo": "grade3-science-03-magnets.html",
+      "tema": "Magnets and static electricity"
+    },
+    "imagen": "3ro-ciencias-03-imanes.jpg",
+    "escena": "In a cozy kitchen: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a boy about eight years old with short light brown hair and blue eyes kneel by the back door, attaching a small magnet and a metal plate to a little pet door so it stays closed; a fluffy orange cat sits watching them; a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt rubs a blue balloon on his hair, which stands up with static, and laughs; on the table there are horseshoe magnets, paper clips and a compass; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 4,
+    "estandar": "3-LS1-1",
+    "es": {
+      "titulo": "Cinco orugas en el salón",
+      "archivo": "3ro-ciencias-04-ciclos.html",
+      "tema": "Ciclos de vida"
+    },
+    "en": {
+      "titulo": "Five caterpillars in the classroom",
+      "archivo": "grade3-science-04-life-cycles.html",
+      "tema": "Life cycles"
+    },
+    "imagen": "3ro-ciencias-04-ciclos.jpg",
+    "escena": "In a bright third grade classroom with plants on the windowsill: a diverse group of children, including a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, a Latina girl about eight years old with a long black braid, an African American boy and an Asian American girl, gathers around a mesh butterfly habitat where an orange painted lady butterfly has just come out of its chrysalis; on the wall there is a big colorful poster of life cycles with a butterfly, a frog and a bean plant drawn in circles; a smiling Asian American woman teacher points to the poster; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 5,
+    "estandar": "3-LS2-1",
+    "es": {
+      "titulo": "El equipo de las hormigas",
+      "archivo": "3ro-ciencias-05-grupos.html",
+      "tema": "Vivir en grupo para sobrevivir"
+    },
+    "en": {
+      "titulo": "The ant team",
+      "archivo": "grade3-science-05-groups.html",
+      "tema": "Living in groups to survive"
+    },
+    "imagen": "3ro-ciencias-05-grupos.jpg",
+    "escena": "On a sunny sidewalk next to a small garden in Chicago: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes and a Latina girl about eight years old with a long black braid crouch with a magnifying glass, watching a long line of ants carrying a cookie crumb together toward an anthill; above them in the sky, a flock of geese flies in a V shape; in a small inset bubble-like cloud drawn in the corner, a pack of gray wolves walks together through the snow; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
+  },
+  {
+    "grado": 3,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "3-LS3-1 · 3-LS3-2",
+    "es": {
+      "titulo": "Los cachorros de Luna",
+      "archivo": "3ro-ciencias-06-rasgos.html",
+      "tema": "Rasgos heredados y la influencia del ambiente"
+    },
+    "en": {
+      "titulo": "Luna's puppies",
+      "archivo": "grade3-science-06-traits.html",
+      "tema": "Inherited traits and the environment"
+    },
+    "imagen": "3ro-ciencias-06-rasgos.jpg",
+    "escena": "In a sunny backyard: a boy about eight years old with short light brown hair and blue eyes and a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes look at a mother golden retriever dog with her three puppies, each puppy a slightly different shade of gold; next to them, two potted bean plants sit on a table, one tall and green in the sun and one pale and thin in the shade; a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt rides a small bicycle with training wheels nearby; each child has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
   }
   /* ---- FIN TERCER GRADO ---- */
 ];
