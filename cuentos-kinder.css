@@ -69,3 +69,9 @@ body.kinder{font-size:calc(1.3rem * var(--escala))}
 .k-mover button{font:inherit;font-size:1rem;font-weight:700;min-height:44px;padding:.4rem 1rem;cursor:pointer;
   border-radius:999px;border:2px solid var(--verde);background:var(--papel-claro);color:var(--verde)}
 @media print{ .k-mover{display:none} }
+
+/* Al imprimir, el contenido de los capítulos cerrados también se muestra */
+@media print{
+  details.capitulo::details-content{content-visibility:visible;display:block;height:auto}
+  details.capitulo > .cuerpo-cap{display:block!important}
+}

@@ -166,7 +166,20 @@
   if(btnContraste) btnContraste.addEventListener('click', function(){
     ponerContraste(!document.body.classList.contains('contraste-alto'));
   });
-  if($('btn-imprimir')) $('btn-imprimir').addEventListener('click', function(){ window.print(); });
+  if($('btn-imprimir')) $('btn-imprimir').addEventListener('click', function(){
+    // Abre todos los capítulos (lo hace el aviso «beforeprint») y espera a que carguen las láminas
+    window.dispatchEvent(new Event('beforeprint'));
+    var pendientes = Array.prototype.filter.call(document.querySelectorAll('img'), function(img){ if(img.loading === 'lazy') img.loading = 'eager'; return !img.complete; });
+    var listo = false;
+    function imprimir(){ if(listo) return; listo = true; window.print(); }
+    if(!pendientes.length){ setTimeout(imprimir, 50); return; }
+    var faltan = pendientes.length;
+    pendientes.forEach(function(img){
+      function una(){ faltan--; if(faltan <= 0) imprimir(); }
+      img.addEventListener('load', una, {once:true}); img.addEventListener('error', una, {once:true});
+    });
+    setTimeout(imprimir, 4000);
+  });
 
   /* ---------------------------------------------------------------
      3. ILUSTRACIÓN AUSENTE
@@ -429,6 +442,7 @@
     // Imprimir: abrir todos y después dejarlos como estaban.
     var estadoAntes = null;
     window.addEventListener('beforeprint', function(){
+      if(estadoAntes) return;
       imprimiendo = true;
       estadoAntes = capitulos.map(function(d){ return d.open; });
       capitulos.forEach(function(d){ d.removeAttribute('name'); d.open = true; });
@@ -436,6 +450,7 @@
     window.addEventListener('afterprint', function(){
       if(!estadoAntes) return;
       capitulos.forEach(function(d, i){ d.open = estadoAntes[i]; d.setAttribute('name','libro'); });
+      estadoAntes = null;
       setTimeout(function(){ imprimiendo = false; }, 100);
     });
   }

@@ -246,3 +246,9 @@ details.capitulo summary small{display:block;color:var(--tinta-suave);font-size:
   #preguntas{break-before:page}
   .pregunta,.glosario > div{break-inside:avoid}
 }
+
+/* Al imprimir, el contenido de los capítulos cerrados también se muestra */
+@media print{
+  details.capitulo::details-content{content-visibility:visible;display:block;height:auto}
+  details.capitulo > .cuerpo-cap{display:block!important}
+}

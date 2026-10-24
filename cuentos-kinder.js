@@ -173,7 +173,38 @@
     function ocultar(){ img.style.visibility = 'hidden'; }
     if(img.complete && img.naturalWidth === 0) ocultar(); else img.addEventListener('error', ocultar);
   });
-  if($('btn-imprimir')) $('btn-imprimir').addEventListener('click', function(){ window.print(); });
+  /* ---------- Imprimir o guardar en PDF: se abren todos los capítulos y se cargan todas las láminas ---------- */
+  var imprimiendo = false, estadoAntes = null;
+  function prepararImpresion(){
+    if(imprimiendo) return;
+    imprimiendo = true;
+    var caps = todos('details.capitulo');
+    estadoAntes = caps.map(function(d){ return d.open; });
+    caps.forEach(function(d){ d.removeAttribute('name'); d.open = true; });
+    todos('img[loading="lazy"]').forEach(function(img){ img.loading = 'eager'; });
+  }
+  function terminarImpresion(){
+    if(!imprimiendo) return;
+    var caps = todos('details.capitulo');
+    if(estadoAntes) caps.forEach(function(d, i){ d.open = estadoAntes[i]; d.setAttribute('name', 'libro'); });
+    estadoAntes = null;
+    setTimeout(function(){ imprimiendo = false; }, 150);
+  }
+  window.addEventListener('beforeprint', prepararImpresion);
+  window.addEventListener('afterprint', terminarImpresion);
+  if($('btn-imprimir')) $('btn-imprimir').addEventListener('click', function(){
+    prepararImpresion();
+    var pendientes = todos('img').filter(function(img){ return !img.complete; });
+    var listo = false;
+    function imprimir(){ if(listo) return; listo = true; window.print(); }
+    if(!pendientes.length){ setTimeout(imprimir, 50); return; }
+    var faltan = pendientes.length;
+    pendientes.forEach(function(img){
+      function una(){ faltan--; if(faltan <= 0) imprimir(); }
+      img.addEventListener('load', una, {once:true}); img.addEventListener('error', una, {once:true});
+    });
+    setTimeout(imprimir, 4000);
+  });
 
   /* ---------- ¿Cuento suelto o libro? ---------- */
   var capitulos = todos('details.capitulo');
@@ -192,6 +223,7 @@
   }
   capitulos.forEach(function(d){
     d.addEventListener('toggle', function(){
+      if(imprimiendo) return;
       if(d.open) capitulos.forEach(function(x){ if(x !== d) x.open = false; });
       else callar();
     });
