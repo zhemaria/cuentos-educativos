@@ -880,7 +880,7 @@ window.CATALOGO = [
       "tema": "Rules inside and outside of school"
     },
     "imagen": "1ro-sociales-01-reglas.jpg",
-    "escena": "Inside a bright public library with tall colorful bookshelves: a girl with long black braided hair, and a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, sit at a low table looking at picture books and whispering with a finger on their lips; a small sign with a drawing of a finger over lips hangs on the shelf; a kind teacher with short dark hair stands behind them, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+    "escena": "Inside a bright public library with tall colorful bookshelves: a girl with long black braided hair, and a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, sit at a low table looking at picture books and whispering with a finger on their lips; a small sign with a drawing of a finger over lips hangs on the shelf; a kind teacher with short dark hair stands behind them; other first graders from the class read at nearby tables: an African American boy, a Latina girl with curly hair and an Asian boy, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
   },
   {
     "grado": 1,
@@ -916,7 +916,7 @@ window.CATALOGO = [
       "tema": "Reading and making maps"
     },
     "imagen": "1ro-sociales-03-mapa.jpg",
-    "escena": "In a cheerful first grade classroom: a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, holds a simple hand-drawn treasure map of the classroom seen from above, with squares for tables, a circle for the rug and a red X; a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, points at the map, and a girl with long black braided hair, lifts the corner of a round rug next to a potted plant to find a small treasure box with gold star stickers, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
+    "escena": "In a cheerful first grade classroom: a small girl with black hair in a salmon-pink dress, hugging a brown teddy bear with a small pink bow on its head, holds a simple hand-drawn treasure map of the classroom seen from above, with squares for tables, a circle for the rug and a red X; a small boy with jet-black hair in a red t-shirt, holding his green plush toy dinosaur, points at the map, and a girl with long black braided hair, lifts the corner of a round rug next to a potted plant to find a small treasure box with gold star stickers; other classmates watch excitedly in the background: an African American girl with puffs, a Latino boy and an Asian girl, soft watercolor fairy-tale style, simple bright scene for a first grade picture book"
   },
   {
     "grado": 1,
