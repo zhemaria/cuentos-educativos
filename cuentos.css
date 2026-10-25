@@ -154,6 +154,16 @@ h2{font-size:1.4rem;margin:2rem 0 .9rem}
   font:inherit;font-weight:700;font-size:1rem;min-height:48px;padding:.6rem 1.1rem;cursor:pointer;
   background:var(--verde);color:#fff;border:none;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
 
+/* Botón discreto para volver arriba en los libros (a la izquierda, para no tapar «Volver a la pregunta») */
+.arriba{position:fixed;left:1rem;bottom:calc(1rem + env(safe-area-inset-bottom));z-index:40;
+  font:inherit;font-weight:700;font-size:.95rem;min-height:44px;min-width:44px;padding:.45rem .95rem;cursor:pointer;
+  background:var(--papel-claro);color:var(--verde);border:2px solid var(--verde);border-radius:999px;
+  box-shadow:0 3px 10px rgba(0,0,0,.18);opacity:.88}
+.arriba:hover,.arriba:focus-visible{opacity:1;background:var(--verde-claro)}
+.arriba:focus-visible{outline:3px solid var(--ambar);outline-offset:2px}
+.arriba[hidden]{display:none}
+@media print{.arriba{display:none}}
+
 /* --- Pie --------------------------------------------------------- */
 .pie{margin-top:3rem;padding-top:1.2rem;border-top:3px double var(--tinta);font-size:.88rem;color:var(--tinta-suave)}
 .pie p{margin:0 0 .5rem}

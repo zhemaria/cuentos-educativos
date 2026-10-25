@@ -239,3 +239,38 @@
   });
   if(location.hash){ var d = document.querySelector(location.hash); if(d && d.tagName === 'DETAILS') abrir(d); }
 })();
+
+/* ---------- Botón discreto «Arriba» (solo en los libros) ----------
+   Aparece cuando hay un cuento abierto y la portada ya no se ve.
+   Cierra el cuento y vuelve a la portada, para elegir otro.        */
+(function(){
+  'use strict';
+  var caps = Array.prototype.slice.call(document.querySelectorAll('details.capitulo'));
+  var portada = document.querySelector('.mosaico') || document.getElementById('indice');
+  if(!caps.length || !portada) return;
+  var en = (document.documentElement.lang || 'es').slice(0,2) === 'en';
+  var b = document.createElement('button');
+  b.type = 'button';
+  b.className = 'arriba';
+  b.innerHTML = '<span aria-hidden="true">↑</span> ' + (en ? 'Top' : 'Arriba');
+  b.setAttribute('aria-label', en ? 'Close the story and go back to the top' : 'Cerrar el cuento y volver arriba');
+  b.hidden = true;
+  document.body.appendChild(b);
+  var quieto = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function revisar(){
+    var abierto = caps.some(function(d){ return d.open; });
+    b.hidden = !(abierto && portada.getBoundingClientRect().bottom < 0);
+  }
+  window.addEventListener('scroll', revisar, {passive:true});
+  caps.forEach(function(d){ d.addEventListener('toggle', revisar); });
+  b.addEventListener('click', function(){
+    if(window.kCallar) window.kCallar();
+    else if(window.speechSynthesis) speechSynthesis.cancel();
+    caps.forEach(function(d){ d.open = false; });
+    window.scrollTo({top:0, behavior: quieto ? 'auto' : 'smooth'});
+    var ind = document.getElementById('indice');
+    if(ind) ind.focus({preventScroll:true});
+    history.replaceState(null, '', location.pathname + location.search);
+    b.hidden = true;
+  });
+})();

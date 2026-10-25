@@ -386,10 +386,15 @@
   if(capitulos.length){
     var abrir = function(d, enfocar){
       if(!d) return;
+      // Se cierran los demás antes de bajar, para que la página no se mueva después.
+      capitulos.forEach(function(o){ if(o !== d && o.open) o.open = false; });
       d.open = true;
       var s = d.querySelector('summary');
-      s.scrollIntoView({behavior: menosMovimiento ? 'auto' : 'smooth', block:'start'});
-      if(enfocar) s.focus({preventScroll:true});
+      // Pequeña espera para que el capítulo termine de abrirse antes de bajar.
+      setTimeout(function(){
+        s.scrollIntoView({behavior: menosMovimiento ? 'auto' : 'smooth', block:'start'});
+        if(enfocar) s.focus({preventScroll:true});
+      }, 60);
     };
     capitulos.forEach(function(d){
       d.addEventListener('toggle', function(){
@@ -402,21 +407,15 @@
         }
       });
     });
-    // Enlaces hacia un capítulo. Desde el mosaico se va directo al texto del cuento.
+    // Enlaces hacia un capítulo (mosaico e índice): se abre y se baja hasta
+    // su título, con la lámina en grande debajo, igual que en kínder y 1.º.
     todos('a[href^="#capitulo-"]').forEach(function(a){
       a.addEventListener('click', function(e){
         e.preventDefault();
         var d = document.querySelector(a.getAttribute('href'));
         if(!d) return;
-        if(!a.closest('.mosaico')){ abrir(d, true); return; }
-        d.open = true;
-        var texto = d.querySelector('.cuento');
-        texto.setAttribute('tabindex','-1');
-        // Pequeña espera para que el capítulo termine de abrirse antes de bajar.
-        setTimeout(function(){
-          texto.scrollIntoView({behavior: menosMovimiento ? 'auto' : 'smooth', block:'start'});
-          texto.focus({preventScroll:true});
-        }, 60);
+        abrir(d, true);
+        history.replaceState(null, '', a.getAttribute('href'));
       });
     });
     // «Cerrar y volver al índice».
@@ -469,5 +468,39 @@
       fig.innerHTML = ''; fig.appendChild(v); caja.remove();
       var p = v.play(); if(p && p.catch) p.catch(function(){});
     });
+  });
+})();
+/* ---------- Botón discreto «Arriba» (solo en los libros) ----------
+   Aparece cuando hay un cuento abierto y la portada ya no se ve.
+   Cierra el cuento y vuelve a la portada, para elegir otro.        */
+(function(){
+  'use strict';
+  var caps = Array.prototype.slice.call(document.querySelectorAll('details.capitulo'));
+  var portada = document.querySelector('.mosaico') || document.getElementById('indice');
+  if(!caps.length || !portada) return;
+  var en = (document.documentElement.lang || 'es').slice(0,2) === 'en';
+  var b = document.createElement('button');
+  b.type = 'button';
+  b.className = 'arriba';
+  b.innerHTML = '<span aria-hidden="true">↑</span> ' + (en ? 'Top' : 'Arriba');
+  b.setAttribute('aria-label', en ? 'Close the story and go back to the top' : 'Cerrar el cuento y volver arriba');
+  b.hidden = true;
+  document.body.appendChild(b);
+  var quieto = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function revisar(){
+    var abierto = caps.some(function(d){ return d.open; });
+    b.hidden = !(abierto && portada.getBoundingClientRect().bottom < 0);
+  }
+  window.addEventListener('scroll', revisar, {passive:true});
+  caps.forEach(function(d){ d.addEventListener('toggle', revisar); });
+  b.addEventListener('click', function(){
+    if(window.kCallar) window.kCallar();
+    else if(window.speechSynthesis) speechSynthesis.cancel();
+    caps.forEach(function(d){ d.open = false; });
+    window.scrollTo({top:0, behavior: quieto ? 'auto' : 'smooth'});
+    var ind = document.getElementById('indice');
+    if(ind) ind.focus({preventScroll:true});
+    history.replaceState(null, '', location.pathname + location.search);
+    b.hidden = true;
   });
 })();
