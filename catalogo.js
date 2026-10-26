@@ -1444,6 +1444,225 @@ window.CATALOGO = [
     "escena": "A sunny day on a Chicago architecture tour boat on the Chicago River, with skyscrapers on both sides and the city flag with its light blue stripes and four red stars waving at the back of the boat: a Latino boy about eight years old with short dark brown hair, cut short on the sides, and brown eyes, a boy about eight years old with short light brown hair and blue eyes, a Latina girl about eight years old with a long black braid, a little boy about five years old with short black hair, brown eyes and black rectangular glasses, in a red t-shirt and a little girl about four years old with long black hair in two pigtails with colorful bows, in a salmon-pink dress sit together with a kind great-grandfather in his seventies with gray hair, glasses and a cap, pointing at buildings and holding a folded map of Illinois; tourists of different backgrounds sit behind them; each person has exactly two arms and two hands, soft watercolor fairy-tale style, simple bright scene for a third grade picture book, wide landscape format"
   }
   /* ---- FIN TERCER GRADO ---- */
+  ,
+  /* ---- CUARTO GRADO · CIENCIAS (generado) ---- */
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 1,
+    "estandar": "4-PS3-1 · 4-PS3-3",
+    "es": {
+      "titulo": "El carrito que llegó más lejos",
+      "archivo": "4to-ciencias-01-rapidez.html",
+      "tema": "La rapidez, los choques y la energía"
+    },
+    "en": {
+      "titulo": "The car that went the farthest",
+      "archivo": "grade4-science-01-speed.html",
+      "tema": "Speed, collisions and energy"
+    },
+    "imagen": "4to-ciencias-01-rapidez.jpg",
+    "escena": "In a bright fourth grade classroom in Chicago: a long wooden board leans on a tall stack of books to make a ramp on a table; a small blue toy car has just rolled down it and crashed into a tower of paper cups, and the cups are flying in every direction across the table; a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie cheers with both arms up, an African American boy about nine years old with short curly black hair and round glasses, wearing an orange t-shirt watches closely, holding an orange toy car, and a Latino boy about nine years old with wavy brown hair, wearing a red t-shirt ducks and laughs as a cup flies past him, next to a small fish tank with a surprised goldfish; a smiling South Asian American woman teacher holds a notebook; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 2,
+    "estandar": "4-PS3-2",
+    "es": {
+      "titulo": "El arroz que bailaba",
+      "archivo": "4to-ciencias-02-energia-viaja.html",
+      "tema": "La energía que viaja de un lugar a otro"
+    },
+    "en": {
+      "titulo": "The dancing rice",
+      "archivo": "grade4-science-02-energy-travels.html",
+      "tema": "Energy that travels from place to place"
+    },
+    "imagen": "4to-ciencias-02-energia-viaja.jpg",
+    "escena": "In a cheerful school music room in Chicago on a winter afternoon: an Asian American girl about nine years old with straight black hair and bangs, wearing a purple jacket hits a big drum with a mallet while a girl about nine years old with brown skin and a long black braid, wearing a yellow t-shirt kneels next to a bowl covered with tight plastic wrap, where grains of rice are jumping into the air; a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie sits by a sunny window holding a warm mug of hot chocolate with both hands; on a nearby table a small circuit with a battery, wires and a glowing light bulb sits next to a music stand; a smiling South Asian American woman teacher holds a tambourine; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 3,
+    "estandar": "4-PS3-4 · 3-5-ETS1",
+    "es": {
+      "titulo": "La luz que le avisa a la abuela",
+      "archivo": "4to-ciencias-03-circuitos.html",
+      "tema": "Circuitos e inventos que cambian la energía"
+    },
+    "en": {
+      "titulo": "A light for Grandma",
+      "archivo": "grade4-science-03-circuits.html",
+      "tema": "Circuits and inventions that change energy"
+    },
+    "imagen": "4to-ciencias-03-circuitos.jpg",
+    "escena": "In a cozy Chicago apartment living room: a Latino boy about nine years old with wavy brown hair, wearing a red t-shirt presses a homemade cardboard doorbell button taped next to the front door, while a kind Latina grandmother in her seventies with gray hair in a bun and a flowered apron sits in an armchair across the room and smiles in surprise as a small light bulb on a wooden board lights up next to her; a girl about nine years old with olive skin and curly light brown hair in a ponytail, wearing a teal sweater and holding a sketchbook kneels by the board with a battery, wires and aluminum foil, checking her sketch, and an African American boy about nine years old with short curly black hair and round glasses, wearing an orange t-shirt gives a thumbs up; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 4,
+    "estandar": "4-PS4-1",
+    "es": {
+      "titulo": "El patito que no llegaba a la orilla",
+      "archivo": "4to-ciencias-04-ondas.html",
+      "tema": "Las ondas: amplitud y longitud de onda"
+    },
+    "en": {
+      "titulo": "The duck that wouldn't come back",
+      "archivo": "grade4-science-04-waves.html",
+      "tema": "Waves: amplitude and wavelength"
+    },
+    "imagen": "4to-ciencias-04-ondas.jpg",
+    "escena": "On a sandy beach of Lake Michigan in Chicago on a breezy summer morning, with the city skyline in the distance: an Asian American girl about nine years old with straight black hair and bangs, wearing a purple jacket and a Latina girl about nine years old with long wavy dark hair and a headband, wearing a pink blouse hold the two ends of a long jump rope stretched on the sand and shake it to make big up-and-down waves; a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie sits on the sand drawing wavy lines with a stick; out on the blue water, a small yellow rubber duck floats on gentle waves, bobbing up and down; seagulls fly overhead; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 5,
+    "estandar": "4-PS4-3",
+    "es": {
+      "titulo": "Mensajes en la oscuridad",
+      "archivo": "4to-ciencias-05-codigos.html",
+      "tema": "Mensajes con patrones de luz y sonido"
+    },
+    "en": {
+      "titulo": "Messages in the dark",
+      "archivo": "grade4-science-05-codes.html",
+      "tema": "Sending messages with patterns of light and sound"
+    },
+    "imagen": "4to-ciencias-05-codigos.jpg",
+    "escena": "At night in a family campground in an Illinois state park, under a starry sky with tall trees: two small tents stand a short distance apart; from the door of one tent an African American boy about nine years old with short curly black hair and round glasses, wearing an orange t-shirt shines a flashlight beam toward the other tent, while a Latino boy about nine years old with wavy brown hair, wearing a red t-shirt and a girl about nine years old with olive skin and curly light brown hair in a ponytail, wearing a teal sweater and holding a sketchbook peek out of the second tent, Athena writing short and long marks in her sketchbook by the light of a lantern and Elías holding a whistle; a campfire glows softly between the tents and an owl watches from a branch; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "4-PS4-2",
+    "es": {
+      "titulo": "La caja oscura de Salma",
+      "archivo": "4to-ciencias-06-vemos-luz.html",
+      "tema": "Vemos gracias a la luz que se refleja"
+    },
+    "en": {
+      "titulo": "Salma's dark box",
+      "archivo": "grade4-science-06-seeing-light.html",
+      "tema": "We see because of reflected light"
+    },
+    "imagen": "4to-ciencias-06-vemos-luz.jpg",
+    "escena": "Inside a large cardboard box turned into a dark \"viewing box\" on a classroom floor, shown in a cutaway so we can see inside: a bright flashlight beam shines from a small hole onto a red apple, and dotted arrows of light bounce from the apple toward a second small peephole where the eye of a girl about nine years old with brown skin and a long black braid, wearing a yellow t-shirt looks in; outside the box, a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie holds the flashlight and a Latina girl about nine years old with long wavy dark hair and a headband, wearing a pink blouse holds a small hand mirror that reflects a spot of light onto the wall; a smiling South Asian American woman teacher watches; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "4-LS1-1",
+    "es": {
+      "titulo": "El cuaderno de Athena",
+      "archivo": "4to-ciencias-07-partes.html",
+      "tema": "Partes que ayudan a sobrevivir"
+    },
+    "en": {
+      "titulo": "Athena's sketchbook",
+      "archivo": "grade4-science-07-parts.html",
+      "tema": "Parts that help living things survive"
+    },
+    "imagen": "4to-ciencias-07-partes.jpg",
+    "escena": "On a sunny spring morning at a nature center trail in Illinois, beside a small pond with tall grass and wildflowers: a painted turtle with yellow and red stripes suns itself on a log, a wild rose bush with pink flowers and thorns grows by the path, and a bee visits a flower; a girl about nine years old with olive skin and curly light brown hair in a ponytail, wearing a teal sweater and holding a sketchbook sits on a rock drawing the turtle in her sketchbook, a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie points at the rose thorns, and a girl about nine years old with brown skin and a long black braid, wearing a yellow t-shirt looks through binoculars at a great horned owl resting in a tree; a friendly park ranger in a green uniform and a wide hat holds a turtle shell and a large bird skeleton model; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "4-LS1-2",
+    "es": {
+      "titulo": "Galletas, limones y un gato que oye todo",
+      "archivo": "4to-ciencias-08-sentidos.html",
+      "tema": "Los sentidos y el cerebro"
+    },
+    "en": {
+      "titulo": "Cookies, lemons and a cat who hears everything",
+      "archivo": "grade4-science-08-senses.html",
+      "tema": "The senses and the brain"
+    },
+    "imagen": "4to-ciencias-08-sentidos.jpg",
+    "escena": "In a warm family kitchen in a Chicago apartment: a little gray smoke rises from a tray of slightly burnt cookies that a smiling African American father in an apron is pulling out of the oven with oven mitts; an African American boy about nine years old with short curly black hair and round glasses, wearing an orange t-shirt covers his nose and laughs, a Latina girl about nine years old with long wavy dark hair and a headband, wearing a pink blouse plays a guessing game with a blindfold on, holding a slice of lemon and making a sour face, and a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie holds the blindfold; a fluffy black cat with pointed ears races into the kitchen toward a can of cat food on the counter; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 9,
+    "estandar": "4-ESS1-1",
+    "es": {
+      "titulo": "El pastel de piedra",
+      "archivo": "4to-ciencias-09-capas-roca.html",
+      "tema": "Las capas de roca y los fósiles"
+    },
+    "en": {
+      "titulo": "The stone cake",
+      "archivo": "grade4-science-09-rock-layers.html",
+      "tema": "Rock layers and fossils"
+    },
+    "imagen": "4to-ciencias-09-capas-roca.jpg",
+    "escena": "In a narrow sandstone canyon in an Illinois state park in autumn, with orange and yellow trees at the top: the tall canyon walls show clear horizontal rock layers in tan, brown and gray stripes, and a small stream runs along the bottom; a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie touches a layer near the bottom, an Asian American girl about nine years old with straight black hair and bangs, wearing a purple jacket points up at the higher layers, and a Latino boy about nine years old with wavy brown hair, wearing a red t-shirt holds a magnifying glass over a gray rock with a fossil seashell; a friendly Asian American man geologist in his forties with a beard, hiking clothes and a small rock hammer on his belt explains with a smile; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 10,
+    "estandar": "4-ESS2-1 · 4-ESS2-2",
+    "es": {
+      "titulo": "La montaña de arena que se fue al río",
+      "archivo": "4to-ciencias-10-erosion.html",
+      "tema": "Meteorización y erosión"
+    },
+    "en": {
+      "titulo": "The sand mountain that went to the river",
+      "archivo": "grade4-science-10-erosion.html",
+      "tema": "Weathering and erosion"
+    },
+    "imagen": "4to-ciencias-10-erosion.jpg",
+    "escena": "In a bright fourth grade classroom in Chicago: on a table, a long plastic tray filled with sand and soil is tilted on a book, and water pours from a watering can held by a girl about nine years old with brown skin and a long black braid, wearing a yellow t-shirt, carving little winding channels and carrying sand down to a puddle at the bottom; an African American boy about nine years old with short curly black hair and round glasses, wearing an orange t-shirt pours water over a second tray where the sand is covered with small plants and grass and barely washes away; a girl about nine years old with olive skin and curly light brown hair in a ponytail, wearing a teal sweater and holding a sketchbook looks up at a large colorful map of the United States on the wall with mountains, rivers and the Great Lakes, holding her sketchbook; a cracked rock and a jar of water sit on the windowsill; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 11,
+    "estandar": "4-ESS3-1 · 4-ESS3-2",
+    "es": {
+      "titulo": "Molinos gigantes y una noche de tormenta",
+      "archivo": "4to-ciencias-11-recursos-peligros.html",
+      "tema": "Recursos de energía y peligros naturales"
+    },
+    "en": {
+      "titulo": "Giant windmills and a stormy night",
+      "archivo": "grade4-science-11-resources-hazards.html",
+      "tema": "Energy resources and natural hazards"
+    },
+    "imagen": "4to-ciencias-11-recursos-peligros.jpg",
+    "escena": "A split scene in a gentle storybook style: on the left, a sunny day in the flat Illinois countryside with tall white wind turbines turning above green cornfields and a few solar panels on a farmhouse roof, where a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie and a Latina girl about nine years old with long wavy dark hair and a headband, wearing a pink blouse look up at the turbines from a family car window; on the right, a cozy basement during a storm, with dark clouds outside a small high window, where a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie, a Latina girl about nine years old with long wavy dark hair and a headband, wearing a pink blouse and a kind Latina mother sit together on a rug with a flashlight, a weather radio, water bottles and a first aid kit, calm and safe; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "ciencias",
+    "orden": 12,
+    "estandar": "4-PS3 · 4-PS4 · 4-LS1 · 4-ESS1 · 4-ESS2 · 4-ESS3",
+    "es": {
+      "titulo": "La búsqueda del tesoro científico",
+      "archivo": "4to-ciencias-12-repaso.html",
+      "tema": "Repaso de todo el año"
+    },
+    "en": {
+      "titulo": "The science treasure hunt",
+      "archivo": "grade4-science-12-review.html",
+      "tema": "Review of the whole year"
+    },
+    "imagen": "4to-ciencias-12-repaso.jpg",
+    "escena": "A lively end-of-year science night in a Chicago school library decorated with paper stars and string lights: seven fourth graders work together on a science treasure hunt, each at a different table: a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie rolls a toy car down a ramp, an African American boy about nine years old with short curly black hair and round glasses, wearing an orange t-shirt connects a battery to a glowing light bulb, an Asian American girl about nine years old with straight black hair and bangs, wearing a purple jacket shakes a jump rope to make waves, a girl about nine years old with brown skin and a long black braid, wearing a yellow t-shirt shines a flashlight at a small mirror, a girl about nine years old with olive skin and curly light brown hair in a ponytail, wearing a teal sweater and holding a sketchbook holds up her sketchbook with a drawing of a turtle, a Latino boy about nine years old with wavy brown hair, wearing a red t-shirt holds a fossil seashell, and a Latina girl about nine years old with long wavy dark hair and a headband, wearing a pink blouse points at a tray of sand with little water channels; a large treasure chest with a ribbon waits at the front, and a smiling South Asian American woman teacher cheers them on; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  }
+  /* ---- FIN CUARTO GRADO · CIENCIAS ---- */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
@@ -1455,5 +1674,6 @@ window.LIBROS = [
   { grado: 0, area: 'sociales', es: 'libro-kinder-sociales.html', en: 'book-kindergarten-social-studies.html' },
   { grado: 2, area: 'sociales', es: 'libro-2do-sociales.html', en: 'book-grade2-social-studies.html' },
   { grado: 3, area: 'ciencias', es: 'libro-3ro-ciencias.html', en: 'book-grade3-science.html' },
-  { grado: 3, area: 'sociales', es: 'libro-3ro-sociales.html', en: 'book-grade3-social-studies.html' }
+  { grado: 3, area: 'sociales', es: 'libro-3ro-sociales.html', en: 'book-grade3-social-studies.html' },
+  { grado: 4, area: 'ciencias', es: 'libro-4to-ciencias.html', en: 'book-grade4-science.html' }
 ];

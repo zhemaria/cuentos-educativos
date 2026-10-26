@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--
+  Cuentos educativos · 4to grado · Ciencias · 4-PS4-3
+  «Mensajes en la oscuridad»
+  Autor: José M. Fernández · Desarrollo: Claude (Anthropic) · Ilustración: IA
+  Licencia: Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mensajes en la oscuridad · Cuentos educativos</title>
+<meta name="description" content="Cuento de ciencias para 4to grado sobre mensajes con patrones de luz y sonido, con vocabulario y preguntas de comprensión.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Ir al cuento</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Ubicación">
+    <span><a href="index.html#grado-4">Cuentos educativos</a> · 4to grado · Ciencias</span>
+    <a class="idioma" href="grade4-science-05-codes.html" lang="en" hreflang="en">Read in English</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Apoyos de lectura">
+    <button type="button" id="btn-voz" aria-pressed="false">Escuchar el cuento</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Letra más pequeña</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Letra más grande</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">Alto contraste</button>
+    <button type="button" id="btn-imprimir">Imprimir</button>
+  </div>
+
+  <figure class="lamina">
+    <img src="4to-ciencias-05-codigos.jpg" width="1376" height="768"
+         alt="De noche en un campamento, Daniel envía señales con una linterna desde su tienda, mientras Athena anota rayas y puntos y Elías sostiene un silbato en la otra tienda.">
+  </figure>
+
+  <p class="sello">4to grado · Ciencias · 4-PS4-3</p>
+  <h1 id="titulo">Mensajes en la oscuridad</h1>
+  <p class="entrada">Un cuento sobre cómo los patrones pueden llevar mensajes.</p>
+
+  <ul class="indice" aria-label="Partes de esta página">
+    <li><a href="#palabras">Palabras de ciencia</a></li>
+    <li><a href="#cuento">El cuento</a></li>
+    <li><a href="#glosario">Glosario</a></li>
+    <li><a href="#preguntas">Preguntas</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Palabras de ciencia que vas a aprender</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="patron">patrón</button></li>
+      <li><button type="button" class="voz" data-g="codigo">código</button></li>
+      <li><button type="button" class="voz" data-g="senal">señal</button></li>
+      <li><button type="button" class="voz" data-g="informacion">información</button></li>
+      <li><button type="button" class="voz" data-g="morse">código Morse</button></li>
+      <li><button type="button" class="voz" data-g="solucion">solución</button></li>
+      <li><button type="button" class="voz" data-g="comparar">comparar</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Toca una palabra verde para ver qué significa.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">El cuento</h2>
+  <div class="cuento">
+    <p id="p1">En el campamento de primavera, las familias pusieron sus tiendas en un parque estatal de Illinois. Daniel dormía en una tienda, y Elías y Athena en otra, a unos pasos. Tenían dos radiotransmisores de juguete para hablar de noche, pero las pilas se acabaron antes de cenar.</p>
+
+    <p id="p2">—¿Y ahora cómo nos mandamos mensajes? —preguntó Elías. Daniel levantó su linterna. —Con luz. <span class="cita" id="c-a">Podemos inventar un <button type="button" class="voz" data-g="codigo">código</button>: una <button type="button" class="voz" data-g="senal">señal</button> para cada mensaje. Un destello quiere decir «sí», y dos destellos quieren decir «no».</span></p>
+
+    <p id="p3">Esa noche, Elías preguntó desde su tienda, en voz bajita: —¿Tienes galletas? Daniel respondió con un destello. ¡Sí! Luego Athena preguntó si Daniel tenía miedo de los búhos. Dos destellos. No. Bueno, más o menos.</p>
+
+    <p id="p4">Pero pronto el código se quedó corto. —Solo podemos decir «sí» y «no» —se quejó Athena—. ¿Cómo digo «ven a ver la luna»? Entonces el papá de Daniel, que había sido scout, les contó del <button type="button" class="voz" data-g="morse">código Morse</button>.</p>
+
+    <p id="p5"><span class="cita" id="c-b">—Es un código muy antiguo —explicó—. Cada letra es un <button type="button" class="voz" data-g="patron">patrón</button> de señales cortas y largas. Por ejemplo, la S es corta, corta, corta, y la O es larga, larga, larga.</span> Con eso se puede escribir cualquier palabra. Athena copió el alfabeto en su cuaderno de dibujo, con puntos para las cortas y rayas para las largas.</p>
+
+    <p id="p6">Al día siguiente, los amigos probaron dos <button type="button" class="voz" data-g="solucion">soluciones</button> distintas: mandar el mensaje con la luz de la linterna o con el sonido de un silbato. Cada uno hacía sus señales cortas y largas, y el otro escribía lo que recibía.</p>
+
+    <p id="p7">Luego se sentaron a <button type="button" class="voz" data-g="comparar">comparar</button>. <span class="cita" id="c-c">La linterna funcionaba muy bien de noche y no hacía ruido, pero había que ver la otra tienda. El silbato se oía detrás de los árboles, pero despertaba a todo el campamento.</span> —Mi abuelo me dijo que si vuelvo a silbar a las seis de la mañana, me regala a los mapaches —contó Elías.</p>
+
+    <p id="p8">—Los dos mensajes eran iguales —dijo Athena—, aunque uno era de luz y el otro de sonido. <span class="cita" id="c-d">Lo importante es el patrón: si los dos saben el código, el patrón lleva la <button type="button" class="voz" data-g="informacion">información</button>.</span></p>
+
+    <p id="p9">De regreso a casa, el papá de Daniel les mostró su teléfono. <span class="cita" id="c-e">—Los teléfonos y las computadoras también mandan mensajes con patrones —dijo—, muy rápidos y muy largos, que viajan como señales.</span> Esa noche, Daniel le mandó a Elías un mensaje con su linterna desde la ventana: corta, corta, corta; larga, larga, larga; corta, corta, corta. Elías buscó en el cuaderno de Athena: S, O, S, la señal que se usa en todo el mundo para pedir ayuda. Luego vio a Daniel en su ventana, con una caja de galletas vacía, y se rio.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glosario</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-patron"><dt>patrón</dt><dd>Algo que se repite o que sigue un orden. Un patrón puede representar un mensaje.</dd></div>
+    <div id="g-codigo"><dt>código</dt><dd>Un sistema de señales que representan letras, palabras o ideas.</dd></div>
+    <div id="g-senal"><dt>señal</dt><dd>Algo que se ve o se oye y que lleva un mensaje, como un destello de luz o un silbido.</dd></div>
+    <div id="g-informacion"><dt>información</dt><dd>Datos o mensajes que sirven para saber algo.</dd></div>
+    <div id="g-morse"><dt>código Morse</dt><dd>Un código antiguo que representa cada letra con señales cortas y largas.</dd></div>
+    <div id="g-solucion"><dt>solución</dt><dd>Una manera de resolver un problema.</dd></div>
+    <div id="g-comparar"><dt>comparar</dt><dd>Ver en qué se parecen y en qué se diferencian dos o más cosas.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Preguntas</h2>
+  <p>Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Pregunta A. </span>¿Qué quería decir un destello en el primer código?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta A">
+        <button class="opcion">Sí</button>
+        <button class="opcion">No</button>
+        <button class="opcion">Buenas noches</button>
+      </div>
+      <p class="explicacion" hidden>En el primer código, un destello quería decir «sí» y dos destellos quería decir «no».</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Pregunta B. </span>¿Cómo representa las letras el código Morse?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta B">
+        <button class="opcion">Con colores distintos</button>
+        <button class="opcion">Con señales cortas y largas</button>
+        <button class="opcion">Con dibujos pequeños de animales</button>
+      </div>
+      <p class="explicacion" hidden>En el código Morse, cada letra es un patrón de señales cortas y largas.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Pregunta C. </span>¿Qué problema tenía el silbato?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta C">
+        <button class="opcion">No se oía detrás de los árboles</button>
+        <button class="opcion">Despertaba a todo el campamento</button>
+        <button class="opcion">Solo funcionaba en las tiendas</button>
+      </div>
+      <p class="explicacion" hidden>El silbato se oía detrás de los árboles, pero despertaba a todo el campamento.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Pregunta D. </span>¿Qué es lo importante para que un mensaje llegue bien?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta D">
+        <button class="opcion">Que sea muy de noche</button>
+        <button class="opcion">Que la linterna sea grande y muy brillante</button>
+        <button class="opcion">Que los dos sepan el código</button>
+      </div>
+      <p class="explicacion" hidden>Lo importante es el patrón: si los dos saben el código, el patrón lleva la información.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Pregunta E. </span>¿Cómo mandan mensajes los teléfonos y las computadoras?</span></p>
+      <div class="opciones" role="group" aria-label="Opciones de la pregunta E">
+        <button class="opcion">Con patrones que viajan como señales</button>
+        <button class="opcion">Con silbatos muy pequeños por dentro</button>
+        <button class="opcion">Con cartas escritas en código Morse</button>
+      </div>
+      <p class="explicacion" hidden>Los teléfonos y las computadoras también mandan mensajes con patrones que viajan como señales.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Desarrollo: Claude (Anthropic) · Ilustración generada con inteligencia artificial.</p>
+    <p>Estándar de Illinois (NGSS) 4-PS4-3: crear y comparar varias soluciones que usan patrones para transmitir información.</p>
+    <p>Obra distribuida bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>
