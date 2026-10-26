@@ -958,7 +958,7 @@ window.CATALOGO = [
     "grado": 1,
     "area": "sociales",
     "orden": 6,
-    "estandar": "SS.1.EC.FL.3",
+    "estandar": "SS.1.EC.FL.1",
     "es": {
       "titulo": "El puesto de limonada",
       "archivo": "1ro-sociales-06-trabajo.html",
@@ -1231,7 +1231,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 1,
-    "estandar": "SS.EC.2.3 · SS.CV.3.3",
+    "estandar": "SS.3.EC.2 · SS.3.CV.1",
     "es": {
       "titulo": "La carta del bache",
       "archivo": "3ro-sociales-01-gobierno.html",
@@ -1249,7 +1249,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 2,
-    "estandar": "SS.CV.2.3",
+    "estandar": "SS.3.CV.2 · SS.3-5.IS.10",
     "es": {
       "titulo": "Las reglas del recreo",
       "archivo": "3ro-sociales-02-reglas.html",
@@ -1267,7 +1267,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 3,
-    "estandar": "SS.CV.1.3",
+    "estandar": "SS.3.CV.1",
     "es": {
       "titulo": "Las manzanas del banco de comida",
       "archivo": "3ro-sociales-03-comunidad.html",
@@ -1285,7 +1285,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 4,
-    "estandar": "SS.CV.4.3 · SS.H.2.3",
+    "estandar": "SS.3.CV.2 · SS.3.H.2",
     "es": {
       "titulo": "La casa que abrió sus puertas",
       "archivo": "3ro-sociales-04-hull-house.html",
@@ -1303,7 +1303,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 5,
-    "estandar": "SS.G.1.3",
+    "estandar": "SS.3.G.1",
     "es": {
       "titulo": "El mapa del tesoro de Illinois",
       "archivo": "3ro-sociales-05-mapa.html",
@@ -1321,7 +1321,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 6,
-    "estandar": "SS.G.2.3",
+    "estandar": "SS.3.G.2",
     "es": {
       "titulo": "El río que corre al revés",
       "archivo": "3ro-sociales-06-rio.html",
@@ -1339,7 +1339,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 7,
-    "estandar": "SS.G.3.3 · SS.EC.1.3",
+    "estandar": "SS.3.G.3 · SS.3.EC.1",
     "es": {
       "titulo": "El desayuno que dio la vuelta al mundo",
       "archivo": "3ro-sociales-07-desayuno.html",
@@ -1357,7 +1357,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 8,
-    "estandar": "SS.EC.FL.3.3 · SS.EC.FL.4.3",
+    "estandar": "SS.3.EC.FL.1 · SS.3.EC.FL.2",
     "es": {
       "titulo": "La bicicleta azul de Alejandro",
       "archivo": "3ro-sociales-08-banco.html",
@@ -1375,7 +1375,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 9,
-    "estandar": "SS.H.1.3 · SS.H.2.3",
+    "estandar": "SS.3.H.1 · SS.3.H.2",
     "es": {
       "titulo": "La línea de tiempo del barrio",
       "archivo": "3ro-sociales-09-barrio.html",
@@ -1393,7 +1393,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 10,
-    "estandar": "SS.H.1.3 · SS.H.2.3",
+    "estandar": "SS.3.H.1 · SS.3-5.IS.7",
     "es": {
       "titulo": "El Gran Incendio de Chicago",
       "archivo": "3ro-sociales-10-incendio.html",
@@ -1411,7 +1411,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 11,
-    "estandar": "SS.H.3.3",
+    "estandar": "SS.3.H.3 · SS.3-5.IS.4",
     "es": {
       "titulo": "¿Fue la vaca? Detectives de la historia",
       "archivo": "3ro-sociales-11-fuentes.html",
@@ -1429,7 +1429,7 @@ window.CATALOGO = [
     "grado": 3,
     "area": "sociales",
     "orden": 12,
-    "estandar": "SS.CV · SS.G · SS.EC · SS.H",
+    "estandar": "SS.3.CV · SS.3.G · SS.3.EC · SS.3.H",
     "es": {
       "titulo": "El paseo en barco por Chicago",
       "archivo": "3ro-sociales-12-repaso.html",
