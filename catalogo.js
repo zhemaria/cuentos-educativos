@@ -1668,7 +1668,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 1,
-    "estandar": "SS.CV.1.4",
+    "estandar": "SS.4.CV.1 · SS.4.CV.3",
     "es": {
       "titulo": "Tres poderes bajo una cúpula",
       "archivo": "4to-sociales-01-gobierno.html",
@@ -1686,7 +1686,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 2,
-    "estandar": "SS.CV.4.4 · SS.CV.2.4",
+    "estandar": "SS.4.CV.4 · SS.4.CV.2",
     "es": {
       "titulo": "Firmas para la esquina",
       "archivo": "4to-sociales-02-derechos.html",
@@ -1704,7 +1704,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 3,
-    "estandar": "SS.G.1.4",
+    "estandar": "SS.4.G.1",
     "es": {
       "titulo": "Las coordenadas de Athena",
       "archivo": "4to-sociales-03-mapas.html",
@@ -1722,7 +1722,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 4,
-    "estandar": "SS.G.2.4",
+    "estandar": "SS.4.G.2 · SS.4.G.3",
     "es": {
       "titulo": "Un pasto más alto que papá",
       "archivo": "4to-sociales-04-pradera.html",
@@ -1740,7 +1740,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 5,
-    "estandar": "SS.H.2.4 · SS.H.1.4",
+    "estandar": "SS.4.H.2 · SS.4.H.1",
     "es": {
       "titulo": "La ciudad de los montículos",
       "archivo": "4to-sociales-05-cahokia.html",
@@ -1758,7 +1758,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 6,
-    "estandar": "SS.H.1.4 · SS.H.3.4",
+    "estandar": "SS.4.H.1 · SS.4.H.3",
     "es": {
       "titulo": "Cargar la canoa",
       "archivo": "4to-sociales-06-exploradores.html",
@@ -1776,7 +1776,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 7,
-    "estandar": "SS.H.2.4 · SS.H.3.4",
+    "estandar": "SS.4.H.3 · SS.4.H.1",
     "es": {
       "titulo": "La frontera que se movió",
       "archivo": "4to-sociales-07-estado.html",
@@ -1794,7 +1794,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 8,
-    "estandar": "SS.H.2.4 · SS.H.1.4",
+    "estandar": "SS.4.H.1 · SS.4.H.2",
     "es": {
       "titulo": "Tras los pasos de Lincoln",
       "archivo": "4to-sociales-08-lincoln.html",
@@ -1812,7 +1812,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 9,
-    "estandar": "SS.H.3.4 · SS.G.3.4",
+    "estandar": "SS.4.H.3 · SS.4.G.3",
     "es": {
       "titulo": "La ciudad que creció de prisa",
       "archivo": "4to-sociales-09-chicago.html",
@@ -1830,7 +1830,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 10,
-    "estandar": "SS.G.3.4 · SS.H.1.4",
+    "estandar": "SS.4.H.1 · SS.4.G.2",
     "es": {
       "titulo": "El mapa de nuestras raíces",
       "archivo": "4to-sociales-10-migracion.html",
@@ -1848,7 +1848,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 11,
-    "estandar": "SS.EC.1.4 · SS.EC.2.4 · SS.EC.FL.4.4",
+    "estandar": "SS.4.EC.1 · SS.4.EC.2 · SS.4.EC.FL.2",
     "es": {
       "titulo": "La ganancia de las calabazas",
       "archivo": "4to-sociales-11-economia.html",
@@ -1866,7 +1866,7 @@ window.CATALOGO = [
     "grado": 4,
     "area": "sociales",
     "orden": 12,
-    "estandar": "SS.CV · SS.G · SS.EC · SS.H",
+    "estandar": "SS.4.CV · SS.4.G · SS.4.EC · SS.4.H",
     "es": {
       "titulo": "El tren de Illinois",
       "archivo": "4to-sociales-12-repaso.html",

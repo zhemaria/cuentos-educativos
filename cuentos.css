@@ -164,6 +164,20 @@ h2{font-size:1.4rem;margin:2rem 0 .9rem}
 .arriba[hidden]{display:none}
 @media print{.arriba{display:none}}
 
+/* --- Reto final (aplicación y evidencia) -------------------------- */
+.reto{margin:1.8rem 0 0;padding:1rem 1.2rem;background:var(--verde-claro);
+  border:2px solid var(--verde);border-radius:var(--radio);scroll-margin-top:1rem}
+.reto h2,.reto h3{font-size:1.2rem;margin:0 0 .3rem;color:var(--verde-hondo)}
+.reto-tipo{margin:0 0 .5rem;font-size:.9rem;font-weight:700;letter-spacing:.02em;color:var(--verde)}
+.reto-pregunta{margin:0 0 .6rem;font-weight:700}
+.reto-como{margin:0 0 .8rem;font-size:.95rem;color:var(--tinta-suave)}
+.reto-pista{background:var(--papel-claro);border:1px solid var(--borde);border-radius:10px;padding:0 .9rem}
+.reto-pista > summary{cursor:pointer;font-weight:700;color:var(--verde);min-height:44px;
+  display:flex;align-items:center}
+.reto-pista[open]{padding-bottom:.6rem}
+.reto-pista p{margin:.2rem 0 0}
+@media print{.reto{background:#fff}.reto-pista{display:none}}
+
 /* --- Pie --------------------------------------------------------- */
 .pie{margin-top:3rem;padding-top:1.2rem;border-top:3px double var(--tinta);font-size:.88rem;color:var(--tinta-suave)}
 .pie p{margin:0 0 .5rem}
