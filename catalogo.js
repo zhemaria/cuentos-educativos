@@ -1662,7 +1662,225 @@ window.CATALOGO = [
     "imagen": "4to-ciencias-12-repaso.jpg",
     "escena": "A lively end-of-year science night in a Chicago school library decorated with paper stars and string lights: seven fourth graders work together on a science treasure hunt, each at a different table: a Latino boy about nine years old with short black hair and light brown skin, wearing a blue hoodie rolls a toy car down a ramp, an African American boy about nine years old with short curly black hair and round glasses, wearing an orange t-shirt connects a battery to a glowing light bulb, an Asian American girl about nine years old with straight black hair and bangs, wearing a purple jacket shakes a jump rope to make waves, a girl about nine years old with brown skin and a long black braid, wearing a yellow t-shirt shines a flashlight at a small mirror, a girl about nine years old with olive skin and curly light brown hair in a ponytail, wearing a teal sweater and holding a sketchbook holds up her sketchbook with a drawing of a turtle, a Latino boy about nine years old with wavy brown hair, wearing a red t-shirt holds a fossil seashell, and a Latina girl about nine years old with long wavy dark hair and a headband, wearing a pink blouse points at a tray of sand with little water channels; a large treasure chest with a ribbon waits at the front, and a smiling South Asian American woman teacher cheers them on; each child has exactly two arms and two hands, no text, letters or numbers anywhere, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
   }
-  /* ---- FIN CUARTO GRADO · CIENCIAS ---- */
+  /* ---- FIN CUARTO GRADO · CIENCIAS ---- */,
+  /* ---- CUARTO GRADO · ESTUDIOS SOCIALES (generado) ---- */
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.CV.1.4",
+    "es": {
+      "titulo": "Tres poderes bajo una cúpula",
+      "archivo": "4to-sociales-01-gobierno.html",
+      "tema": "Los tres poderes del gobierno de Illinois"
+    },
+    "en": {
+      "titulo": "Three branches under one dome",
+      "archivo": "grade4-social-studies-01-government.html",
+      "tema": "The three branches of Illinois government"
+    },
+    "imagen": "4to-sociales-01-gobierno.jpg",
+    "escena": "Inside the Illinois State Capitol in Springfield, under a tall round dome with stained glass and painted decorations: a diverse fourth grade class of African American, Latino, Asian American and white children looks up in wonder; in front, a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie points up at the dome, an Asian American girl about nine years old with straight black hair and bangs, in a purple jacket holds a clipboard, and an African American boy about nine years old with short curly black hair and round glasses, in an orange t-shirt looks up with one hand on his head as if a little dizzy; a friendly Latina woman teacher in her forties with shoulder-length dark hair and a green cardigan smiles beside them; marble columns and a grand staircase around them; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.CV.4.4 · SS.CV.2.4",
+    "es": {
+      "titulo": "Firmas para la esquina",
+      "archivo": "4to-sociales-02-derechos.html",
+      "tema": "Leyes, derechos y responsabilidades"
+    },
+    "en": {
+      "titulo": "Signatures for the corner",
+      "archivo": "grade4-social-studies-02-rights.html",
+      "tema": "Laws, rights and responsibilities"
+    },
+    "imagen": "4to-sociales-02-derechos.jpg",
+    "escena": "At an evening community meeting in a Chicago neighborhood hall with a United States flag and an Illinois flag: a Latina girl about nine years old with long wavy dark hair and a headband, in a pink blouse speaks into a microphone, a little nervous but brave, while a Latino boy about nine years old with wavy chestnut-brown hair, in a red t-shirt holds up a simple hand-drawn map of a street corner and a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie holds a thick folder of signed papers; neighbors of different backgrounds sit on folding chairs and clap; a friendly city council member listens at a table; in a small inset on the right, the same street corner with a freshly painted white crosswalk and a red octagonal stop sign with no letters on it; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.G.1.4",
+    "es": {
+      "titulo": "Las coordenadas de Athena",
+      "archivo": "4to-sociales-03-mapas.html",
+      "tema": "Regiones, ríos y coordenadas de Illinois"
+    },
+    "en": {
+      "titulo": "Athena's coordinates",
+      "archivo": "grade4-social-studies-03-maps.html",
+      "tema": "Regions, rivers and coordinates of Illinois"
+    },
+    "imagen": "4to-sociales-03-mapas.jpg",
+    "escena": "In a bright classroom: a girl about nine years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook kneels on the floor drawing a large paper map of Illinois with a ruler, with a grid of latitude and longitude lines across it, Lake Michigan in blue at the top right, the Mississippi River along the left side, the Ohio River at the bottom, and three soft color bands for the northern, central and southern regions; a girl about nine years old with brown skin and long black hair in a single braid, in a yellow t-shirt paints one of the regions with a brush; a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie points to a small dot near the top right for Chicago, and a small star marks Springfield in the middle; colored pencils, a ruler and paint cups on the floor; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.G.2.4",
+    "es": {
+      "titulo": "Un pasto más alto que papá",
+      "archivo": "4to-sociales-04-pradera.html",
+      "tema": "Cómo la pradera, el lago y los ríos cambiaron la vida"
+    },
+    "en": {
+      "titulo": "Grass taller than Dad",
+      "archivo": "grade4-social-studies-04-prairie.html",
+      "tema": "How the prairie, the lake and the rivers changed life"
+    },
+    "imagen": "4to-sociales-04-pradera.jpg",
+    "escena": "On a mown path through a tallgrass prairie in late summer, with big bluestem grass taller than a grown man, purple coneflowers and yellow wildflowers: an African American boy about nine years old with short curly black hair and round glasses, in an orange t-shirt and a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie laugh and point while Daniel's father, a tall African American man in his forties with a short beard and a gray t-shirt, stands beside the grass, which is clearly taller than he is; a big blue sky with white clouds; far in the distance, a wide river with a long line of barges; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.H.2.4 · SS.H.1.4",
+    "es": {
+      "titulo": "La ciudad de los montículos",
+      "archivo": "4to-sociales-05-cahokia.html",
+      "tema": "Cahokia y los pueblos indígenas de Illinois"
+    },
+    "en": {
+      "titulo": "The city of mounds",
+      "archivo": "grade4-social-studies-05-cahokia.html",
+      "tema": "Cahokia and the Native peoples of Illinois"
+    },
+    "imagen": "4to-sociales-05-cahokia.jpg",
+    "escena": "A sunny day at Cahokia Mounds State Historic Site near Collinsville, Illinois: a huge flat-topped, terraced earthen mound covered in green grass, with a long wooden staircase up its side, rises above a wide grassy plaza; a diverse fourth grade class climbs the stairs; at the top, a girl about nine years old with brown skin and long black hair in a single braid, in a yellow t-shirt looks up at the clouds, a girl about nine years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook sketches the view, and a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie points out over the plaza; a park guide in a ranger uniform stands with them; in the distance, smaller grassy mounds and trees; a calm, respectful, modern-day scene; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.H.1.4 · SS.H.3.4",
+    "es": {
+      "titulo": "Cargar la canoa",
+      "archivo": "4to-sociales-06-exploradores.html",
+      "tema": "Exploradores y comercio: Marquette y Jolliet"
+    },
+    "en": {
+      "titulo": "Carry the canoe",
+      "archivo": "grade4-social-studies-06-explorers.html",
+      "tema": "Explorers and trade: Marquette and Jolliet"
+    },
+    "imagen": "4to-sociales-06-exploradores.jpg",
+    "escena": "In a schoolyard on a sunny autumn day: a playful relay race where children carry lightweight cardboard canoes over their heads; an African American boy about nine years old with short curly black hair and round glasses, in an orange t-shirt and a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie run together holding a cardboard canoe over their heads so they cannot see, heading straight toward a sandbox, while a Latino boy about nine years old with wavy chestnut-brown hair, in a red t-shirt laughs and points; classmates of different backgrounds cheer; a friendly Latina woman teacher in her forties with shoulder-length dark hair and a green cardigan smiles nearby; in a small inset in the top corner, painted like an old map, two birchbark canoes travel along a winding blue river through prairie and forest; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.H.2.4 · SS.H.3.4",
+    "es": {
+      "titulo": "La frontera que se movió",
+      "archivo": "4to-sociales-07-estado.html",
+      "tema": "Illinois se convierte en estado (1818)"
+    },
+    "en": {
+      "titulo": "The border that moved",
+      "archivo": "grade4-social-studies-07-statehood.html",
+      "tema": "Illinois becomes a state (1818)"
+    },
+    "imagen": "4to-sociales-07-estado.jpg",
+    "escena": "On a school stage decorated with a big painted map of Illinois that has no words on it, and birthday balloons and paper streamers: a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie walks backward holding a long rope stretched across the stage like a border line, a Latina girl about nine years old with long wavy dark hair and a headband, in a pink blouse wearing a tall cardboard top hat gently pulls the rope toward the top of the map, and an Asian American girl about nine years old with straight black hair and bangs, in a purple jacket stands at the side as the narrator holding a script; a big cardboard star leans against the wall; an audience of families of different backgrounds claps in the front rows; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.H.2.4 · SS.H.1.4",
+    "es": {
+      "titulo": "Tras los pasos de Lincoln",
+      "archivo": "4to-sociales-08-lincoln.html",
+      "tema": "Lincoln en Illinois"
+    },
+    "en": {
+      "titulo": "In Lincoln's footsteps",
+      "archivo": "grade4-social-studies-08-lincoln.html",
+      "tema": "Lincoln in Illinois"
+    },
+    "imagen": "4to-sociales-08-lincoln.jpg",
+    "escena": "A two-part watercolor scene: on the left, a reconstructed 1830s pioneer village of log cabins with split-rail fences beside a river in the woods, where a guide in old-fashioned clothes shows candle making and a Latino boy about nine years old with wavy chestnut-brown hair, in a red t-shirt proudly holds up a very crooked candle; on the right, a two-story light brown wooden house with green shutters on a quiet street with a wooden sidewalk, the Lincoln Home in Springfield, with a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie, a Latina girl about nine years old with long wavy dark hair and a headband, in a pink blouse and a kind great-grandfather in his seventies with gray hair, glasses and a cap standing in front of it; spring trees with fresh green leaves; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 9,
+    "estandar": "SS.H.3.4 · SS.G.3.4",
+    "es": {
+      "titulo": "La ciudad que creció de prisa",
+      "archivo": "4to-sociales-09-chicago.html",
+      "tema": "Chicago crece: el canal, el tren y el Gran Incendio"
+    },
+    "en": {
+      "titulo": "The city that grew in a hurry",
+      "archivo": "grade4-social-studies-09-chicago.html",
+      "tema": "Chicago grows: the canal, the railroads and the Great Fire"
+    },
+    "imagen": "4to-sociales-09-chicago.jpg",
+    "escena": "Along a quiet old canal lined with autumn trees, on a flat towpath trail beside the water: an Asian American girl about nine years old with straight black hair and bangs, in a purple jacket, an African American boy about nine years old with short curly black hair and round glasses, in an orange t-shirt and a girl about nine years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook ride bicycles wearing helmets, with Sophia's mother, an Asian American woman in her late thirties with a short bob haircut and a light blue jacket, riding ahead; ducks swim on the canal; the girl with the sketchbook has stopped to draw a line that rises steeply; in a small inset in soft sepia tones, a mule walks on the towpath pulling a wooden canal boat loaded with grain sacks, and an old steam train puffs in the distance; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 10,
+    "estandar": "SS.G.3.4 · SS.H.1.4",
+    "es": {
+      "titulo": "El mapa de nuestras raíces",
+      "archivo": "4to-sociales-10-migracion.html",
+      "tema": "Inmigración y la Gran Migración"
+    },
+    "en": {
+      "titulo": "The map of where we come from",
+      "archivo": "grade4-social-studies-10-migration.html",
+      "tema": "Immigration and the Great Migration"
+    },
+    "imagen": "4to-sociales-10-migracion.jpg",
+    "escena": "In a cozy fourth grade classroom: a large world map on the wall is covered with colorful strings that all meet at one point, Chicago; an African American boy about nine years old with short curly black hair and round glasses, in an orange t-shirt stands proudly next to his great-grandmother, an elderly African American woman in her nineties with short white hair and glasses, in a lavender cardigan, who holds a sweet potato pie; a Latino boy about nine years old with wavy chestnut-brown hair, in a red t-shirt pins a string from a Caribbean island, an Asian American girl about nine years old with straight black hair and bangs, in a purple jacket pins a string from Korea, and a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie pins a string from Latin America; classmates of different backgrounds watch and smile; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 11,
+    "estandar": "SS.EC.1.4 · SS.EC.2.4 · SS.EC.FL.4.4",
+    "es": {
+      "titulo": "La ganancia de las calabazas",
+      "archivo": "4to-sociales-11-economia.html",
+      "tema": "Recursos, productos y emprendedores"
+    },
+    "en": {
+      "titulo": "Pumpkin profits",
+      "archivo": "grade4-social-studies-11-economy.html",
+      "tema": "Resources, products and entrepreneurs"
+    },
+    "imagen": "4to-sociales-11-economia.jpg",
+    "escena": "At a school market table decorated with autumn leaves, full of small pumpkins painted with cats, moons and one with round glasses: a Latina girl about nine years old with long wavy dark hair and a headband, in a pink blouse cheerfully hands a pumpkin to a customer, a girl about nine years old with brown skin and long black hair in a single braid, in a yellow t-shirt makes chalk marks on a small chalkboard, a girl about nine years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook paints a cat face on a pumpkin with a brush, and a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie carries a wooden crate full of pumpkins, looking tired but happy; parents and children of different backgrounds browse the table; in a small inset in the corner, a farm field in central Illinois with rows of orange pumpkins and a red tractor; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 4,
+    "area": "sociales",
+    "orden": 12,
+    "estandar": "SS.CV · SS.G · SS.EC · SS.H",
+    "es": {
+      "titulo": "El tren de Illinois",
+      "archivo": "4to-sociales-12-repaso.html",
+      "tema": "Repaso de todo el año"
+    },
+    "en": {
+      "titulo": "The Illinois train",
+      "archivo": "grade4-social-studies-12-review.html",
+      "tema": "Review of the whole year"
+    },
+    "imagen": "4to-sociales-12-repaso.jpg",
+    "escena": "Inside a bright passenger train traveling through flat green Illinois farmland with endless fields of corn and soybeans, a red barn and a small river seen through the big windows, and far on the horizon a small capitol dome: a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie, an African American boy about nine years old with short curly black hair and round glasses, in an orange t-shirt, a Latino boy about nine years old with wavy chestnut-brown hair, in a red t-shirt, an Asian American girl about nine years old with straight black hair and bangs, in a purple jacket, a girl about nine years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook unfolding a map of Illinois, a girl about nine years old with brown skin and long black hair in a single braid, in a yellow t-shirt and a Latina girl about nine years old with long wavy dark hair and a headband, in a pink blouse sit together around a table, laughing and pointing out the window; a friendly Latina woman teacher in her forties with shoulder-length dark hair and a green cardigan smiles from the next seat; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
+  }
+  /* ---- FIN CUARTO GRADO · ESTUDIOS SOCIALES ---- */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
@@ -1675,5 +1893,6 @@ window.LIBROS = [
   { grado: 2, area: 'sociales', es: 'libro-2do-sociales.html', en: 'book-grade2-social-studies.html' },
   { grado: 3, area: 'ciencias', es: 'libro-3ro-ciencias.html', en: 'book-grade3-science.html' },
   { grado: 3, area: 'sociales', es: 'libro-3ro-sociales.html', en: 'book-grade3-social-studies.html' },
-  { grado: 4, area: 'ciencias', es: 'libro-4to-ciencias.html', en: 'book-grade4-science.html' }
+  { grado: 4, area: 'ciencias', es: 'libro-4to-ciencias.html', en: 'book-grade4-science.html' },
+  { grado: 4, area: 'sociales', es: 'libro-4to-sociales.html', en: 'book-grade4-social-studies.html' }
 ];
