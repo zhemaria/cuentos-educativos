@@ -527,6 +527,13 @@
   });
   /* ---------- Lámina en movimiento (opcional): solo si la figura trae data-video; nunca arranca sola ---------- */
   todos('figure.lamina[data-video]').forEach(function(fig){
+    // El botón aparece solo si el video existe de verdad (se puede subir después).
+    var prueba = document.createElement('video');
+    prueba.preload = 'metadata'; prueba.muted = true;
+    prueba.addEventListener('loadedmetadata', function(){ ponerBotonVideo(fig); }, {once:true});
+    prueba.src = fig.getAttribute('data-video');
+  });
+  function ponerBotonVideo(fig){
     var b = document.createElement('button'); b.type = 'button'; b.className = 'ver-video';
     b.textContent = LANG === 'en' ? '🎬 See the picture move' : '🎬 Ver la lámina en movimiento';
     var caja = document.createElement('p'); caja.className = 'caja-video'; caja.appendChild(b);
@@ -540,7 +547,7 @@
       fig.innerHTML = ''; fig.appendChild(v); caja.remove();
       var p = v.play(); if(p && p.catch) p.catch(function(){});
     });
-  });
+  }
 })();
 /* ---------- Botón discreto «Arriba» (solo en los libros) ----------
    Aparece cuando hay un cuento abierto y la portada ya no se ve.
