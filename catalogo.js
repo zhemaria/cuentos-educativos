@@ -2099,6 +2099,224 @@ window.CATALOGO = [
     "escena": "A bright school gym set up for a science fair, with long tables of colorful projects and families of different backgrounds walking between them: a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt and a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, stand together behind one long table with a puffed-up plastic bag on a small kitchen scale, a small potted bean plant, a globe next to a flashlight, a jar of compost with worms and a clear jug of water; a friendly woman science teacher in her fifties with short silver-blond hair and glasses, in a green lab coat, smiles at them; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
   }
   /* ---- FIN QUINTO GRADO · CIENCIAS ---- */
+  ,
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.5.H.2 · SS.5.CV.2",
+    "es": {
+      "titulo": "El cuadro que se pintó después",
+      "archivo": "grade5-social-studies-01-constitution.html",
+      "tema": "La Constitución y cómo juzgar una fuente histórica"
+    },
+    "en": {
+      "titulo": "The painting made later",
+      "archivo": "grade5-social-studies-01-constitution.html",
+      "tema": "The Constitution and how to judge a historical source"
+    },
+    "imagen": "grade5-social-studies-01-constitution.jpg",
+    "escena": "A bright fifth grade classroom in Chicago: a large screen on the wall shows a simple, blurry watercolor impression of an old 18th-century meeting hall with tall windows, curtains and many men in old-fashioned coats around tables, painted in a soft style; a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, points at the screen with her sketchbook open; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, holds a long paper timeline; an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, counts on his fingers; a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, raises her hand; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.5.CV.1",
+    "es": {
+      "titulo": "Tres ramas y un águila",
+      "archivo": "grade5-social-studies-02-branches.html",
+      "tema": "Las tres ramas del gobierno y cómo han cambiado"
+    },
+    "en": {
+      "titulo": "Three branches and an eagle",
+      "archivo": "grade5-social-studies-02-branches.html",
+      "tema": "The three branches of government and how they have changed"
+    },
+    "imagen": "grade5-social-studies-02-branches.jpg",
+    "escena": "A sunny plaza in downtown Chicago in front of a tall dark modern federal building, with a large bright red abstract steel sculpture in the plaza: a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, holds up a drawing of a big tree with three thick branches, an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, looks up at a round bronze seal with an eagle on the building wall, and a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, takes notes; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, points toward the building; pigeons on the plaza; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.5.EC.3 · SS.5.H.1",
+    "es": {
+      "titulo": "«Yankee Doodle» y el té",
+      "archivo": "grade5-social-studies-03-taxes.html",
+      "tema": "Cómo paga el gobierno los bienes y servicios que ofrece"
+    },
+    "en": {
+      "titulo": "Yankee Doodle and the tea",
+      "archivo": "grade5-social-studies-03-taxes.html",
+      "tema": "How the government pays for the goods and services it provides"
+    },
+    "imagen": "grade5-social-studies-03-taxes.jpg",
+    "escena": "Inside a small neighborhood store in Chicago: a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt, looks at a long paper receipt with a surprised face while a smiling woman, her mother, pays at the counter; above them, a large soft dreamy cloud shows a scene from 1773 of colonists on a wooden sailing ship at night dumping wooden boxes of tea into the dark harbor; a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, holds a small shopping bag; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.5.G.3 · SS.5.EC.1 · SS.5.H.1",
+    "es": {
+      "titulo": "La foto del último riel",
+      "archivo": "grade5-social-studies-04-railroad.html",
+      "tema": "El ferrocarril, el comercio y los recursos naturales"
+    },
+    "en": {
+      "titulo": "The photo of the last rail",
+      "archivo": "grade5-social-studies-04-railroad.html",
+      "tema": "Railroads, trade and natural resources"
+    },
+    "imagen": "grade5-social-studies-04-railroad.jpg",
+    "escena": "The grand waiting hall of a historic train station in Chicago with tall stone columns, a high skylight and long wooden benches: an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, holds a tablet showing a blurry old sepia picture of two steam locomotives facing each other with a crowd, a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, points at an old map unrolled on a bench, with many railroad lines that all meet in one city in the middle, and an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, looks at the map; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, stands beside them; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.5.H.1",
+    "es": {
+      "titulo": "El camino a la libertad",
+      "archivo": "grade5-social-studies-05-underground-railroad.html",
+      "tema": "El Ferrocarril Subterráneo en Illinois"
+    },
+    "en": {
+      "titulo": "The road to freedom",
+      "archivo": "grade5-social-studies-05-underground-railroad.html",
+      "tema": "The Underground Railroad in Illinois"
+    },
+    "imagen": "grade5-social-studies-05-underground-railroad.jpg",
+    "escena": "A small old white two-story wooden farmhouse with green shutters in the Illinois countryside in autumn, with orange and yellow trees and a cloudy sky: a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, and a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt, in jackets, listen to a friendly Black woman park guide in a park ranger jacket who points toward the house; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, stands behind them with the rest of a small class; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.5.CV.2 · SS.5.CV.4",
+    "es": {
+      "titulo": "Las que marcharon al frente",
+      "archivo": "grade5-social-studies-06-suffrage.html",
+      "tema": "El derecho de la mujer al voto y quiénes seguían excluidas"
+    },
+    "en": {
+      "titulo": "The women who marched in front",
+      "archivo": "grade5-social-studies-06-suffrage.html",
+      "tema": "Women's right to vote and who was still left out"
+    },
+    "imagen": "grade5-social-studies-06-suffrage.jpg",
+    "escena": "On a sunny election morning outside a brick Chicago school used as a polling place, with a short line of adults of different backgrounds at the door: a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, and an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, walk beside two smiling mothers who wear small round stickers without any writing; a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, sits on the steps sketching a woman on a white horse carrying a long banner without any writing; autumn trees; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.5.H.1 · SS.5.G.2",
+    "es": {
+      "titulo": "Boleto al norte",
+      "archivo": "grade5-social-studies-07-great-migration.html",
+      "tema": "La Gran Migración y la música que llegó a Chicago"
+    },
+    "en": {
+      "titulo": "A ticket to the North",
+      "archivo": "grade5-social-studies-07-great-migration.html",
+      "tema": "The Great Migration and the music that came to Chicago"
+    },
+    "imagen": "grade5-social-studies-07-great-migration.jpg",
+    "escena": "A cozy living room in a Chicago apartment in the Bronzeville neighborhood with a window showing brick buildings: an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, sits on a sofa next to his smiling great-grandmother, an elderly Black woman with short white hair, glasses and a cardigan, as they look together at an open old photo album with black-and-white photos and an old paper train ticket without any writing; an old record player sits on a wooden shelf; a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, listens from an armchair; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.5.G.4",
+    "es": {
+      "titulo": "Cuando el viento se llevó la tierra",
+      "archivo": "grade5-social-studies-08-dust-bowl.html",
+      "tema": "El Dust Bowl y cómo los desastres hacen que la gente se mude"
+    },
+    "en": {
+      "titulo": "When the wind took the soil",
+      "archivo": "grade5-social-studies-08-dust-bowl.html",
+      "tema": "The Dust Bowl and how disasters move people"
+    },
+    "imagen": "grade5-social-studies-08-dust-bowl.jpg",
+    "escena": "A fifth grade classroom with a lab table: a small electric fan blows on two shallow trays of soil; the tray covered with green grass stays in place, while the bare brown soil in the other tray sends a cloud of dust flying; a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, and a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, laugh and shield their eyes with their hands; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, holds the fan; on the wall screen, a blurry sepia impression of a dark dust storm over a flat farm; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 9,
+    "estandar": "SS.5.CV.4 · SS.5.CV.2",
+    "es": {
+      "titulo": "Una canción para marchar",
+      "archivo": "grade5-social-studies-09-civil-rights.html",
+      "tema": "El movimiento por los derechos civiles y cómo un problema se convierte en ley"
+    },
+    "en": {
+      "titulo": "A song for marching",
+      "archivo": "grade5-social-studies-09-civil-rights.html",
+      "tema": "The civil rights movement and how a problem becomes a law"
+    },
+    "imagen": "grade5-social-studies-09-civil-rights.jpg",
+    "escena": "A bright school music room with an upright piano: a children's choir of different backgrounds stands on risers singing with open mouths and joyful faces; in the front row, a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt, and an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, hold sheets of music without any writing; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, plays the piano; on the wall behind them hangs a long paper timeline with small simple drawings of a city bus, people marching with signs without any writing and a government building with a dome; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 10,
+    "estandar": "SS.5.EC.2 · SS.5.EC.4",
+    "es": {
+      "titulo": "Premios, multas e intereses",
+      "archivo": "grade5-social-studies-10-incentives.html",
+      "tema": "Cómo los incentivos cambian lo que hace la gente, y qué es el interés"
+    },
+    "en": {
+      "titulo": "Rewards, fines and interest",
+      "archivo": "grade5-social-studies-10-incentives.html",
+      "tema": "How incentives change what people do, and what interest is"
+    },
+    "imagen": "grade5-social-studies-10-incentives.jpg",
+    "escena": "Inside a bright Chicago public library branch with tall bookshelves and big windows: a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, smiles sheepishly as he puts a tall stack of books on the return counter, while a friendly librarian smiles; a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, and a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, hold up a colorful hand-drawn poster with pictures of cookies and cupcakes but no writing; a teenage boy, Israel's older brother, leans on the counter holding a bicycle helmet; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 11,
+    "estandar": "SS.5.G.1 · SS.5.CV.3",
+    "es": {
+      "titulo": "Dos países, dos mapas",
+      "archivo": "grade5-social-studies-11-canada.html",
+      "tema": "Mapas a distintas escalas y la comparación de los gobiernos de EE. UU. y Canadá"
+    },
+    "en": {
+      "titulo": "Two countries, two maps",
+      "archivo": "grade5-social-studies-11-canada.html",
+      "tema": "Maps at different scales and comparing the governments of the U.S. and Canada"
+    },
+    "imagen": "grade5-social-studies-11-canada.jpg",
+    "escena": "A fifth grade classroom with a large screen showing a video call with a smiling class of children of different backgrounds in another classroom with a red maple leaf flag on the wall; an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, and an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, wave at the screen; on the classroom wall hang two maps side by side without any labels: a big colorful map of North America and a small detailed street map of a city by a lake; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, points at the big map; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "sociales",
+    "orden": 12,
+    "estandar": "SS.5.H.3 · SS.5.CV · SS.5.G · SS.5.EC · SS.5.H",
+    "es": {
+      "titulo": "El museo de la clase",
+      "archivo": "grade5-social-studies-12-review.html",
+      "tema": "Repaso de todo el año"
+    },
+    "en": {
+      "titulo": "The class museum",
+      "archivo": "grade5-social-studies-12-review.html",
+      "tema": "Review of the whole year"
+    },
+    "imagen": "grade5-social-studies-12-review.jpg",
+    "escena": "A school library turned into a small class museum, with tables, display cards without any writing and families of different backgrounds walking through: a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt and a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, stand proudly by their tables, which hold an old map, a faded paper train ticket, a colorful bake sale poster, a small tray of soil with grass, a drawing of an eagle and a model of a steam train; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, smiles at the entrance; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  }
+  /* ---- FIN QUINTO GRADO · ESTUDIOS SOCIALES ---- */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
@@ -2113,5 +2331,6 @@ window.LIBROS = [
   { grado: 3, area: 'sociales', es: 'libro-3ro-sociales.html', en: 'book-grade3-social-studies.html' },
   { grado: 4, area: 'ciencias', es: 'libro-4to-ciencias.html', en: 'book-grade4-science.html' },
   { grado: 4, area: 'sociales', es: 'libro-4to-sociales.html', en: 'book-grade4-social-studies.html' },
-  { grado: 5, area: 'ciencias', es: 'book-grade5-science.html', en: 'book-grade5-science.html' }
+  { grado: 5, area: 'ciencias', es: 'book-grade5-science.html', en: 'book-grade5-science.html' },
+  { grado: 5, area: 'sociales', es: 'book-grade5-social-studies.html', en: 'book-grade5-social-studies.html' }
 ];

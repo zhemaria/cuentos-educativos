@@ -297,3 +297,29 @@ dd.caja-es{margin-left:0}
 .apoyos button.btn-ayuda[aria-pressed="true"]{background:var(--ambar);color:#fff;border-color:var(--ambar)}
 body.contraste-alto .caja-es{border:2px solid #000;border-left-width:6px}
 @media print{.ayuda-es{display:none!important}}
+
+/* --- Pausa para conectar (Estudios Sociales desde 5.º) ---------- */
+.pausa{margin:1.8rem 0;padding:1rem 1.2rem;background:var(--rosa-claro);border:1px solid var(--borde);
+  border-left:6px solid var(--rosa);border-radius:var(--radio)}
+.pausa h2,.pausa h3{font-size:1.2rem;margin:0 0 .3rem;color:var(--rosa)}
+.pausa-arte{margin:0 0 .6rem;font-size:.9rem;font-weight:700;color:var(--rosa)}
+.versos{margin:.8rem 0;padding:.7rem 1rem;background:var(--papel-claro);border-radius:10px;font-style:italic}
+.versos p{margin:0 0 .4rem}
+.versos footer{font-style:normal;font-size:.85rem;color:var(--tinta-suave)}
+.enlace-pausa{display:inline-block;padding:.45rem 1rem;min-height:44px;border:2px solid var(--rosa);border-radius:999px;
+  background:var(--papel-claro);color:var(--rosa);font-weight:700;text-decoration:none}
+.describe{margin:.6rem 0}
+.pausa-preguntas{padding-left:1.3rem}
+.pausa-preguntas li{margin:.4rem 0}
+.pausa-preguntas .caja-es{margin-top:.3rem}
+.ritmo{font:inherit;font-weight:700;min-height:44px;padding:.4rem 1rem;cursor:pointer;border-radius:10px;
+  border:2px solid var(--rosa);background:var(--papel-claro);color:var(--rosa)}
+.ritmo[aria-pressed="true"]{background:var(--rosa);color:#fff}
+.anuncio{display:flex;flex-direction:column;align-items:center;gap:.15rem;margin:.8rem auto;max-width:22rem;padding:1rem;
+  background:#fff;border:4px dashed var(--rosa);border-radius:16px;text-align:center;color:var(--tinta)}
+.anuncio .a0{font-size:1.6em;font-weight:700;color:var(--rosa)}
+.anuncio .a2{margin-top:.4rem;font-weight:700;color:#fff;background:var(--rosa);padding:.1rem .7rem;border-radius:999px}
+.anuncio .a3{font-weight:700;font-size:1.15em}
+.anuncio .a4{font-size:.9em;color:var(--tinta-suave)}
+body.contraste-alto .pausa,body.contraste-alto .anuncio{border-color:#000}
+@media print{.pausa{background:#fff}.ritmo{display:none}}

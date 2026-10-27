@@ -475,6 +475,56 @@
       anunciar(si ? 'Ayuda en español activada.' : 'Ayuda en español desactivada.');
     });
   }
+  /* ---------------------------------------------------------------
+     8. RITMO DE LA PAUSA PARA CONECTAR (Web Audio, sin archivos)
+     Un bajo de blues de 12 compases con el pulso marcado. Nunca
+     suena solo: solo con el botón .ritmo, que también lo detiene.
+     --------------------------------------------------------------- */
+  var ctxAudio = null, ritmoActivo = null, ritmoFin = null;
+  var NOTAS = {E:82.41, A:110.0, B:123.47};
+  var BLUES = ['E','E','E','E','A','A','E','E','B','A','E','B'];
+  function pararRitmo(){
+    if(ritmoActivo){ try{ ritmoActivo.g.gain.cancelScheduledValues(0); ritmoActivo.g.gain.value = 0; ritmoActivo.g.disconnect(); }catch(e){} }
+    if(ritmoFin) clearTimeout(ritmoFin);
+    todos('.ritmo').forEach(function(b){ b.setAttribute('aria-pressed','false'); });
+    ritmoActivo = null;
+  }
+  function tocarBlues(){
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if(!AC) return false;
+    if(!ctxAudio) ctxAudio = new AC();
+    if(ctxAudio.state === 'suspended') ctxAudio.resume();
+    var g = ctxAudio.createGain(); g.gain.value = 0.9; g.connect(ctxAudio.destination);
+    var t0 = ctxAudio.currentTime + 0.1, pulso = 0.6;           // 100 golpes por minuto
+    function nota(f, t, d, vol, tipo){
+      var o = ctxAudio.createOscillator(), e = ctxAudio.createGain();
+      o.type = tipo; o.frequency.value = f;
+      e.gain.setValueAtTime(0.0001, t); e.gain.exponentialRampToValueAtTime(vol, t + 0.02);
+      e.gain.exponentialRampToValueAtTime(0.0001, t + d);
+      o.connect(e); e.connect(g); o.start(t); o.stop(t + d + 0.05);
+    }
+    BLUES.forEach(function(raiz, compas){
+      var f = NOTAS[raiz], pasos = [1, 1.5, 1.68, 1.5];            // raíz, quinta, sexta, quinta
+      for(var b = 0; b < 4; b++){
+        var t = t0 + (compas*4 + b) * pulso;
+        nota(f * pasos[b], t, pulso*0.62, 0.35, 'triangle');                 // corchea larga (shuffle)
+        nota(f * pasos[b], t + pulso*0.66, pulso*0.3, 0.22, 'triangle');      // corchea corta
+        nota(55, t, 0.12, 0.5, 'sine');                                       // el pie marca el pulso
+      }
+    });
+    ritmoActivo = {g:g};
+    ritmoFin = setTimeout(pararRitmo, (BLUES.length*4*pulso + 0.5) * 1000);
+    return true;
+  }
+  todos('.ritmo').forEach(function(b){
+    b.addEventListener('click', function(){
+      var sonaba = b.getAttribute('aria-pressed') === 'true';
+      pararRitmo();
+      if(sonaba) return;
+      callar(); botonCuentoEnReposo();
+      if(tocarBlues()){ b.setAttribute('aria-pressed','true'); anunciar(LANG === 'en' ? 'The rhythm is playing. Press again to stop.' : 'Suena el ritmo. Pulsa otra vez para detenerlo.'); }
+    });
+  });
   /* ---------- Lámina en movimiento (opcional): solo si la figura trae data-video; nunca arranca sola ---------- */
   todos('figure.lamina[data-video]').forEach(function(fig){
     var b = document.createElement('button'); b.type = 'button'; b.className = 'ver-video';
