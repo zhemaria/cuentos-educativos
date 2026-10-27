@@ -1881,6 +1881,224 @@ window.CATALOGO = [
     "escena": "Inside a bright passenger train traveling through flat green Illinois farmland with endless fields of corn and soybeans, a red barn and a small river seen through the big windows, and far on the horizon a small capitol dome: a Latino boy about nine years old with short black hair and light tan skin, in a blue hoodie, an African American boy about nine years old with short curly black hair and round glasses, in an orange t-shirt, a Latino boy about nine years old with wavy chestnut-brown hair, in a red t-shirt, an Asian American girl about nine years old with straight black hair and bangs, in a purple jacket, a girl about nine years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook unfolding a map of Illinois, a girl about nine years old with brown skin and long black hair in a single braid, in a yellow t-shirt and a Latina girl about nine years old with long wavy dark hair and a headband, in a pink blouse sit together around a table, laughing and pointing out the window; a friendly Latina woman teacher in her forties with shoulder-length dark hair and a green cardigan smiles from the next seat; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fourth grade picture book, wide 16:9 landscape format"
   }
   /* ---- FIN CUARTO GRADO · ESTUDIOS SOCIALES ---- */
+  ,
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 1,
+    "estandar": "5-PS1-1",
+    "es": {
+      "titulo": "El misterio de las palomitas",
+      "archivo": "grade5-science-01-particles.html",
+      "tema": "La materia está hecha de partículas invisibles"
+    },
+    "en": {
+      "titulo": "The popcorn mystery",
+      "archivo": "grade5-science-01-particles.html",
+      "tema": "Matter is made of particles too small to see"
+    },
+    "imagen": "grade5-science-01-particles.jpg",
+    "escena": "A bright fifth grade science classroom in Chicago: at the back of the room, a friendly woman science teacher in her fifties with short silver-blond hair and glasses, in a green lab coat, pours fresh popcorn from a popcorn machine into a bowl; at the front row, far away, a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, sniffs the air with her eyes closed and a big smile; beside her, an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, stirs a spoon in a clear glass of water next to a small pile of sugar, and an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, blows up a red balloon; a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, draws tiny dots on a page; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 2,
+    "estandar": "5-PS1-2 · 5-PS1-4",
+    "es": {
+      "titulo": "La bolsa que se infló",
+      "archivo": "grade5-science-02-weight.html",
+      "tema": "Sustancias nuevas y un peso que no cambia"
+    },
+    "en": {
+      "titulo": "The bag that puffed up",
+      "archivo": "grade5-science-02-weight.html",
+      "tema": "New substances and weight that stays the same"
+    },
+    "imagen": "grade5-science-02-weight.jpg",
+    "escena": "At a lab table in a fifth grade classroom: a sealed clear zip-top plastic bag full of white fizzing bubbles puffs up like a pillow on a small digital kitchen scale with a blank display; an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, leans in with wide eyes, a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, points at the bag in surprise, and a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt, writes in a notebook; on the table, a small cup of baking soda and a bottle of vinegar; a friendly woman science teacher in her fifties with short silver-blond hair and glasses, in a green lab coat, smiles nearby; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 3,
+    "estandar": "5-PS1-3",
+    "es": {
+      "titulo": "El caso de los polvos blancos",
+      "archivo": "grade5-science-03-properties.html",
+      "tema": "Identificar materiales por sus propiedades"
+    },
+    "en": {
+      "titulo": "The case of the white powders",
+      "archivo": "grade5-science-03-properties.html",
+      "tema": "Identifying materials by their properties"
+    },
+    "imagen": "grade5-science-03-properties.jpg",
+    "escena": "A cozy family kitchen in Chicago with a window: a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt, holds a magnifying glass over four small glass jars of different white powders on the table, while a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, pours a little vinegar into a small dish where white powder fizzes with bubbles; one clear cup of water is cloudy and another is clear; a smiling grandmother with gray hair in a bun and an apron watches with her arms crossed, amused; no labels on the jars; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 4,
+    "estandar": "5-PS2-1",
+    "es": {
+      "titulo": "Por qué el balón siempre baja",
+      "archivo": "grade5-science-04-gravity.html",
+      "tema": "La gravedad jala los objetos hacia el centro de la Tierra"
+    },
+    "en": {
+      "titulo": "Why the ball always comes down",
+      "archivo": "grade5-science-04-gravity.html",
+      "tema": "Gravity pulls objects toward the center of Earth"
+    },
+    "imagen": "grade5-science-04-gravity.jpg",
+    "escena": "An outdoor basketball court in a Chicago park on a sunny autumn afternoon with trees and the skyline far away: a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, jumps and shoots a basketball high into the air toward the hoop; an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, sits on a bench holding a small globe with tiny paper stick-figure people taped all around it, on the top and on the bottom; a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, looks at the globe, curious; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 5,
+    "estandar": "5-PS3-1",
+    "es": {
+      "titulo": "El taco de luz de sol",
+      "archivo": "grade5-science-05-food-energy.html",
+      "tema": "La energía de los alimentos vino del Sol"
+    },
+    "en": {
+      "titulo": "The sunshine taco",
+      "archivo": "grade5-science-05-food-energy.html",
+      "tema": "The energy in food was once energy from the sun"
+    },
+    "imagen": "grade5-science-05-food-energy.jpg",
+    "escena": "A cheerful school cafeteria table at lunch with sunlight through big windows: a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, holds up a chicken taco with lettuce, smiling; a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, draws in her open sketchbook a simple picture of a bright sun with arrows to a tall corn plant, then to a chicken, then to a running child; an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, and a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, eat and watch; lunch trays, apples and milk cartons on the table; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "5-LS1-1",
+    "es": {
+      "titulo": "El árbol hecho de aire",
+      "archivo": "grade5-science-06-plants-air.html",
+      "tema": "Las plantas toman lo que necesitan sobre todo del aire y del agua"
+    },
+    "en": {
+      "titulo": "The tree made of air",
+      "archivo": "grade5-science-06-plants-air.html",
+      "tema": "Plants get the materials they need mainly from air and water"
+    },
+    "imagen": "grade5-science-06-plants-air.jpg",
+    "escena": "Inside a huge Victorian glass plant conservatory in Chicago full of tall green palm trees and ferns, with sunlight streaming through the glass dome: an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, stands with her head tilted back looking up at a giant palm tree in amazement; a friendly woman science teacher in her fifties with short silver-blond hair and glasses, in a green lab coat, holds up a simple drawing of a small willow tree growing in a big clay pot; a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt, and a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, stand beside a small pond with lily pads; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "5-LS2-1",
+    "es": {
+      "titulo": "Lo que se comió la composta",
+      "archivo": "grade5-science-07-decomposers.html",
+      "tema": "La materia circula entre plantas, animales, descomponedores y el ambiente"
+    },
+    "en": {
+      "titulo": "What the compost ate",
+      "archivo": "grade5-science-07-decomposers.html",
+      "tema": "Matter moves among plants, animals, decomposers and the environment"
+    },
+    "imagen": "grade5-science-07-decomposers.jpg",
+    "escena": "A sunny community garden in a Chicago neighborhood with raised wooden beds of lettuce, tomatoes and sunflowers: a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, lifts the lid of a wooden compost bin, and a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt, holds a small shovel showing dark soil with pink earthworms and a few mushrooms; a brown rabbit nibbles lettuce at the edge of a garden bed, and a hawk flies high in the blue sky; a friendly woman science teacher in her fifties with short silver-blond hair and glasses, in a green lab coat, kneels beside them wearing gardening gloves; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "5-ESS1-1",
+    "es": {
+      "titulo": "La estrella de al lado",
+      "archivo": "grade5-science-08-sun-star.html",
+      "tema": "El Sol se ve más brillante que otras estrellas porque está más cerca"
+    },
+    "en": {
+      "titulo": "The star next door",
+      "archivo": "grade5-science-08-sun-star.html",
+      "tema": "The sun looks brighter than other stars because it is closer"
+    },
+    "imagen": "grade5-science-08-sun-star.jpg",
+    "escena": "Inside a planetarium lobby in Chicago with a large painted ceiling of stars and a big model of the sun hanging overhead: a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, stands near the viewer holding a bright flashlight, while far away at the end of a long dim hallway an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, holds an identical flashlight that looks like a tiny dot of light; a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, stands in the middle, looking back and forth between the two lights; a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, sketches the scene; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 9,
+    "estandar": "5-ESS1-2",
+    "es": {
+      "titulo": "Tres sombras en un día",
+      "archivo": "grade5-science-09-shadows.html",
+      "tema": "Patrones de las sombras, el día y la noche, y las estrellas en cada estación"
+    },
+    "en": {
+      "titulo": "Three shadows in one day",
+      "archivo": "grade5-science-09-shadows.html",
+      "tema": "Patterns of shadows, day and night, and stars across the seasons"
+    },
+    "imagen": "grade5-science-09-shadows.jpg",
+    "escena": "A sunny schoolyard on blacktop pavement next to a brick school in Chicago: a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt, stands very still on a chalk mark with her arms at her sides, while a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, kneels and traces Salma's shadow with blue chalk; on the ground there are already two other chalk shadow outlines of different lengths pointing in different directions, one long and one short; an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, holds a small globe and a flashlight; morning light; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 10,
+    "estandar": "5-ESS2-1 · 5-ESS2-2",
+    "es": {
+      "titulo": "El lago que lo toca todo",
+      "archivo": "grade5-science-10-earth-systems.html",
+      "tema": "Las cuatro esferas de la Tierra y dónde está el agua"
+    },
+    "en": {
+      "titulo": "The lake that touches everything",
+      "archivo": "grade5-science-10-earth-systems.html",
+      "tema": "Earth's four spheres and where water is found"
+    },
+    "imagen": "grade5-science-10-earth-systems.jpg",
+    "escena": "A windy sunny day on a sandy Lake Michigan beach in Chicago with the city skyline in the distance, blue waves, white clouds and seagulls flying: a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, carefully pours a few drops from a big clear water jug into a tiny cup, and a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, sits on the sand drawing four colored circles in her open sketchbook; a friendly woman science teacher in her fifties with short silver-blond hair and glasses, in a green lab coat, holds a bucket of water; an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, watches the waves; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 11,
+    "estandar": "5-ESS3-1 · 3-5-ETS1",
+    "es": {
+      "titulo": "El atrapabasura",
+      "archivo": "grade5-science-11-protect.html",
+      "tema": "Las comunidades protegen los recursos y el ambiente de la Tierra"
+    },
+    "en": {
+      "titulo": "The trash catcher",
+      "archivo": "grade5-science-11-protect.html",
+      "tema": "Communities protect Earth's resources and environment"
+    },
+    "imagen": "grade5-science-11-protect.jpg",
+    "escena": "The grassy bank of a small river in a Chicago park on a cleanup day, with neighbors of different backgrounds in work gloves picking up plastic bottles and wrappers into trash bags: a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, and a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, kneel at the water's edge and lower a homemade trash catcher made from a plastic crate and a mesh net into the gentle current; an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, holds a stopwatch and a notebook; a few floating bottle caps drift toward the net; fish swim under the clear water; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 5,
+    "area": "ciencias",
+    "orden": 12,
+    "estandar": "5-PS1 · 5-PS2 · 5-PS3 · 5-LS1 · 5-LS2 · 5-ESS1 · 5-ESS2 · 5-ESS3",
+    "es": {
+      "titulo": "La feria de ciencias",
+      "archivo": "grade5-science-12-review.html",
+      "tema": "Repaso de todo el año"
+    },
+    "en": {
+      "titulo": "The science fair",
+      "archivo": "grade5-science-12-review.html",
+      "tema": "Review of the whole year"
+    },
+    "imagen": "grade5-science-12-review.jpg",
+    "escena": "A bright school gym set up for a science fair, with long tables of colorful projects and families of different backgrounds walking between them: a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt and a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, stand together behind one long table with a puffed-up plastic bag on a small kitchen scale, a small potted bean plant, a globe next to a flashlight, a jar of compost with worms and a clear jug of water; a friendly woman science teacher in her fifties with short silver-blond hair and glasses, in a green lab coat, smiles at them; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
+  }
+  /* ---- FIN QUINTO GRADO · CIENCIAS ---- */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
@@ -1894,5 +2112,6 @@ window.LIBROS = [
   { grado: 3, area: 'ciencias', es: 'libro-3ro-ciencias.html', en: 'book-grade3-science.html' },
   { grado: 3, area: 'sociales', es: 'libro-3ro-sociales.html', en: 'book-grade3-social-studies.html' },
   { grado: 4, area: 'ciencias', es: 'libro-4to-ciencias.html', en: 'book-grade4-science.html' },
-  { grado: 4, area: 'sociales', es: 'libro-4to-sociales.html', en: 'book-grade4-social-studies.html' }
+  { grado: 4, area: 'sociales', es: 'libro-4to-sociales.html', en: 'book-grade4-social-studies.html' },
+  { grado: 5, area: 'ciencias', es: 'book-grade5-science.html', en: 'book-grade5-science.html' }
 ];

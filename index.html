@@ -55,6 +55,7 @@
   GRADOS.forEach(function(g){
     indice += '<li><a href="#' + ancla(g) + '">' + NOMBRE[g] + '</a></li>';
     html += '<section class="grado" id="' + ancla(g) + '" aria-labelledby="t-grado-' + g + '"><h2 id="t-grado-' + g + '">' + NOMBRE[g] + '</h2>';
+    if(g >= 5){ html += '<p class="pronto">Desde 5.º grado los cuentos están en inglés, con un botón de «Ayuda en español» que traduce las consignas, las preguntas y el glosario.</p>'; }
     AREAS.forEach(function(a){
       var lista = cat.filter(function(c){ return c.grado === g && c.area === a[0]; });
       html += '<div class="area" id="' + ancla(g) + '-' + a[0] + '"><h3>' + a[1] + '</h3>';

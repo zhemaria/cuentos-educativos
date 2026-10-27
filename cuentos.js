@@ -211,7 +211,7 @@
   panel.setAttribute('aria-labelledby','panel-titulo');
   panel.innerHTML =
     '<div class="dentro">' +
-      '<h3 id="panel-titulo"></h3><p id="panel-def"></p>' +
+      '<h3 id="panel-titulo"></h3><p id="panel-def"></p><p id="panel-def-es" class="ayuda-es caja-es" lang="es" hidden></p>' +
       '<div class="botones">' +
         '<button type="button" id="panel-oir"><span aria-hidden="true">🔊&nbsp;</span>' + T.oir + '</button>' +
         '<a id="panel-ir" href="#glosario">' + T.glosario + '</a>' +
@@ -227,6 +227,9 @@
     if(!caja) return;
     $('panel-titulo').textContent = caja.querySelector('dt').textContent;
     $('panel-def').textContent = caja.querySelector('dd').textContent;
+    var es = caja.querySelector('dd.ayuda-es');
+    $('panel-def-es').textContent = es ? es.textContent : '';
+    $('panel-def-es').hidden = !es;
     $('panel-ir').setAttribute('href', '#g-' + clave);
     todos('.voz[aria-expanded="true"]').forEach(function(b){ b.setAttribute('aria-expanded','false'); });
     boton.setAttribute('aria-expanded','true');
@@ -451,6 +454,25 @@
       capitulos.forEach(function(d, i){ d.open = estadoAntes[i]; d.setAttribute('name','libro'); });
       estadoAntes = null;
       setTimeout(function(){ imprimiendo = false; }, 100);
+    });
+  }
+  /* ---------------------------------------------------------------
+     7. AYUDA EN ESPAÑOL (desde 5.º grado)
+     El cuento va en inglés. El botón #btn-ayuda muestra las cajas
+     .ayuda-es con las consignas, preguntas, glosario y reto en español.
+     --------------------------------------------------------------- */
+  var btnAyuda = $('btn-ayuda');
+  if(btnAyuda){
+    var ponerAyuda = function(si){
+      document.body.classList.toggle('con-ayuda', si);
+      btnAyuda.setAttribute('aria-pressed', si ? 'true' : 'false');
+      guardar('ayuda-es', si ? '1' : '0');
+    };
+    ponerAyuda(leer('ayuda-es') === '1');
+    btnAyuda.addEventListener('click', function(){
+      var si = !document.body.classList.contains('con-ayuda');
+      ponerAyuda(si);
+      anunciar(si ? 'Ayuda en español activada.' : 'Ayuda en español desactivada.');
     });
   }
   /* ---------- Lámina en movimiento (opcional): solo si la figura trae data-video; nunca arranca sola ---------- */

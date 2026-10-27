@@ -281,3 +281,19 @@ details.capitulo summary small{display:block;color:var(--tinta-suave);font-size:
 .caja-video{text-align:center;margin:-.4rem 0 1rem}
 .caja-video button{font:inherit;font-weight:700;min-height:44px;padding:.4rem 1rem;cursor:pointer;border-radius:999px;border:2px solid currentColor;background:transparent}
 @media print{.caja-video{display:none}}
+
+/* --- Ayuda en español (desde 5.º grado los cuentos van en inglés) ---
+   El cuento queda en inglés; la ayuda traduce consignas, preguntas,
+   glosario y reto. Se muestra solo con el botón #btn-ayuda.          */
+.ayuda-es{display:none}
+body.con-ayuda .ayuda-es{display:block}
+body.con-ayuda dd.ayuda-es{display:block}
+.caja-es{margin:.35rem 0 .6rem;padding:.45rem .8rem;background:var(--ambar-claro);
+  border-left:5px solid var(--ambar);border-radius:8px;color:var(--tinta);font-size:.95em;font-style:normal}
+.caja-es::before{content:"ES · ";font-weight:700;color:var(--ambar)}
+dd.caja-es{margin-left:0}
+.panel .caja-es{margin-top:.6rem}
+.apoyos button.btn-ayuda{border-color:var(--ambar);color:var(--ambar);font-weight:700}
+.apoyos button.btn-ayuda[aria-pressed="true"]{background:var(--ambar);color:#fff;border-color:var(--ambar)}
+body.contraste-alto .caja-es{border:2px solid #000;border-left-width:6px}
+@media print{.ayuda-es{display:none!important}}
