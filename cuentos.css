@@ -327,3 +327,5 @@ body.contraste-alto .pausa,body.contraste-alto .anuncio{border-color:#000}
 /* Párrafo de fuente para resumir (5.º Sociales, cap. 12) */
 .fuente-historica{margin:.4rem 0 .8rem;padding:.6rem 1rem;border-left:4px solid var(--verde);font-style:normal}
 .fuente-historica p{margin:0}
+
+.reto-mas{margin-top:1rem;padding-top:.8rem;border-top:2px dashed var(--borde)}

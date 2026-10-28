@@ -2316,7 +2316,441 @@ window.CATALOGO = [
     "imagen": "grade5-social-studies-12-review.jpg",
     "escena": "A school library turned into a small class museum, with tables, display cards without any writing and families of different backgrounds walking through: a Latino boy about eleven years old with short black hair and light tan skin, in a blue hoodie, an African American boy about eleven years old with short curly black hair and round glasses, in an orange t-shirt, a Latino boy about eleven years old with wavy chestnut-brown hair, in a red t-shirt, an Asian American girl about eleven years old with straight black hair and bangs, in a purple jacket, a girl about eleven years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holding a sketchbook, a girl about eleven years old with brown skin and long black hair in a single braid, in a yellow t-shirt and a Latina girl about eleven years old with long wavy dark hair and a headband, in a pink blouse, stand proudly by their tables, which hold an old map, a faded paper train ticket, a colorful bake sale poster, a small tray of soil with grass, a drawing of an eagle and a model of a steam train; a friendly Black man teacher in his forties with a short beard, glasses and a bow tie, smiles at the entrance; each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a fifth grade picture book, wide 16:9 landscape format"
   }
-  /* ---- FIN QUINTO GRADO · ESTUDIOS SOCIALES ---- */
+  /* ---- FIN QUINTO GRADO · ESTUDIOS SOCIALES ---- */,
+  /* grado 6 */
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 1,
+    "estandar": "MS-PS1-1",
+    "es": {
+      "titulo": "Los bloques invisibles",
+      "archivo": "grade6-science-01-atoms.html",
+      "tema": "Los átomos se unen para formar moléculas y cristales"
+    },
+    "en": {
+      "titulo": "The invisible building blocks",
+      "archivo": "grade6-science-01-atoms.html",
+      "tema": "Atoms join to make molecules and crystals"
+    },
+    "imagen": "grade6-science-01-atoms.jpg",
+    "escena": "A bright sixth grade science lab in Chicago: on a long lab table, piles of colorful plastic building bricks in white, red and black; a friendly Latina woman science teacher in her forties with dark hair in a bun and glasses, in a navy blue lab coat, holds up a small model made of two white bricks attached to one red brick; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, smiles at the model; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, looks through a magnifying glass at tiny salt grains on a black card; an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, proudly holds up a big structure made of bricks, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 2,
+    "estandar": "MS-PS1-4",
+    "es": {
+      "titulo": "La carrera de las paletas que se derriten",
+      "archivo": "grade6-science-02-states.html",
+      "tema": "La energía térmica cambia el movimiento de las partículas y el estado"
+    },
+    "en": {
+      "titulo": "The race of the melting ice pops",
+      "archivo": "grade6-science-02-states.html",
+      "tema": "Thermal energy changes particle motion and state"
+    },
+    "imagen": "grade6-science-02-states.jpg",
+    "escena": "A sunny summer afternoon in front of a small colorful Mexican ice pop shop in the Pilsen neighborhood of Chicago, with a bright mural on the wall: a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, and a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, each hold a fruit ice pop that is dripping in the heat, laughing as they race to eat them; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, sits on a bench holding a thermometer in a clear cup full of ice cubes and water; a pot of water steams on a little camping stove on a folding table nearby, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 3,
+    "estandar": "MS-PS1-2",
+    "es": {
+      "titulo": "La bicicleta que se volvió anaranjada",
+      "archivo": "grade6-science-03-reactions.html",
+      "tema": "Las reacciones químicas producen sustancias nuevas"
+    },
+    "en": {
+      "titulo": "The bike that turned orange",
+      "archivo": "grade6-science-03-reactions.html",
+      "tema": "Chemical reactions make new substances"
+    },
+    "imagen": "grade6-science-03-reactions.jpg",
+    "escena": "A small backyard behind a Chicago two-flat on a spring morning: a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, and his smiling grandfather with gray hair and a mustache, in a plaid shirt, look at an old bicycle covered in orange-brown rust leaning against a wooden fence; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, holds a shiny new nail in one hand and an orange rusty nail in the other, next to a small magnet on a garden table; a plate of golden pancakes and a mixing bowl sit at the other end of the table, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 4,
+    "estandar": "MS-PS2-2",
+    "es": {
+      "titulo": "La gran carrera de trineos",
+      "archivo": "grade6-science-04-forces.html",
+      "tema": "Las fuerzas y la masa cambian el movimiento"
+    },
+    "en": {
+      "titulo": "The great sled race",
+      "archivo": "grade6-science-04-forces.html",
+      "tema": "Forces and mass change motion"
+    },
+    "imagen": "grade6-science-04-forces.jpg",
+    "escena": "A snowy hill in a Chicago park on a bright winter morning, with bare trees and the city skyline far away: an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, in a winter coat over his orange shirt, pulls a plastic sled with a rope, and a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, in a winter hat, sits on the sled laughing; nearby, a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, and a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, both in winter coats, pull the ropes of a second sled in opposite directions like a tug-of-war, and the sled does not move; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, in a winter coat, holds a stopwatch and a notebook, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 5,
+    "estandar": "MS-PS3-3",
+    "es": {
+      "titulo": "Que los tamales sigan calientes",
+      "archivo": "grade6-science-05-insulation.html",
+      "tema": "Diseñar para frenar la transferencia de calor"
+    },
+    "en": {
+      "titulo": "Keep the tamales warm",
+      "archivo": "grade6-science-05-insulation.html",
+      "tema": "Designing to slow down heat transfer"
+    },
+    "imagen": "grade6-science-05-insulation.jpg",
+    "escena": "A sixth grade science lab in Chicago: on a lab table, a small metal pot of tamales wrapped in corn husks; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, wraps the pot in a thick folded towel while an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, holds open a white foam cooler box lined with aluminum foil; a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, reads a thermometer stuck into a tamale; a friendly Latina woman science teacher in her forties with dark hair in a bun and glasses, in a navy blue lab coat, holds a stopwatch and smiles; on the table there are a metal tray, a wool scarf and crumpled newspaper, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "MS-LS1-1",
+    "es": {
+      "titulo": "El secreto bajo el microscopio",
+      "archivo": "grade6-science-06-cells.html",
+      "tema": "Todos los seres vivos están hechos de células"
+    },
+    "en": {
+      "titulo": "The secret under the microscope",
+      "archivo": "grade6-science-06-cells.html",
+      "tema": "All living things are made of cells"
+    },
+    "imagen": "grade6-science-06-cells.jpg",
+    "escena": "A sixth grade science lab in Chicago with several microscopes on the tables: an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, looks into a microscope with one eye closed and a big smile; a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, holds half an onion and a pair of tweezers; a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, holds a small glass jar of greenish pond water; a friendly Latina woman science teacher in her forties with dark hair in a bun and glasses, in a navy blue lab coat, points at a large poster on the wall showing a simple drawing of a plant cell shaped like a brick next to a round animal cell, with no words on the poster, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "MS-LS1-3",
+    "es": {
+      "titulo": "El cuerpo que corrió una carrera",
+      "archivo": "grade6-science-07-body-systems.html",
+      "tema": "Los sistemas del cuerpo trabajan juntos"
+    },
+    "en": {
+      "titulo": "The body that ran a race",
+      "archivo": "grade6-science-07-body-systems.html",
+      "tema": "Body systems work together"
+    },
+    "imagen": "grade6-science-07-body-systems.jpg",
+    "escena": "A sunny morning 5K fun run along the Lake Michigan lakefront path in Chicago, with blue water and the skyline: a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, runs with a blank paper race bib on his shirt, breathing hard and smiling; on the side of the path, an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, and a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, cheer and clap; a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holds open her sketchbook with a simple outline drawing of a human body with a heart and lungs; a few adult runners in the background; the race bibs are blank with no numbers, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "MS-LS2-3",
+    "es": {
+      "titulo": "Quién se come a quién en el lago",
+      "archivo": "grade6-science-08-food-web.html",
+      "tema": "La energía fluye y la materia circula en un ecosistema"
+    },
+    "en": {
+      "titulo": "Who eats whom in the lake",
+      "archivo": "grade6-science-08-food-web.html",
+      "tema": "Energy flows and matter cycles in an ecosystem"
+    },
+    "imagen": "grade6-science-08-food-web.jpg",
+    "escena": "A field trip on a sandy beach of Lake Michigan in Chicago on a breezy autumn day, with blue water, small waves and the skyline far away: a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, kneels at the water's edge holding up a clear jar of lake water toward the sun; a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, points at a white seagull flying over the water with a small silver fish in its beak; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, sits on a log drawing simple arrows between a sun, little green dots, a small fish and a bigger fish in her notebook, with no words; a friendly Latina woman science teacher in her forties with dark hair in a bun and glasses, in a navy blue lab coat, in a windbreaker, holds a small net, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 9,
+    "estandar": "MS-ESS1-1",
+    "es": {
+      "titulo": "La luna en un salón oscuro",
+      "archivo": "grade6-science-09-moon.html",
+      "tema": "El sistema Tierra-Sol-Luna"
+    },
+    "en": {
+      "titulo": "The moon in a dark classroom",
+      "archivo": "grade6-science-09-moon.html",
+      "tema": "The Earth-sun-moon system"
+    },
+    "imagen": "grade6-science-09-moon.jpg",
+    "escena": "A darkened sixth grade classroom in Chicago with the blinds closed: a single bright lamp without a shade glows in the center of the room like the sun; a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, stands holding a white foam ball on a stick at arm's length, and half of the ball is lit by the lamp; an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, sits on a stool watching with wide eyes; a friendly Latina woman science teacher in her forties with dark hair in a bun and glasses, in a navy blue lab coat, holds a tilted globe near the lamp; the other students are dark silhouettes sitting around the room, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 10,
+    "estandar": "MS-ESS2-4",
+    "es": {
+      "titulo": "El viaje de una gota de lluvia",
+      "archivo": "grade6-science-10-water-cycle.html",
+      "tema": "El Sol y la gravedad mueven el ciclo del agua"
+    },
+    "en": {
+      "titulo": "The journey of a raindrop",
+      "archivo": "grade6-science-10-water-cycle.html",
+      "tema": "The sun and gravity drive the water cycle"
+    },
+    "imagen": "grade6-science-10-water-cycle.jpg",
+    "escena": "A sixth grade classroom in Chicago on a rainy day, with raindrops running down a big window and gray clouds over the city outside: a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, and a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, stand at the window tracing raindrops with their fingers; a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, holds a clear glass bowl with a little warm water inside, covered with clear plastic wrap with a few ice cubes on top, and tiny water drops forming under the wrap; a small desk lamp shines on the bowl, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 11,
+    "estandar": "MS-ESS3-2",
+    "es": {
+      "titulo": "Cuando sonaron las sirenas",
+      "archivo": "grade6-science-11-tornadoes.html",
+      "tema": "Pronosticar los peligros naturales y protegerse"
+    },
+    "en": {
+      "titulo": "When the sirens sang",
+      "archivo": "grade6-science-11-tornadoes.html",
+      "tema": "Forecasting natural hazards and staying safe"
+    },
+    "imagen": "grade6-science-11-tornadoes.jpg",
+    "escena": "A school hallway in Chicago during a tornado drill, with no windows: an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, and a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, kneel along the wall facing it, covering the backs of their heads with their hands, like in a safety drill; a friendly Latina woman science teacher in her forties with dark hair in a bun and glasses, in a navy blue lab coat, stands calmly holding a tablet that shows a colorful weather radar map with green, yellow and red patches and no words; through a door at the end of the hall, a dark greenish storm sky can be seen, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "ciencias",
+    "orden": 12,
+    "estandar": "MS-PS1 · MS-PS2 · MS-PS3 · MS-LS1 · MS-LS2 · MS-ESS1 · MS-ESS2 · MS-ESS3",
+    "es": {
+      "titulo": "La feria de ciencias",
+      "archivo": "grade6-science-12-review.html",
+      "tema": "Repaso de los temas de ciencias de 6.º"
+    },
+    "en": {
+      "titulo": "The science expo",
+      "archivo": "grade6-science-12-review.html",
+      "tema": "Review of the Grade 6 science topics"
+    },
+    "imagen": "grade6-science-12-review.jpg",
+    "escena": "A busy school gym in Chicago set up for a sixth grade science expo, with tables and simple tri-fold poster boards that have only drawings and no words: an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, shows a molecule model made of colorful building bricks; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, opens a foam cooler with steam rising from it; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, lets a smiling grandmother look into a microscope; a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, points at a poster with a food web drawing of arrows between a sun, plants, fish and a bird; a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holds a white ball on a stick in front of a lamp; a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, and a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, stand by a clear bowl water cycle model; parents and younger children walk between the tables, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.6-8.H.3.LC",
+    "es": {
+      "titulo": "La caja de 1976",
+      "archivo": "grade6-social-studies-01-time-capsule.html",
+      "tema": "Los historiadores aprenden de fuentes primarias y secundarias"
+    },
+    "en": {
+      "titulo": "The box from 1976",
+      "archivo": "grade6-social-studies-01-time-capsule.html",
+      "tema": "Historians learn from primary and secondary sources"
+    },
+    "imagen": "grade6-social-studies-01-time-capsule.jpg",
+    "escena": "A sunny school library in Chicago: on a big wooden table sits an old dented metal box with its lid open; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, lifts a faded folded newspaper out of the box; an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, holds up an old cassette tape and looks puzzled; a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, reads a yellowed handwritten letter; a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, studies a small black-and-white photograph of children in front of a brick school, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.6-8.G.4 · SS.6-8.G.7",
+    "es": {
+      "titulo": "El río que daba y quitaba",
+      "archivo": "grade6-social-studies-02-mesopotamia.html",
+      "tema": "Los ríos decidieron dónde y cómo vivía la gente en Mesopotamia"
+    },
+    "en": {
+      "titulo": "The river that gave and took",
+      "archivo": "grade6-social-studies-02-mesopotamia.html",
+      "tema": "Rivers shaped where and how people lived in Mesopotamia"
+    },
+    "imagen": "grade6-social-studies-02-mesopotamia.jpg",
+    "escena": "Inside a quiet museum hall of ancient cultures in Chicago: a giant stone statue of a winged bull with a bearded human head stands against the wall; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, points up at the statue; a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, and an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, lean toward a glass case with a small clay tablet covered in tiny wedge-shaped marks; a large painted map of two rivers in a dry land hangs on the far wall, with no words on it, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.6-8.H.1.LC",
+    "es": {
+      "titulo": "El regalo del Nilo",
+      "archivo": "grade6-social-studies-03-nile.html",
+      "tema": "Algunas cosas en el Nilo cambiaron y otras siguieron igual"
+    },
+    "en": {
+      "titulo": "The gift of the Nile",
+      "archivo": "grade6-social-studies-03-nile.html",
+      "tema": "Some things along the Nile changed, and some stayed the same"
+    },
+    "imagen": "grade6-social-studies-03-nile.jpg",
+    "escena": "A sixth grade classroom in Chicago: a big screen shows two pictures side by side, on the left an ancient Egyptian wall painting of farmers harvesting wheat beside a river, on the right a modern green farm field beside a wide blue river with palm trees; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, stands beside the screen holding a remote; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, and a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, draw a large T-shaped chart on the whiteboard with simple drawings of a river, a boat and a plant, and no words, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.6-8.CV.4.LC · SS.6-8.H.2.LC",
+    "es": {
+      "titulo": "¿Todos votan?",
+      "archivo": "grade6-social-studies-04-athens.html",
+      "tema": "La democracia nació en Atenas, y la idea de quién vota creció"
+    },
+    "en": {
+      "titulo": "Everybody votes?",
+      "archivo": "grade6-social-studies-04-athens.html",
+      "tema": "Democracy began in Athens, and the idea of who votes grew"
+    },
+    "imagen": "grade6-social-studies-04-athens.jpg",
+    "escena": "A cheerful sixth grade classroom in Chicago during a vote: many students raise their hands; a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, counts the raised hands, pointing with a pencil; an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, holds up a small broken piece of reddish pottery and grins; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, stands beside a large poster with a drawing of a crowd of people in ancient Greek robes on a rocky hill, with no words on the poster, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.6-8.CV.2.LC",
+    "es": {
+      "titulo": "Reglas en la pared",
+      "archivo": "grade6-social-studies-05-twelve-tables.html",
+      "tema": "Las leyes escritas ayudan a conocer los derechos y a limitar el poder"
+    },
+    "en": {
+      "titulo": "Rules on the wall",
+      "archivo": "grade6-social-studies-05-twelve-tables.html",
+      "tema": "Written laws help people know their rights and limit power"
+    },
+    "imagen": "grade6-social-studies-05-twelve-tables.jpg",
+    "escena": "A sixth grade classroom in Chicago: a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, and a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, tape a big poster to the wall, the poster has only small drawings of hands raised, a clock and two friends shaking hands, with no words; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, holds up a picture of twelve shiny bronze tablets standing in an ancient Roman square with columns; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, writes in a notebook at her desk, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.6-8.G.8",
+    "es": {
+      "titulo": "Pásalo por la Ruta de la Seda",
+      "archivo": "grade6-social-studies-06-silk-road.html",
+      "tema": "Las rutas comerciales llevaron productos, ideas e inventos muy lejos"
+    },
+    "en": {
+      "titulo": "Pass it down the Silk Road",
+      "archivo": "grade6-social-studies-06-silk-road.html",
+      "tema": "Trade routes carried goods, ideas and inventions far away"
+    },
+    "imagen": "grade6-social-studies-06-silk-road.jpg",
+    "escena": "A sixth grade classroom in Chicago arranged as a long line of desks, each desk with a small paper sign showing only a drawing of a camel, a tent or a boat; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, hands a shiny red silk scarf to a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, whispers into the ear of a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, who giggles; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, points at a large map with a long dotted line crossing deserts and mountains from east to west, with no words on the map, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.6-8.EC.4",
+    "es": {
+      "titulo": "La compañía de tarjetas",
+      "archivo": "grade6-social-studies-07-printing.html",
+      "tema": "Innovaciones como el papel y la imprenta cambiaron el trabajo de la gente"
+    },
+    "en": {
+      "titulo": "The card company",
+      "archivo": "grade6-social-studies-07-printing.html",
+      "tema": "Innovations like paper and printing changed how people work"
+    },
+    "imagen": "grade6-social-studies-07-printing.jpg",
+    "escena": "A busy art room in Chicago: on a long table, stacks of blank cards and a small tray of red ink; an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, looks tired, drawing a flower picture on a card by hand with a marker; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, and an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, happily press a carved wooden block into red ink and stamp the same flower picture onto many cards in a row; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, smiles and holds up a finished card with a flower picture, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.6-8.G.12",
+    "es": {
+      "titulo": "Vale su peso en sal",
+      "archivo": "grade6-social-studies-08-mali.html",
+      "tema": "Malí se enriqueció intercambiando oro por sal a través del Sahara"
+    },
+    "en": {
+      "titulo": "Worth its weight in salt",
+      "archivo": "grade6-social-studies-08-mali.html",
+      "tema": "Mali grew rich by trading gold for salt across the Sahara"
+    },
+    "imagen": "grade6-social-studies-08-mali.jpg",
+    "escena": "A sixth grade classroom in Chicago: a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, holds up a small glass jar full of white salt; a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, holds up a rock painted shiny gold, and the two pretend to bargain, smiling; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, stands next to a large map of West Africa with a big yellow desert in the north, green land in the south and a blue river curving between them, with no words on the map, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 9,
+    "estandar": "SS.6-8.G.4 · SS.6-8.H.4.LC",
+    "es": {
+      "titulo": "Una ciudad sobre un lago",
+      "archivo": "grade6-social-studies-09-tenochtitlan.html",
+      "tema": "Los mexicas se adaptaron a un lago, y los cambios aún tienen efectos hoy"
+    },
+    "en": {
+      "titulo": "A city on a lake",
+      "archivo": "grade6-social-studies-09-tenochtitlan.html",
+      "tema": "The Mexica adapted to a lake, and changes still have effects today"
+    },
+    "imagen": "grade6-social-studies-09-tenochtitlan.jpg",
+    "escena": "A sixth grade classroom in Chicago: on a big tray of blue water, a model of an island city made of clay, with tiny temples, straight canals, little green rectangle gardens and long narrow roads crossing the water to the shore; a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, carefully places a tiny green garden in the water; a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, adds a small clay canoe; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, holds up a colorful picture of an eagle standing on a cactus that grows from a rock in water, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 10,
+    "estandar": "SS.6-8.EC.6",
+    "es": {
+      "titulo": "El misterio del precio de las calabazas",
+      "archivo": "grade6-social-studies-10-pumpkins.html",
+      "tema": "La oferta y la demanda cambian los precios"
+    },
+    "en": {
+      "titulo": "The pumpkin price mystery",
+      "archivo": "grade6-social-studies-10-pumpkins.html",
+      "tema": "Supply and demand change prices"
+    },
+    "imagen": "grade6-social-studies-10-pumpkins.jpg",
+    "escena": "A sunny autumn festival in a Chicago school parking lot with orange and yellow trees: a long wooden table piled with orange pumpkins of many sizes; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, and a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, stand behind the table smiling; a long line of happy families waits in front; an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, erases a small blank chalkboard with a cloth; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, stands to the side holding a paper cup of apple cider, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 11,
+    "estandar": "SS.6-8.CV.1.LC",
+    "es": {
+      "titulo": "El juramento",
+      "archivo": "grade6-social-studies-11-citizens.html",
+      "tema": "Los ciudadanos tienen derechos y responsabilidades"
+    },
+    "en": {
+      "titulo": "The oath",
+      "archivo": "grade6-social-studies-11-citizens.html",
+      "tema": "Citizens have rights and responsibilities"
+    },
+    "imagen": "grade6-social-studies-11-citizens.jpg",
+    "escena": "A sixth grade classroom in Chicago: a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, holds up a large photo of a smiling older man in a suit holding a small American flag in a courtroom full of happy people; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, and a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, sit together drawing a big chart on poster paper with simple drawings of a ballot box, a scale of justice and a speech bubble, with no words, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 6,
+    "area": "sociales",
+    "orden": 12,
+    "estandar": "SS.6-8.H · SS.6-8.G · SS.6-8.CV · SS.6-8.EC",
+    "es": {
+      "titulo": "El museo de nosotros",
+      "archivo": "grade6-social-studies-12-review.html",
+      "tema": "Las grandes ideas del año conectan el pasado y el presente"
+    },
+    "en": {
+      "titulo": "The museum of us",
+      "archivo": "grade6-social-studies-12-review.html",
+      "tema": "Big ideas of the year connect the past and the present"
+    },
+    "imagen": "grade6-social-studies-12-review.jpg",
+    "escena": "A school library in Chicago set up as a small museum at night, with warm lights and tables: an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, stands by a dented metal box; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, holds a red silk scarf; a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, shows a few pieces of broken reddish pottery; a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, holds a jar of white salt; a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, and a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, stand beside a clay model of an island city on a tray of water; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, points at a model of two rivers with tiny canals; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, smiles at the entrance; happy families walk between the tables, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
+  }
+  /* fin grado 6 */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
@@ -2332,5 +2766,7 @@ window.LIBROS = [
   { grado: 4, area: 'ciencias', es: 'libro-4to-ciencias.html', en: 'book-grade4-science.html' },
   { grado: 4, area: 'sociales', es: 'libro-4to-sociales.html', en: 'book-grade4-social-studies.html' },
   { grado: 5, area: 'ciencias', es: 'book-grade5-science.html', en: 'book-grade5-science.html' },
-  { grado: 5, area: 'sociales', es: 'book-grade5-social-studies.html', en: 'book-grade5-social-studies.html' }
+  { grado: 5, area: 'sociales', es: 'book-grade5-social-studies.html', en: 'book-grade5-social-studies.html' },
+  { grado: 6, area: 'ciencias', es: 'book-grade6-science.html', en: 'book-grade6-science.html' },
+  { grado: 6, area: 'sociales', es: 'book-grade6-social-studies.html', en: 'book-grade6-social-studies.html' }
 ];

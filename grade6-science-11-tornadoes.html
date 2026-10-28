@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 6 · Science · MS-ESS3-2
+  «When the sirens sang»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When the sirens sang · Educational stories</title>
+<meta name="description" content="A Grade 6 science story: data on natural hazards like tornadoes help scientists forecast them and help people design technology to stay safe. With vocabulary, glossary, questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-6">Educational stories</a> · Grade 6 · Science</span>
+    <a class="idioma" href="book-grade6-science.html#capitulo-11">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina">
+    <img src="grade6-science-11-tornadoes.jpg" width="1376" height="768"
+         alt="During a tornado drill, Daniel, Sophia and Elías kneel in a school hallway covering their heads while Ms. Rivera holds a tablet showing a radar map.">
+  </figure>
+
+  <p class="sello">Grade 6 · Science · MS-ESS3-2</p>
+  <h1 id="titulo">When the sirens sang</h1>
+  <p class="entrada">A story about how scientists use data to forecast tornadoes and how technology keeps people safe.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>Cuando sonaron las sirenas.</strong> Un cuento sobre cómo los científicos usan datos para pronosticar tornados y cómo la tecnología protege a las personas.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="hazard">natural hazard</button></li>
+      <li><button type="button" class="voz" data-g="tornado">tornado</button></li>
+      <li><button type="button" class="voz" data-g="forecast">forecast</button></li>
+      <li><button type="button" class="voz" data-g="radar">radar</button></li>
+      <li><button type="button" class="voz" data-g="watch">tornado watch</button></li>
+      <li><button type="button" class="voz" data-g="warning">tornado warning</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">It was the first Tuesday of the month, and at ten in the morning the outdoor warning sirens began to wail. Elías jumped out of his seat. "Relax," said Ms. Rivera. "Chicago tests its sirens on the first Tuesday of every month. But today, let's talk about why we have them."</p>
+
+    <p id="p2">She put a map of the United States on the screen, covered with red dots. <span class="cita" id="c-a">"Each dot is a <button type="button" class="voz" data-g="tornado">tornado</button> from past years," she said. "Look at the pattern. Many tornadoes happen in the central United States, including Illinois, and most of them happen in spring and early summer."</span></p>
+
+    <p id="p3">"Data from the past helps scientists know where and when to be most careful," said Sophia. "Right," said Ms. Rivera. "Tornadoes are a <button type="button" class="voz" data-g="hazard">natural hazard</button>. We can't stop them, but data can help us get ready."</p>
+
+    <p id="p4">Then she showed a colorful map. <span class="cita" id="c-b">"This is <button type="button" class="voz" data-g="radar">radar</button>," she said. "It sends out radio waves that bounce off raindrops. Modern radar can even tell which way the wind inside a storm is moving. When forecasters see wind spinning in a storm, they know a tornado might form."</span></p>
+
+    <p id="p5"><span class="cita" id="c-c">"So there are two kinds of messages," said Ms. Rivera. "A <button type="button" class="voz" data-g="watch">tornado watch</button> means the weather could make tornadoes, so be ready. A <button type="button" class="voz" data-g="warning">tornado warning</button> means a tornado has been seen or found on radar, so take shelter now."</span> Daniel wrote it down: Watch = get ready. Warning = go now.</p>
+
+    <p id="p6">"How much time do people get?" asked Daniel. <span class="cita" id="c-d">"On average, a warning gives people a few minutes, often around ten," said Ms. Rivera. "Fifty years ago, many tornadoes came with no warning at all. Better radar, better <button type="button" class="voz" data-g="forecast">forecasts</button> and alerts on phones have saved many lives."</span></p>
+
+    <p id="p7">That afternoon, the school held its tornado drill. Everyone walked to the inside hallway, away from windows, knelt facing the wall and covered the backs of their heads. <span class="cita" id="c-e">"Why the hallway?" whispered Sophia. "Because it's in the middle of the building, on the lowest floor, with no glass," said Ms. Rivera. "Engineers design buildings and safe rooms using what we've learned from past storms."</span></p>
+
+    <p id="p8">When the drill ended, Elías stood up and brushed off his knees. "So the sirens aren't scary," he said. "They're like a friend yelling, Hey, pay attention!" "Exactly," said Ms. Rivera. "Science can't stop the storm, but it can give you time."</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-hazard"><dt>natural hazard</dt><dd>A natural event, like a tornado, flood or earthquake, that can hurt people or damage property.</dd><dd class="ayuda-es caja-es" lang="es"><strong>peligro natural:</strong> Un fenómeno natural, como un tornado, una inundación o un terremoto, que puede herir a las personas o dañar las propiedades.</dd></div>
+    <div id="g-tornado"><dt>tornado</dt><dd>A spinning column of air that reaches from a storm cloud down to the ground.</dd><dd class="ayuda-es caja-es" lang="es"><strong>tornado:</strong> Una columna de aire que gira y baja desde una nube de tormenta hasta el suelo.</dd></div>
+    <div id="g-forecast"><dt>forecast</dt><dd>A prediction of what will probably happen, based on data.</dd><dd class="ayuda-es caja-es" lang="es"><strong>pronóstico:</strong> Una predicción de lo que probablemente pasará, basada en datos.</dd></div>
+    <div id="g-radar"><dt>radar</dt><dd>A technology that sends out radio waves to find rain and to see how the wind is moving inside a storm.</dd><dd class="ayuda-es caja-es" lang="es"><strong>radar:</strong> Una tecnología que envía ondas de radio para encontrar la lluvia y ver cómo se mueve el viento dentro de una tormenta.</dd></div>
+    <div id="g-watch"><dt>tornado watch</dt><dd>A message that says the weather could produce tornadoes, so people should be ready.</dd><dd class="ayuda-es caja-es" lang="es"><strong>vigilancia de tornado:</strong> Un mensaje que dice que el tiempo podría producir tornados, así que hay que estar preparados.</dd></div>
+    <div id="g-warning"><dt>tornado warning</dt><dd>A message that says a tornado has been seen or found on radar, so people must take shelter now.</dd><dd class="ayuda-es caja-es" lang="es"><strong>aviso de tornado:</strong> Un aviso que dice que se vio un tornado o que el radar lo detectó, así que hay que refugiarse ya.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What pattern did the map of past tornadoes show?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué patrón mostraba el mapa de tornados pasados?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">Many happen in the central U.S., mostly in spring</button>
+        <button class="opcion">They happen evenly everywhere, all year long</button>
+        <button class="opcion">They happen only near the ocean in winter</button>
+      </div>
+      <p class="explicacion" hidden>The map showed that many tornadoes happen in the central United States, including Illinois, mostly in spring and early summer.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>How does radar help forecasters?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo ayuda el radar a los pronosticadores?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">It shows rain and how the wind spins in a storm</button>
+        <button class="opcion">It stops the wind before a tornado can form</button>
+        <button class="opcion">It takes photos of every tornado from space</button>
+      </div>
+      <p class="explicacion" hidden>Radar bounces radio waves off raindrops and can show which way the wind inside a storm is moving.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>What is the difference between a tornado watch and a warning?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cuál es la diferencia entre una vigilancia y un aviso de tornado?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">A watch is more dangerous, so you must run outside</button>
+        <button class="opcion">Watch means be ready; warning means take shelter now</button>
+        <button class="opcion">They mean the same thing, so you can ignore both</button>
+      </div>
+      <p class="explicacion" hidden>A watch means tornadoes could form, so be ready; a warning means a tornado was seen or found on radar, so take shelter now.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>How has technology changed tornado safety?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo ha cambiado la tecnología la seguridad ante los tornados?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">Tornadoes no longer happen anywhere in Illinois</button>
+        <button class="opcion">Sirens can now push tornadoes away from cities</button>
+        <button class="opcion">Radar and alerts give people minutes to act</button>
+      </div>
+      <p class="explicacion" hidden>Better radar, better forecasts and phone alerts now give people a few minutes of warning, which has saved many lives.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>Why do students shelter in an inside hallway?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué los estudiantes se refugian en un pasillo interior?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">It's closer to the front door, so they can run out</button>
+        <button class="opcion">It's in the middle of the building, with no glass</button>
+        <button class="opcion">It's the place where the loud sirens are kept</button>
+      </div>
+      <p class="explicacion" hidden>The inside hallway is in the middle of the building, on the lowest floor, away from glass.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Analyze data</p>
+    <p class="reto-pregunta">Imagine a table that shows how many tornadoes Illinois had each month over many years: very few in winter, many in April, May and June. How could a town use these data to plan? Name one technology or plan that could reduce harm.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Analiza datos.</strong> Imagina una tabla que muestra cuántos tornados tuvo Illinois cada mes durante muchos años: muy pocos en invierno y muchos en abril, mayo y junio. ¿Cómo podría usar estos datos un pueblo para planear? Nombra una tecnología o un plan que podría reducir los daños.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>The data show that spring is the riskiest time, so the town could test sirens and practice drills before April, check shelters and remind families to sign up for phone alerts. Technologies that reduce harm include radar, warning sirens, phone alerts and safe rooms built with strong walls. Data can&#x27;t stop a tornado, but they help people prepare.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-ESS3-2: analyze and interpret data on natural hazards to forecast future catastrophic events and inform the development of technologies to mitigate their effects.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>
