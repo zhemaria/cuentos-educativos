@@ -142,8 +142,11 @@ CIENCIAS = [
         en="And the stone? Génesis lets it go. Plop! It sinks to the bottom.",
         alt_es="Génesis suelta una piedra en la tina y la piedra se hunde hasta el fondo.",
         alt_en="Génesis drops a stone into the tub and it sinks to the bottom.",
-        p=f"The same sunny backyard: {GENESIS}, drops a gray stone into the clear tub of water, and the stone sinks to the bottom with little bubbles; the yellow rubber duck still floats on top; {ADRIAN}, leans in, eyes wide",
-        m="The stone slowly sinks to the bottom of the tub with tiny bubbles rising; the duck keeps floating.", emoji="🪨"),
+        p=f"The same sunny backyard: a wide clear plastic tub full of clean water sits on a small wooden table; the bottom of the tub is completely empty, with nothing resting on it; a yellow rubber duck floats on the water; {GENESIS}, holds one gray stone in her open hand just above the water, ready to let it go, with a curious face; {ADRIAN}, leans in with wide eyes; a green leaf and a metal spoon lie on the table next to the tub",
+        m=("The girl opens her hand and drops the single gray stone into the clear tub of water. The stone falls straight down through the water "
+           "and slowly sinks until it rests on the empty bottom of the tub. While it sinks, a few tiny bubbles appear only inside the water, rise a little "
+           "and disappear as soon as they reach the water surface; no bubbles ever go above the water or into the air. The yellow rubber duck keeps floating, "
+           "bobbing gently with small ripples. The boy watches with wide eyes and smiles. Only one stone, no new objects."), emoji="🪨"),
    dict(es="La hoja flota. La cuchara se hunde. Primero adivinan, luego prueban. ¡Son científicos!",
         en="The leaf floats. The spoon sinks. First they guess, then they test. They are scientists!",
         alt_es="Una hoja flota y una cuchara está en el fondo de la tina; los niños celebran.",
