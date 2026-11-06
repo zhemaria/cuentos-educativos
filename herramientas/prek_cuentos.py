@@ -373,17 +373,17 @@ SOCIALES = [
         alt_es="En la panadería, la mamá de Adrián paga y Adrián recibe una bolsa de pan.",
         alt_en="At the bakery, Adrián's mom pays and Adrián gets a bag of bread.",
         p=f"Inside the same cozy bakery: {ADRIAN}, holds a paper bag with a loaf of bread sticking out, while his mother hands coins to the smiling baker at the counter",
-        m=("The mother slowly places the coins into the open palm of the baker; the baker gently closes her hand around the coins, keeps them in her closed hand "
-           "and smiles. The coins never fall, never drop on the counter and never disappear. The boy hugs the bag of bread and smiles. "
-           "Everyone stays in place; nobody walks out of the picture."), emoji="🪙"),
+        m=("Very gentle, almost still animation. Nobody moves their hands or arms: every hand, every coin and the bag of bread stay exactly where they are "
+           "for the whole video. Only the faces move a little: the mother, the baker and the boy smile, blink and look at each other kindly. Soft warm steam "
+           "rises slowly from the bread on the shelves, and the morning light from the window glows softly."), emoji="🪙"),
    dict(es="La panadera trabaja. La mamá trabaja. ¡Cuando sean grandes, Adrián y Génesis también trabajarán!",
         en="The baker works. Mom works. When they grow up, Adrián and Génesis will work too!",
         alt_es="Adrián y Génesis juegan a la panadería con gorros blancos y panes de juguete.",
         alt_en="Adrián and Génesis play bakery with baker's hats and toy bread.",
         p=f"A preschool play corner set up as a pretend bakery: {ADRIAN}, and {GENESIS}, wear little white baker's hats and aprons and arrange toy loaves of bread on a small wooden counter, smiling",
-        m=("The boy gently places one toy bread roll on the tray and the girl moves the bread basket a little closer; both smile at each other. "
-           "Both children keep their white baker's hats on their heads the whole time; their hands never touch the hats, and the hats never "
-           "move, fly, appear or disappear. The toy bread stays the same: no bread appears or disappears. The children stay behind the counter."), emoji="👩‍🍳"),
+        m=("Very gentle, almost still animation. Nobody moves their hands or arms: the hands, the baker's hats, the trays, the baskets and every toy bread "
+           "stay exactly where they are for the whole video. Only the faces move a little: the two children smile, blink and look at each other proudly, "
+           "and nod slightly. Soft sunlight from the window glows and the colors of the rug shimmer gently."), emoji="👩‍🍳"),
   ],
   es_adulto="Jueguen a la tiendita: uno vende y otro compra con monedas de juguete. Pregunte: «¿En qué trabajan las personas que conoces?».",
   en_adulto="Play store: one sells and the other buys with toy coins. Ask: “What jobs do the people you know have?”"),
