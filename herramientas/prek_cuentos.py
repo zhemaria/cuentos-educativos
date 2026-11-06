@@ -223,13 +223,24 @@ CIENCIAS = [
         alt_es="En el baño, Adrián se cepilla los dientes y cierra la llave del agua.",
         alt_en="In the bathroom, Adrián brushes his teeth and turns off the faucet.",
         p=f"A bright, simple bathroom: {ADRIAN}, stands on a small step stool at the sink, brushing his teeth with one hand and turning off the faucet with the other hand, with a proud smile; {DINO} sits on the edge of the sink",
-        m="The boy brushes his teeth and turns the faucet off; the last drop of water falls.", emoji="🪥"),
+        m=("At the very beginning, a thin stream of water runs from the faucet for only one second. Right away, the boy turns the faucet handle and closes it: "
+           "the water stops completely and only one last small drop falls into the sink. Then, with the faucet closed and no water running at all, the boy happily "
+           "brushes his teeth with the green toothbrush, moving it gently back and forth, for the rest of the video. The faucet stays closed and dry until the end; "
+           "no more water, no dripping. The green plush dinosaur sits still on the edge of the sink."), emoji="🪥"),
    dict(es="Génesis guarda el agua de lluvia para las plantas. ¡Cada gotita cuenta!",
         en="Génesis saves rainwater for the plants. Every little drop counts!",
         alt_es="Génesis llena una regadera con agua de lluvia de un barril para regar las plantas.",
         alt_en="Génesis fills a watering can with rainwater from a barrel to water the plants.",
-        p=f"A small garden after the rain: {GENESIS}, fills a small pink watering can from the tap of a blue rain barrel beside a house, while {ADRIAN}, points to the plants that need water; drops sparkle on the leaves",
-        m="Water flows gently from the rain barrel into the pink watering can; drops sparkle on the leaves.", emoji="🌧️"),
+        p=(f"A small sunny backyard garden next to a house: a blue rain barrel stands on a flat stone beside the house wall; the gray rain pipe from the roof "
+           f"goes straight down into the closed lid on top of the barrel, and no water comes out of the pipe; the barrel has only one small metal tap, near the bottom "
+           f"of the barrel. {GENESIS}, holds a pink watering can right under the tap and opens the tap; a thin, gentle stream of water goes from the tap straight into "
+           f"the top opening of the watering can. {ADRIAN}, points at the young green plants in the garden bed, smiling. The ground, the stone and the leaves are "
+           f"completely dry: no puddles, no drops, no rain. Clear sunny sky"),
+        m=("A thin, gentle stream of water flows from the single tap near the bottom of the blue rain barrel straight into the top opening of the pink watering can. "
+           "Every drop goes inside the can: no water spills, splashes or puddles, and no water comes out of the spout of the watering can. No water comes out of the "
+           "rain pipe from the roof. After a few seconds the girl turns the tap and closes it; the water stops completely and the tap stays closed and dry until the end. "
+           "Then she lifts the full watering can with a proud smile, and the boy claps his hands. The barrel has only one tap, and it stays in the same place for the "
+           "whole video. The ground stays dry; no rain, no drops."), emoji="🌧️"),
   ],
   es_adulto="Hagan juntos una lista de formas de cuidar el agua en casa: cerrar la llave, usar solo lo necesario, regar con agua de lluvia.",
   en_adulto="Make a list together of ways to save water at home: turn off the faucet, use only what you need, water plants with rainwater."),
