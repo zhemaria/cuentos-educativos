@@ -93,17 +93,25 @@
     var propias = voces.filter(function(v){ return v.lang && v.lang.toLowerCase().indexOf(L) === 0; });
     function puntos(v){
       var p = 0;
-      if(/Microsoft/i.test(v.name)) p += 40;
-      if(/Natural|Online/i.test(v.name)) p += 10;
-      if(v.localService) p += 20;
-      if(/Google/i.test(v.name)) p -= 30;
+      if(/Natural|Online/i.test(v.name)) p += 60;          // voces neuronales: naturales y a tiempo
+      if(L === 'en'){
+        /* Inglés: las de Microsoft suenan bien y avisan cada palabra */
+        if(/Microsoft/i.test(v.name)) p += 40;
+        if(v.localService) p += 20;
+        if(/Google/i.test(v.name)) p -= 30;
+      } else {
+        /* Español: las de Microsoft que trae Windows suenan robóticas;
+           la de Google entona mucho mejor (la luz va por estimación, frase por frase) */
+        if(/Google/i.test(v.name)) p += 40;
+        if(/Microsoft/i.test(v.name) && !/Natural|Online/i.test(v.name)) p -= 10;
+      }
       if(/US|MX|419/i.test(v.lang)) p += 5;
       return p;
     }
     var orden = propias.slice().sort(function(a, b){ return puntos(b) - puntos(a); });
     /* Si el adulto eligió una voz en «Para el adulto», se usa esa */
     var elegida = null;
-    try{ elegida = localStorage.getItem('cuentos-prek-voz-' + L); }catch(e){}
+    try{ elegida = localStorage.getItem('cuentos-prek-voz2-' + L); }catch(e){}
     if(elegida){ var v0 = orden.filter(function(v){ return v.name === elegida; })[0]; if(v0) return v0; }
     return orden[0] || null;
   }
@@ -125,7 +133,7 @@
       cajaVoz.innerHTML = '<label>' + TV.voz + ' <select></select></label> <button type="button">' + TV.probar + '</button><p class="pk-sinc" aria-live="polite"></p>';
       adulto.appendChild(cajaVoz);
       cajaVoz.querySelector('select').addEventListener('change', function(e){
-        try{ localStorage.setItem('cuentos-prek-voz-' + L, e.target.value); localStorage.removeItem('cuentos-prek-ritmo-' + L); }catch(x){}
+        try{ localStorage.setItem('cuentos-prek-voz2-' + L, e.target.value); localStorage.removeItem('cuentos-prek-ritmo2-' + L); }catch(x){}
         ritmo = 14; avisaPalabras = null; pintarSinc();
       });
       cajaVoz.querySelector('button').addEventListener('click', function(){ parar(); decir(TV.prueba, null, null); });
@@ -148,7 +156,7 @@
      ajusta solo: después de cada frase se mide cuánto tardó la voz de verdad. */
   var ritmo = 14;
   /* El ritmo aprendido se recuerda en este aparato para los próximos cuentos */
-  try{ var r0 = parseFloat(localStorage.getItem('cuentos-prek-ritmo-' + L)); if(r0 > 5 && r0 < 30) ritmo = r0; }catch(e){}
+  try{ var r0 = parseFloat(localStorage.getItem('cuentos-prek-ritmo2-' + L)); if(r0 > 5 && r0 < 30) ritmo = r0; }catch(e){}
   /* Parte el texto en frases (en los puntos, comas, ¡! y ¿?) con sus palabras.
      Cada frase se lee por separado: al empezar cada una, la luz vuelve a su
      sitio, así el desfase nunca crece. */
@@ -159,7 +167,7 @@
       if(!actualF){ actualF = {partes:[], palabras:[], inicios:[]}; lista.push(actualF); }
       var w = b.textContent, pos = actualF.partes.join(' ').length + (actualF.partes.length ? 1 : 0);
       actualF.partes.push(w); actualF.palabras.push(b); actualF.inicios.push(pos);
-      if(/[.,!?;:][»”"']*$/.test(w)) actualF = null;
+      if(/[.!?][»”"']*$/.test(w)) actualF = null;
     });
     return lista.map(function(f){ return {texto:f.partes.join(' '), palabras:f.palabras, inicios:f.inicios}; });
   }
@@ -230,7 +238,7 @@
           var medido = f.texto.length / seg;
           if(medido > 5 && medido < 30){
             ritmo = ritmo * 0.3 + medido * 0.7;
-            try{ localStorage.setItem('cuentos-prek-ritmo-' + L, ritmo.toFixed(2)); }catch(e){}
+            try{ localStorage.setItem('cuentos-prek-ritmo2-' + L, ritmo.toFixed(2)); }catch(e){}
           }
         }
         siguiente();
