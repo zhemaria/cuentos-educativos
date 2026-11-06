@@ -137,7 +137,9 @@ CIENCIAS = [
         alt_es="Adrián pone un patito de hule en una tina con agua y el patito flota.",
         alt_en="Adrián puts a rubber duck in a tub of water and the duck floats.",
         p=f"A sunny backyard: a wide clear plastic tub full of water sits on a little table; {ADRIAN}, gently places a yellow rubber duck on the water, where it floats, while {GENESIS}, watches with her hands on her cheeks; next to the tub are a gray stone, a green leaf and a metal spoon",
-        m="The yellow rubber duck bobs gently on the water; small ripples spread across the tub.", emoji="🦆"),
+        m=("The yellow rubber duck floats and bobs gently on the water in the middle of the tub; small ripples spread across the water. "
+           "The duck stays in the tub, floating on top of the water, for the whole video; it never disappears. The two children watch and smile. "
+           "The sky, the trees and the clouds stay still: no birds, no leaves flying, no new clouds."), emoji="🦆"),
    dict(es="¿Y la piedra? Génesis la suelta. ¡Plop! Se hunde hasta el fondo.",
         en="And the stone? Génesis lets it go. Plop! It sinks to the bottom.",
         alt_es="Génesis suelta una piedra en la tina y la piedra se hunde hasta el fondo.",

@@ -84,7 +84,7 @@
   /* ---------- Voz ---------- */
   var hayVoz = 'speechSynthesis' in window, voces = [], turno = 0;
   function cargarVoces(){ if(hayVoz) voces = speechSynthesis.getVoices(); }
-  if(hayVoz){ cargarVoces(); speechSynthesis.addEventListener && speechSynthesis.addEventListener('voiceschanged', cargarVoces); }
+  if(hayVoz){ cargarVoces(); speechSynthesis.addEventListener && speechSynthesis.addEventListener('voiceschanged', function(){ cargarVoces(); if(typeof pintarVoces === 'function') pintarVoces(); }); }
   /* Elegir la voz: primero las que avisan bien cada palabra (las de Microsoft en
      Windows y Edge, y las voces instaladas en el aparato); las voces «Google» de
      Chrome por internet van al final, porque no avisan palabra por palabra y sus
@@ -100,7 +100,46 @@
       if(/US|MX|419/i.test(v.lang)) p += 5;
       return p;
     }
-    return propias.slice().sort(function(a, b){ return puntos(b) - puntos(a); })[0] || null;
+    var orden = propias.slice().sort(function(a, b){ return puntos(b) - puntos(a); });
+    /* Si el adulto eligió una voz en «Para el adulto», se usa esa */
+    var elegida = null;
+    try{ elegida = localStorage.getItem('cuentos-prek-voz-' + L); }catch(e){}
+    if(elegida){ var v0 = orden.filter(function(v){ return v.name === elegida; })[0]; if(v0) return v0; }
+    return orden[0] || null;
+  }
+  /* ---------- Elegir la voz (para el adulto) ---------- */
+  var avisaPalabras = null;   // se sabe después de la primera frase leída
+  var TV = {
+    es:{ voz:'Voz de Lumi:', sinc:'Esta voz ilumina cada palabra a tiempo.', nosinc:'Esta voz no avisa cada palabra: la luz va por estimación. Si se atrasa, pruebe otra voz de la lista (las de Microsoft suelen ir mejor).', probar:'Probar la voz', prueba:'Hola, soy Lumi. Vamos a leer un cuento.' },
+    en:{ voz:'Lumi’s voice:', sinc:'This voice lights up each word on time.', nosinc:'This voice does not report each word, so the light follows an estimate. If it falls behind, try another voice from the list (Microsoft voices usually work best).', probar:'Try the voice', prueba:'Hi, I am Lumi. Let’s read a story.' }
+  }[L];
+  var cajaVoz = null;
+  function pintarVoces(){
+    var adulto = document.querySelector('.pk-adulto');
+    if(!adulto || !hayVoz) return;
+    var propias = voces.filter(function(v){ return v.lang && v.lang.toLowerCase().indexOf(L) === 0; });
+    if(!propias.length) return;
+    if(!cajaVoz){
+      cajaVoz = document.createElement('div');
+      cajaVoz.className = 'pk-voz';
+      cajaVoz.innerHTML = '<label>' + TV.voz + ' <select></select></label> <button type="button">' + TV.probar + '</button><p class="pk-sinc" aria-live="polite"></p>';
+      adulto.appendChild(cajaVoz);
+      cajaVoz.querySelector('select').addEventListener('change', function(e){
+        try{ localStorage.setItem('cuentos-prek-voz-' + L, e.target.value); localStorage.removeItem('cuentos-prek-ritmo-' + L); }catch(x){}
+        ritmo = 14; avisaPalabras = null; pintarSinc();
+      });
+      cajaVoz.querySelector('button').addEventListener('click', function(){ parar(); decir(TV.prueba, null, null); });
+    }
+    var actualV = voz();
+    cajaVoz.querySelector('select').innerHTML = propias.map(function(v){
+      return '<option value="' + v.name.replace(/"/g,'&quot;') + '"' + (actualV && v.name === actualV.name ? ' selected' : '') + '>' +
+             v.name.replace(/</g,'&lt;') + ' (' + v.lang + ')</option>';
+    }).join('');
+    pintarSinc();
+  }
+  function pintarSinc(){
+    if(!cajaVoz) return;
+    cajaVoz.querySelector('.pk-sinc').textContent = avisaPalabras === null ? '' : (avisaPalabras ? TV.sinc : TV.nosinc);
   }
   function apagarPalabras(){
     Array.prototype.forEach.call(visor.querySelectorAll('.pk-palabra.leyendo'), function(b){ b.classList.remove('leyendo'); });
@@ -178,11 +217,13 @@
         if(mio !== turno || !f.palabras) return;
         if(e.name && e.name !== 'word') return;
         hubo = true; clearInterval(reloj);
+        if(avisaPalabras !== true){ avisaPalabras = true; pintarSinc(); }
         porLetra(e.charIndex);
       };
       u.onend = function(){
         if(mio !== turno) return;
         clearInterval(reloj);
+        if(f.palabras && f.palabras.length > 2 && !hubo && avisaPalabras === null){ avisaPalabras = false; pintarSinc(); }
         /* Aprender el ritmo real de esta voz (solo con frases de cierto largo) */
         var seg = (Date.now() - t0) / 1000 - 0.2;   // menos la pausita final de la voz
         if(t0 && seg > 0.4 && f.texto.length > 8){
@@ -283,4 +324,6 @@
 
   mostrar(0);
   botones();
+  pintarVoces();
+  setTimeout(pintarVoces, 800);   // algunas voces llegan un poco después
 })();

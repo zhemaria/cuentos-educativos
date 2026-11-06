@@ -2,11 +2,13 @@
 """Genera los cuentos para escuchar de prekínder (español e inglés), los cuatro
 libros (portadas con mosaico) y la hoja de indicaciones de láminas y movimiento.
 Uso:  python3 herramientas/gen_prek.py   (desde la raíz del repositorio)"""
-import html, json, pathlib, sys
+import hashlib, html, json, pathlib, sys
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from prek_cuentos import CIENCIAS, SOCIALES, ESTILO, MOV, METAS
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
+def version(nombre):
+    return hashlib.md5((RAIZ / nombre).read_bytes()).hexdigest()[:8]
 def e(s): return html.escape(s, quote=True)
 
 AREAS = {
@@ -71,7 +73,7 @@ def cabeza(L, titulo, desc):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
 <link rel="stylesheet" href="cuentos.css">
-<link rel="stylesheet" href="cuentos-prek.css">
+<link rel="stylesheet" href="cuentos-prek.css?v={version('cuentos-prek.css')}">
 </head>
 """
 
@@ -132,7 +134,7 @@ def pagina(area, c, L):
   </div>
   <p class="creditos">José M. Fernández · Claude (Anthropic) · {t['cred']}</p>
 </main>
-<script src="cuentos-prek.js"></script>
+<script src="cuentos-prek.js?v={version('cuentos-prek.js')}"></script>
 </body>
 </html>
 """
