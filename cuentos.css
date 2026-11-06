@@ -360,3 +360,6 @@ details.grado > summary:focus-visible{outline:4px solid var(--foco,#0B62D6);outl
 .grado-cuerpo{padding:0 1rem 1rem}
 .guia-docente{margin:.5rem 0}
 @media print{details.grado{border:0} details.grado > summary::after{display:none}}
+
+/* Al abrir un capítulo, su título queda visible con un pequeño margen arriba */
+details.capitulo > summary{scroll-margin-top:12px}

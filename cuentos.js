@@ -405,6 +405,13 @@
         if(d.open){
           // Un solo capítulo abierto (por si el navegador no admite name="").
           capitulos.forEach(function(o){ if(o !== d && o.open) o.open = false; });
+          // Al abrir otro capítulo se cierra el de arriba y la página «salta»:
+          // se vuelve al título del capítulo que se acaba de abrir.
+          requestAnimationFrame(function(){
+            var s = d.querySelector('summary');
+            var r = s.getBoundingClientRect();
+            if(r.top < 0 || r.top > window.innerHeight * 0.6) s.scrollIntoView({block:'start'});
+          });
         }else if(btnVoz && d.contains(btnVoz)){
           callar(); botonCuentoEnReposo();
         }
