@@ -438,7 +438,9 @@ SOCIALES = [
         alt_es="En la pared hay una marca de cuánto mide Génesis, y ella se estira para crecer.",
         alt_en="On the wall there are marks showing how tall Génesis is, and she stretches up tall.",
         p=f"A bedroom doorframe with a few small colored pencil marks showing a child's height, with no numbers or words; {GENESIS}, stands against the doorframe stretching up on her tiptoes with a big proud smile while {ADRIAN}, holds a pencil and laughs",
-        m="The girl stretches up on her tiptoes and the boy laughs.", emoji="📏"),
+        m=("The girl keeps her back flat against the wall in the same spot for the whole video and slowly stretches up on her tiptoes, smiling proudly; "
+           "she does not walk, turn around, climb or lift a leg. The boy gently draws one small colored mark on the wall just above the top of her head "
+           "and laughs. The other marks on the doorframe stay the same; no letters or numbers appear."), emoji="📏"),
   ],
   es_adulto="Miren fotos del niño de bebé y comparen: ¿qué podía hacer antes? ¿Qué puede hacer ahora? ¿Qué quiere aprender después?",
   en_adulto="Look at baby photos of the child and compare: what could they do then? What can they do now? What do they want to learn next?"),
