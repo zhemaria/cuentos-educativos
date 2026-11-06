@@ -373,7 +373,9 @@ SOCIALES = [
         alt_es="En la panadería, la mamá de Adrián paga y Adrián recibe una bolsa de pan.",
         alt_en="At the bakery, Adrián's mom pays and Adrián gets a bag of bread.",
         p=f"Inside the same cozy bakery: {ADRIAN}, holds a paper bag with a loaf of bread sticking out, while his mother hands coins to the smiling baker at the counter",
-        m="The mother hands over the coins and the boy hugs the bag of bread, smiling.", emoji="🪙"),
+        m=("The mother slowly places the coins into the open palm of the baker; the baker gently closes her hand around the coins, keeps them in her closed hand "
+           "and smiles. The coins never fall, never drop on the counter and never disappear. The boy hugs the bag of bread and smiles. "
+           "Everyone stays in place; nobody walks out of the picture."), emoji="🪙"),
    dict(es="La panadera trabaja. La mamá trabaja. ¡Cuando sean grandes, Adrián y Génesis también trabajarán!",
         en="The baker works. Mom works. When they grow up, Adrián and Génesis will work too!",
         alt_es="Adrián y Génesis juegan a la panadería con gorros blancos y panes de juguete.",
