@@ -85,9 +85,22 @@
   var hayVoz = 'speechSynthesis' in window, voces = [], turno = 0;
   function cargarVoces(){ if(hayVoz) voces = speechSynthesis.getVoices(); }
   if(hayVoz){ cargarVoces(); speechSynthesis.addEventListener && speechSynthesis.addEventListener('voiceschanged', cargarVoces); }
+  /* Elegir la voz: primero las que avisan bien cada palabra (las de Microsoft en
+     Windows y Edge, y las voces instaladas en el aparato); las voces «Google» de
+     Chrome por internet van al final, porque no avisan palabra por palabra y sus
+     avisos de inicio llegan tarde, y entonces la luz se atrasa. */
   function voz(){
     var propias = voces.filter(function(v){ return v.lang && v.lang.toLowerCase().indexOf(L) === 0; });
-    return propias.filter(function(v){ return /US|MX|419/i.test(v.lang); })[0] || propias[0] || null;
+    function puntos(v){
+      var p = 0;
+      if(/Microsoft/i.test(v.name)) p += 40;
+      if(/Natural|Online/i.test(v.name)) p += 10;
+      if(v.localService) p += 20;
+      if(/Google/i.test(v.name)) p -= 30;
+      if(/US|MX|419/i.test(v.lang)) p += 5;
+      return p;
+    }
+    return propias.slice().sort(function(a, b){ return puntos(b) - puntos(a); })[0] || null;
   }
   function apagarPalabras(){
     Array.prototype.forEach.call(visor.querySelectorAll('.pk-palabra.leyendo'), function(b){ b.classList.remove('leyendo'); });
