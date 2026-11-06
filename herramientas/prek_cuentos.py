@@ -267,7 +267,8 @@ SOCIALES = [
         alt_es="Adrián y Génesis muestran dibujos de sus familias en la pared del salón.",
         alt_en="Adrián and Génesis show drawings of their families on the classroom wall.",
         p=f"A colorful preschool classroom wall covered with children's crayon drawings of many different families, big and small, with hearts and no words; {ADRIAN}, and {GENESIS}, proudly point at their own drawings; other preschool children of different backgrounds, African American, Latino and Asian American, look at the drawings too",
-        m="The children point at the drawings and smile; the paper drawings flutter slightly.", emoji="❤️"),
+        m=("Adrián and Génesis point at their own drawings and smile; the other children nod and smile. All the drawings stay pinned flat on the wall "
+           "and do not move at all: no paper flies, falls, curls or disappears, and no new drawings appear."), emoji="❤️"),
   ],
   es_adulto="Pida al niño que dibuje a su familia y que diga qué hacen juntos. Recuerde que hay muchas formas de familia y todas valen.",
   en_adulto="Ask the child to draw their family and to tell what they do together. Remember that there are many kinds of families, and they all count."),
