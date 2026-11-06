@@ -2921,3 +2921,153 @@ window.CATALOGO = window.CATALOGO.concat([
 window.LIBROS = window.LIBROS.concat([
   { grado: 'prek', area: 'ciencias', es: 'libro-prek-ciencias.html', en: 'book-prek-science.html' }
 ]);
+/* ---- Prekínder sociales: cuentos para escuchar (generado con herramientas/gen_prek.py) ---- */
+window.CATALOGO = window.CATALOGO.concat([
+  {
+    "id": "pk-sociales-01-familia",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -91,
+    "estandar": "IELDS 18",
+    "es": {
+      "titulo": "Mi familia",
+      "archivo": "pk-sociales-01-familia.html",
+      "tema": "Un cuento sobre las familias: todas son diferentes y todas se quieren"
+    },
+    "en": {
+      "titulo": "My family",
+      "archivo": "pk-social-studies-01-family.html",
+      "tema": "A story about families: they are all different, and they all love each other"
+    },
+    "imagen": "pk-sociales-01-familia-1.jpg"
+  },
+  {
+    "id": "pk-sociales-02-compartir",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -90,
+    "estandar": "IELDS 18",
+    "es": {
+      "titulo": "La pelota roja",
+      "archivo": "pk-sociales-02-compartir.html",
+      "tema": "Un cuento sobre compartir y jugar juntos"
+    },
+    "en": {
+      "titulo": "The red ball",
+      "archivo": "pk-social-studies-02-sharing.html",
+      "tema": "A story about sharing and playing together"
+    },
+    "imagen": "pk-sociales-02-compartir-1.jpg"
+  },
+  {
+    "id": "pk-sociales-03-reglas",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -89,
+    "estandar": "IELDS 14",
+    "es": {
+      "titulo": "Las reglas del salón",
+      "archivo": "pk-sociales-03-reglas.html",
+      "tema": "Un cuento sobre por qué tenemos reglas"
+    },
+    "en": {
+      "titulo": "Classroom rules",
+      "archivo": "pk-social-studies-03-rules.html",
+      "tema": "A story about why we have rules"
+    },
+    "imagen": "pk-sociales-03-reglas-1.jpg"
+  },
+  {
+    "id": "pk-sociales-04-ayudantes",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -88,
+    "estandar": "IELDS 15",
+    "es": {
+      "titulo": "Los que nos ayudan",
+      "archivo": "pk-sociales-04-ayudantes.html",
+      "tema": "Un cuento sobre las personas que ayudan en la comunidad"
+    },
+    "en": {
+      "titulo": "Community helpers",
+      "archivo": "pk-social-studies-04-helpers.html",
+      "tema": "A story about the people who help in our community"
+    },
+    "imagen": "pk-sociales-04-ayudantes-1.jpg"
+  },
+  {
+    "id": "pk-sociales-05-trabajos",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -87,
+    "estandar": "IELDS 15",
+    "es": {
+      "titulo": "¿Quién hace el pan?",
+      "archivo": "pk-sociales-05-trabajos.html",
+      "tema": "Un cuento sobre los trabajos y cómo las personas compran lo que necesitan"
+    },
+    "en": {
+      "titulo": "Who makes the bread?",
+      "archivo": "pk-social-studies-05-jobs.html",
+      "tema": "A story about jobs and how people buy what they need"
+    },
+    "imagen": "pk-sociales-05-trabajos-1.jpg"
+  },
+  {
+    "id": "pk-sociales-06-barrio",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -86,
+    "estandar": "IELDS 17",
+    "es": {
+      "titulo": "Mi barrio",
+      "archivo": "pk-sociales-06-barrio.html",
+      "tema": "Un cuento sobre los lugares cerca de casa"
+    },
+    "en": {
+      "titulo": "My neighborhood",
+      "archivo": "pk-social-studies-06-neighborhood.html",
+      "tema": "A story about the places near home"
+    },
+    "imagen": "pk-sociales-06-barrio-1.jpg"
+  },
+  {
+    "id": "pk-sociales-07-ayer-hoy",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -85,
+    "estandar": "IELDS 16",
+    "es": {
+      "titulo": "Cuando era bebé",
+      "archivo": "pk-sociales-07-ayer-hoy.html",
+      "tema": "Un cuento sobre el antes y el ahora: cómo crecemos"
+    },
+    "en": {
+      "titulo": "When I was a baby",
+      "archivo": "pk-social-studies-07-then-now.html",
+      "tema": "A story about then and now: how we grow"
+    },
+    "imagen": "pk-sociales-07-ayer-hoy-1.jpg"
+  },
+  {
+    "id": "pk-sociales-08-ayudo",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -84,
+    "estandar": "IELDS 18",
+    "es": {
+      "titulo": "Yo ayudo en casa",
+      "archivo": "pk-sociales-08-ayudo.html",
+      "tema": "Un cuento sobre cómo cada uno ayuda en la familia"
+    },
+    "en": {
+      "titulo": "I help at home",
+      "archivo": "pk-social-studies-08-helping.html",
+      "tema": "A story about how everyone helps in the family"
+    },
+    "imagen": "pk-sociales-08-ayudo-1.jpg"
+  }
+]);
+window.LIBROS = window.LIBROS.concat([
+  { grado: 'prek', area: 'sociales', es: 'libro-prek-sociales.html', en: 'book-prek-social-studies.html' }
+]);
