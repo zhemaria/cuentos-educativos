@@ -329,3 +329,34 @@ body.contraste-alto .pausa,body.contraste-alto .anuncio{border-color:#000}
 .fuente-historica p{margin:0}
 
 .reto-mas{margin-top:1rem;padding-top:.8rem;border-top:2px dashed var(--borde)}
+
+/* --- Selector de idioma de Lumi: 🌐 English | Español ----------- */
+/* Igual que en los interactivos: siempre English primero; el idioma
+   de la página aparece marcado y el otro es un enlace. */
+.selector-idioma{display:inline-flex;align-items:center;gap:4px;padding:4px 8px;background:#fff;
+  border:3px solid var(--borde,#D6D0EA);border-radius:999px;box-shadow:0 3px 0 rgba(0,0,0,.12);
+  font-weight:700;font-size:.95rem;color:var(--tinta)}
+.selector-idioma a,.selector-idioma .op{display:inline-flex;align-items:center;min-height:40px;padding:.2rem .8rem;
+  border-radius:999px;text-decoration:none;color:var(--tinta);font-weight:700}
+.selector-idioma a:hover{text-decoration:underline}
+.selector-idioma .op[aria-current]{background:var(--verde);color:#fff}
+@media print{.selector-idioma{display:none!important}}
+
+/* --- Portada: grados en acordeón y filtro por área ------------- */
+.filtro{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:0 0 1rem;padding:0;list-style:none}
+.filtro .rotulo{font-weight:700;margin-right:.25rem}
+.filtro a{display:inline-flex;align-items:center;min-height:44px;padding:.4rem .9rem;border-radius:999px;
+  border:2px solid var(--verde);color:var(--verde);background:var(--papel-claro);font-weight:700;text-decoration:none}
+.filtro a[aria-current]{background:var(--verde);color:#fff}
+details.grado{margin-top:1rem;border:1px solid var(--borde);border-radius:var(--radio);background:var(--papel-claro)}
+details.grado > summary{display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1rem;padding:.8rem 1rem;cursor:pointer;
+  list-style:none;min-height:44px}
+details.grado > summary::-webkit-details-marker{display:none}
+details.grado > summary::after{content:"▾";margin-left:auto;font-size:1.3rem;color:var(--verde);transition:transform .2s}
+details.grado[open] > summary::after{transform:rotate(180deg)}
+details.grado > summary h2{margin:0;border:0;padding:0;font-size:1.3rem}
+details.grado > summary small{color:var(--tinta-suave)}
+details.grado > summary:focus-visible{outline:4px solid var(--foco,#0B62D6);outline-offset:2px}
+.grado-cuerpo{padding:0 1rem 1rem}
+.guia-docente{margin:.5rem 0}
+@media print{details.grado{border:0} details.grado > summary::after{display:none}}
