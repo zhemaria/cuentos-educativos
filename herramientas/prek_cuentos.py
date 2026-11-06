@@ -9,7 +9,7 @@ ADRIAN = "a Latino boy about four years old with jet-black hair and light tan sk
 DINO = "a small green plush dinosaur"
 GENESIS = "a Latina girl about four years old with black hair and light tan skin, in a salmon-pink dress"
 OSITA = "a small brown teddy bear with a pink bow on its head"
-EMIR = "a boy about four years old with short dark brown curly hair and warm brown skin, in a yellow t-shirt"
+EMIR = "a slim boy about four years old with dark brown spiky hair standing straight up, big bright eyes and warm brown skin, in a yellow t-shirt"
 
 ESTILO = ("each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, "
           "soft watercolor fairy-tale style, simple bright scene for a preschool picture book, "

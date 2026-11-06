@@ -234,7 +234,7 @@ h3{{font-size:1rem;margin:1rem 0 .3rem}}
     <li>Si quiere el video, suba esa lámina al bot <strong>Veo-3.1-Fast</strong> y pegue la <strong>indicación de movimiento</strong> (caja azul). Guarde el video con el mismo nombre y extensión <code>.mp4</code>.</li>
     <li>Mándeme las láminas y los videos (o súbalos a la raíz de <code>cuentos-educativos</code>). El cuento los usa solo: si hay video, lo muestra; si no, la lámina; y mientras no haya nada, un dibujo grande de espera.</li>
   </ol>
-  <p><strong>Personajes:</strong> Adrián (pelo negro azabache, camiseta roja, dinosaurio de peluche verde), Génesis (pelo negro, vestido rosado salmón, osita con lacito rosado) y Emir (aparece en tres cuentos de estudios sociales).</p>
+  <p><strong>Personajes:</strong> Adrián (pelo negro azabache, camiseta roja, dinosaurio de peluche verde), Génesis (pelo negro, vestido rosado salmón, osita con lacito rosado) y Emir (pelo castaño oscuro parado, flaquito, ojos grandes, piel morena, camiseta amarilla; aparece en tres cuentos de estudios sociales).</p>
   <h2 id="indice">Índice</h2>
   <ul class="indice">{indice}</ul>
 {tarjetas}
