@@ -381,7 +381,9 @@ SOCIALES = [
         alt_es="Adrián y Génesis juegan a la panadería con gorros blancos y panes de juguete.",
         alt_en="Adrián and Génesis play bakery with baker's hats and toy bread.",
         p=f"A preschool play corner set up as a pretend bakery: {ADRIAN}, and {GENESIS}, wear little white baker's hats and aprons and arrange toy loaves of bread on a small wooden counter, smiling",
-        m="The children arrange the toy bread and adjust their little baker's hats.", emoji="👩‍🍳"),
+        m=("The boy gently places one toy bread roll on the tray and the girl moves the bread basket a little closer; both smile at each other. "
+           "Both children keep their white baker's hats on their heads the whole time; their hands never touch the hats, and the hats never "
+           "move, fly, appear or disappear. The toy bread stays the same: no bread appears or disappears. The children stay behind the counter."), emoji="👩‍🍳"),
   ],
   es_adulto="Jueguen a la tiendita: uno vende y otro compra con monedas de juguete. Pregunte: «¿En qué trabajan las personas que conoces?».",
   en_adulto="Play store: one sells and the other buys with toy coins. Ask: “What jobs do the people you know have?”"),
