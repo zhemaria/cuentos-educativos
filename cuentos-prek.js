@@ -92,58 +92,99 @@
   function apagarPalabras(){
     Array.prototype.forEach.call(visor.querySelectorAll('.pk-palabra.leyendo'), function(b){ b.classList.remove('leyendo'); });
   }
+  /* Ritmo de la voz en letras por segundo. Empieza con un valor típico y se
+     ajusta solo: después de cada frase se mide cuánto tardó la voz de verdad. */
+  var ritmo = 14;
+  /* El ritmo aprendido se recuerda en este aparato para los próximos cuentos */
+  try{ var r0 = parseFloat(localStorage.getItem('cuentos-prek-ritmo-' + L)); if(r0 > 5 && r0 < 30) ritmo = r0; }catch(e){}
+  /* Parte el texto en frases (en los puntos, comas, ¡! y ¿?) con sus palabras.
+     Cada frase se lee por separado: al empezar cada una, la luz vuelve a su
+     sitio, así el desfase nunca crece. */
+  function frases(texto, palabras){
+    if(!palabras) return [{texto:texto, palabras:null, inicios:null}];
+    var lista = [], actualF = null;
+    palabras.forEach(function(b){
+      if(!actualF){ actualF = {partes:[], palabras:[], inicios:[]}; lista.push(actualF); }
+      var w = b.textContent, pos = actualF.partes.join(' ').length + (actualF.partes.length ? 1 : 0);
+      actualF.partes.push(w); actualF.palabras.push(b); actualF.inicios.push(pos);
+      if(/[.,!?;:][»”"']*$/.test(w)) actualF = null;
+    });
+    return lista.map(function(f){ return {texto:f.partes.join(' '), palabras:f.palabras, inicios:f.inicios}; });
+  }
   /* Lee un texto; si se pasan palabras, las va iluminando. alTerminar(true) si terminó normalmente. */
   function decir(texto, palabras, alTerminar){
     var mio = ++turno;
     if(hayVoz) speechSynthesis.cancel();
     apagarPalabras();
-    var reloj = null, hubo = false, idx = -1;
-    function marcar(k){
-      if(!palabras || k < 0 || k >= palabras.length || k === idx) return;
-      if(idx >= 0) palabras[idx].classList.remove('leyendo');
-      idx = k; palabras[k].classList.add('leyendo');
-    }
-    function porPosicion(c){
-      if(!palabras) return;
-      var k = 0;
-      for(var j = 0; j < palabras.length; j++){ if(+palabras[j].getAttribute('data-i') <= c) k = j; }
-      marcar(k);
+    var reloj = null, encendida = null;
+    function encender(b){
+      if(b === encendida) return;
+      if(encendida) encendida.classList.remove('leyendo');
+      encendida = b; if(b) b.classList.add('leyendo');
     }
     function terminar(ok){
       if(mio !== turno) return;
       clearInterval(reloj); apagarPalabras();
       if(alTerminar) alTerminar(ok);
     }
+    var lista = frases(texto, palabras), n = 0;
     if(!hayVoz){
       /* Sin voz: se iluminan las palabras a ritmo de lectura en voz alta */
-      var k0 = 0;
-      marcar(0);
-      reloj = setInterval(function(){ if(mio !== turno) return clearInterval(reloj); k0++; if(palabras && k0 < palabras.length) marcar(k0); else terminar(true); }, 520);
+      var todas = palabras || [], k0 = 0;
+      encender(todas[0] || null);
+      reloj = setInterval(function(){ if(mio !== turno) return clearInterval(reloj); k0++; if(k0 < todas.length) encender(todas[k0]); else terminar(true); }, 520);
       return;
     }
-    var u = new SpeechSynthesisUtterance(texto);
-    u.lang = L === 'es' ? 'es-US' : 'en-US';
-    var v = voz(); if(v) u.voice = v;
-    u.rate = 0.8; u.pitch = 1.08;
-    u.onstart = function(){
-      if(mio !== turno || !palabras) return;
-      marcar(0);
-      /* Algunas voces no avisan palabra por palabra: entonces se estima el ritmo */
-      var t0 = Date.now(), largo = texto.length;
-      reloj = setInterval(function(){
-        if(mio !== turno || hubo){ clearInterval(reloj); return; }
-        porPosicion(Math.min(largo, Math.floor((Date.now() - t0) / 1000 * 11.5 * u.rate)));
-      }, 120);
-    };
-    u.onboundary = function(e){
-      if(mio !== turno || !palabras) return;
-      if(e.name && e.name !== 'word') return;
-      hubo = true; clearInterval(reloj);
-      porPosicion(e.charIndex);
-    };
-    u.onend = function(){ terminar(true); };
-    u.onerror = function(e){ terminar(e && e.error === 'interrupted' ? false : true); };
-    speechSynthesis.speak(u);
+    function siguiente(){
+      if(mio !== turno) return;
+      if(n >= lista.length){ terminar(true); return; }
+      var f = lista[n++], hubo = false, t0 = 0;
+      function porLetra(c){
+        if(!f.palabras) return;
+        var k = 0;
+        for(var j = 0; j < f.inicios.length; j++){ if(f.inicios[j] <= c) k = j; }
+        encender(f.palabras[k]);
+      }
+      var u = new SpeechSynthesisUtterance(f.texto);
+      u.lang = L === 'es' ? 'es-US' : 'en-US';
+      var v = voz(); if(v) u.voice = v;
+      u.rate = 0.8; u.pitch = 1.08;
+      u.onstart = function(){
+        if(mio !== turno) return;
+        t0 = Date.now();
+        clearInterval(reloj);
+        if(!f.palabras) return;
+        porLetra(0);
+        /* Si la voz no avisa palabra por palabra, se sigue el ritmo medido */
+        reloj = setInterval(function(){
+          if(mio !== turno || hubo){ clearInterval(reloj); return; }
+          porLetra((Date.now() - t0) / 1000 * ritmo + 1);
+        }, 60);
+      };
+      u.onboundary = function(e){
+        if(mio !== turno || !f.palabras) return;
+        if(e.name && e.name !== 'word') return;
+        hubo = true; clearInterval(reloj);
+        porLetra(e.charIndex);
+      };
+      u.onend = function(){
+        if(mio !== turno) return;
+        clearInterval(reloj);
+        /* Aprender el ritmo real de esta voz (solo con frases de cierto largo) */
+        var seg = (Date.now() - t0) / 1000 - 0.2;   // menos la pausita final de la voz
+        if(t0 && seg > 0.4 && f.texto.length > 8){
+          var medido = f.texto.length / seg;
+          if(medido > 5 && medido < 30){
+            ritmo = ritmo * 0.3 + medido * 0.7;
+            try{ localStorage.setItem('cuentos-prek-ritmo-' + L, ritmo.toFixed(2)); }catch(e){}
+          }
+        }
+        siguiente();
+      };
+      u.onerror = function(e){ if(e && e.error === 'interrupted') terminar(false); else siguiente(); };
+      speechSynthesis.speak(u);
+    }
+    siguiente();
   }
   function callar(){ turno++; if(hayVoz) speechSynthesis.cancel(); apagarPalabras(); }
 
