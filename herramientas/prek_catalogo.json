@@ -1,0 +1,290 @@
+[
+  {
+    "id": "pk-ciencias-01-sentidos",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -99,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "Mis cinco sentidos",
+      "archivo": "pk-ciencias-01-sentidos.html",
+      "tema": "Un cuento para descubrir cómo conocemos el mundo con el cuerpo"
+    },
+    "en": {
+      "titulo": "My five senses",
+      "archivo": "pk-science-01-senses.html",
+      "tema": "A story about how we learn about the world with our bodies"
+    },
+    "imagen": "pk-ciencias-01-sentidos-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-02-semilla",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -98,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "La semillita",
+      "archivo": "pk-ciencias-02-semilla.html",
+      "tema": "Un cuento sobre lo que necesita una planta para crecer"
+    },
+    "en": {
+      "titulo": "The little seed",
+      "archivo": "pk-science-02-seed.html",
+      "tema": "A story about what a plant needs to grow"
+    },
+    "imagen": "pk-ciencias-02-semilla-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-03-sol-lluvia",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -97,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "Sol y lluvia",
+      "archivo": "pk-ciencias-03-sol-lluvia.html",
+      "tema": "Un cuento sobre el tiempo: hay días de sol y días de lluvia"
+    },
+    "en": {
+      "titulo": "Sun and rain",
+      "archivo": "pk-science-03-sun-rain.html",
+      "tema": "A story about the weather: some days are sunny and some days are rainy"
+    },
+    "imagen": "pk-ciencias-03-sol-lluvia-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-04-crias",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -96,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "¿Quién es mi mamá?",
+      "archivo": "pk-ciencias-04-crias.html",
+      "tema": "Un cuento sobre los animales y sus crías"
+    },
+    "en": {
+      "titulo": "Who is my mommy?",
+      "archivo": "pk-science-04-babies.html",
+      "tema": "A story about animals and their babies"
+    },
+    "imagen": "pk-ciencias-04-crias-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-05-flota",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -95,
+    "estandar": "IELDS 11",
+    "es": {
+      "titulo": "¿Flota o se hunde?",
+      "archivo": "pk-ciencias-05-flota.html",
+      "tema": "Un cuento para observar, adivinar y probar, como los científicos"
+    },
+    "en": {
+      "titulo": "Will it float or sink?",
+      "archivo": "pk-science-05-float.html",
+      "tema": "A story about watching, guessing and testing, like scientists"
+    },
+    "imagen": "pk-ciencias-05-flota-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-06-dia-noche",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -94,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "El día y la noche",
+      "archivo": "pk-ciencias-06-dia-noche.html",
+      "tema": "Un cuento sobre el cielo de día y el cielo de noche"
+    },
+    "en": {
+      "titulo": "Day and night",
+      "archivo": "pk-science-06-day-night.html",
+      "tema": "A story about the sky in the daytime and at night"
+    },
+    "imagen": "pk-ciencias-06-dia-noche-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-07-otono",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -93,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "Las hojas del otoño",
+      "archivo": "pk-ciencias-07-otono.html",
+      "tema": "Un cuento sobre cómo cambian los árboles en otoño"
+    },
+    "en": {
+      "titulo": "Fall leaves",
+      "archivo": "pk-science-07-fall.html",
+      "tema": "A story about how trees change in the fall"
+    },
+    "imagen": "pk-ciencias-07-otono-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-08-agua",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -92,
+    "estandar": "IELDS 13",
+    "es": {
+      "titulo": "Cuidamos el agua",
+      "archivo": "pk-ciencias-08-agua.html",
+      "tema": "Un cuento sobre cómo cuidar el agua todos los días"
+    },
+    "en": {
+      "titulo": "We take care of water",
+      "archivo": "pk-science-08-water.html",
+      "tema": "A story about how to take care of water every day"
+    },
+    "imagen": "pk-ciencias-08-agua-1.jpg"
+  },
+  {
+    "id": "pk-sociales-01-familia",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -91,
+    "estandar": "IELDS 18",
+    "es": {
+      "titulo": "Mi familia",
+      "archivo": "pk-sociales-01-familia.html",
+      "tema": "Un cuento sobre las familias: todas son diferentes y todas se quieren"
+    },
+    "en": {
+      "titulo": "My family",
+      "archivo": "pk-social-studies-01-family.html",
+      "tema": "A story about families: they are all different, and they all love each other"
+    },
+    "imagen": "pk-sociales-01-familia-1.jpg"
+  },
+  {
+    "id": "pk-sociales-02-compartir",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -90,
+    "estandar": "IELDS 18",
+    "es": {
+      "titulo": "La pelota roja",
+      "archivo": "pk-sociales-02-compartir.html",
+      "tema": "Un cuento sobre compartir y jugar juntos"
+    },
+    "en": {
+      "titulo": "The red ball",
+      "archivo": "pk-social-studies-02-sharing.html",
+      "tema": "A story about sharing and playing together"
+    },
+    "imagen": "pk-sociales-02-compartir-1.jpg"
+  },
+  {
+    "id": "pk-sociales-03-reglas",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -89,
+    "estandar": "IELDS 14",
+    "es": {
+      "titulo": "Las reglas del salón",
+      "archivo": "pk-sociales-03-reglas.html",
+      "tema": "Un cuento sobre por qué tenemos reglas"
+    },
+    "en": {
+      "titulo": "Classroom rules",
+      "archivo": "pk-social-studies-03-rules.html",
+      "tema": "A story about why we have rules"
+    },
+    "imagen": "pk-sociales-03-reglas-1.jpg"
+  },
+  {
+    "id": "pk-sociales-04-ayudantes",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -88,
+    "estandar": "IELDS 15",
+    "es": {
+      "titulo": "Los que nos ayudan",
+      "archivo": "pk-sociales-04-ayudantes.html",
+      "tema": "Un cuento sobre las personas que ayudan en la comunidad"
+    },
+    "en": {
+      "titulo": "Community helpers",
+      "archivo": "pk-social-studies-04-helpers.html",
+      "tema": "A story about the people who help in our community"
+    },
+    "imagen": "pk-sociales-04-ayudantes-1.jpg"
+  },
+  {
+    "id": "pk-sociales-05-trabajos",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -87,
+    "estandar": "IELDS 15",
+    "es": {
+      "titulo": "¿Quién hace el pan?",
+      "archivo": "pk-sociales-05-trabajos.html",
+      "tema": "Un cuento sobre los trabajos y cómo las personas compran lo que necesitan"
+    },
+    "en": {
+      "titulo": "Who makes the bread?",
+      "archivo": "pk-social-studies-05-jobs.html",
+      "tema": "A story about jobs and how people buy what they need"
+    },
+    "imagen": "pk-sociales-05-trabajos-1.jpg"
+  },
+  {
+    "id": "pk-sociales-06-barrio",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -86,
+    "estandar": "IELDS 17",
+    "es": {
+      "titulo": "Mi barrio",
+      "archivo": "pk-sociales-06-barrio.html",
+      "tema": "Un cuento sobre los lugares cerca de casa"
+    },
+    "en": {
+      "titulo": "My neighborhood",
+      "archivo": "pk-social-studies-06-neighborhood.html",
+      "tema": "A story about the places near home"
+    },
+    "imagen": "pk-sociales-06-barrio-1.jpg"
+  },
+  {
+    "id": "pk-sociales-07-ayer-hoy",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -85,
+    "estandar": "IELDS 16",
+    "es": {
+      "titulo": "Cuando era bebé",
+      "archivo": "pk-sociales-07-ayer-hoy.html",
+      "tema": "Un cuento sobre el antes y el ahora: cómo crecemos"
+    },
+    "en": {
+      "titulo": "When I was a baby",
+      "archivo": "pk-social-studies-07-then-now.html",
+      "tema": "A story about then and now: how we grow"
+    },
+    "imagen": "pk-sociales-07-ayer-hoy-1.jpg"
+  },
+  {
+    "id": "pk-sociales-08-ayudo",
+    "grado": "prek",
+    "area": "sociales",
+    "orden": -84,
+    "estandar": "IELDS 18",
+    "es": {
+      "titulo": "Yo ayudo en casa",
+      "archivo": "pk-sociales-08-ayudo.html",
+      "tema": "Un cuento sobre cómo cada uno ayuda en la familia"
+    },
+    "en": {
+      "titulo": "I help at home",
+      "archivo": "pk-social-studies-08-helping.html",
+      "tema": "A story about how everyone helps in the family"
+    },
+    "imagen": "pk-sociales-08-ayudo-1.jpg"
+  }
+]
