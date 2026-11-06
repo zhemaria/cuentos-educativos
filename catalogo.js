@@ -2770,3 +2770,154 @@ window.LIBROS = [
   { grado: 6, area: 'ciencias', es: 'book-grade6-science.html', en: 'book-grade6-science.html' },
   { grado: 6, area: 'sociales', es: 'book-grade6-social-studies.html', en: 'book-grade6-social-studies.html' }
 ];
+
+/* ---- Prekínder: cuentos para escuchar (generado con herramientas/gen_prek.py) ---- */
+window.CATALOGO = window.CATALOGO.concat([
+  {
+    "id": "pk-ciencias-01-sentidos",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -99,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "Mis cinco sentidos",
+      "archivo": "pk-ciencias-01-sentidos.html",
+      "tema": "Un cuento para descubrir cómo conocemos el mundo con el cuerpo"
+    },
+    "en": {
+      "titulo": "My five senses",
+      "archivo": "pk-science-01-senses.html",
+      "tema": "A story about how we learn about the world with our bodies"
+    },
+    "imagen": "pk-ciencias-01-sentidos-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-02-semilla",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -98,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "La semillita",
+      "archivo": "pk-ciencias-02-semilla.html",
+      "tema": "Un cuento sobre lo que necesita una planta para crecer"
+    },
+    "en": {
+      "titulo": "The little seed",
+      "archivo": "pk-science-02-seed.html",
+      "tema": "A story about what a plant needs to grow"
+    },
+    "imagen": "pk-ciencias-02-semilla-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-03-sol-lluvia",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -97,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "Sol y lluvia",
+      "archivo": "pk-ciencias-03-sol-lluvia.html",
+      "tema": "Un cuento sobre el tiempo: hay días de sol y días de lluvia"
+    },
+    "en": {
+      "titulo": "Sun and rain",
+      "archivo": "pk-science-03-sun-rain.html",
+      "tema": "A story about the weather: some days are sunny and some days are rainy"
+    },
+    "imagen": "pk-ciencias-03-sol-lluvia-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-04-crias",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -96,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "¿Quién es mi mamá?",
+      "archivo": "pk-ciencias-04-crias.html",
+      "tema": "Un cuento sobre los animales y sus crías"
+    },
+    "en": {
+      "titulo": "Who is my mommy?",
+      "archivo": "pk-science-04-babies.html",
+      "tema": "A story about animals and their babies"
+    },
+    "imagen": "pk-ciencias-04-crias-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-05-flota",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -95,
+    "estandar": "IELDS 11",
+    "es": {
+      "titulo": "¿Flota o se hunde?",
+      "archivo": "pk-ciencias-05-flota.html",
+      "tema": "Un cuento para observar, adivinar y probar, como los científicos"
+    },
+    "en": {
+      "titulo": "Will it float or sink?",
+      "archivo": "pk-science-05-float.html",
+      "tema": "A story about watching, guessing and testing, like scientists"
+    },
+    "imagen": "pk-ciencias-05-flota-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-06-dia-noche",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -94,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "El día y la noche",
+      "archivo": "pk-ciencias-06-dia-noche.html",
+      "tema": "Un cuento sobre el cielo de día y el cielo de noche"
+    },
+    "en": {
+      "titulo": "Day and night",
+      "archivo": "pk-science-06-day-night.html",
+      "tema": "A story about the sky in the daytime and at night"
+    },
+    "imagen": "pk-ciencias-06-dia-noche-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-07-otono",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -93,
+    "estandar": "IELDS 12",
+    "es": {
+      "titulo": "Las hojas del otoño",
+      "archivo": "pk-ciencias-07-otono.html",
+      "tema": "Un cuento sobre cómo cambian los árboles en otoño"
+    },
+    "en": {
+      "titulo": "Fall leaves",
+      "archivo": "pk-science-07-fall.html",
+      "tema": "A story about how trees change in the fall"
+    },
+    "imagen": "pk-ciencias-07-otono-1.jpg"
+  },
+  {
+    "id": "pk-ciencias-08-agua",
+    "grado": "prek",
+    "area": "ciencias",
+    "orden": -92,
+    "estandar": "IELDS 13",
+    "es": {
+      "titulo": "Cuidamos el agua",
+      "archivo": "pk-ciencias-08-agua.html",
+      "tema": "Un cuento sobre cómo cuidar el agua todos los días"
+    },
+    "en": {
+      "titulo": "We take care of water",
+      "archivo": "pk-science-08-water.html",
+      "tema": "A story about how to take care of water every day"
+    },
+    "imagen": "pk-ciencias-08-agua-1.jpg"
+  }
+]);
+window.LIBROS = window.LIBROS.concat([
+  { grado: 'prek', area: 'ciencias', es: 'libro-prek-ciencias.html', en: 'book-prek-science.html' }
+]);

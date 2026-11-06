@@ -59,16 +59,16 @@
   var L = 'es';
   var T = {
     ciencias:'Ciencias', sociales:'Estudios sociales', kinder:'kinder', grado:'grado-',
-    nombre:{0:'Kindergarten',1:'1er grado',2:'2do grado',3:'3er grado',4:'4to grado',5:'5to grado',6:'6to grado'},
+    nombre:{prek:'Prekínder',0:'Kindergarten',1:'1er grado',2:'2do grado',3:'3er grado',4:'4to grado',5:'5to grado',6:'6to grado'},
     cuantos:function(n){ return n === 1 ? '1 cuento' : n + ' cuentos'; },
     desde5:'Desde 5.º grado los cuentos están en inglés, con un botón de «Ayuda en español» que traduce las consignas, las preguntas y el glosario.',
     guia:'Guía para el docente (en inglés, con ayuda en español): consejos de uso y actividades de ciencias y de estudios sociales',
     libro:'Leer el libro completo', pronto:'Próximamente.' };
-  var GRADOS = [0,1,2,3,4,5,6];
+  var GRADOS = ['prek',0,1,2,3,4,5,6];
   var AREAS = [['ciencias', T.ciencias], ['sociales', T.sociales]];
   var cat = (window.CATALOGO || []).slice().sort(function(a,b){ return a.orden - b.orden; });
   function esc(s){ var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
-  function ancla(g){ return g === 0 ? T.kinder : T.grado + g; }
+  function ancla(g){ return g === 'prek' ? 'prekinder' : g === 0 ? T.kinder : T.grado + g; }
 
   var indice = '', html = '';
   GRADOS.forEach(function(g){

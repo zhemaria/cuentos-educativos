@@ -59,16 +59,16 @@
   var L = 'en';
   var T = {
     ciencias:'Science', sociales:'Social studies', kinder:'kindergarten', grado:'grade-',
-    nombre:{0:'Kindergarten',1:'Grade 1',2:'Grade 2',3:'Grade 3',4:'Grade 4',5:'Grade 5',6:'Grade 6'},
+    nombre:{prek:'Pre-K',0:'Kindergarten',1:'Grade 1',2:'Grade 2',3:'Grade 3',4:'Grade 4',5:'Grade 5',6:'Grade 6'},
     cuantos:function(n){ return n === 1 ? '1 story' : n + ' stories'; },
     desde5:'From Grade 5 on, the stories are in English, with an optional “Ayuda en español” button for Spanish speakers.',
     guia:'Teacher guide: tips for using the stories and activities for science and social studies',
     libro:'Read the whole book', pronto:'Coming soon.' };
-  var GRADOS = [0,1,2,3,4,5,6];
+  var GRADOS = ['prek',0,1,2,3,4,5,6];
   var AREAS = [['ciencias', T.ciencias], ['sociales', T.sociales]];
   var cat = (window.CATALOGO || []).slice().sort(function(a,b){ return a.orden - b.orden; });
   function esc(s){ var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
-  function ancla(g){ return g === 0 ? T.kinder : T.grado + g; }
+  function ancla(g){ return g === 'prek' ? 'pre-k' : g === 0 ? T.kinder : T.grado + g; }
 
   var indice = '', html = '';
   GRADOS.forEach(function(g){
