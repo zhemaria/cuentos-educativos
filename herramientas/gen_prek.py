@@ -9,6 +9,11 @@ from prek_cuentos import CIENCIAS, SOCIALES, ESTILO, MOV, METAS
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 def version(nombre):
     return hashlib.md5((RAIZ / nombre).read_bytes()).hexdigest()[:8]
+def con_version(nombre):
+    """Nombre con ?v=… según su contenido: si la lámina o el video cambian,
+    cambia la dirección y el navegador no muestra la copia vieja guardada."""
+    f = RAIZ / nombre
+    return nombre + ("?v=" + version(nombre) if f.exists() else "")
 def e(s): return html.escape(s, quote=True)
 
 AREAS = {
@@ -86,7 +91,7 @@ def pagina(area, c, L):
     tit, ent = c[L + "_t"], c[L + "_e"]
     esc_html = ""
     for i, s in enumerate(c["escenas"], 1):
-        esc_html += (f'      <figure class="pk-escena" id="escena-{i}" data-img="{base}-{i}.jpg" data-video="{base}-{i}.mp4" '
+        esc_html += (f'      <figure class="pk-escena" id="escena-{i}" data-img="{con_version(base + '-' + str(i) + '.jpg')}" data-video="{con_version(base + '-' + str(i) + '.mp4')}" '
                      f'data-emoji="{s["emoji"]}" data-alt="{e(s["alt_" + L])}">\n'
                      f'        <div class="pk-marco"></div>\n'
                      f'        <p class="pk-texto">{e(s[L])}</p>\n'
@@ -147,7 +152,7 @@ def libro(area, L):
     for c in a["lista"]:
         es, en, base = archivos(area, c)
         f = es if L == "es" else en
-        tarj += (f'      <li><a href="{f}"><span class="pk-mini"><img src="{base}-1.jpg" alt="" loading="lazy" '
+        tarj += (f'      <li><a href="{f}"><span class="pk-mini"><img src="{con_version(base + '-1.jpg')}" alt="" loading="lazy" '
                  f'onerror="this.replaceWith(document.createTextNode(\'{c["emoji"]}\'))"></span>'
                  f'<strong>{e(c[L + "_t"])}</strong></a></li>\n')
     desc = t["libro_ent"]
