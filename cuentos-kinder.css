@@ -75,3 +75,7 @@ body.kinder{font-size:calc(1.3rem * var(--escala))}
   details.capitulo::details-content{content-visibility:visible;display:block;height:auto}
   details.capitulo > .cuerpo-cap{display:block!important}
 }
+
+/* palabra que se está leyendo (dentro de la frase marcada) */
+::highlight(lectura-palabra){background-color:#ffb020;color:#1f1f1f;text-decoration:underline 3px #7a4a00}
+@media (forced-colors: active){ ::highlight(lectura-palabra){background-color:Highlight;color:HighlightText} }

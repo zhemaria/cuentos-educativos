@@ -363,3 +363,11 @@ details.grado > summary:focus-visible{outline:4px solid var(--foco,#0B62D6);outl
 
 /* Al abrir un capítulo, su título queda visible con un pequeño margen arriba */
 details.capitulo > summary{scroll-margin-top:12px}
+
+/* --- Resaltado de lectura en voz alta (DUA) ----------------------- */
+::highlight(lectura-frase){background-color:#fff3b0;color:#1f1f1f}
+::highlight(lectura-palabra){background-color:#ffd54f;color:#1f1f1f;text-decoration:underline 2px #7a4a00}
+.leyendo-parrafo{background:#fff3b0;color:#1f1f1f;border-radius:.3em;box-shadow:0 0 0 .3em #fff3b0}
+@media (forced-colors: active){
+  ::highlight(lectura-frase),::highlight(lectura-palabra){background-color:Highlight;color:HighlightText}
+}

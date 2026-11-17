@@ -72,6 +72,72 @@
     }
     return null;
   }
+  /* ---------------------------------------------------------------
+     RESALTADO DE LECTURA (DUA): mientras la voz lee el cuento se marca
+     la frase que suena y, si el navegador lo permite, la palabra.
+     Usa la API de resaltado de CSS (no cambia el texto ni los botones
+     del glosario); si no existe, marca el párrafo entero.
+     --------------------------------------------------------------- */
+  var hayResaltado = !!(window.CSS && CSS.highlights && window.Highlight);
+  var parrafoMarcado = null;
+  var quietoVoz = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Rango de texto entre dos posiciones de el.textContent
+  function rangoEntre(el, ini, fin){
+    var w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), n, pos = 0, r = document.createRange(), puesto = false;
+    while((n = w.nextNode())){
+      var largo = n.nodeValue.length;
+      if(!puesto && ini <= pos + largo){ r.setStart(n, Math.max(0, ini - pos)); puesto = true; }
+      if(puesto && fin <= pos + largo){ r.setEnd(n, Math.max(0, fin - pos)); return r; }
+      pos += largo;
+    }
+    return puesto ? r : null;
+  }
+  // Frases de un elemento, con su posición dentro del texto
+  var NO_PARTIR = /(?:^|\s)(?:[A-ZÁÉÍÓÚÑ]|Sr|Sra|Dr|Dra|St|Mr|Mrs|Ms|Jr)\.$/;
+  function frasesDe(el){
+    var t = el.textContent, re = /[^.!?…]+(?:[.!?…]+["»”')]*|$)/g, m, out = [];
+    while((m = re.exec(t)) && m[0] !== ''){
+      var ini = m.index, fin = m.index + m[0].length;
+      var previa = out[out.length-1];
+      if(previa && (NO_PARTIR.test(t.slice(previa.ini, previa.fin)) || /^\s*[—–-]?\s*[a-záéíóúñü]/.test(m[0]) || !/\S/.test(m[0]))) previa.fin = fin;
+      else out.push({ini:ini, fin:fin});
+    }
+    return out.map(function(f){
+      var txt = t.slice(f.ini, f.fin), lead = txt.length - txt.replace(/^\s+/,'').length;
+      return {el:el, ini:f.ini + lead, fin:f.ini + txt.replace(/\s+$/,'').length,
+              texto: t.slice(f.ini + lead, f.ini + txt.replace(/\s+$/,'').length).replace(/\s/g,' ')};
+    }).filter(function(f){ return f.texto.trim(); });
+  }
+  function verRango(r){
+    var c = r.getBoundingClientRect(), alto = window.innerHeight;
+    if(c.height && (c.top < 70 || c.bottom > alto - 40))
+      window.scrollBy({top: c.top - alto/2.5, behavior: quietoVoz ? 'auto' : 'smooth'});
+  }
+  function marcarFrase(f){
+    quitarLectura();
+    if(!f || !f.el) return;
+    if(hayResaltado){
+      var r = rangoEntre(f.el, f.ini, f.fin); if(!r) return;
+      CSS.highlights.set('lectura-frase', new Highlight(r)); verRango(r);
+    }else{
+      parrafoMarcado = f.el; f.el.classList.add('leyendo-parrafo');
+      var c = f.el.getBoundingClientRect();
+      if(c.top < 70 || c.bottom > window.innerHeight - 40) f.el.scrollIntoView({block:'center', behavior: quietoVoz ? 'auto' : 'smooth'});
+    }
+  }
+  function marcarPalabra(f, c, largo){
+    if(!hayResaltado || !f || !f.el) return;
+    if(!largo){ var resto = f.texto.slice(c).match(/^\S+/); largo = resto ? resto[0].length : 0; }
+    var palabra = f.texto.substr(c, largo).replace(/[.,;:!?¡¿…"«»“”()—–]+$/,'').replace(/^[¡¿"«“(—–]+/, function(x){ c += x.length; return ''; });
+    if(!palabra) return;
+    var r = rangoEntre(f.el, f.ini + c, f.ini + c + palabra.length);
+    if(r) CSS.highlights.set('lectura-palabra', new Highlight(r));
+  }
+  function quitarLectura(){
+    if(hayResaltado){ CSS.highlights.delete('lectura-frase'); CSS.highlights.delete('lectura-palabra'); }
+    if(parrafoMarcado){ parrafoMarcado.classList.remove('leyendo-parrafo'); parrafoMarcado = null; }
+  }
+
   /* Algunos navegadores cortan las lecturas largas. Por eso el texto se
      divide en frases y se lee una tras otra. */
   var turno = 0;
@@ -80,17 +146,24 @@
     var frases = t.match(/[^.!?…]+[.!?…]+["»”')]*\s*|[^.!?…]+$/g) || [t];
     return frases.map(function(f){ return f.trim(); }).filter(Boolean);
   }
+  /* texto: una cadena, o una lista de frases {texto, el, ini, fin} para resaltarlas */
   function decir(texto, alTerminar){
     if(!hayVoz) return;
     speechSynthesis.cancel();
+    quitarLectura();
     var miTurno = ++turno;
-    var frases = enFrases(texto);
+    var frases = Array.isArray(texto) ? texto : enFrases(texto).map(function(t){ return {texto:t}; });
     var v = elegirVoz();
     var i = 0;
     function siguiente(){
       if(miTurno !== turno) return;          // se detuvo o empezó otra lectura
-      if(i >= frases.length){ if(alTerminar) alTerminar(); return; }
-      var u = new SpeechSynthesisUtterance(frases[i++]);
+      if(i >= frases.length){ quitarLectura(); if(alTerminar) alTerminar(); return; }
+      var f = frases[i++];
+      var u = new SpeechSynthesisUtterance(f.texto);
+      if(f.el){
+        marcarFrase(f);
+        u.onboundary = function(e){ if(miTurno === turno && e.name !== 'sentence') marcarPalabra(f, e.charIndex, e.charLength); };
+      }
       if(v) u.voice = v;
       u.lang = v ? v.lang : (LANG === 'en' ? 'en-US' : 'es-US');
       u.rate = 0.9;
@@ -104,7 +177,7 @@
     // Pequeña pausa tras cancel(): Chrome a veces descarta lo que se pide enseguida.
     setTimeout(siguiente, 120);
   }
-  function callar(){ turno++; if(hayVoz) speechSynthesis.cancel(); }
+  function callar(){ turno++; quitarLectura(); if(hayVoz) speechSynthesis.cancel(); }
   var leyendoCuento = false;
 
   /* Botón de lectura: #btn-voz en un cuento suelto, o un .voz-capitulo
@@ -123,10 +196,12 @@
       var ambito = cap ? $('capitulo-' + cap) : document;
       var titulo = cap ? (ambito.querySelector('.titulo-cap') || ambito.querySelector('h2')) : $('titulo');
       // El título va primero, con punto final para que la voz haga la pausa.
-      var partes = [titulo.textContent.trim() + '.'];
-      todos('.cuento p', ambito).forEach(function(p){ partes.push(p.textContent); });
+      // Cada frase lleva su lugar en la página para resaltarla mientras se lee.
+      var tt = titulo.textContent, ti = tt.length - tt.replace(/^\s+/,'').length;
+      var partes = [{texto: tt.trim().replace(/\s/g,' ') + '.', el: titulo, ini: ti, fin: ti + tt.trim().length}];
+      todos('.cuento p', ambito).forEach(function(p){ partes = partes.concat(frasesDe(p)); });
       btnVoz = b;
-      decir(partes.join(' '), botonCuentoEnReposo);
+      decir(partes, botonCuentoEnReposo);
       leyendoCuento = true;
       b.textContent = T.detener;
       b.setAttribute('aria-pressed','true');

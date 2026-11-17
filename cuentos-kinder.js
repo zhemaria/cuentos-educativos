@@ -40,7 +40,26 @@
   }
   /* Dice varios textos seguidos; antes de cada uno llama a alEmpezar(i).
      Si otro ámbito empieza a hablar, el anterior se limpia con alCallar. */
-  function decir(textos, alEmpezar, alTerminar, limpiar){
+  /* Palabra que suena (DUA): se marca con la API de resaltado de CSS,
+     sin tocar el texto. els[i] es el elemento que contiene textos[i]. */
+  var hayResaltado = !!(window.CSS && CSS.highlights && window.Highlight);
+  function marcarPalabra(el, c, largo){
+    if(!hayResaltado || !el || !el.firstChild) return;
+    var t = el.textContent;
+    if(!largo){ var m = t.slice(c).match(/^\S+/); largo = m ? m[0].length : 0; }
+    var w = t.substr(c, largo), a = w.match(/^[¡¿"«“(—–]*/)[0].length, z = w.replace(/[.,;:!?…"»”)—–]+$/,'').length;
+    if(z <= a) return;
+    var n = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nodo, pos = 0, r = document.createRange(), ok = false;
+    while((nodo = n.nextNode())){
+      var L = nodo.nodeValue.length;
+      if(!ok && c + a <= pos + L){ r.setStart(nodo, c + a - pos); ok = true; }
+      if(ok && c + z <= pos + L){ r.setEnd(nodo, c + z - pos); CSS.highlights.set('lectura-palabra', new Highlight(r)); return; }
+      pos += L;
+    }
+  }
+  function quitarPalabra(){ if(hayResaltado) CSS.highlights.delete('lectura-palabra'); }
+  function decir(textos, alEmpezar, alTerminar, limpiar, els){
+    quitarPalabra();
     if(alCallar){ var f = alCallar; alCallar = null; f(); }
     alCallar = limpiar || null;
     if(!hayVoz){ if(alTerminar) alTerminar(); return; }
@@ -48,9 +67,11 @@
     speechSynthesis.cancel();
     function siguiente(){
       if(mio !== turno) return;
+      quitarPalabra();
       if(i >= textos.length){ alCallar = null; if(alTerminar) alTerminar(); return; }
       if(alEmpezar) alEmpezar(i);
-      var u = new SpeechSynthesisUtterance(textos[i]);
+      var u = new SpeechSynthesisUtterance(textos[i]), elActual = els && els[i];
+      if(elActual) u.onboundary = function(e){ if(mio === turno && e.name !== 'sentence') marcarPalabra(elActual, e.charIndex, e.charLength); };
       u.lang = L === 'es' ? 'es-US' : 'en-US';
       var v = voz(); if(v) u.voice = v;
       u.rate = 0.85; u.pitch = 1.05;
@@ -60,7 +81,7 @@
     }
     siguiente();
   }
-  function callar(){ turno++; if(hayVoz) speechSynthesis.cancel(); if(alCallar){ var f = alCallar; alCallar = null; f(); } }
+  function callar(){ turno++; quitarPalabra(); if(hayVoz) speechSynthesis.cancel(); if(alCallar){ var f = alCallar; alCallar = null; f(); } }
   window.kCallar = callar;   // el libro la usa al cerrar un capítulo
 
   /* ---------- Un ámbito: un cuento o un capítulo ---------- */
@@ -79,14 +100,15 @@
       var tit = titulo ? titulo.textContent.trim() + '.' : '';
       var textos = [tit].concat(frases.map(function(f){ return f.querySelector('.k-texto').textContent; }));
       bEscuchar.hidden = true; if(bParar){ bParar.hidden = false; bParar.focus(); }
+      var els = [null].concat(frases.map(function(f){ return f.querySelector('.k-texto'); }));
       decir(textos, function(i){ marcarFrase(i === 0 ? null : frases[i-1]); },
-            function(){ reposo(); if(bEscuchar) bEscuchar.focus(); }, reposo);
+            function(){ reposo(); if(bEscuchar) bEscuchar.focus(); }, reposo, els);
     });
     if(bParar) bParar.addEventListener('click', function(){ callar(); if(bEscuchar) bEscuchar.focus(); });
 
     frases.forEach(function(f){
       f.querySelector('.k-oir').addEventListener('click', function(){
-        decir([f.querySelector('.k-texto').textContent], function(){ reposo(); marcarFrase(f); }, quitarLectura, reposo);
+        decir([f.querySelector('.k-texto').textContent], function(){ reposo(); marcarFrase(f); }, quitarLectura, reposo, [f.querySelector('.k-texto')]);
       });
     });
 
