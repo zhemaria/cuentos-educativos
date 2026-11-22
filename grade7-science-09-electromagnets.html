@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 7 · Science · MS-PS2-3
+  «The needle that jumped»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The needle that jumped · Educational stories</title>
+<meta name="description" content="A Grade 7 science story: how Hans Christian Oersted saw a compass needle move near an electric current in 1820, and how students test what makes an electromagnet stronger. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-7">Educational stories</a> · Grade 7 · Science</span>
+    <a class="idioma" href="book-grade7-science.html#capitulo-9">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade7-science-09-electromagnets.mp4">
+    <img src="grade7-science-09-electromagnets.jpg" width="1376" height="768"
+         alt="In the science lab, Daniel holds a nail wrapped in copper wire connected to a battery, with a chain of paper clips hanging from it, while Salma counts the clips and Mr. Mensah holds a compass next to a wire.">
+  </figure>
+
+  <p class="sello">Grade 7 · Science · MS-PS2-3</p>
+  <h1 id="titulo">The needle that jumped</h1>
+  <p class="entrada">A story about a compass needle that moved in 1820, and a class that builds electromagnets to find out what makes them stronger.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>La aguja que dio un salto.</strong> Un cuento sobre la aguja de una brújula que se movió en 1820, y una clase que construye electroimanes para averiguar qué los hace más fuertes.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="compass">compass</button></li>
+      <li><button type="button" class="voz" data-g="electric-current">electric current</button></li>
+      <li><button type="button" class="voz" data-g="magnetic-field">magnetic field</button></li>
+      <li><button type="button" class="voz" data-g="electromagnet">electromagnet</button></li>
+      <li><button type="button" class="voz" data-g="coil">coil</button></li>
+      <li><button type="button" class="voz" data-g="variable">variable</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">Mr. Mensah placed a <button type="button" class="voz" data-g="compass">compass</button> on the table under a straight copper wire. The needle pointed north, as always. "Watch," he said, and he connected the wire to a battery. The needle swung sideways. When he disconnected the wire, it swung back to north. "Do it again!" said Daniel.</p>
+
+    <p id="p2">"In 1820, a Danish scientist named Hans Christian Oersted saw exactly this," said Mr. Mensah. <span class="cita" id="c-a">"He had been looking for a connection between electricity and magnetism for two years. During a lecture in Copenhagen in April 1820, he held a compass near a wire with an <button type="button" class="voz" data-g="electric-current">electric current</button>, and the needle moved."</span> The needle moved so little that the audience barely noticed. But Oersted knew it was important.</p>
+
+    <p id="p3">"Why did the needle move?" asked Salma. <span class="cita" id="c-b">"Because an electric current makes a <button type="button" class="voz" data-g="magnetic-field">magnetic field</button> around the wire," said Mr. Mensah. "The compass needle is a tiny magnet, so the field pushes it."</span> "So electricity can make magnetism," said Athena. "That's the big idea. Almost every motor in the world, from your fan to an electric car, comes from it."</p>
+
+    <p id="p4">Then he handed out iron nails, long copper wires and batteries. <span class="cita" id="c-c">"If one straight wire makes a weak magnetic field, what happens if you wrap the wire around a nail many times?" he asked. "You make an <button type="button" class="voz" data-g="electromagnet">electromagnet</button>: a magnet that works only while the current flows."</span></p>
+
+    <p id="p5">Daniel wrapped his wire around the nail 10 times and connected the battery. The nail picked up 3 paper clips. When he disconnected the battery, the clips fell off. "It turns off!" he said. "A regular magnet can't do that."</p>
+
+    <p id="p6">"Now let's ask a testable question," said Mr. Mensah. "What makes the electromagnet stronger?" <span class="cita" id="c-d">"In a fair test, you change only one <button type="button" class="voz" data-g="variable">variable</button> at a time," he reminded them. "Keep the same nail and the same battery, and change only the number of turns in the <button type="button" class="voz" data-g="coil">coil</button>."</span> With 20 turns, the nail picked up 7 clips. With 30 turns, it picked up 11.</p>
+
+    <p id="p7">Athena's group tested something else. They kept 20 turns but used two batteries instead of one. <span class="cita" id="c-e">The nail picked up 13 clips. "More turns in the coil make it stronger," said Athena, "and more current makes it stronger, too."</span> Salma made a table of the data and drew a graph. The line went up as the number of turns went up.</p>
+
+    <p id="p8">"Where do people use electromagnets?" asked Mr. Mensah. Daniel thought of the scrapyard near his uncle's shop, where a giant crane lifts old cars with a round magnet and then drops them. "They turn the magnet off to let go!" he said. "Exactly," said Mr. Mensah. "All of that started with one little needle that jumped in 1820."</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-compass"><dt>compass</dt><dd>A tool with a small magnetic needle that turns to point north.</dd><dd class="ayuda-es caja-es" lang="es"><strong>brújula:</strong> Un instrumento con una pequeña aguja magnética que gira para señalar el norte.</dd></div>
+    <div id="g-electric-current"><dt>electric current</dt><dd>The flow of electric charge through a material, like a wire.</dd><dd class="ayuda-es caja-es" lang="es"><strong>corriente eléctrica:</strong> El paso de carga eléctrica a través de un material, como un cable.</dd></div>
+    <div id="g-magnetic-field"><dt>magnetic field</dt><dd>The area around a magnet or an electric current where magnetic forces act.</dd><dd class="ayuda-es caja-es" lang="es"><strong>campo magnético:</strong> La zona alrededor de un imán o de una corriente eléctrica donde actúan fuerzas magnéticas.</dd></div>
+    <div id="g-electromagnet"><dt>electromagnet</dt><dd>A magnet made by sending an electric current through a coil of wire. It can be turned on and off.</dd><dd class="ayuda-es caja-es" lang="es"><strong>electroimán:</strong> Un imán que se forma al hacer pasar corriente eléctrica por una bobina de alambre. Se puede encender y apagar.</dd></div>
+    <div id="g-coil"><dt>coil</dt><dd>Wire wrapped around and around in a spiral, like a spring.</dd><dd class="ayuda-es caja-es" lang="es"><strong>bobina:</strong> Alambre enrollado muchas veces en espiral, como un resorte.</dd></div>
+    <div id="g-variable"><dt>variable</dt><dd>Something that can change in an experiment. In a fair test, you change only one variable at a time.</dd><dd class="ayuda-es caja-es" lang="es"><strong>variable:</strong> Algo que puede cambiar en un experimento. En una prueba justa se cambia solo una variable a la vez.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What did Oersted see in 1820?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué vio Oersted en 1820?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">A compass needle moved near a wire with a current</button>
+        <button class="opcion">A magnet made a light bulb glow</button>
+        <button class="opcion">A battery stopped working near a compass</button>
+      </div>
+      <p class="explicacion" hidden>During a lecture in Copenhagen, he held a compass near a wire with an electric current, and the needle moved.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>Why did the compass needle move?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué se movió la aguja de la brújula?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">The wire was very hot</button>
+        <button class="opcion">The current made a magnetic field around the wire</button>
+        <button class="opcion">The battery was made of iron</button>
+      </div>
+      <p class="explicacion" hidden>An electric current makes a magnetic field around the wire, and the field pushes the tiny magnet in the compass.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>How do you make an electromagnet?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo se hace un electroimán?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">Rub a nail with a regular magnet</button>
+        <button class="opcion">Put a nail in a glass of salt water</button>
+        <button class="opcion">Wrap a wire around a nail and send a current through it</button>
+      </div>
+      <p class="explicacion" hidden>You wrap a wire around a nail many times and send an electric current through it.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>What makes a test of the number of turns a fair test?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué hace que la prueba del número de vueltas sea una prueba justa?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">Changing only the number of turns</button>
+        <button class="opcion">Changing the nail and the battery too</button>
+        <button class="opcion">Using a different student for each try</button>
+      </div>
+      <p class="explicacion" hidden>In a fair test you change only one variable: same nail, same battery, only the number of turns changes.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>What two things made the electromagnet stronger?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué dos cosas hicieron más fuerte el electroimán?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">A longer nail and a colder room</button>
+        <button class="opcion">More turns in the coil and more current</button>
+        <button class="opcion">Fewer turns and a weaker battery</button>
+      </div>
+      <p class="explicacion" hidden>More turns made it stronger, and two batteries (more current) made it stronger, too.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Plan an experiment</p>
+    <p class="reto-pregunta">Write a testable question about electromagnets that the class did not test, for example about the size of the nail. Then plan a fair test: what will you change, what will you keep the same, and what will you measure?</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Planea un experimento.</strong> Escribe una pregunta comprobable sobre los electroimanes que la clase no investigó, por ejemplo sobre el tamaño del clavo. Después planea una prueba justa: ¿qué vas a cambiar, qué vas a mantener igual y qué vas a medir?</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Example question: Does a thicker nail make a stronger electromagnet? Change: the thickness of the nail. Keep the same: the number of turns (for example, 20), the same wire, the same battery and the same paper clips. Measure: how many paper clips the nail picks up. Repeat each try three times to be sure of the results.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-PS2-3: ask questions about data to determine the factors that affect the strength of electric and magnetic forces.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>

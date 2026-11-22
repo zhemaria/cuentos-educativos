@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 7 · Social studies · SS.6-8.EC.2.LC
+  «The merchant's son who changed the numbers»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The merchant's son who changed the numbers · Educational stories</title>
+<meta name="description" content="A Grade 7 social studies story: how Leonardo of Pisa, called Fibonacci, learned the Hindu-Arabic numerals in North Africa and brought them to European merchants, and why the innovation was resisted at first. With vocabulary, glossary, comprehension questions, a pause to connect with art and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-7">Educational stories</a> · Grade 7 · Social studies</span>
+    <a class="idioma" href="book-grade7-social-studies.html#capitulo-2">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade7-social-studies-02-fibonacci.mp4">
+    <img src="grade7-social-studies-02-fibonacci.jpg" width="1376" height="768"
+         alt="In the classroom, Israel tries to add two numbers written in Roman numerals on the board while Selena solves the same problem quickly with ordinary digits, and Ms. Novak holds a picture of an old book page.">
+  </figure>
+
+  <p class="sello">Grade 7 · Social studies · SS.6-8.EC.2.LC</p>
+  <h1 id="titulo">The merchant's son who changed the numbers</h1>
+  <p class="entrada">A story about a young man from Pisa, a port in North Africa, and the numbers that made business easier but also made some people nervous.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>El hijo del mercader que cambió los números.</strong> Un cuento sobre un joven de Pisa, un puerto del norte de África y los números que facilitaron los negocios, pero que también pusieron nerviosa a algunas personas.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Social studies words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#pausa">Pause to connect</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Social studies words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="merchant">merchant</button></li>
+      <li><button type="button" class="voz" data-g="roman-numerals">Roman numerals</button></li>
+      <li><button type="button" class="voz" data-g="place-value">place value</button></li>
+      <li><button type="button" class="voz" data-g="innovation">innovation</button></li>
+      <li><button type="button" class="voz" data-g="fraud">fraud</button></li>
+      <li><button type="button" class="voz" data-g="accounting">accounting</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">Ms. Novak gave Israel a marker. "Add these two numbers," she said, and wrote MDCCCXLVII + CCCLXXVIII. Israel stared. Selena, at the next board, solved 1,847 + 378 in ten seconds: 2,225. "Not fair!" said Israel. "Exactly," said Ms. Novak. "And for hundreds of years, European merchants had to work like Israel."</p>
+
+    <p id="p2"><span class="cita" id="c-a">"In Europe, people wrote numbers with <button type="button" class="voz" data-g="roman-numerals">Roman numerals</button>," she explained. "They had no zero and no <button type="button" class="voz" data-g="place-value">place value</button>, so they were hard to use for big calculations. Merchants usually did the math on a counting board and only wrote down the answers."</span></p>
+
+    <p id="p3">Then she told them about Leonardo of Pisa, whom we now call Fibonacci. Pisa was a busy port in Italy, full of <button type="button" class="voz" data-g="merchant">merchants</button>. <span class="cita" id="c-b">"When Leonardo was a boy, his father worked for the merchants of Pisa in a trading port in North Africa, in what is now Algeria. There, Leonardo learned to calculate with the nine Indian figures and the zero, the same digits Arab scholars had written about."</span></p>
+
+    <p id="p4">Leonardo traveled around the Mediterranean, comparing methods with merchants and scholars. <span class="cita" id="c-c">"In 1202, he wrote a book called Liber Abaci, the Book of Calculation," said Ms. Novak. "It taught the new numbers with hundreds of practical problems: changing money, measuring goods, dividing profits among partners."</span> One problem asked how many pairs of rabbits would be born in a year, and its answer became famous: 1, 1, 2, 3, 5, 8, 13…</p>
+
+    <p id="p5">"So everybody started using the new numbers right away?" asked Elías. "Not exactly," said Ms. Novak. <span class="cita" id="c-d">"In 1299, the bankers' guild in Florence forbade its members from writing the new numbers in their account books. They worried about <button type="button" class="voz" data-g="fraud">fraud</button>: a 0 can easily be changed into a 6 or a 9, but a Roman numeral is harder to fake."</span></p>
+
+    <p id="p6">"That's actually smart," said Selena. "It was a real concern," said Ms. Novak. "That's why we still write amounts in words on checks." Over time, though, merchants saw how much faster the new system was. Schools called abacus schools taught it to the sons of merchants in Italian cities.</p>
+
+    <p id="p7"><span class="cita" id="c-e">"The new numbers were an <button type="button" class="voz" data-g="innovation">innovation</button> that changed business," said Ms. Novak. "With place value, merchants could do written <button type="button" class="voz" data-g="accounting">accounting</button>, compare prices and calculate interest much faster. Over the next centuries, the new numbers spread across Europe."</span> Elías looked at the coins on his desk. "So a better tool made trade grow."</p>
+
+    <p id="p8">Israel finally finished his Roman numeral problem: MMCCXXV. "It's the same answer!" he said. "It just took me five minutes." "And that," said Ms. Novak, "is why the merchants eventually listened to Fibonacci."</p>
+  </div>
+
+  <section class="pausa" id="pausa" aria-labelledby="tit-pausa">
+    <h2 id="tit-pausa">Pause to connect</h2>
+    <p class="pausa-arte"><span aria-hidden="true">📜 </span>Visual arts · VA:Cn11.1.7</p>
+    <p>Look at a page from an old handwritten copy of Fibonacci's Liber Abaci, kept in the National Library of Florence. In the margin, a narrow box shows the answer to the rabbit problem.</p>
+    <p class="ayuda-es caja-es" lang="es">Observa una página de una antigua copia manuscrita del Liber Abaci de Fibonacci, que se guarda en la Biblioteca Nacional de Florencia. En el margen, un recuadro estrecho muestra la respuesta del problema de los conejos.</p>
+    <p><a class="enlace-pausa" href="https://en.wikipedia.org/wiki/Liber_Abaci" target="_blank" rel="noopener noreferrer">See the Liber Abaci page (Wikipedia) <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+    <p class="describe"><strong>What you will see:</strong> A page of Latin text in brown ink. In the right margin, a narrow box lists the months of the year in Roman numerals next to numbers written with the new digits: 1, 2, 3, 5, 8, 13, 21 and so on.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Lo que verás:</strong> Una página de texto en latín con tinta marrón. En el margen derecho, un recuadro estrecho enumera los meses del año en números romanos junto a números escritos con las cifras nuevas: 1, 2, 3, 5, 8, 13, 21, etc.</p>
+    <ol class="pausa-preguntas">
+      <li>Why do you think the copyist put the numbers in a box in the margin instead of in the text?<span class="ayuda-es caja-es" lang="es">¿Por qué crees que el copista puso los números en un recuadro en el margen y no dentro del texto?</span></li>
+      <li>The page uses both Roman numerals and the new digits. What does that tell you about a time of change?<span class="ayuda-es caja-es" lang="es">La página usa números romanos y también las cifras nuevas. ¿Qué te dice eso sobre una época de cambio?</span></li>
+    </ol>
+    <p class="reto-como">Think about it, then answer in your notebook or talk it over with someone at home.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>The box lets the reader see the pattern at a glance: each number is the sum of the two before it. Using Roman numerals for the months and new digits for the amounts shows a time of change, when people still used the old system for some things and were learning the new one for calculating.</p></details>
+  </section>
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-merchant"><dt>merchant</dt><dd>A person who buys and sells goods to earn a living.</dd><dd class="ayuda-es caja-es" lang="es"><strong>mercader:</strong> Una persona que compra y vende mercancías para ganarse la vida.</dd></div>
+    <div id="g-roman-numerals"><dt>Roman numerals</dt><dd>A way of writing numbers with letters, like X for 10 and C for 100. It has no zero and no place value.</dd><dd class="ayuda-es caja-es" lang="es"><strong>números romanos:</strong> Una forma de escribir los números con letras, como X para 10 y C para 100. No tiene cero ni valor posicional.</dd></div>
+    <div id="g-place-value"><dt>place value</dt><dd>The value a digit has because of its position. In 505, the first 5 means 500 and the last 5 means 5.</dd><dd class="ayuda-es caja-es" lang="es"><strong>valor posicional:</strong> El valor que tiene una cifra según su posición. En 505, el primer 5 vale 500 y el último 5 vale 5.</dd></div>
+    <div id="g-innovation"><dt>innovation</dt><dd>A new idea, method or invention that changes the way people do things.</dd><dd class="ayuda-es caja-es" lang="es"><strong>innovación:</strong> Una idea, un método o un invento nuevo que cambia la manera en que la gente hace las cosas.</dd></div>
+    <div id="g-fraud"><dt>fraud</dt><dd>Cheating someone, for example by changing a number in a record to steal money.</dd><dd class="ayuda-es caja-es" lang="es"><strong>fraude:</strong> Engañar a alguien, por ejemplo cambiando un número en un registro para robar dinero.</dd></div>
+    <div id="g-accounting"><dt>accounting</dt><dd>Keeping careful records of money that comes in and goes out.</dd><dd class="ayuda-es caja-es" lang="es"><strong>contabilidad:</strong> Llevar registros cuidadosos del dinero que entra y que sale.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>Why were Roman numerals hard for big calculations?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué eran difíciles los números romanos para los cálculos grandes?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">They had no zero and no place value</button>
+        <button class="opcion">They used too many different digits</button>
+        <button class="opcion">They could be written only on paper</button>
+      </div>
+      <p class="explicacion" hidden>Roman numerals had no zero and no place value, so merchants did the math on a counting board.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>Where did Leonardo learn the new numbers?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Dónde aprendió Leonardo los números nuevos?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">In a school in Rome</button>
+        <button class="opcion">In a trading port in North Africa</button>
+        <button class="opcion">In the House of Wisdom in Baghdad</button>
+      </div>
+      <p class="explicacion" hidden>His father worked for the merchants of Pisa in a trading port in North Africa, where Leonardo learned the Indian figures and the zero.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>How did Liber Abaci teach the new numbers?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo enseñaba el Liber Abaci los números nuevos?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">Only with rabbit problems</button>
+        <button class="opcion">With poems about Pisa</button>
+        <button class="opcion">With practical problems for merchants</button>
+      </div>
+      <p class="explicacion" hidden>It taught the new numbers with hundreds of practical problems: changing money, measuring goods and dividing profits.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>Why did the bankers in Florence forbid the new numbers in 1299?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué los banqueros de Florencia prohibieron los números nuevos en 1299?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">They worried that the numbers were easy to change</button>
+        <button class="opcion">They thought the numbers were too slow</button>
+        <button class="opcion">They could not read Latin</button>
+      </div>
+      <p class="explicacion" hidden>They worried about fraud: a 0 can easily be changed into a 6 or a 9.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>How did the new numbers change business?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo cambiaron los números nuevos los negocios?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">They made written accounting slower</button>
+        <button class="opcion">They made calculating and accounting much faster</button>
+        <button class="opcion">They stopped merchants from using money</button>
+      </div>
+      <p class="explicacion" hidden>With place value, merchants could do written accounting, compare prices and calculate interest much faster.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Weigh an innovation</p>
+    <p class="reto-pregunta">Make a T-chart with the benefits and the risks of the new numbers for a merchant in 1300. Then decide: if you were a banker in Florence, would you have used them? Explain with evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Evalúa una innovación.</strong> Haz una tabla en T con los beneficios y los riesgos de los números nuevos para un mercader en 1300. Después decide: si fueras banquero en Florencia, ¿los habrías usado? Explica con evidencia del cuento.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Benefits: faster calculations, written accounting, easier to compare prices and calculate interest. Risks: numbers like 0 could be changed into 6 or 9 to commit fraud, and many people did not know the new system yet. A good answer chooses a side and might add a safety step, like writing important amounts in words too.</p></details>
+    <div class="reto-mas">
+    <p class="reto-tipo">Go further</p>
+    <p class="reto-pregunta">Think of an innovation from your own time, like phone payments. What benefits and risks does it bring, and how are people trying to reduce the risks?</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Para ir más lejos.</strong> Piensa en una innovación de tu época, como pagar con el teléfono. ¿Qué beneficios y riesgos trae, y cómo intenta la gente reducir esos riesgos?</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Example: phone payments are fast and you don't need cash, but someone could steal your password or your phone. To reduce the risks, phones use fingerprints, codes and alerts. Like the bankers of Florence, people accept an innovation when they find ways to make it safe.</p></details>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois Social Science standards SS.6-8.EC.2.LC: analyze the role of innovation and entrepreneurship in a market economy.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>

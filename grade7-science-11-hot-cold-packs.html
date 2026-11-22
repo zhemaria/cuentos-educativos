@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 7 · Science · MS-PS1-6
+  «The ice pack that needs no freezer»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The ice pack that needs no freezer · Educational stories</title>
+<meta name="description" content="A Grade 7 science story: why an instant cold pack gets cold and a hand warmer gets hot, and how students design and test their own device. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-7">Educational stories</a> · Grade 7 · Science</span>
+    <a class="idioma" href="book-grade7-science.html#capitulo-11">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade7-science-11-hot-cold-packs.mp4">
+    <img src="grade7-science-11-hot-cold-packs.jpg" width="1376" height="768"
+         alt="In the science lab, Salma squeezes a white cold pack while Elías reads a thermometer in a cup, Sophia shakes a small hand warmer and Mr. Mensah writes a chart of temperatures on the board.">
+  </figure>
+
+  <p class="sello">Grade 7 · Science · MS-PS1-6</p>
+  <h1 id="titulo">The ice pack that needs no freezer</h1>
+  <p class="entrada">A story about a soccer injury, an ice pack that gets cold without a freezer, and a class that designs its own hot and cold packs.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>La bolsa de hielo que no necesita congelador.</strong> Un cuento sobre una lesión en el fútbol, una bolsa de hielo que se enfría sin congelador y una clase que diseña sus propias compresas calientes y frías.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="thermal-energy">thermal energy</button></li>
+      <li><button type="button" class="voz" data-g="exothermic">exothermic</button></li>
+      <li><button type="button" class="voz" data-g="endothermic">endothermic</button></li>
+      <li><button type="button" class="voz" data-g="temperature">temperature</button></li>
+      <li><button type="button" class="voz" data-g="criteria">criteria</button></li>
+      <li><button type="button" class="voz" data-g="prototype">prototype</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">At Saturday's soccer game, Salma twisted her ankle. The coach took a white plastic pack out of the first-aid kit, squeezed it hard and shook it. In a few seconds, it was ice cold. "How did it get cold without a freezer?" Salma asked on Monday. Mr. Mensah smiled. "Let's find out."</p>
+
+    <p id="p2">He cut open an old cold pack carefully. Inside was a small bag of water and some white solid grains. <span class="cita" id="c-a">"When you squeeze the pack, the inner bag breaks, and the solid dissolves in the water," he said. "That process absorbs <button type="button" class="voz" data-g="thermal-energy">thermal energy</button> from its surroundings, so the <button type="button" class="voz" data-g="temperature">temperature</button> drops."</span></p>
+
+    <p id="p3">Elías put a thermometer in a cup of water: 22 degrees Celsius. Mr. Mensah added two spoonfuls of the grains and stirred. The number went down: 15, 10, 6 degrees. Elías touched the cup. "It's freezing!" <span class="cita" id="c-b">"A process that absorbs thermal energy is <button type="button" class="voz" data-g="endothermic">endothermic</button>," said Mr. Mensah. "The energy goes into the mixture, so everything around it, like your hand or Salma's ankle, gets colder."</span></p>
+
+    <p id="p4">Sophia held up a hand warmer from her winter coat. "And this one gets hot." "Open it and see," said Mr. Mensah. Inside was a dark powder. <span class="cita" id="c-c">"That's mostly iron powder. When air gets in, the iron reacts with oxygen and rusts very quickly. That reaction releases thermal energy, so it's <button type="button" class="voz" data-g="exothermic">exothermic</button>."</span> "So it's rust that keeps my hands warm?" asked Sophia. "Fast rust," said Mr. Mensah.</p>
+
+    <p id="p5">Then he gave them a design challenge. "Design a pack to keep a sandwich cold during a field trip. Here are the <button type="button" class="voz" data-g="criteria">criteria</button>: it must get at least 10 degrees colder than the room, stay cold for 20 minutes, be safe and fit in a lunch bag."</p>
+
+    <p id="p6">Salma's team built a first <button type="button" class="voz" data-g="prototype">prototype</button> with a zipper bag, water and one spoonful of the grains. <span class="cita" id="c-d">It got only 5 degrees colder. "Not enough," said Salma. They tried again with three spoonfuls, and this time it dropped 13 degrees.</span> But after 12 minutes, it was almost at room temperature again.</p>
+
+    <p id="p7">"What can you change?" asked Mr. Mensah. Elías wrapped the bag in a thick towel and put it inside a foam box. <span class="cita" id="c-e">This time, the pack stayed cold for 25 minutes. "The towel and the box slow down the energy coming in from the room," Elías said. "We met all the criteria!"</span></p>
+
+    <p id="p8">Before cleaning up, Mr. Mensah reminded everyone to wash their hands and never to taste the chemicals. "Engineers test, change one thing, and test again," he said. Salma looked at her ankle, which felt much better. "Next time I'm bringing our design to the game," she said. "And a sandwich."</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-thermal-energy"><dt>thermal energy</dt><dd>The energy of the moving particles in a substance. More thermal energy means a higher temperature.</dd><dd class="ayuda-es caja-es" lang="es"><strong>energía térmica:</strong> La energía de las partículas en movimiento de una sustancia. Más energía térmica significa una temperatura más alta.</dd></div>
+    <div id="g-exothermic"><dt>exothermic</dt><dd>Describes a reaction that releases thermal energy, so the surroundings get warmer.</dd><dd class="ayuda-es caja-es" lang="es"><strong>exotérmico:</strong> Describe una reacción que libera energía térmica, por eso lo que la rodea se calienta.</dd></div>
+    <div id="g-endothermic"><dt>endothermic</dt><dd>Describes a process that absorbs thermal energy, so the surroundings get colder.</dd><dd class="ayuda-es caja-es" lang="es"><strong>endotérmico:</strong> Describe un proceso que absorbe energía térmica, por eso lo que lo rodea se enfría.</dd></div>
+    <div id="g-temperature"><dt>temperature</dt><dd>A measure of how hot or cold something is.</dd><dd class="ayuda-es caja-es" lang="es"><strong>temperatura:</strong> Una medida de qué tan caliente o frío está algo.</dd></div>
+    <div id="g-criteria"><dt>criteria</dt><dd>The goals a design must meet to be successful.</dd><dd class="ayuda-es caja-es" lang="es"><strong>criterios:</strong> Las metas que debe cumplir un diseño para tener éxito.</dd></div>
+    <div id="g-prototype"><dt>prototype</dt><dd>A first model of a design, built to test it and make it better.</dd><dd class="ayuda-es caja-es" lang="es"><strong>prototipo:</strong> Un primer modelo de un diseño, construido para probarlo y mejorarlo.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What happens when you squeeze an instant cold pack?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué pasa cuando aprietas una bolsa de frío instantáneo?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">The inner bag breaks and a solid dissolves in water</button>
+        <button class="opcion">A tiny freezer inside starts to work</button>
+        <button class="opcion">The pack lets in cold air from outside</button>
+      </div>
+      <p class="explicacion" hidden>The inner bag of water breaks, and the solid dissolves in the water, which absorbs thermal energy.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>Why does the water get colder when the grains dissolve?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué se enfría el agua cuando se disuelven los granos?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">The grains are frozen before you use them</button>
+        <button class="opcion">The process absorbs thermal energy: it is endothermic</button>
+        <button class="opcion">The thermometer is broken</button>
+      </div>
+      <p class="explicacion" hidden>The process is endothermic: it absorbs thermal energy, so everything around it gets colder.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>Why does a hand warmer get hot?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué se calienta un calentador de manos?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">It has a small battery inside</button>
+        <button class="opcion">It traps the heat of your hands</button>
+        <button class="opcion">Iron reacts with oxygen and releases energy</button>
+      </div>
+      <p class="explicacion" hidden>The iron powder reacts with oxygen and rusts quickly; that exothermic reaction releases thermal energy.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>What did Salma's team change after the first prototype?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué cambió el equipo de Salma después del primer prototipo?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">They used three spoonfuls instead of one</button>
+        <button class="opcion">They used hot water instead of cold water</button>
+        <button class="opcion">They used a hand warmer instead</button>
+      </div>
+      <p class="explicacion" hidden>The first try got only 5 degrees colder, so they used three spoonfuls, and it dropped 13 degrees.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>How did the team make the pack stay cold longer?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo lograron que la bolsa se mantuviera fría más tiempo?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">They added more water every minute</button>
+        <button class="opcion">They wrapped it in a towel inside a foam box</button>
+        <button class="opcion">They left it open on the table</button>
+      </div>
+      <p class="explicacion" hidden>The towel and the foam box slowed down the energy coming in from the room, so it stayed cold for 25 minutes.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Improve a design</p>
+    <p class="reto-pregunta">Design a hand warmer for a winter field trip. Write two criteria for your design. Then describe one test you would do and one change you could make if the first prototype does not meet the criteria.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Mejora un diseño.</strong> Diseña un calentador de manos para una excursión de invierno. Escribe dos criterios para tu diseño. Después describe una prueba que harías y un cambio que podrías hacer si el primer prototipo no cumple los criterios.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Example criteria: it must get at least 15 degrees warmer than the air, and it must stay warm for 30 minutes without getting too hot to hold. Test: measure the temperature every 5 minutes with a thermometer. Change: add more iron powder to make it warmer, or wrap it in cloth so it stays warm longer and is safe to touch. Change only one thing each time you test.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-PS1-6: undertake a design project to construct, test and modify a device that either releases or absorbs thermal energy by chemical processes.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>

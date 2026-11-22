@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 7 · Science · MS-LS3-2
+  «The monk who counted peas»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The monk who counted peas · Educational stories</title>
+<meta name="description" content="A Grade 7 science story: Gregor Mendel&#x27;s pea plants, dominant and recessive traits, Punnett squares, and how sexual and asexual reproduction differ. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-7">Educational stories</a> · Grade 7 · Science</span>
+    <a class="idioma" href="book-grade7-science.html#capitulo-1">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade7-science-01-heredity.mp4">
+    <img src="grade7-science-01-heredity.jpg" width="1376" height="768"
+         alt="In the science lab, Mr. Mensah draws a square with four boxes on the board while Israel counts purple and white paper flowers, Salma holds a small spider plant and Daniel looks at a bowl of dried peas.">
+  </figure>
+
+  <p class="sello">Grade 7 · Science · MS-LS3-2</p>
+  <h1 id="titulo">The monk who counted peas</h1>
+  <p class="entrada">A story about Gregor Mendel's peas, the traits that hide and come back, and why some offspring are copies and others are not.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>El monje que contaba guisantes.</strong> Un cuento sobre los guisantes de Gregor Mendel, los rasgos que se esconden y vuelven, y por qué algunas crías son copias y otras no.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="trait">trait</button></li>
+      <li><button type="button" class="voz" data-g="gene">gene</button></li>
+      <li><button type="button" class="voz" data-g="dominant">dominant</button></li>
+      <li><button type="button" class="voz" data-g="recessive">recessive</button></li>
+      <li><button type="button" class="voz" data-g="sexual-reproduction">sexual reproduction</button></li>
+      <li><button type="button" class="voz" data-g="asexual-reproduction">asexual reproduction</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">On Monday, a bowl of dried peas sat on Mr. Mensah's desk. "In 1856," he said, "a monk named Gregor Mendel began an experiment in the garden of his monastery in the city of Brno. Over about eight years, he grew nearly 30,000 pea plants, and he counted almost everything about them."</p>
+
+    <p id="p2">"Why peas?" asked Daniel. "Because pea plants have clear <button type="button" class="voz" data-g="trait">traits</button>," said Mr. Mensah. "A flower is purple or white, never something in between." <span class="cita" id="c-a">Mendel moved pollen from purple flowers to white flowers. Every plant in the next generation had purple flowers. The white color seemed to have disappeared.</span></p>
+
+    <p id="p3">Then Mendel let those purple plants make seeds of their own. <span class="cita" id="c-b">In the generation after that, the white flowers came back! Mendel counted 705 plants with purple flowers and 224 with white flowers.</span> Israel did the division on his calculator. "705 divided by 224 is about 3.1," he said. "That's almost exactly three purple flowers for every white one."</p>
+
+    <p id="p4">"Mendel didn't know about DNA," said Mr. Mensah, "but he figured out the rule. Each plant gets two copies of the <button type="button" class="voz" data-g="gene">gene</button> for flower color, one from each parent." <span class="cita" id="c-c">"The purple form is <button type="button" class="voz" data-g="dominant">dominant</button>: one copy is enough to make the flower purple. The white form is <button type="button" class="voz" data-g="recessive">recessive</button>: a flower is white only when both copies are white."</span></p>
+
+    <p id="p5">He drew a square with four boxes on the board. On top he wrote the two copies from one parent, P and p, and on the side the two copies from the other parent, P and p. The kids filled in the boxes: PP, Pp, Pp and pp. "Three boxes have at least one big P," said Athena, "so three out of four are purple. The chance of a white flower is one fourth." "Mendel's 3 to 1," said Mr. Mensah, smiling.</p>
+
+    <p id="p6">Salma raised her hand. "My grandmother's spider plant makes baby plants on long stems. She cuts them off and plants them." "That's a different way to make offspring," said Mr. Mensah. <span class="cita" id="c-d">"It's <button type="button" class="voz" data-g="asexual-reproduction">asexual reproduction</button>: one parent. Each baby plant gets exactly the same genes as the parent, so it's an identical copy."</span></p>
+
+    <p id="p7">"And the peas?" asked Selena. "Peas grow from seeds that form after pollen from one flower meets another," he said. <span class="cita" id="c-e">"That's <button type="button" class="voz" data-g="sexual-reproduction">sexual reproduction</button>: two parents. Each seed gets a different mix of genes from both, so the offspring can be different from each other and from their parents."</span> Elías looked at his class. "That's why nobody in this room looks exactly like their brother or sister."</p>
+
+    <p id="p8">Mr. Mensah told one last fact. Mendel published his results in 1866, but almost nobody paid attention, and he died without fame. In 1900, three scientists found his paper and saw that he had been right all along. "He was right for 34 years before anybody noticed," said Daniel. Sophia wrote in her notebook: Count carefully. The numbers will tell the truth, even if people don't listen right away.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-trait"><dt>trait</dt><dd>A feature of a living thing, like flower color or seed shape, that can be passed from parents to offspring.</dd><dd class="ayuda-es caja-es" lang="es"><strong>rasgo:</strong> Una característica de un ser vivo, como el color de la flor o la forma de la semilla, que pasa de los padres a la cría.</dd></div>
+    <div id="g-gene"><dt>gene</dt><dd>A tiny set of instructions inside a cell that helps decide a trait. Offspring get genes from their parents.</dd><dd class="ayuda-es caja-es" lang="es"><strong>gen:</strong> Un pequeño conjunto de instrucciones dentro de la célula que ayuda a decidir un rasgo. Las crías reciben genes de sus padres.</dd></div>
+    <div id="g-dominant"><dt>dominant</dt><dd>A form of a gene that shows its trait even when only one copy is present.</dd><dd class="ayuda-es caja-es" lang="es"><strong>dominante:</strong> Una forma de un gen que muestra su rasgo aunque haya una sola copia.</dd></div>
+    <div id="g-recessive"><dt>recessive</dt><dd>A form of a gene whose trait shows only when there are two copies of it. A dominant form can hide it.</dd><dd class="ayuda-es caja-es" lang="es"><strong>recesivo:</strong> Una forma de un gen cuyo rasgo solo se ve cuando hay dos copias. Una forma dominante lo puede esconder.</dd></div>
+    <div id="g-sexual-reproduction"><dt>sexual reproduction</dt><dd>Reproduction with two parents. The offspring get a mix of genes from both, so they are not identical.</dd><dd class="ayuda-es caja-es" lang="es"><strong>reproducción sexual:</strong> Reproducción con dos progenitores. La cría recibe una mezcla de genes de los dos, por eso no es idéntica.</dd></div>
+    <div id="g-asexual-reproduction"><dt>asexual reproduction</dt><dd>Reproduction with only one parent. The offspring get the same genes, so they are identical copies.</dd><dd class="ayuda-es caja-es" lang="es"><strong>reproducción asexual:</strong> Reproducción con un solo progenitor. La cría recibe los mismos genes, por eso es una copia idéntica.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What happened when Mendel crossed purple flowers with white flowers?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué pasó cuando Mendel cruzó flores moradas con flores blancas?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">All the new plants had purple flowers</button>
+        <button class="opcion">Half the new plants had white flowers</button>
+        <button class="opcion">The new flowers were light purple</button>
+      </div>
+      <p class="explicacion" hidden>Every plant in the next generation had purple flowers; the white color seemed to disappear.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>What did Mendel find in the generation after that?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué encontró Mendel en la generación siguiente?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">All of the flowers were white</button>
+        <button class="opcion">White came back in about one plant of every four</button>
+        <button class="opcion">The plants stopped making any flowers</button>
+      </div>
+      <p class="explicacion" hidden>White flowers came back: 705 purple and 224 white, about 3 purple for every white.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>Why can one purple copy of the gene hide a white copy?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué una copia morada del gen puede esconder una copia blanca?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">The white form is stronger than purple</button>
+        <button class="opcion">Purple genes are bigger than white genes</button>
+        <button class="opcion">The purple form is dominant over white</button>
+      </div>
+      <p class="explicacion" hidden>Purple is dominant: one copy is enough. White is recessive: it shows only with two copies.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>Why are the baby spider plants identical to the parent?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué las plantitas de la cinta son idénticas a la planta madre?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">They come from one parent with the same genes</button>
+        <button class="opcion">They grow from seeds made by two flowers</button>
+        <button class="opcion">They get more sunlight than the parent</button>
+      </div>
+      <p class="explicacion" hidden>In asexual reproduction there is only one parent, so each baby plant gets exactly the same genes.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>Why can offspring from sexual reproduction be different?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué las crías de la reproducción sexual pueden ser distintas?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">They grow in different kinds of soil</button>
+        <button class="opcion">They get a mix of genes from two parents</button>
+        <button class="opcion">They copy only the stronger parent</button>
+      </div>
+      <p class="explicacion" hidden>Each seed gets a different mix of genes from both parents, so the offspring can be different.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Use a model</p>
+    <p class="reto-pregunta">A pea plant with one purple copy and one white copy (Pp) is crossed with a white plant (pp). Draw the square with four boxes and fill it in. What fraction of the offspring will probably be purple? Explain why.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Usa un modelo.</strong> Se cruza una planta de guisante con una copia morada y una blanca (Pp) con una planta blanca (pp). Dibuja el cuadro de cuatro casillas y complétalo. ¿Qué fracción de la cría será probablemente morada? Explica por qué.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>The boxes are Pp, Pp, pp and pp. Two of the four boxes have a dominant P, so about 2/4 = 1/2 of the offspring will be purple, and 1/2 will be white. The white plants are pp: they got the recessive form from both parents.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-LS3-2: develop and use a model to describe why asexual reproduction results in offspring with identical genetic information and sexual reproduction results in offspring with genetic variation.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>

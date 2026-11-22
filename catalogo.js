@@ -2749,8 +2749,442 @@ window.CATALOGO = [
     },
     "imagen": "grade6-social-studies-12-review.jpg",
     "escena": "A school library in Chicago set up as a small museum at night, with warm lights and tables: an African American boy about twelve years old with short curly black hair and round glasses, in an orange t-shirt, stands by a dented metal box; an Asian American girl about twelve years old with straight black hair and bangs, in a purple jacket, holds a red silk scarf; a girl about twelve years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, shows a few pieces of broken reddish pottery; a Latino boy about twelve years old with wavy chestnut-brown hair, in a red t-shirt, holds a jar of white salt; a Latino boy about twelve years old with short black hair and light tan skin, in a blue hoodie, and a Latina girl about twelve years old with long wavy dark hair and a headband, in a pink blouse, stand beside a clay model of an island city on a tray of water; a girl about twelve years old with brown skin and long black hair in a single braid, in a yellow t-shirt, points at a model of two rivers with tiny canals; a friendly woman social studies teacher in her thirties with dark curly hair and a green scarf, smiles at the entrance; happy families walk between the tables, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a sixth grade picture book, wide 16:9 landscape format"
-  }
+  },
   /* fin grado 6 */
+  /* grado 7 */
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 1,
+    "estandar": "MS-LS3-2",
+    "es": {
+      "titulo": "El monje que contaba guisantes",
+      "archivo": "grade7-science-01-heredity.html",
+      "tema": "La herencia: rasgos dominantes y recesivos, y dos formas de reproducción"
+    },
+    "en": {
+      "titulo": "The monk who counted peas",
+      "archivo": "grade7-science-01-heredity.html",
+      "tema": "Heredity: dominant and recessive traits, and two kinds of reproduction"
+    },
+    "imagen": "grade7-science-01-heredity.jpg",
+    "escena": "A bright seventh grade science lab in Chicago: a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, draws a large square divided into four boxes on a whiteboard with no writing; a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, sorts a pile of small purple and white paper flowers on a lab table; a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, holds a small potted spider plant with tiny baby plants hanging from it; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, looks closely at a glass bowl full of dried green peas; a row of pea plants with purple and white flowers grows in pots by the sunny window, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 2,
+    "estandar": "MS-LS1-6",
+    "es": {
+      "titulo": "El árbol que creció de la nada",
+      "archivo": "grade7-science-02-photosynthesis.html",
+      "tema": "La fotosíntesis convierte el dióxido de carbono y el agua en alimento con la energía del sol"
+    },
+    "en": {
+      "titulo": "The tree that grew out of nothing",
+      "archivo": "grade7-science-02-photosynthesis.html",
+      "tema": "Photosynthesis turns carbon dioxide and water into food, using energy from the sun"
+    },
+    "imagen": "grade7-science-02-photosynthesis.jpg",
+    "escena": "A seventh grade science lab in Chicago on a sunny afternoon: on a lab table, a tall glass jar of water with a green underwater plant inside, lit by a desk lamp, with tiny silver bubbles rising from its leaves; a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, leans close to watch the bubbles; a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, holds up a small leafy willow branch; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, places a large clay pot full of dark soil on a big kitchen scale; a sunny window with green plants on the sill, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 3,
+    "estandar": "MS-LS4-1",
+    "es": {
+      "titulo": "La niña que encontró un dragón marino",
+      "archivo": "grade7-science-03-fossils.html",
+      "tema": "El registro fósil y las capas de roca muestran cómo ha cambiado la vida en la Tierra"
+    },
+    "en": {
+      "titulo": "The girl who found a sea dragon",
+      "archivo": "grade7-science-03-fossils.html",
+      "tema": "The fossil record and rock layers show how life on Earth has changed"
+    },
+    "imagen": "grade7-science-03-fossils.jpg",
+    "escena": "A quiet natural history museum fossil hall in Chicago: a long skeleton of an ancient sea reptile with a pointed snout, huge round eye sockets and four flippers lies inside a glass case; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, looks up at the skeleton with wide eyes; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, points to a tall wall made of striped rock layers in different shades of brown, gray and tan; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, sketches the skeleton in a small notebook; a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, holds a small spiral ammonite shell fossil in her palm, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 4,
+    "estandar": "MS-LS2-4",
+    "es": {
+      "titulo": "¿Quién vive ahora en el río?",
+      "archivo": "grade7-science-04-river-ecosystem.html",
+      "tema": "Los cambios en un ecosistema afectan a sus poblaciones: el río Chicago y las especies invasoras"
+    },
+    "en": {
+      "titulo": "Who lives in the river now?",
+      "archivo": "grade7-science-04-river-ecosystem.html",
+      "tema": "Changes in an ecosystem affect its populations: the Chicago River and invasive species"
+    },
+    "imagen": "grade7-science-04-river-ecosystem.jpg",
+    "escena": "A sunny morning on the bank of the Chicago River with tall city buildings and a bridge in the background: a friendly woman scientist in tall green waders stands in shallow water holding up a large green-and-white largemouth bass; a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, writes on a clipboard; a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, kneels beside a white bucket of river water with small fish swimming in it; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, points out at the river, where a family paddles a red kayak, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 5,
+    "estandar": "MS-ESS2-3",
+    "es": {
+      "titulo": "El rompecabezas de los continentes",
+      "archivo": "grade7-science-05-moving-continents.html",
+      "tema": "Los fósiles, las rocas y el fondo del océano son pruebas de que los continentes se mueven"
+    },
+    "en": {
+      "titulo": "The puzzle of the continents",
+      "archivo": "grade7-science-05-moving-continents.html",
+      "tema": "Fossils, rocks and the ocean floor are evidence that the continents move"
+    },
+    "imagen": "grade7-science-05-moving-continents.jpg",
+    "escena": "A seventh grade science lab in Chicago: on a long table, large paper cutouts of the continents of South America and Africa without any labels; a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, and a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, push the two cutouts together so their coastlines fit like puzzle pieces; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, points to small drawings of the same little reptile skeleton taped on both cutouts; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, unrolls a big blue map of the ocean floor that shows a long jagged mountain range running down the middle of the ocean, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "MS-ESS3-2",
+    "es": {
+      "titulo": "El invierno en que tembló la tierra",
+      "archivo": "grade7-science-06-earthquakes.html",
+      "tema": "Los peligros naturales: los terremotos de New Madrid, los pronósticos y cómo protegerse"
+    },
+    "en": {
+      "titulo": "The winter the ground shook",
+      "archivo": "grade7-science-06-earthquakes.html",
+      "tema": "Natural hazards: the New Madrid earthquakes, forecasting and staying safe"
+    },
+    "imagen": "grade7-science-06-earthquakes.jpg",
+    "escena": "A seventh grade classroom in Chicago during an earthquake drill: a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, and an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, crouch under sturdy wooden desks, each holding on to a desk leg with one hand and covering the back of the neck with the other hand; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, stands by the door holding a stopwatch; on the wall, a large simple map of the Mississippi River valley without any words, with a small red circle near where the Ohio River meets the Mississippi, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "MS-ESS1-2",
+    "es": {
+      "titulo": "Las estrellas que no se quedaban quietas",
+      "archivo": "grade7-science-07-jupiter-moons.html",
+      "tema": "La gravedad mantiene en sus órbitas a las lunas, los planetas y las estrellas"
+    },
+    "en": {
+      "titulo": "The stars that would not stay still",
+      "archivo": "grade7-science-07-jupiter-moons.html",
+      "tema": "Gravity keeps moons, planets and stars in their orbits"
+    },
+    "imagen": "grade7-science-07-jupiter-moons.jpg",
+    "escena": "A clear night on a flat school rooftop in Chicago with the city lights far below and a dark blue sky full of stars: an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, looks through a pair of binoculars mounted on a small tripod, pointed at one very bright planet low in the sky with four tiny dots of light beside it; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, draws small dots in a notebook by the light of a red flashlight; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, swings a small tennis ball on a string in a circle above his hand, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "MS-PS3-1 · MS-PS3-2",
+    "es": {
+      "titulo": "La rueda que le respondió a la torre Eiffel",
+      "archivo": "grade7-science-08-energy.html",
+      "tema": "La energía cinética depende de la masa y de la rapidez; la potencial, de la altura"
+    },
+    "en": {
+      "titulo": "The wheel that answered the Eiffel Tower",
+      "archivo": "grade7-science-08-energy.html",
+      "tema": "Kinetic energy depends on mass and speed; potential energy depends on height"
+    },
+    "imagen": "grade7-science-08-energy.jpg",
+    "escena": "A seventh grade science lab in Chicago: on the floor, a long ramp made from a grooved wooden ruler resting on a stack of books, with a paper cup lying on its side at the bottom; a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, holds a big glass marble at the top of the ramp; a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, holds a small glass marble; a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, kneels with a measuring tape stretched along the floor from the cup; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, holds up a large old-fashioned drawing of a giant steel wheel with many boxy passenger cars, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 9,
+    "estandar": "MS-PS2-3",
+    "es": {
+      "titulo": "La aguja que dio un salto",
+      "archivo": "grade7-science-09-electromagnets.html",
+      "tema": "La corriente eléctrica produce fuerzas magnéticas; más vueltas y más corriente las hacen más fuertes"
+    },
+    "en": {
+      "titulo": "The needle that jumped",
+      "archivo": "grade7-science-09-electromagnets.html",
+      "tema": "Electric currents make magnetic forces; more coils and more current make them stronger"
+    },
+    "imagen": "grade7-science-09-electromagnets.jpg",
+    "escena": "A seventh grade science lab in Chicago: an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, holds up a large iron nail tightly wrapped with shiny copper wire; two long copper wires run from the coil on the nail down to the two terminals of a big battery on the table, clearly connected, forming a complete circuit; a short chain of silver paper clips hangs from the tip of the nail; a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, leans in to count the paper clips; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, holds a round compass under a straight wire stretched across the table; a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, wraps copper wire around a second nail, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 10,
+    "estandar": "MS-PS1-3",
+    "es": {
+      "titulo": "El caucho que no se derretía",
+      "archivo": "grade7-science-10-rubber.html",
+      "tema": "Los materiales sintéticos vienen de recursos naturales y cambian la sociedad"
+    },
+    "en": {
+      "titulo": "The rubber that would not melt",
+      "archivo": "grade7-science-10-rubber.html",
+      "tema": "Synthetic materials come from natural resources and change society"
+    },
+    "imagen": "grade7-science-10-rubber.jpg",
+    "escena": "A seventh grade science lab in Chicago: a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, bounces a small red rubber ball on the floor; a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, holds a soft lump of pale tan natural rubber in one hand and a black bicycle tire in the other, comparing them; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, holds up a small glass jar of bright yellow powder; on the table, a pair of rubber rain boots, a plastic water bottle and a nylon jacket; a potted rubber plant with large shiny leaves stands by the window, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 11,
+    "estandar": "MS-PS1-6",
+    "es": {
+      "titulo": "La bolsa de hielo que no necesita congelador",
+      "archivo": "grade7-science-11-hot-cold-packs.html",
+      "tema": "Algunas reacciones liberan energía térmica y otras la absorben: el diseño de compresas calientes y frías"
+    },
+    "en": {
+      "titulo": "The ice pack that needs no freezer",
+      "archivo": "grade7-science-11-hot-cold-packs.html",
+      "tema": "Some reactions release thermal energy and others absorb it: designing hot and cold packs"
+    },
+    "imagen": "grade7-science-11-hot-cold-packs.jpg",
+    "escena": "A seventh grade science lab in Chicago: a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, with a small bandage on her knee, squeezes a white plastic instant cold pack; a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, reads a thermometer standing in a clear plastic cup of water; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, shakes a small hand warmer packet between her palms; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, stands by a whiteboard with a simple chart of lines and dots and no words or numbers; on the table, zipper bags, cups, a measuring spoon and a stopwatch, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "ciencias",
+    "orden": 12,
+    "estandar": "MS-LS · MS-ESS · MS-PS",
+    "es": {
+      "titulo": "El museo de los grandes descubrimientos",
+      "archivo": "grade7-science-12-review.html",
+      "tema": "Repaso: los descubrimientos y las grandes ideas de las ciencias de 7.º"
+    },
+    "en": {
+      "titulo": "The museum of great discoveries",
+      "archivo": "grade7-science-12-review.html",
+      "tema": "Review: the discoveries and big ideas of seventh grade science"
+    },
+    "imagen": "grade7-science-12-review.jpg",
+    "escena": "A busy school gym in Chicago set up as a student museum, with simple tri-fold poster boards that have only drawings and no words: on the tables, a pot of pea plants with purple and white flowers, a small willow branch in a pot, a clay model of a long sea reptile skeleton, paper continents fitted together like a puzzle, a small model of a giant Ferris wheel and a nail wrapped in copper wire with paper clips hanging from it; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, and a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, stand at the tables explaining to families; a friendly African American man science teacher in his fifties with short graying black hair and a neat gray beard, in a dark green cardigan, smiles near the entrance; there are exactly seven students and each one appears only once in the picture, plus a few parents and small children as visitors, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.6-8.G.3.MdC",
+    "es": {
+      "titulo": "La casa donde viajaban las palabras",
+      "archivo": "grade7-social-studies-01-house-of-wisdom.html",
+      "tema": "La traducción, el papel y el comercio difunden las ideas: la Casa de la Sabiduría y al-Juarismi"
+    },
+    "en": {
+      "titulo": "The house where words traveled",
+      "archivo": "grade7-social-studies-01-house-of-wisdom.html",
+      "tema": "Translation, paper and trade spread ideas: the House of Wisdom and al-Khwarizmi"
+    },
+    "imagen": "grade7-social-studies-01-house-of-wisdom.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago: a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, points to a large wall map with no words on it, where colorful arrows lead from Greece, India and China toward the city of Baghdad on a river; a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, holds a sheet of plain paper up to the window light; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, writes a simple equation with an x on a small whiteboard; a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, looks at a picture book open to a colorful old painting of scholars reading in a library with books stacked on shelves, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.6-8.EC.2.LC",
+    "es": {
+      "titulo": "El hijo del mercader que cambió los números",
+      "archivo": "grade7-social-studies-02-fibonacci.html",
+      "tema": "La innovación en el comercio: Fibonacci lleva los números indoarábigos a los mercaderes europeos"
+    },
+    "en": {
+      "titulo": "The merchant's son who changed the numbers",
+      "archivo": "grade7-social-studies-02-fibonacci.html",
+      "tema": "Innovation in trade: Fibonacci brings the Hindu-Arabic numerals to European merchants"
+    },
+    "imagen": "grade7-social-studies-02-fibonacci.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago: a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, stands at a whiteboard covered with long rows of capital letter-like tally marks, scratching his head; a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, stands beside him at a second whiteboard, smiling, with a short neat column of addition; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, holds up a large picture of an old handwritten book page with a narrow column of numbers in its margin; a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, counts coins at a desk near a small toy merchant's balance scale, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.6-8.H.1.MdC",
+    "es": {
+      "titulo": "La concha que significaba nada",
+      "archivo": "grade7-social-studies-03-maya-zero.html",
+      "tema": "El cero y el calendario mayas, los libros que se perdieron y una cultura que continúa"
+    },
+    "en": {
+      "titulo": "The shell that meant nothing",
+      "archivo": "grade7-social-studies-03-maya-zero.html",
+      "tema": "The Maya zero and calendar, the books that were lost and a culture that continues"
+    },
+    "imagen": "grade7-social-studies-03-maya-zero.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago: a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, draws rows of simple dots, horizontal bars and a small seashell shape on a whiteboard; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, holds open a large picture book showing a colorful old folding painted page with red and black dots, bars and small figures; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, smiles at a laptop screen on her desk showing a friendly woman in a colorful hand-woven embroidered blouse; there are exactly two students in the picture, the Latina girl and the Asian American girl, and each one appears only once, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.6-8.H.3.MdC",
+    "es": {
+      "titulo": "Los cordones que guardaban un imperio",
+      "archivo": "grade7-social-studies-04-khipu.html",
+      "tema": "Los quipus incas y los límites del registro histórico"
+    },
+    "en": {
+      "titulo": "The strings that kept an empire",
+      "archivo": "grade7-social-studies-04-khipu.html",
+      "tema": "Inca khipus and the limits of the historical record"
+    },
+    "imagen": "grade7-social-studies-04-khipu.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago: a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, ties small knots on colorful cotton strings that hang down from one thick main cord laid across his desk; a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, holds a large photo of an old brown and tan knotted string record with many hanging cords; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, points to the long Andes mountains of South America on a big wall map with no words; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, sorts strings of red, yellow and white, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.6-8.EC.2.MC",
+    "es": {
+      "titulo": "El dinero hecho de papel",
+      "archivo": "grade7-social-studies-05-paper-money.html",
+      "tema": "El papel moneda en la China Song, y cómo imprimir demasiado dinero hace subir los precios"
+    },
+    "en": {
+      "titulo": "The money made of paper",
+      "archivo": "grade7-social-studies-05-paper-money.html",
+      "tema": "Paper money in Song China, and how printing too much money makes prices rise"
+    },
+    "imagen": "grade7-social-studies-05-paper-money.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago set up like a small market with paper price tags with no writing: a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, struggles to lift a heavy cloth bag full of dark round coins with square holes in the middle; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, easily holds up one large rectangular paper note printed with gray patterns and a red seal; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, stands behind a table with a toy store counter, pointing to a simple line chart that goes up steeply; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, holds a thick stack of paper notes and looks worried, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.6-8.G.2.MC",
+    "es": {
+      "titulo": "La estrella que mostraba el camino",
+      "archivo": "grade7-social-studies-06-columbian-exchange.html",
+      "tema": "La navegación por latitud, los viajes a través del Atlántico y el intercambio colombino"
+    },
+    "en": {
+      "titulo": "The star that showed the way",
+      "archivo": "grade7-social-studies-06-columbian-exchange.html",
+      "tema": "Navigation by latitude, the voyages across the Atlantic and the Columbian Exchange"
+    },
+    "imagen": "grade7-social-studies-06-columbian-exchange.jpg",
+    "escena": "A school playground in Chicago on a clear early evening, the sky dark blue with a few stars: a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, holds up a simple homemade half-circle of cardboard with a drinking straw taped along its straight edge and a string with a small weight hanging from its center, sighting a bright star; a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, reads the angle where the string crosses the cardboard; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, holds a flashlight pointed at the ground; on a picnic table nearby, a basket with potatoes, ears of corn, red tomatoes, a chocolate bar, a bundle of wheat and oranges, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.6-8.H.2.MdC",
+    "es": {
+      "titulo": "Dos canoas en el Gran Río",
+      "archivo": "grade7-social-studies-07-illinois-1673.html",
+      "tema": "Marquette, Jolliet y la Confederación de Illinois en 1673: un encuentro, varias perspectivas"
+    },
+    "en": {
+      "titulo": "Two canoes on the Great River",
+      "archivo": "grade7-social-studies-07-illinois-1673.html",
+      "tema": "Marquette, Jolliet and the Illinois Confederation in 1673: one meeting, several perspectives"
+    },
+    "imagen": "grade7-social-studies-07-illinois-1673.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago: an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, and a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, hold up and compare two maps with no words on them, an old hand-drawn map with a long winding river and tiny drawn trees, and a modern colorful map of the state of Illinois; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, points to a small area between a big blue lake and a thin river on a large wall map with no words; a small model of a birchbark canoe sits on a desk, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.6-8.H.2.LC",
+    "es": {
+      "titulo": "Las cartas que midieron la suerte",
+      "archivo": "grade7-social-studies-08-letters-of-chance.html",
+      "tema": "Las cartas de Pascal y Fermat de 1654 y cómo cambiaron las ideas de la gente sobre el azar"
+    },
+    "en": {
+      "titulo": "The letters that measured luck",
+      "archivo": "grade7-social-studies-08-letters-of-chance.html",
+      "tema": "Pascal and Fermat's letters of 1654 and how people's ideas about chance changed"
+    },
+    "imagen": "grade7-social-studies-08-letters-of-chance.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago: a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, and a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, sit across a desk with a small pile of wrapped candies between them, one of them flipping a coin in the air; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, stands at a whiteboard drawing a simple branching tree diagram with no letters or numbers; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, holds up two old folded letters with red wax seals; a simple map of France with two dots for two cities hangs on the wall, with no words, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 9,
+    "estandar": "SS.6-8.CV.5.MC",
+    "es": {
+      "titulo": "La ley que casi cambió pi",
+      "archivo": "grade7-social-studies-09-pi-bill.html",
+      "tema": "Cómo un proyecto se convierte en ley en una legislatura estatal: la ley de pi de Indiana de 1897"
+    },
+    "en": {
+      "titulo": "The law that almost changed pi",
+      "archivo": "grade7-social-studies-09-pi-bill.html",
+      "tema": "How a bill becomes a law in a state legislature: the Indiana Pi Bill of 1897"
+    },
+    "imagen": "grade7-social-studies-09-pi-bill.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago arranged like a small legislature, with desks in a half circle: a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, stands at a wooden podium reading from a sheet of paper; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, and a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, raise their hands to vote; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, stands beside a large poster of a flowchart made only of boxes and arrows, with no words; a small wooden gavel rests on the teacher's desk, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 10,
+    "estandar": "SS.6-8.CV.2.MdC",
+    "es": {
+      "titulo": "Cuando Missouri llevó a Illinois a juicio",
+      "archivo": "grade7-social-studies-10-missouri-v-illinois.html",
+      "tema": "El federalismo y los tribunales: la Corte Suprema resuelve un conflicto entre dos estados"
+    },
+    "en": {
+      "titulo": "When Missouri took Illinois to court",
+      "archivo": "grade7-social-studies-10-missouri-v-illinois.html",
+      "tema": "Federalism and the courts: the Supreme Court settles a dispute between two states"
+    },
+    "imagen": "grade7-social-studies-10-missouri-v-illinois.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago arranged like a courtroom: at the front, exactly nine students (no more, no fewer) in simple black paper robes sit in one single row behind a long table as justices, among them a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse; a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, stands at a small table on the left holding a glass jar of murky water; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, stands at a small table on the right holding a stack of papers; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, stands beside a large simple map with no words showing a big lake, a canal and a long river flowing south, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 11,
+    "estandar": "SS.6-8.CV.2.LC",
+    "es": {
+      "titulo": "Las tarjetas con agujeros que contaron una nación",
+      "archivo": "grade7-social-studies-11-census-1890.html",
+      "tema": "El censo que exige la Constitución y las tarjetas perforadas de Hollerith en 1890"
+    },
+    "en": {
+      "titulo": "The cards with holes that counted a nation",
+      "archivo": "grade7-social-studies-11-census-1890.html",
+      "tema": "The census required by the Constitution and Hollerith's punched cards in 1890"
+    },
+    "imagen": "grade7-social-studies-11-census-1890.jpg",
+    "escena": "A seventh grade social studies classroom in Chicago: a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, makes rows of tally marks with a pencil on a very large sheet of paper spread over two desks; a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, punches small holes along the edges of white index cards with a hole puncher; an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, slides a long knitting needle through a stack of cards so that some cards drop out of the stack; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, holds a stopwatch and smiles; a box overflowing with index cards sits on the floor, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  {
+    "grado": 7,
+    "area": "sociales",
+    "orden": 12,
+    "estandar": "SS.6-8.H · CV · EC · G",
+    "es": {
+      "titulo": "La línea del tiempo a lo largo del pasillo",
+      "archivo": "grade7-social-studies-12-review.html",
+      "tema": "Repaso: cómo las ideas, los números y las personas conectaron el mundo de Bagdad a Chicago"
+    },
+    "en": {
+      "titulo": "The timeline across the hallway",
+      "archivo": "grade7-social-studies-12-review.html",
+      "tema": "Review: how ideas, numbers and people connected the world from Baghdad to Chicago"
+    },
+    "imagen": "grade7-social-studies-12-review.jpg",
+    "escena": "A long school hallway in Chicago with a very long strip of paper taped along the wall like a timeline, with simple colorful drawings and no words or numbers: a library with shelves, a small seashell, a bundle of knotted strings, a gray paper bill with a dragon border and red square seals, a round brass astrolabe, a canoe on a river, two sealed letters, a domed government building, a river with a canal and a card with small holes; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, and a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, tape drawings to the paper; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, stretches a long red yarn from one drawing to another; there are exactly seven students and each one appears only once in the picture, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  }
+  /* fin grado 7 */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
@@ -2768,7 +3202,9 @@ window.LIBROS = [
   { grado: 5, area: 'ciencias', es: 'book-grade5-science.html', en: 'book-grade5-science.html' },
   { grado: 5, area: 'sociales', es: 'book-grade5-social-studies.html', en: 'book-grade5-social-studies.html' },
   { grado: 6, area: 'ciencias', es: 'book-grade6-science.html', en: 'book-grade6-science.html' },
-  { grado: 6, area: 'sociales', es: 'book-grade6-social-studies.html', en: 'book-grade6-social-studies.html' }
+  { grado: 6, area: 'sociales', es: 'book-grade6-social-studies.html', en: 'book-grade6-social-studies.html' },
+  { grado: 7, area: 'ciencias', es: 'book-grade7-science.html', en: 'book-grade7-science.html' },
+  { grado: 7, area: 'sociales', es: 'book-grade7-social-studies.html', en: 'book-grade7-social-studies.html' }
 ];
 
 /* ---- Prekínder: cuentos para escuchar (generado con herramientas/gen_prek.py) ---- */

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 7 · Science · MS-ESS2-3
+  «The puzzle of the continents»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The puzzle of the continents · Educational stories</title>
+<meta name="description" content="A Grade 7 science story: Alfred Wegener&#x27;s idea of moving continents, the evidence from fossils and rocks, Marie Tharp&#x27;s map of the ocean floor and the theory of plate tectonics. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-7">Educational stories</a> · Grade 7 · Science</span>
+    <a class="idioma" href="book-grade7-science.html#capitulo-5">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade7-science-05-moving-continents.mp4">
+    <img src="grade7-science-05-moving-continents.jpg" width="1376" height="768"
+         alt="In the science lab, Athena and Elías fit paper cutouts of South America and Africa together on a table while Daniel points to matching fossil drawings and Mr. Mensah unrolls a map of the ocean floor.">
+  </figure>
+
+  <p class="sello">Grade 7 · Science · MS-ESS2-3</p>
+  <h1 id="titulo">The puzzle of the continents</h1>
+  <p class="entrada">A story about a scientist who said the continents move, the evidence he found, and the map of the ocean floor that finally proved him right.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>El rompecabezas de los continentes.</strong> Un cuento sobre un científico que dijo que los continentes se mueven, las pruebas que encontró y el mapa del fondo del océano que al fin le dio la razón.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="continent">continent</button></li>
+      <li><button type="button" class="voz" data-g="pangaea">Pangaea</button></li>
+      <li><button type="button" class="voz" data-g="evidence">evidence</button></li>
+      <li><button type="button" class="voz" data-g="plate">plate</button></li>
+      <li><button type="button" class="voz" data-g="mid-ocean-ridge">mid-ocean ridge</button></li>
+      <li><button type="button" class="voz" data-g="plate-tectonics">plate tectonics</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">Mr. Mensah handed out paper cutouts of the <button type="button" class="voz" data-g="continent">continents</button>. "Try to fit them together," he said. Athena and Elías pushed South America toward Africa, and the bulge of Brazil slid into the curve of West Africa like two puzzle pieces. "Whoa," said Elías. "Is that a coincidence?"</p>
+
+    <p id="p2">"A German scientist named Alfred Wegener didn't think so," said Mr. Mensah. <span class="cita" id="c-a">"In 1912, he said that long ago all the continents were joined in one giant supercontinent. He called it <button type="button" class="voz" data-g="pangaea">Pangaea</button>, which means all lands. Over millions of years, he said, the pieces drifted apart."</span></p>
+
+    <p id="p3">"A good fit isn't enough to prove it," said Daniel. "Exactly," said Mr. Mensah. "Wegener needed <button type="button" class="voz" data-g="evidence">evidence</button>, so he looked for clues." He taped two drawings of the same small reptile on the cutouts. <span class="cita" id="c-b">"Fossils of this freshwater reptile, Mesosaurus, are found in South America and in Africa, and nowhere else. It could not have swum across a whole salty ocean."</span></p>
+
+    <p id="p4">He showed them more clues. <span class="cita" id="c-c">Rocks of the same age and type line up on both sides of the Atlantic, and the old mountains in the eastern United States match mountains in Scotland and Norway, as if one mountain chain had been torn apart.</span> "So the fossils, the rocks and the shapes all tell the same story," said Athena.</p>
+
+    <p id="p5">"Then everybody believed him?" asked Elías. Mr. Mensah shook his head. "Most scientists laughed. Wegener couldn't explain what force could push whole continents. He kept collecting evidence, and he died on an expedition across the ice of Greenland in 1930, still believing he was right."</p>
+
+    <p id="p6">Then he unrolled a big blue map. "In the 1950s, a scientist named Marie Tharp drew the first detailed maps of the ocean floor, using measurements taken from ships." <span class="cita" id="c-d">"She found a huge chain of underwater mountains running down the middle of the Atlantic, with a deep valley in its center: the <button type="button" class="voz" data-g="mid-ocean-ridge">mid-ocean ridge</button>. New rock comes up there, and the ocean floor spreads apart on both sides."</span></p>
+
+    <p id="p7">"That was the missing piece," said Mr. Mensah. <span class="cita" id="c-e">"Scientists put all the evidence together into the theory of <button type="button" class="voz" data-g="plate-tectonics">plate tectonics</button>: Earth's outer layer is broken into huge <button type="button" class="voz" data-g="plate">plates</button> that move, carrying the continents and the ocean floor with them."</span> "How fast?" asked Daniel. "A few centimeters a year, about as fast as your fingernails grow. The Atlantic is still getting wider."</p>
+
+    <p id="p8">Elías looked at the two paper continents. "So right now, Chicago is moving," he said. "Very, very slowly," said Mr. Mensah. Athena wrote in her notebook: Wegener was right about the drift and wrong about the push. Science needed both his idea and Marie Tharp's map.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-continent"><dt>continent</dt><dd>One of the seven very large areas of land on Earth, like Africa or South America.</dd><dd class="ayuda-es caja-es" lang="es"><strong>continente:</strong> Una de las siete grandes extensiones de tierra del planeta, como África o América del Sur.</dd></div>
+    <div id="g-pangaea"><dt>Pangaea</dt><dd>The name Wegener gave to the giant supercontinent that included all the continents joined together long ago.</dd><dd class="ayuda-es caja-es" lang="es"><strong>Pangea:</strong> El nombre que dio Wegener al gran supercontinente que reunía todos los continentes hace mucho tiempo.</dd></div>
+    <div id="g-evidence"><dt>evidence</dt><dd>Facts or observations that help show whether an idea is true.</dd><dd class="ayuda-es caja-es" lang="es"><strong>evidencia:</strong> Hechos u observaciones que ayudan a demostrar si una idea es verdadera.</dd></div>
+    <div id="g-plate"><dt>plate</dt><dd>A huge slab of Earth's outer layer. Continents and ocean floors ride on plates that move very slowly.</dd><dd class="ayuda-es caja-es" lang="es"><strong>placa:</strong> Un enorme bloque de la capa exterior de la Tierra. Los continentes y los fondos marinos van sobre placas que se mueven muy despacio.</dd></div>
+    <div id="g-mid-ocean-ridge"><dt>mid-ocean ridge</dt><dd>A long chain of underwater mountains where new ocean floor forms and plates move apart.</dd><dd class="ayuda-es caja-es" lang="es"><strong>dorsal oceánica:</strong> Una larga cadena de montañas submarinas donde se forma fondo oceánico nuevo y las placas se separan.</dd></div>
+    <div id="g-plate-tectonics"><dt>plate tectonics</dt><dd>The scientific theory that Earth's outer layer is made of moving plates that shape continents, mountains and oceans.</dd><dd class="ayuda-es caja-es" lang="es"><strong>tectónica de placas:</strong> La teoría científica según la cual la capa exterior de la Tierra está formada por placas que se mueven y dan forma a continentes, montañas y océanos.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What was Wegener's big idea in 1912?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cuál fue la gran idea de Wegener en 1912?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">The continents were once joined and drifted apart</button>
+        <button class="opcion">The continents were always in the same place</button>
+        <button class="opcion">The oceans were once all made of ice</button>
+      </div>
+      <p class="explicacion" hidden>Wegener said that all the continents were once joined in Pangaea and drifted apart over millions of years.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>Why are the Mesosaurus fossils good evidence?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué son buena evidencia los fósiles de Mesosaurus?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">They are the oldest fossils on Earth</button>
+        <button class="opcion">This freshwater reptile could not cross a salty ocean</button>
+        <button class="opcion">They were found only at the bottom of the sea</button>
+      </div>
+      <p class="explicacion" hidden>Mesosaurus lived in fresh water and could not have swum across the ocean, yet its fossils are in South America and Africa.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>What do the rocks and old mountains show?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué muestran las rocas y las montañas antiguas?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">The Atlantic Ocean is very deep</button>
+        <button class="opcion">Mountains grow only in cold places</button>
+        <button class="opcion">They match on both sides of the Atlantic</button>
+      </div>
+      <p class="explicacion" hidden>Rocks of the same age and type, and old mountain chains, line up on both sides of the Atlantic.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>What did Marie Tharp find on the ocean floor?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué encontró Marie Tharp en el fondo del océano?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">A chain of mountains where the floor spreads apart</button>
+        <button class="opcion">A sunken land bridge between two continents</button>
+        <button class="opcion">A flat, smooth floor with nothing on it</button>
+      </div>
+      <p class="explicacion" hidden>She found the mid-ocean ridge, where new rock comes up and the ocean floor spreads apart.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>What does the theory of plate tectonics say?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué dice la teoría de la tectónica de placas?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">The continents float on top of the oceans</button>
+        <button class="opcion">Earth's outer layer is made of moving plates</button>
+        <button class="opcion">The plates moved only in the time of Pangaea</button>
+      </div>
+      <p class="explicacion" hidden>Earth's outer layer is broken into huge plates that move, carrying the continents and the ocean floor.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Weigh the evidence</p>
+    <p class="reto-pregunta">Wegener had three kinds of evidence, but most scientists still rejected his idea. Name his three kinds of evidence. Then explain what was missing, and what new evidence finally convinced scientists.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Pesa la evidencia.</strong> Wegener tenía tres tipos de evidencia, pero la mayoría de los científicos rechazó su idea. Nombra sus tres tipos de evidencia. Después explica qué faltaba y qué nueva evidencia convenció por fin a los científicos.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>His evidence: the shapes of the continents fit together, the same fossils (like Mesosaurus) are found on continents now far apart, and matching rocks and mountains line up across the Atlantic. What was missing was an explanation of how the continents could move. Marie Tharp's maps of the ocean floor showed the mid-ocean ridge, where new floor forms and spreads apart, and that led to the theory of plate tectonics.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-ESS2-3: analyze and interpret data on the distribution of fossils and rocks, continental shapes and seafloor structures to provide evidence of the past plate motions.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>
