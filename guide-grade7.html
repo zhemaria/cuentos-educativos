@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Teacher guide · Grade 7 (Science and Social studies)
+  One guide per grade: how to use the stories, hands-on science activities,
+  social studies activities and a one-page card to print.
+  José M. Fernández · Claude (Anthropic)
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teacher guide · Grade 7 · Educational stories</title>
+<meta name="description" content="Teacher guide for the Grade 7 Science and Social Studies stories: tips for using the stories, hands-on activities, discussion questions and a card to print.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+<style>
+/* Guía para el docente: secciones, consejos y tarjeta para imprimir */
+.saltos-guia{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.5rem;padding:0;list-style:none}
+.saltos-guia a{display:inline-flex;align-items:center;min-height:44px;padding:.4rem .9rem;border-radius:999px;
+  border:2px solid var(--verde);color:var(--verde);background:var(--papel-claro);font-weight:700;text-decoration:none}
+.saltos-guia a:hover{background:var(--verde);color:#fff}
+.parte{scroll-margin-top:1rem;margin-top:2.2rem}
+.parte > h2{border-bottom:3px solid var(--verde);padding-bottom:.3rem}
+.consejo{background:var(--papel-claro);border:1px solid var(--borde);border-radius:var(--radio);padding:.9rem 1.1rem;margin:.8rem 0}
+.consejo h3{margin:0 0 .4rem;font-size:1.08rem}
+.consejo ul{margin:.2rem 0 .2rem 1.2rem;padding:0}
+.consejo li{margin:.25rem 0}
+.ojo{border-left:5px solid var(--verde);padding:.4rem .8rem;background:var(--verde-claro)}
+.seguridad{border-left:5px solid var(--rosa);padding:.4rem .8rem;background:var(--rosa-claro)}
+.tarjeta{border:3px solid var(--verde);border-radius:var(--radio);padding:1rem 1.2rem;background:#fff}
+.tarjeta h2{margin-top:0}
+.tarjeta .rejilla{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:.6rem 1.2rem}
+.tarjeta h3{margin:.4rem 0 .2rem;font-size:1rem;color:var(--verde)}
+.tarjeta ul{margin:0 0 0 1.1rem;padding:0;font-size:.95rem}
+.pie-std{font-size:.85rem;color:var(--tinta-suave)}
+@media print{
+  body.solo-tarjeta main > *:not(#tarjeta){display:none!important}
+  body.solo-tarjeta #tarjeta{display:block!important;margin:0}
+  body.solo-tarjeta #tarjeta .no-imprimir{display:none!important}
+}
+</style>
+</head>
+<body>
+<a class="salto" href="#indice">Skip to the contents</a>
+<main class="hoja">
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-7">Educational stories</a> · Grade 7 · Teacher guide</span>
+    <span><a class="idioma" href="book-grade7-science.html">📖 Science book</a> <a class="idioma" href="book-grade7-social-studies.html">📖 Social studies book</a></span>
+  </nav>
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print or save as PDF</button>
+  </div>
+  <header class="portada-libro">
+    <p class="sello">Teacher guide · Grade 7</p>
+    <h1>Science and Social Studies</h1>
+    <p class="subtitulo">How to get the most out of the stories</p>
+    <p class="ayuda-es caja-es" lang="es">Guía para el docente de 7.º grado: consejos para usar los cuentos, actividades prácticas de ciencias, actividades de estudios sociales y una tarjeta de una página para imprimir. El botón «Ayuda en español» muestra un resumen en español de cada parte.</p>
+  </header>
+
+  <h2 id="indice" tabindex="-1">Contents</h2>
+  <nav aria-label="Parts of this guide"><ul class="saltos-guia">
+    <li><a href="#consejos"><span aria-hidden="true">💡 </span>1. Tips for using the stories</a></li>
+    <li><a href="#ciencias"><span aria-hidden="true">🔬 </span>2. Science</a></li>
+    <li><a href="#sociales"><span aria-hidden="true">🌎 </span>3. Social studies</a></li>
+    <li><a href="#tarjeta"><span aria-hidden="true">🖨️ </span>4. Card to print</a></li>
+  </ul></nav>
+
+  <section class="parte" id="consejos" aria-labelledby="t-consejos">
+    <h2 id="t-consejos">1. Tips for using the stories</h2>
+    <p>These are the small things that make the biggest difference, and the ones that are easiest to forget on a busy day. They work for both books. In Grade 7, every story is a <strong>true story from history</strong>: a monk who counted peas, a girl who found a sea dragon, a state that took another to court. The characters around the story (Ms. Novak, Mr. Mensah and the seven friends) are invented; the historical facts are real and were checked.</p>
+    <p class="ayuda-es caja-es" lang="es">En 7.º grado cada cuento es una historia real: un monje que contaba guisantes, una niña que halló un dragón marino, un estado que llevó a otro a juicio. Los maestros y los siete amigos son personajes inventados; los hechos históricos son reales y se verificaron.</p>
+    <div class="consejo" id="consejo-before"><h3>Before reading: give the story a purpose</h3><ul><li>Look at the picture together for two minutes before anyone reads. Ask: <em>What do you see? What do you think? What do you wonder?</em></li><li>Teach two or three of the key words first. Each story lists them at the top, and the glossary opens with one tap.</li><li>Ask what students already know about the person, the place or the time. Write the date of the story on a class timeline.</li><li>Write one question on the board that the story will answer. Students read to find the answer, not just to finish.</li></ul><p class="ayuda-es caja-es" lang="es">Antes de leer: mirar la ilustración dos minutos (¿qué ves?, ¿qué piensas?, ¿qué te preguntas?), enseñar dos o tres palabras clave, preguntar qué saben de la persona, el lugar o la época, ubicar la fecha en una línea del tiempo y escribir la pregunta que el cuento va a contestar.</p></div>
+    <div class="consejo" id="consejo-during"><h3>During reading: slow down</h3><ul><li>Read the story aloud first, or let Lumi read it with the voice button. Then students read it again on their own or with a partner. A second reading is where comprehension happens.</li><li>Stop at the <em>pause to connect</em> and at the questions. They are not interruptions: they are the lesson.</li><li>When a student answers a question wrong, the story highlights the sentence with the evidence. Ask the student to read it aloud and try again: the goal is to find the answer in the text, not to guess.</li><li>One story per session is enough (25 to 35 minutes). Follow the order of your class units.</li></ul><p class="ayuda-es caja-es" lang="es">Durante la lectura: leer primero en voz alta (o con la voz de Lumi) y luego releer; detenerse en las pausas y preguntas; cuando un estudiante se equivoca, el cuento resalta la oración con la evidencia: que la lea en voz alta y vuelva a intentarlo. Un cuento por sesión.</p></div>
+    <div class="consejo" id="consejo-wait"><h3>Questions: wait, then listen</h3><ul><li>After you ask a question, count silently to five before calling on anyone.</li><li>Use <em>turn and talk</em>: every student tells a partner first, then a few share with the class. Everybody thinks, not only the fastest.</li><li>Ask students to choose an answer before they tap it, and to say which sentence of the story supports it.</li></ul><p class="ayuda-es caja-es" lang="es">Preguntas: esperar cinco segundos antes de dar la palabra; que todos lo digan primero a un compañero; que elijan la respuesta antes de tocarla y digan qué oración del cuento la apoya.</p></div>
+    <div class="consejo" id="consejo-ayuda"><h3>«Ayuda en español»: a bridge, not a replacement</h3><ul><li>The button translates instructions, questions, the glossary and the challenge. The story itself stays in English on purpose.</li><li>Suggested routine: first reading in English, then turn the help on to check understanding, then a final reading without it.</li><li>Turn the help off little by little during the year. Celebrate the day a student no longer needs it.</li><li>Spanish at home is an asset. Invite families to talk about the story in the language they speak best.</li></ul><p class="ayuda-es caja-es" lang="es">La «Ayuda en español» es un puente, no un sustituto: primera lectura en inglés, luego la ayuda para comprobar, y una última lectura sin ella. Retirarla poco a poco durante el año. El español en casa es una fortaleza.</p></div>
+    <div class="consejo" id="consejo-dua"><h3>Universal Design for Learning: let every student in</h3><ul><li>Show students the reading supports on the first day: bigger or smaller text (A+ / A−), high contrast, the voice and printing.</li><li>Accept more than one way to answer the challenge: writing, drawing a model or a diagram, explaining out loud or recording a short audio.</li><li>Give sentence starters for the challenge: <em>I claim… The evidence is… This shows that… because…</em></li><li>For students without a device, print the story with the «Print or save as PDF» button.</li></ul><p class="ayuda-es caja-es" lang="es">Diseño Universal para el Aprendizaje: enseñar los apoyos el primer día (A+/A−, alto contraste, voz, imprimir); aceptar varias formas de contestar el reto (escribir, dibujar un modelo, decirlo en voz alta, grabar un audio); dar inicios de oración; imprimir el cuento para quien no tiene tableta.</p></div>
+    <div class="consejo" id="consejo-reto"><h3>The challenge and «Go further»</h3><ul><li>Every story ends with a challenge. Ask for three parts: a claim, evidence from the story and reasoning that connects them.</li><li>Many stories add an optional <strong>Go further</strong> question. Offer it to students who finish early or as homework: it asks for more complex reasoning, such as comparing perspectives or evaluating a decision.</li><li>Use the challenge as an exit ticket. Keep the answers in a folder; in May, students compare their first and last answers and see how much they grew.</li></ul><p class="ayuda-es caja-es" lang="es">El reto: pedir afirmación, evidencia y razonamiento. La pregunta opcional «Go further» pide un razonamiento más complejo; ofrecerla a quien termina antes o como tarea. Guardar las respuestas en una carpeta para comparar al final del año.</p></div>
+    <div class="consejo" id="consejo-errores"><h3>History is full of wrong ideas</h3><ul><li>Many stories show real scientists who were wrong or who were not believed: van Helmont thought the tree was made of water, and most scientists laughed at Wegener. That is on purpose: science advances when people test ideas with evidence.</li><li>Before the reading, ask students what they think. Write their ideas on the board without correcting them, and come back to the list after the story.</li><li>Each activity below has a <em>watch for</em> note with the most common misunderstanding.</li></ul><p class="ayuda-es caja-es" lang="es">La historia está llena de ideas equivocadas: van Helmont creyó que el árbol estaba hecho de agua y muchos se rieron de Wegener. Anotar lo que piensan antes de leer, sin corregir, y volver a la lista después del cuento.</p></div>
+    <div class="consejo" id="consejo-mate"><h3>Connect with math and reading</h3><ul><li>The Grade 7 math and reading activities in Lumi share some of these stories: Ahmes and the Indiana Pi Bill in geometry, Pascal and Fermat in probability, the Chicago River in the reading articles. Use the story as a bridge before or after the math lesson.</li><li>Ask students to find the numbers in each story (705 and 224 peas, 169 pounds of willow, 62,622,250 people) and to explain what they show.</li></ul><p class="ayuda-es caja-es" lang="es">Conectar con matemáticas y lectura: las actividades de 7.º en Lumi comparten historias con estos cuentos (Ahmes y la ley de π en geometría, Pascal y Fermat en probabilidad, el río Chicago en los artículos de lectura). Pedir que busquen los números de cada cuento y expliquen qué muestran.</p></div>
+    <div class="consejo" id="consejo-seguridad"><h3>Hands-on activities: safety first</h3><ul><li>Wear safety goggles for anything that can splash. The adult handles chemicals, heat and sharp tools.</li><li>Check food and latex allergies before the activities. Scientists never taste the materials.</li><li>Never open commercial cold packs or hand warmers in class.</li><li>Every activity can also be done as a teacher demonstration or with a video if materials or time are short.</li></ul><p class="ayuda-es caja-es" lang="es">Seguridad: gafas cuando algo pueda salpicar; el adulto maneja los productos químicos, el calor y lo filoso; revisar alergias a alimentos y al látex; nunca probar los materiales ni abrir compresas comerciales en clase.</p></div>
+    <div class="consejo" id="consejo-casa"><h3>Beyond the classroom</h3><ul><li>Share the address www.lumi-educa.com with families. The stories work on a phone, a tablet or a computer, and the voice can read them aloud.</li><li>Story 12 of each book reviews the whole year. Use it in May as a celebration and as a review before the final assessment.</li></ul><p class="ayuda-es caja-es" lang="es">Fuera del salón: compartir www.lumi-educa.com con las familias; usar el cuento 12 de cada libro como repaso y celebración de fin de año.</p></div>
+  </section>
+
+  <section class="parte" id="ciencias" aria-labelledby="t-ciencias">
+    <h2 id="t-ciencias">2. Science</h2>
+    <p>Each story tells a real discovery and has a hands-on activity with classroom materials, questions to talk about and a note on the most common misunderstanding. The activities are optional and can be done before the story (to wonder) or after it (to check the idea).</p>
+    <p class="ayuda-es caja-es" lang="es">Cada cuento de ciencias cuenta un descubrimiento real y tiene una actividad práctica con materiales del salón, preguntas para conversar y una nota sobre la confusión más común. Se pueden hacer antes del cuento (para despertar preguntas) o después (para comprobar la idea).</p>
+    <div class="acordeon">
+  <details class="capitulo" id="capitulo-c1" name="guia">
+    <summary><span class="num" aria-hidden="true">1</span><span class="cab"><h3><span class="titulo-cap">The monk who counted peas</span></h3><small>Heredity: dominant and recessive traits, and two kinds of reproduction · MS-LS3-2</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-01-heredity.html">Open the story</a></p>
+      <h4>Hands-on activity: Punnett squares with coins</h4>
+      <p><strong>Materials:</strong> two coins per pair, tape, markers, a data table for the class.</p>
+      <ol><li>Tape a P on one side and a p on the other side of each coin. Each coin is one parent that is Pp.</li><li>Flip both coins 40 times and record each pair (PP, Pp or pp). Count how many offspring would be purple and how many white.</li><li>Put together the results of the whole class and compare them with the Punnett square: about 3 purple for every 1 white, as Mendel found with his 705 and 224 plants.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why are the results of one pair farther from 3 to 1 than the results of the whole class? How is a plant that grows from a cutting different from a plant that grows from a seed?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often think that the dominant trait is always the most common, or that a 3 to 1 ratio means exactly 3 of every 4 offspring will be purple. A Punnett square shows probabilities, and big numbers come closer to them.</p>
+      
+      <p class="ayuda-es caja-es" lang="es">Actividad: Cuadros de Punnett con monedas. Cada moneda es un progenitor Pp; se lanzan 40 veces, se anotan los resultados y se juntan los de toda la clase para compararlos con el cuadro (unos 3 morados por cada blanco, como Mendel).</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-LS3-2. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c2" name="guia">
+    <summary><span class="num" aria-hidden="true">2</span><span class="cab"><h3><span class="titulo-cap">The tree that grew out of nothing</span></h3><small>Photosynthesis turns carbon dioxide and water into food, using energy from the sun · MS-LS1-6</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-02-photosynthesis.html">Open the story</a></p>
+      <h4>Hands-on activity: Where does the mass come from?</h4>
+      <p><strong>Materials:</strong> two small potted plants or bean seedlings, a clear plastic bag, a twist tie, a sunny window, a kitchen scale, Elodea and a desk lamp (optional).</p>
+      <ol><li>Weigh a pot of dry soil, plant bean seeds, and weigh the pot again after three or four weeks of only water and light, as van Helmont did with his willow.</li><li>Cover one leafy branch with a clear plastic bag for a day and look for water drops: plants also give off water.</li><li>Optional: put Elodea in a jar of water under a lamp and count the oxygen bubbles in one minute, then move the lamp farther away and count again.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Van Helmont's numbers were right. Which part of his conclusion was wrong, and why could he not see the answer? Where did the matter in the plant come from?</p>
+      <p class="ojo"><strong>Watch for:</strong> Most students, like Elías, think plants get their food from the soil. Most of a plant's mass comes from carbon dioxide in the air, joined with water using the energy of sunlight.</p>
+      <p class="seguridad"><strong>Safety:</strong> Wash hands after handling soil. Keep the lamp away from water.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: ¿De dónde sale la masa? Se pesa una maceta con tierra seca antes y después de que crezcan unos frijoles; se cubre una rama con una bolsa para ver el agua que suelta; opcional: contar las burbujas de oxígeno de la elodea con la lámpara cerca y lejos.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-LS1-6. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c3" name="guia">
+    <summary><span class="num" aria-hidden="true">3</span><span class="cab"><h3><span class="titulo-cap">The girl who found a sea dragon</span></h3><small>The fossil record and rock layers show how life on Earth has changed · MS-LS4-1</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-03-fossils.html">Open the story</a></p>
+      <h4>Hands-on activity: Layers in a jar</h4>
+      <p><strong>Materials:</strong> a tall clear jar or bottle, sand, soil, gravel, small shells or plastic animals, water, colored pencils.</p>
+      <ol><li>Pour one layer at a time into the jar and drop a small object onto each layer before covering it: the first layer is the oldest.</li><li>Students draw the jar and number the layers from the bottom up, as Daniel did with the rock wall.</li><li>Give each group three cards with fossils (fish, ichthyosaur, modern seashells) and ask them to put them in order from oldest to youngest, as in the challenge.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why are the deepest layers the oldest? What could mix up the order of the layers? Why do we not find ichthyosaurs in young rocks?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often think fossils are the actual bones. In most fossils, minerals have replaced the bone. Some also think that humans and ichthyosaurs lived at the same time.</p>
+      <p class="seguridad"><strong>Safety:</strong> Wipe up spilled water so nobody slips.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Capas en un frasco. Se ponen capas de arena, tierra y grava con un objeto pequeño en cada una; se dibujan y numeran de abajo arriba, y se ordenan tres tarjetas de fósiles de la más antigua a la más reciente.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-LS4-1. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c4" name="guia">
+    <summary><span class="num" aria-hidden="true">4</span><span class="cab"><h3><span class="titulo-cap">Who lives in the river now?</span></h3><small>Changes in an ecosystem affect its populations: the Chicago River and invasive species · MS-LS2-4</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-04-river-ecosystem.html">Open the story</a></p>
+      <h4>Hands-on activity: Graph the river's comeback</h4>
+      <p><strong>Materials:</strong> graph paper or a spreadsheet, the numbers from the story, a map of the Chicago River, the Great Lakes and the Mississippi River.</p>
+      <ol><li>Make a simple graph with two points: fewer than 10 kinds of fish in the 1970s and more than 70 kinds today. Label what changed between them (laws, treatment plants, tunnels).</li><li>On the map, trace the canal that connects the Chicago River to the Mississippi River system and mark where invasive carp live today.</li><li>Groups draw a simple food web (plankton, small native fish, big fish, birds) and use arrows to predict what would happen if invasive carp reached Lake Michigan.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why did fish come back when the water got cleaner? Why can one change, like a canal, help people and hurt an ecosystem at the same time?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students may think an ecosystem returns to exactly how it was. Cleaner water helped, but the canal also opened a path for invasive species. Ecosystems change in many directions.</p>
+      <p class="seguridad"><strong>Safety:</strong> If you visit a river, stay with an adult, stay away from the edge and wash hands after touching the water.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Graficar la recuperación del río. Se grafica el cambio de menos de 10 a más de 70 especies de peces, se traza en el mapa el canal que une el río Chicago con el Misisipi y se predice qué pasaría si las carpas invasoras llegaran al lago Michigan.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-LS2-4. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c5" name="guia">
+    <summary><span class="num" aria-hidden="true">5</span><span class="cab"><h3><span class="titulo-cap">The puzzle of the continents</span></h3><small>Fossils, rocks and the ocean floor are evidence that the continents move · MS-ESS2-3</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-05-moving-continents.html">Open the story</a></p>
+      <h4>Hands-on activity: The continent puzzle with evidence</h4>
+      <p><strong>Materials:</strong> printed outlines of the continents, scissors, colored pencils, a map of the ocean floor (optional).</p>
+      <ol><li>Students cut out the continents and fit South America and Africa together, as Athena and Elías did.</li><li>They color the same clues on both sides: Mesosaurus fossils, rocks of the same age and the old mountain chains.</li><li>Show a map of the ocean floor and find the long ridge in the middle of the Atlantic: the new evidence that convinced scientists in the 1960s.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why was a good fit not enough to prove the idea? Why did most scientists reject Wegener's idea, even with his evidence? What finally changed their minds?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often think that the continents moved fast, or that scientists who rejected Wegener were foolish. His evidence was good, but he could not explain the force that moves the continents; science asks for both.</p>
+      
+      <p class="ayuda-es caja-es" lang="es">Actividad: El rompecabezas de los continentes con evidencia. Se recortan los continentes, se unen Sudamérica y África, se colorean las mismas pistas (fósiles de Mesosaurus, rocas y montañas) y se busca la cordillera del fondo del Atlántico.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-ESS2-3. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c6" name="guia">
+    <summary><span class="num" aria-hidden="true">6</span><span class="cab"><h3><span class="titulo-cap">The winter the ground shook</span></h3><small>Natural hazards: the New Madrid earthquakes, forecasting and staying safe · MS-ESS3-2</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-06-earthquakes.html">Open the story</a></p>
+      <h4>Hands-on activity: Drop, cover and hold on</h4>
+      <p><strong>Materials:</strong> the school safety plan, a map of earthquake hazards in the central United States (U.S. Geological Survey), a timer.</p>
+      <ol><li>Practice Drop, Cover and Hold On under the desks, as in the story. Time how long it takes the whole class.</li><li>On the map, find New Madrid, Missouri, and the area of highest hazard. Notice that Chicago is farther away but can still feel strong earthquakes.</li><li>Each student writes the home safety plan of the challenge: one thing to do before, during and after the shaking.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why can scientists say where earthquakes are likely but not exactly when? Which steps before an earthquake reduce the harm the most?</p>
+      <p class="ojo"><strong>Watch for:</strong> Many students believe the doorway is the safest place or that they should run outside. Experts recommend Drop, Cover and Hold On under a sturdy desk or table.</p>
+      <p class="seguridad"><strong>Safety:</strong> Some students may feel scared by this topic. Keep the focus on preparation and on what people can do to stay safe.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Agacharse, cubrirse y sujetarse. Se practica el simulacro bajo los pupitres, se busca New Madrid en un mapa de amenaza sísmica y cada estudiante escribe su plan de seguridad para la casa (antes, durante y después).</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-ESS3-2. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c7" name="guia">
+    <summary><span class="num" aria-hidden="true">7</span><span class="cab"><h3><span class="titulo-cap">The stars that would not stay still</span></h3><small>Gravity keeps moons, planets and stars in their orbits · MS-ESS1-2</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-07-jupiter-moons.html">Open the story</a></p>
+      <h4>Hands-on activity: A moon on a string</h4>
+      <p><strong>Materials:</strong> a tennis ball or a soft ball tied to a string about 1 meter long, an open space, binoculars and a night sky calendar (optional).</p>
+      <ol><li>Outside or in the gym, the teacher swings the ball in a slow circle, as Mr. Mensah did. Students describe what the string does.</li><li>Ask before letting go: which way will the ball fly? Let go and compare the path with the predictions.</li><li>If Jupiter is visible this month, students look at it with binoculars on a steady support and draw the tiny dots near it on several nights, as Galileo did.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>What part of the model stands for gravity? What happens to the orbit when the force disappears? Name one way the model is different from a real moon.</p>
+      <p class="ojo"><strong>Watch for:</strong> Most students predict the ball will fly straight out from the center. It flies off in a straight line in the direction it was moving. Some also think there is no gravity in space.</p>
+      <p class="seguridad"><strong>Safety:</strong> Clear the space around the swinging ball and use a soft ball. Never look at the sun with binoculars.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Una luna con un cordel. Se gira una pelota atada a un cordel, se predice hacia dónde saldrá al soltarla y se compara; si Júpiter se ve ese mes, se observa con binoculares sobre un soporte y se dibujan sus lunas varias noches.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-ESS1-2. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c8" name="guia">
+    <summary><span class="num" aria-hidden="true">8</span><span class="cab"><h3><span class="titulo-cap">The wheel that answered the Eiffel Tower</span></h3><small>Kinetic energy depends on mass and speed; potential energy depends on height · MS-PS3-1 · MS-PS3-2</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-08-energy.html">Open the story</a></p>
+      <h4>Hands-on activity: The marble and the cup</h4>
+      <p><strong>Materials:</strong> a grooved ruler, books, a big marble and a small marble, a paper cup with a side opening, a measuring tape.</p>
+      <ol><li>Build the ramp from the story: the ruler on a stack of books and the paper cup on its side at the bottom.</li><li>Run the trials of the challenge: big marble and small marble from the same height, then the big marble from a low and a high ramp. Repeat each trial three times.</li><li>Measure how far the cup moves, make a table and decide which trials show the effect of mass and which show the effect of speed.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why does a ball rolled from higher up hit the cup harder? Where does the energy go when the cup stops?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often think that a heavier marble always moves faster down the ramp. Both marbles reach about the same speed; the heavier one has more kinetic energy because of its mass.</p>
+      <p class="seguridad"><strong>Safety:</strong> Pick up the marbles right away so nobody slips.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: La canica y el vaso. Rampa con una regla, canicas de dos tamaños y un vaso de papel acostado; se repite cada prueba tres veces, se mide cuánto se mueve el vaso y se decide qué pruebas muestran el efecto de la masa y cuáles el de la rapidez.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS3-1 · MS-PS3-2. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c9" name="guia">
+    <summary><span class="num" aria-hidden="true">9</span><span class="cab"><h3><span class="titulo-cap">The needle that jumped</span></h3><small>Electric currents make magnetic forces; more coils and more current make them stronger · MS-PS2-3</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-09-electromagnets.html">Open the story</a></p>
+      <h4>Hands-on activity: Build an electromagnet</h4>
+      <p><strong>Materials:</strong> large iron nails, insulated copper wire, D batteries in holders, paper clips, a compass.</p>
+      <ol><li>Wrap 20 turns of wire around a nail, connect one end of the wire to each end of the battery and count how many paper clips it picks up.</li><li>Change one variable at a time: 40 turns, then two batteries in a holder. Record the results in a table.</li><li>Repeat Oersted's experiment: hold a straight wire above a compass, connect it to the battery for a moment and watch the needle move.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Which variable made the electromagnet stronger? Why does the compass needle move only while the current flows?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often think the nail is a magnet on its own. It becomes a magnet only while the current flows. Some also think more wire always means more current.</p>
+      <p class="seguridad"><strong>Safety:</strong> Disconnect the wires after each test: the wire and the battery get warm. Never use outlets or car batteries. Dispose of used batteries properly.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Construir un electroimán. Se enrolla alambre en un clavo, se conecta a una pila y se cuentan los clips; se cambia una sola variable a la vez (más vueltas, más pilas) y se repite el experimento de Oersted con una brújula. Desconectar después de cada prueba.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS2-3. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c10" name="guia">
+    <summary><span class="num" aria-hidden="true">10</span><span class="cab"><h3><span class="titulo-cap">The rubber that would not melt</span></h3><small>Synthetic materials come from natural resources and change society · MS-PS1-3</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-10-rubber.html">Open the story</a></p>
+      <h4>Hands-on activity: Natural or synthetic?</h4>
+      <p><strong>Materials:</strong> a collection of objects (a rubber band, a balloon, a plastic bottle, a nylon jacket, a cotton T-shirt, a wooden spoon, a rubber boot), sorting cards.</p>
+      <ol><li>Groups sort the objects into natural and synthetic materials, and for each synthetic one name the natural resource it comes from.</li><li>Put a rubber band in the freezer and another one in a warm place for 30 minutes. Compare how they stretch: this is the problem Goodyear solved.</li><li>Each group chooses one synthetic material and makes a poster with one way it helps society and one problem it causes.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why did vulcanized rubber change society? What problems do synthetic materials cause today, and how can people reduce them?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often think synthetic means "not from nature". All synthetic materials are made from natural resources, like oil, that are changed by chemical reactions.</p>
+      <p class="seguridad"><strong>Safety:</strong> Do not heat rubber or plastic: the fumes are harmful. Check for latex allergies before using balloons or rubber gloves.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: ¿Natural o sintético? Se clasifican objetos y se nombra el recurso natural de cada material sintético; se comparan una liga fría y una tibia, como el problema que resolvió Goodyear, y se hace un cartel con un beneficio y un problema de un material.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS1-3. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c11" name="guia">
+    <summary><span class="num" aria-hidden="true">11</span><span class="cab"><h3><span class="titulo-cap">The ice pack that needs no freezer</span></h3><small>Some reactions release thermal energy and others absorb it: designing hot and cold packs · MS-PS1-6</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-11-hot-cold-packs.html">Open the story</a></p>
+      <h4>Hands-on activity: Hot and cold without a stove</h4>
+      <p><strong>Materials:</strong> zipper bags, thermometers, a measuring spoon, water, baking soda and citric acid (for the cold reaction), 3% hydrogen peroxide and dry yeast (for the warm reaction), goggles.</p>
+      <ol><li>Cold: in a cup of water, add a spoonful of baking soda and a spoonful of citric acid. Measure the temperature every 30 seconds: it goes down because the reaction absorbs thermal energy.</li><li>Warm: the adult pours a little hydrogen peroxide into a cup and adds a pinch of yeast. Measure the temperature: it goes up because the reaction releases thermal energy.</li><li>Groups use what they learned to plan the pack of the challenge: two criteria, one test and one improvement.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Which reaction is endothermic and which is exothermic? How do you know from the data? What would you change to make the cold pack last longer?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often say that a cold pack "makes cold". It absorbs thermal energy from its surroundings, so your hand gets colder.</p>
+      <p class="seguridad"><strong>Safety:</strong> Goggles for everyone. The adult handles the hydrogen peroxide. Do not open commercial cold packs or hand warmers in class: their contents can be harmful. Nothing is tasted.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Calor y frío sin estufa. Bicarbonato con ácido cítrico en agua (la temperatura baja: endotérmica) y agua oxigenada con levadura, que sirve el adulto (la temperatura sube: exotérmica). No abrir compresas comerciales en clase; gafas para todos.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS1-6. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c12" name="guia">
+    <summary><span class="num" aria-hidden="true">12</span><span class="cab"><h3><span class="titulo-cap">The museum of great discoveries</span></h3><small>Review: the discoveries and big ideas of seventh grade science · MS-LS · MS-ESS · MS-PS</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-science-12-review.html">Open the story</a></p>
+      <h4>Hands-on activity: Our museum of great discoveries</h4>
+      <p><strong>Materials:</strong> the materials of the year's activities, poster paper, museum labels, passports to stamp.</p>
+      <ol><li>Each group prepares a museum station about one discovery: who made it, when, the evidence and a short demonstration.</li><li>Visitors stamp their passport at each station and write one question for the scientists.</li><li>Each student chooses two discoveries that seem very different and explains how they are alike, as in the challenge, using the words evidence, model or energy.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>What do the scientists of this year have in common? Which discovery changed the most lives, and why?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students tend to see each discovery as a lucky moment. Remind them of the years of work, the wrong ideas and the evidence behind each one.</p>
+      <p class="seguridad"><strong>Safety:</strong> Review the safety rules of each activity that is repeated.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Nuestro museo de grandes descubrimientos. Cada grupo prepara una estación con un descubrimiento y su evidencia; los visitantes sellan su pasaporte y cada estudiante une dos descubrimientos muy distintos con las palabras evidencia, modelo o energía.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-LS · MS-ESS · MS-PS. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+    </div>
+  </section>
+
+  <section class="parte" id="sociales" aria-labelledby="t-sociales">
+    <h2 id="t-sociales">3. Social studies</h2>
+    <p>Each story has a <strong>pause to connect</strong> that a student can do alone on a tablet: look at a work of art, an object or a primary source from the time, such as a page of an old book, a khipu, a map or a handwritten bill. The activities in this guide are for the whole class or small groups. They are optional.</p>
+    <p>The arts connections follow Anchor Standard 11 (Connecting) of the Illinois Arts Learning Standards. The stories use only well-established historical facts and do not put invented words in the mouths of real people. When students write from the point of view of a historical person, present it clearly as their own creative writing.</p>
+    <p>The Illinois Social Science Standards for middle school are written for the grade band 6–8. Many history and civics standards come in three levels of complexity: LC (Less Complex), MdC (Moderately Complex) and MC (More Complex). In Grade 7, each story names the level it works toward; the challenge and the optional <strong>Go further</strong> question give students the chance to show it. Whether a student's answer reaches that level must be judged answer by answer.</p>
+    <p>Some stories touch on hard parts of history: the conquest of the Americas, the loss of the Maya books, the people who were enslaved and the diseases of the Columbian Exchange. Name them honestly and give students time to talk about them.</p>
+    <p class="ayuda-es caja-es" lang="es">Cada cuento de estudios sociales tiene una pausa para conectar con una obra de arte, un objeto o una fuente primaria de la época, y aquí una actividad de grupo, preguntas para conversar y el estándar de Illinois con su nivel de complejidad. Algunos cuentos tocan partes difíciles de la historia (la conquista, los libros mayas perdidos, la esclavitud): nombrarlas con honestidad y dar tiempo para conversar.</p>
+    <div class="acordeon">
+  <details class="capitulo" id="capitulo-s1" name="guia">
+    <summary><span class="num" aria-hidden="true">1</span><span class="cab"><h3><span class="titulo-cap">The house where words traveled</span></h3><small>Translation, paper and trade spread ideas: the House of Wisdom and al-Khwarizmi · SS.6-8.G.3.MdC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-01-house-of-wisdom.html">Open the story</a></p>
+      <h4>Group activity: Pass the idea · A class library</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Line up groups as cities on a trade route: Baghdad, Cairo, Córdoba, Toledo. A short text in an invented code travels from city to city, and each group must translate it before passing it on. Discuss what made the idea travel faster (paper, translators, roads) and what could change it on the way. Then the class creates a small library shelf with one book each student would translate for the world, and why.</p>
+      <h4>Discussion questions</h4>
+      <p>Why was Baghdad a good place for ideas from Greece, Persia and India to meet? What carries ideas around the world today?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at a painting by Yahya al-Wasiti from 1237, made in Baghdad, which shows a library where people read and copy books.</p>
+      <p class="ayuda-es caja-es" lang="es">La casa donde viajaban las palabras: La traducción, el papel y el comercio difunden las ideas: la Casa de la Sabiduría y al-Juarismi. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.G.3.MdC: explain how changes in transportation and communication influence the spatial connections among human settlements and affect the spread of ideas and culture. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s2" name="guia">
+    <summary><span class="num" aria-hidden="true">2</span><span class="cab"><h3><span class="titulo-cap">The merchant's son who changed the numbers</span></h3><small>Innovation in trade: Fibonacci brings the Hindu-Arabic numerals to European merchants · SS.6-8.EC.2.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-02-fibonacci.html">Open the story</a></p>
+      <h4>Group activity: Roman numerals against Hindu-Arabic numerals</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Half of the class adds a merchant's bill with Roman numerals and the other half with our numerals; then they switch. Compare the time and the mistakes. Then groups write a short advertisement that Fibonacci could have used in 1202 to convince merchants to change, and list who might resist the change and why.</p>
+      <h4>Discussion questions</h4>
+      <p>Why did the new numbers help merchants? Why do people sometimes resist a better idea? What innovation is changing how people do business today?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at a page from an old handwritten copy of Fibonacci's Liber Abaci, kept in the National Library of Florence.</p>
+      <p class="ayuda-es caja-es" lang="es">El hijo del mercader que cambió los números: La innovación en el comercio: Fibonacci lleva los números indoarábigos a los mercaderes europeos. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.EC.2.LC: analyze the role of innovation and entrepreneurship in a market economy. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s3" name="guia">
+    <summary><span class="num" aria-hidden="true">3</span><span class="cab"><h3><span class="titulo-cap">The shell that meant nothing</span></h3><small>The Maya zero and calendar, the books that were lost and a culture that continues · SS.6-8.H.1.MdC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-03-maya-zero.html">Open the story</a></p>
+      <h4>Group activity: Maya numbers · Whose story?</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Students write the numbers from 0 to 19 with Maya dots, bars and the shell for zero, and then write their age and the number of students in the class. Then discuss the loss of the Maya books: most were burned after the conquest, and only four survive. Who told the story of the Maya for centuries, and what changes when Maya people today tell it themselves?</p>
+      <h4>Discussion questions</h4>
+      <p>How did the Maya use zero before Europeans did? What did the burning of the books mean for the Maya people? How do Maya communities keep their culture alive today?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at the Dresden Codex, one of the four Maya books that survive. The library in Germany that keeps it has put every page online.</p>
+      <p class="ayuda-es caja-es" lang="es">La concha que significaba nada: El cero y el calendario mayas, los libros que se perdieron y una cultura que continúa. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.H.1.MdC: analyze connections and disconnections among events and developments in broader historical contexts and identify the effects of events on groups of people who have been marginalized. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s4" name="guia">
+    <summary><span class="num" aria-hidden="true">4</span><span class="cab"><h3><span class="titulo-cap">The strings that kept an empire</span></h3><small>Inca khipus and the limits of the historical record · SS.6-8.H.3.MdC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-04-khipu.html">Open the story</a></p>
+      <h4>Group activity: Make a class khipu</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Each group ties a khipu with a main cord and hanging strings: one string for each table, with knots that show how many students, books or plants it has. Groups exchange khipus and try to read each other's. Then they list what a khipu can record and what it cannot, and why historians still cannot read many khipus.</p>
+      <h4>Discussion questions</h4>
+      <p>What can a khipu tell us about the Inca Empire, and what can it not tell us? Why do most written records about the Inca come from the Spanish, and how does that limit what we know?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at a khipu from the Inca Empire, made between about 1400 and 1532 and kept today at the Cleveland Museum of Art.</p>
+      <p class="ayuda-es caja-es" lang="es">Los cordones que guardaban un imperio: Los quipus incas y los límites del registro histórico. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.H.3.MdC: detect possible biases and limitations in the historical record based on evidence collected from different kinds of historical sources by identifying the author, purpose, funding/source, type of publication/outlet, intended audience, etc. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s5" name="guia">
+    <summary><span class="num" aria-hidden="true">5</span><span class="cab"><h3><span class="titulo-cap">The money made of paper</span></h3><small>Paper money in Song China, and how printing too much money makes prices rise · SS.6-8.EC.2.MC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-05-paper-money.html">Open the story</a></p>
+      <h4>Group activity: The classroom market and too much money</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Run two rounds of a market with paper money and a few goods. In the second round, give every student three times more paper money, with the same goods. Record the prices on a chart and graph them. Discuss why prices went up when there was more money but not more goods.</p>
+      <h4>Discussion questions</h4>
+      <p>Why was paper money better than heavy coins? What happened in Song China when the government printed too much money? Who is hurt the most when prices rise fast?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at a paper note printed in China under the Ming dynasty, first issued in 1375. It is kept at the British Museum in London.</p>
+      <p class="ayuda-es caja-es" lang="es">El dinero hecho de papel: El papel moneda en la China Song, y cómo imprimir demasiado dinero hace subir los precios. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.EC.2.MC: explain how changes in supply and demand cause changes in prices and quantities of goods and services, labor, credit, and foreign currencies. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s6" name="guia">
+    <summary><span class="num" aria-hidden="true">6</span><span class="cab"><h3><span class="titulo-cap">The star that showed the way</span></h3><small>Navigation by latitude, the voyages across the Atlantic and the Columbian Exchange · SS.6-8.G.2.MC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-06-columbian-exchange.html">Open the story</a></p>
+      <h4>Group activity: Build a simple quadrant · A food map</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Groups build the cardboard quadrant from the story (half a circle, a straw and a string with a weight) and measure the angle of the top of a door or a light on the ceiling. Then they make a map with arrows: foods that traveled from the Americas to Europe, Africa and Asia (corn, potatoes, tomatoes, chocolate) and from there to the Americas (wheat, oranges, horses, cattle). Remember that diseases and enslaved people also crossed the ocean.</p>
+      <h4>Discussion questions</h4>
+      <p>How did measuring latitude make long ocean voyages possible? Who gained and who lost from the Columbian Exchange? Which foods on your table today came from far away?</p>
+      <p class="seguridad"><strong>Safety:</strong> Use only blunt tools for the quadrant. Never look at the sun.</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at a mariner's astrolabe, possibly from Portugal, made in 1602 and kept at the Smithsonian's National Museum of American History.</p>
+      <p class="ayuda-es caja-es" lang="es">La estrella que mostraba el camino: La navegación por latitud, los viajes a través del Atlántico y el intercambio colombino. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.G.2.MC: evaluate how cultural and economic decisions influence environments and the daily lives of people in both nearby and distant places. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s7" name="guia">
+    <summary><span class="num" aria-hidden="true">7</span><span class="cab"><h3><span class="titulo-cap">Two canoes on the Great River</span></h3><small>Marquette, Jolliet and the Illinois Confederation in 1673: one meeting, several perspectives · SS.6-8.H.2.MdC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-07-illinois-1673.html">Open the story</a></p>
+      <h4>Group activity: One meeting, three journals</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Groups read the story again and write a short journal entry about the 1673 meeting from three points of view: a member of the Illinois Confederation, Father Marquette and Louis Jolliet. Make clear to students that they are writing creative texts and not real quotations. Then they compare what each person noticed, wanted and feared, and trace the route on a map of Illinois.</p>
+      <h4>Discussion questions</h4>
+      <p>Why did the same meeting look different to each group? What do we know about the Illinois people's point of view, and where does that knowledge come from? Which places in Illinois still carry names from that time?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at a map of the 1673 journey, drawn from Louis Jolliet's information around 1674 and kept today at the Library of Congress.</p>
+      <p class="ayuda-es caja-es" lang="es">Dos canoas en el Gran Río: Marquette, Jolliet y la Confederación de Illinois en 1673: un encuentro, varias perspectivas. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.H.2.MdC: analyze and compare multiple factors that influenced the perspectives of multiple groups of people during different historical eras relevant to the cultural groups. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s8" name="guia">
+    <summary><span class="num" aria-hidden="true">8</span><span class="cab"><h3><span class="titulo-cap">The letters that measured luck</span></h3><small>Pascal and Fermat's letters of 1654 and how people's ideas about chance changed · SS.6-8.H.2.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-08-letters-of-chance.html">Open the story</a></p>
+      <h4>Group activity: The unfinished game</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Pairs play the game from the story with a coin and ten counters: each flip gives one point, and the first to reach 3 points wins the prize. Stop the game when the score is 2 to 1, as in the story, and ask: how should the prize be split fairly? Students draw the tree of all the ways the game could end, as Pascal and Fermat did in their letters, and check that the leader should get three fourths. Then they try a new score, such as 2 to 0, and work out the fair split.</p>
+      <h4>Discussion questions</h4>
+      <p>Before Pascal and Fermat, how did many people think about chance? How did their idea change the way people make decisions about risk, from insurance to weather forecasts?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at The Card Sharp with the Ace of Diamonds, painted by Georges de La Tour around 1636 to 1638. It is in the Louvre Museum in Paris.</p>
+      <p class="ayuda-es caja-es" lang="es">Las cartas que midieron la suerte: Las cartas de Pascal y Fermat de 1654 y cómo cambiaron las ideas de la gente sobre el azar. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.H.2.LC: explain how and why perspectives of people have changed over time. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s9" name="guia">
+    <summary><span class="num" aria-hidden="true">9</span><span class="cab"><h3><span class="titulo-cap">The law that almost changed pi</span></h3><small>How a bill becomes a law in a state legislature: the Indiana Pi Bill of 1897 · SS.6-8.CV.5.MC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-09-pi-bill.html">Open the story</a></p>
+      <h4>Group activity: A classroom legislature</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>As in the story, the class writes a short bill about a school rule and follows the real steps: committee, debate, vote in a class House and a class Senate, and the signature or veto of a "governor". Students keep a log of every change to the bill and evaluate which step improved it the most.</p>
+      <h4>Discussion questions</h4>
+      <p>Where did the process fail in Indiana in 1897, and where did it work? What change could help lawmakers avoid a mistake like this?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>The Indiana Archives keeps the original Pi Bill, handwritten and signed, with its cover sheet.</p>
+      <p class="ayuda-es caja-es" lang="es">La ley que casi cambió pi: Cómo un proyecto se convierte en ley en una legislatura estatal: la ley de pi de Indiana de 1897. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.CV.5.MC: develop and evaluate procedures for making decisions in historic and contemporary settings (e.g., school; civil society; or local, state, or national governments). The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s10" name="guia">
+    <summary><span class="num" aria-hidden="true">10</span><span class="cab"><h3><span class="titulo-cap">When Missouri took Illinois to court</span></h3><small>Federalism and the courts: the Supreme Court settles a dispute between two states · SS.6-8.CV.2.MdC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-10-missouri-v-illinois.html">Open the story</a></p>
+      <h4>Group activity: Mock Supreme Court</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Hold the mock trial from the story. Two teams of lawyers prepare arguments for Missouri and for Illinois with evidence from the story, and nine students act as justices. The justices vote, and the majority and the dissent each write a short opinion explaining their reasons.</p>
+      <h4>Discussion questions</h4>
+      <p>Why did this case go straight to the U.S. Supreme Court? Why did Missouri lose? How does the Constitution help states settle conflicts peacefully?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>The Abraham Lincoln Presidential Library shares the Chicago Drainage Collection: photographs of the canal being built between 1892 and 1900.</p>
+      <p class="ayuda-es caja-es" lang="es">Cuando Missouri llevó a Illinois a juicio: El federalismo y los tribunales: la Corte Suprema resuelve un conflicto entre dos estados. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.CV.2.MdC: explain the origins, functions, and structure of government with reference to the U.S. Constitution, Illinois Constitution, and other systems of government and how they have impacted multiple groups of people. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s11" name="guia">
+    <summary><span class="num" aria-hidden="true">11</span><span class="cab"><h3><span class="titulo-cap">The cards with holes that counted a nation</span></h3><small>The census required by the Constitution and Hollerith's punched cards in 1890 · SS.6-8.CV.2.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-11-census-1890.html">Open the story</a></p>
+      <h4>Group activity: Count the class with punched cards</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>Each student fills in an index card by punching holes along the edge for a few answers (how they come to school, their favorite subject). Stack the cards and slide a knitting needle or a pencil through one hole, as Daniel did in the story: cards with that hole cut open to the edge drop out. Students prepare the cards by cutting open the holes that mean “yes”. Compare the time with a group that counts the same data with tally marks.</p>
+      <h4>Discussion questions</h4>
+      <p>Why does the Constitution require a census every ten years? Why is it important that the census counts everyone? How do computers count the census today?</p>
+      <p class="seguridad"><strong>Safety:</strong> The adult punches or cuts the holes if students use scissors.</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>The U.S. Census Bureau shows pictures of Hollerith's tabulating machine and his punched cards on its history website.</p>
+      <p class="ayuda-es caja-es" lang="es">Las tarjetas con agujeros que contaron una nación: El censo que exige la Constitución y las tarjetas perforadas de Hollerith en 1890. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.CV.2.LC: describe the origins and purposes and impact of governing documents and policies (e.g., U.S. Constitution, Illinois Constitution, laws, treaties, and international agreements). The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s12" name="guia">
+    <summary><span class="num" aria-hidden="true">12</span><span class="cab"><h3><span class="titulo-cap">The timeline across the hallway</span></h3><small>Review: how ideas, numbers and people connected the world from Baghdad to Chicago · SS.6-8.H · CV · EC · G</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade7-social-studies-12-review.html">Open the story</a></p>
+      <h4>Group activity: The timeline across the hallway</h4>
+      <p class="pausa-arte">VA:Cn11.1.7</p>
+      <p>As in the story, the class builds a long timeline from about the year 800 to 1906 with a drawing for each story. Students connect events with red yarn and write a label for each connection: cause and effect, ideas that traveled or different perspectives. Invite another class to visit, and let students explain one connection.</p>
+      <h4>Discussion questions</h4>
+      <p>Which story of the year is connected to the most other stories? What big idea runs through the whole year?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look back at the art and sources of the year, from the library of Baghdad to Hollerith's machine, and make a museum label for your favorite one.</p>
+      <p class="ayuda-es caja-es" lang="es">La línea del tiempo a lo largo del pasillo: Repaso: cómo las ideas, los números y las personas conectaron el mundo de Bagdad a Chicago. La actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). This story reviews the Grade 7 standards in history, geography, civics and economics: SS.6-8.G.3.MdC, SS.6-8.EC.2.LC, SS.6-8.H.1.MdC, SS.6-8.H.3.MdC, SS.6-8.EC.2.MC, SS.6-8.G.2.MC, SS.6-8.H.2.MdC, SS.6-8.H.2.LC, SS.6-8.CV.5.MC, SS.6-8.CV.2.MdC and SS.6-8.CV.2.LC. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.7: analyze how response to art is influenced by understanding the time and place in which it was created, the available resources and cultural uses.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  </div>
+  </section>
+
+  <section class="parte" id="tarjeta" aria-labelledby="t-tarjeta">
+    <div class="tarjeta">
+      <h2 id="t-tarjeta">4. The stories in one page · Grade 7</h2>
+      <div class="rejilla"><div><h3>Before</h3><ul><li>Look at the picture for 2 minutes: see, think, wonder.</li><li>Teach 2 or 3 key words.</li><li>Place the date on the class timeline.</li><li>Write the question the story will answer.</li></ul></div><div><h3>During</h3><ul><li>Read aloud first; then students reread.</li><li>Stop at the pause and the questions.</li><li>Wrong answer? Read the highlighted evidence and try again.</li><li>Count to 5 before calling on anyone. Turn and talk.</li></ul></div><div><h3>After</h3><ul><li>Challenge: claim, evidence, reasoning.</li><li>«Go further» for those who want more.</li><li>Accept drawings and oral answers.</li><li>Keep the answer as an exit ticket.</li></ul></div><div><h3>Always</h3><ul><li>«Ayuda en español» after the first English reading; withdraw it little by little.</li><li>Show the supports: A+/A−, high contrast, voice, print.</li><li>Goggles, no tasting, the adult handles chemicals and heat.</li><li>Real history, honest about the hard parts.</li></ul></div></div>
+      <p class="ayuda-es caja-es" lang="es">Antes: ilustración 2 minutos, 2 o 3 palabras clave, la fecha en la línea del tiempo, la pregunta del cuento. Durante: leer en voz alta y releer, detenerse en las pausas, ante un error leer la evidencia resaltada, esperar 5 segundos. Después: afirmación, evidencia y razonamiento; «Go further» para quien quiera más; aceptar dibujos y respuestas orales. Siempre: la ayuda en español después de la primera lectura en inglés; mostrar los apoyos; seguridad; historia real, honesta con lo difícil.</p>
+      <p class="no-imprimir"><button type="button" id="btn-tarjeta">🖨️ Print only this card</button></p>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <p>José M. Fernández · Development: Claude (Anthropic).</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+<script>
+/* Imprimir solo la tarjeta de una página */
+(function(){
+  var b = document.getElementById('btn-tarjeta');
+  if(!b) return;
+  b.addEventListener('click', function(){
+    document.body.classList.add('solo-tarjeta');
+    window.print();
+  });
+  window.addEventListener('afterprint', function(){ document.body.classList.remove('solo-tarjeta'); });
+})();
+</script>
+</body>
+</html>
