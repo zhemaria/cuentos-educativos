@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 8 · Social studies · SS.6-8.CV.2.MCa
+  «Who counted, and who was counted»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who counted, and who was counted · Educational stories</title>
+<meta name="description" content="A Grade 8 social studies story: the first U.S. census of 1790, how the count decided seats in the House of Representatives, the Three-Fifths Compromise, who was left out, and how the count changed after the Civil War. With vocabulary, glossary, comprehension questions, a pause to connect with a historic map and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-8">Educational stories</a> · Grade 8 · Social studies</span>
+    <a class="idioma" href="book-grade8-social-studies.html#capitulo-4">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade8-social-studies-04-census-1790.mp4">
+    <img src="grade8-social-studies-04-census-1790.jpg" width="1376" height="768"
+         alt="In the classroom, a timeline on the wall shows 1790 and 1868, while Daniel and Salma build a bar graph of states&#x27; seats in Congress with paper strips, and Ms. Novak holds a drawing of a census taker on horseback with a notebook.">
+  </figure>
+
+  <p class="sello">Grade 8 · Social studies · SS.6-8.CV.2.MCa</p>
+  <h1 id="titulo">Who counted, and who was counted</h1>
+  <p class="entrada">A story about marshals on horseback in 1790, a count that decided political power, and a fraction that was never about fairness.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>Quién contaba y a quién contaron.</strong> Un cuento sobre alguaciles a caballo en 1790, un recuento que decidía el poder político y una fracción que nunca tuvo que ver con la justicia.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Social studies words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#pausa">Pause to connect</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Social studies words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="census">census</button></li>
+      <li><button type="button" class="voz" data-g="representation">representation</button></li>
+      <li><button type="button" class="voz" data-g="apportionment">apportionment</button></li>
+      <li><button type="button" class="voz" data-g="compromise">compromise</button></li>
+      <li><button type="button" class="voz" data-g="enslaved">enslaved</button></li>
+      <li><button type="button" class="voz" data-g="amendment">amendment</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">"Every ten years, the government counts everyone who lives in the United States," said Ms. Novak. "It's called the <button type="button" class="voz" data-g="census">census</button>, and the Constitution requires it. The first one began on August 2, 1790." She held up a drawing of a man on horseback with a notebook.</p>
+
+    <p id="p2"><span class="cita" id="c-a">"There were no census offices yet," she said. "The count was done by U.S. marshals and their assistants, who rode from farm to farm and town to town. When they finished, they had counted 3,929,214 people."</span> "Almost four million," said Israel. "Today Chicago and its suburbs have more than that."</p>
+
+    <p id="p3">"Why count everyone?" asked Selena. <span class="cita" id="c-b">"Because the census decides <button type="button" class="voz" data-g="representation">representation</button>," said Ms. Novak. "The number of seats each state gets in the House of Representatives depends on its population. That's called <button type="button" class="voz" data-g="apportionment">apportionment</button>. More people means more seats, and more power in Congress."</span></p>
+
+    <p id="p4">"So who was counted?" asked Ms. Novak. She wrote a phrase from the Constitution on the board: three fifths of all other persons. <span class="cita" id="c-c">"The 'other persons' were <button type="button" class="voz" data-g="enslaved">enslaved</button> people," she said. "In the Three-Fifths <button type="button" class="voz" data-g="compromise">Compromise</button>, each enslaved person counted as three fifths of a person when deciding a state's seats."</span></p>
+
+    <p id="p5">Daniel frowned. "But enslaved people couldn't vote." <span class="cita" id="c-d">"Exactly," said Ms. Novak. "They had no rights and no voice, but counting them, even as a fraction, gave more seats and more power to the states that held them in slavery. The fraction was a deal about power, not about fairness."</span> The class was quiet.</p>
+
+    <p id="p6">"Was anyone left out completely?" asked Salma. "Yes," said Ms. Novak. "The Constitution said 'Indians not taxed' were not counted. Most Native people belonged to their own nations and were left out of the count."</p>
+
+    <p id="p7"><span class="cita" id="c-e">"The Three-Fifths rule ended after the Civil War," said Ms. Novak. "The Fourteenth <button type="button" class="voz" data-g="amendment">Amendment</button>, ratified in 1868, said that seats would be divided by counting the whole number of persons in each state."</span> "So the count changed when the rights changed," said Elías.</p>
+
+    <p id="p8">"And the census still matters," said Ms. Novak. "It decides seats in Congress and how money for schools, roads and hospitals is shared." Sophia wrote in her notebook: A count is never just numbers. Ask who counted, who was counted, and why.</p>
+  </div>
+
+  <section class="pausa" id="pausa" aria-labelledby="tit-pausa">
+    <h2 id="tit-pausa">Pause to connect</h2>
+    <p class="pausa-arte"><span aria-hidden="true">🗺️ </span>Visual arts · VA:Cn11.1.8</p>
+    <p>Look at the 1790 Population Map from the U.S. Census Bureau, made from the records of the first census.</p>
+    <p class="ayuda-es caja-es" lang="es">Observa el mapa de población de 1790 de la Oficina del Censo de los EE. UU., hecho con los registros del primer censo.</p>
+    <p><a class="enlace-pausa" href="https://census.gov/library/visualizations/1790/dec/population-map.html" target="_blank" rel="noopener noreferrer">1790 Population Map (U.S. Census Bureau) <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+    <p class="describe"><strong>What you will see:</strong> A map of the young United States that shows where people lived in 1790, with some areas marked as having many more people than others. The page explains that it does not include "Indians not taxed."</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Lo que verás:</strong> Un mapa de los jóvenes Estados Unidos que muestra dónde vivía la gente en 1790, con algunas zonas marcadas por tener muchas más personas que otras. La página explica que no incluye a los «indios que no pagaban impuestos».</p>
+    <ol class="pausa-preguntas">
+      <li>Where did most people live in 1790? What does that tell you about how the country had grown so far?<span class="ayuda-es caja-es" lang="es">¿Dónde vivía la mayoría de la gente en 1790? ¿Qué te dice eso sobre cómo había crecido el país hasta entonces?</span></li>
+      <li>The map leaves out "Indians not taxed." How does that change what the map seems to say about the land in the West?<span class="ayuda-es caja-es" lang="es">El mapa deja fuera a los «indios que no pagaban impuestos». ¿Cómo cambia eso lo que el mapa parece decir sobre las tierras del oeste?</span></li>
+    </ol>
+    <p class="reto-como">Think about it, then answer in your notebook or talk it over with someone at home.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Most people lived near the Atlantic coast and along rivers, where the colonies had begun. Because Native nations were left out, the western land can look empty on the map, but it wasn't: many Native nations lived there. A map shows only what its makers decided to count.</p></details>
+  </section>
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-census"><dt>census</dt><dd>An official count of all the people who live in a country.</dd><dd class="ayuda-es caja-es" lang="es"><strong>censo:</strong> Un recuento oficial de todas las personas que viven en un país.</dd></div>
+    <div id="g-representation"><dt>representation</dt><dd>Having people in the government who speak and vote for you.</dd><dd class="ayuda-es caja-es" lang="es"><strong>representación:</strong> Tener personas en el gobierno que hablen y voten por ti.</dd></div>
+    <div id="g-apportionment"><dt>apportionment</dt><dd>Dividing the seats in the House of Representatives among the states according to their population.</dd><dd class="ayuda-es caja-es" lang="es"><strong>distribución de escaños:</strong> El reparto de los escaños de la Cámara de Representantes entre los estados según su población.</dd></div>
+    <div id="g-compromise"><dt>compromise</dt><dd>An agreement in which each side gives up part of what it wants.</dd><dd class="ayuda-es caja-es" lang="es"><strong>acuerdo (compromiso):</strong> Un acuerdo en el que cada parte cede algo de lo que quiere.</dd></div>
+    <div id="g-enslaved"><dt>enslaved</dt><dd>Forced into slavery: treated as property and denied freedom and rights.</dd><dd class="ayuda-es caja-es" lang="es"><strong>esclavizado:</strong> Obligado a vivir en esclavitud: tratado como propiedad y privado de libertad y de derechos.</dd></div>
+    <div id="g-amendment"><dt>amendment</dt><dd>A change or addition to the Constitution.</dd><dd class="ayuda-es caja-es" lang="es"><strong>enmienda:</strong> Un cambio o un añadido a la Constitución.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>Who carried out the first census in 1790?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Quiénes hicieron el primer censo en 1790?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">U.S. marshals and their assistants</button>
+        <button class="opcion">The army</button>
+        <button class="opcion">Each family counted itself and mailed the result</button>
+      </div>
+      <p class="explicacion" hidden>There were no census offices yet, so U.S. marshals and their assistants rode from place to place counting people.</p>
+    </li>
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>Why does the census matter for Congress?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué es importante el censo para el Congreso?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">It decides who will be president</button>
+        <button class="opcion">It decides how many seats each state gets in the House</button>
+        <button class="opcion">It decides the number of senators</button>
+      </div>
+      <p class="explicacion" hidden>Apportionment: the number of seats in the House depends on each state's population.</p>
+    </li>
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>What was the Three-Fifths Compromise?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué fue el Compromiso de las Tres Quintas Partes?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">A rule that gave enslaved people three fifths of a vote</button>
+        <button class="opcion">A tax on three fifths of the land</button>
+        <button class="opcion">A rule that counted each enslaved person as three fifths of a person for seats</button>
+      </div>
+      <p class="explicacion" hidden>Each enslaved person counted as three fifths of a person when deciding a state's seats in the House.</p>
+    </li>
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>Who gained power from the Three-Fifths Compromise?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Quién ganó poder con el Compromiso de las Tres Quintas Partes?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">The states that held people in slavery</button>
+        <button class="opcion">Enslaved people</button>
+        <button class="opcion">Native nations</button>
+      </div>
+      <p class="explicacion" hidden>Counting enslaved people gave more seats to slaveholding states, while the enslaved had no rights or vote.</p>
+    </li>
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>What ended the Three-Fifths rule?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué puso fin a la regla de las tres quintas partes?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">The census of 1800</button>
+        <button class="opcion">The Fourteenth Amendment, ratified in 1868</button>
+        <button class="opcion">The Northwest Ordinance</button>
+      </div>
+      <p class="explicacion" hidden>After the Civil War, the Fourteenth Amendment said seats would be divided by counting the whole number of persons.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Analyze rights and power</p>
+    <p class="reto-pregunta">Explain in your own words how the Three-Fifths Compromise gave power to one group while denying rights to another. Use the words representation and apportionment, and evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Analiza derechos y poder.</strong> Explica con tus palabras cómo el Compromiso de las Tres Quintas Partes le dio poder a un grupo mientras le negaba derechos a otro. Usa las palabras representación y distribución de escaños, y evidencia del cuento.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Apportionment gives each state seats in the House according to its population. Under the Three-Fifths Compromise, enslaved people were counted as three fifths of a person, which increased the population count, and the representation, of the states that held them in slavery. But enslaved people could not vote and had no rights, so the extra seats represented the slaveholders, not them. One group gained power from the very people it denied rights to.</p></details>
+    <div class="reto-mas">
+    <p class="reto-tipo">Go further</p>
+    <p class="reto-pregunta">The 2020 census decided how many seats Illinois has in the House today. Find out how many seats Illinois has now and whether it gained or lost seats after the last census.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Para ir más lejos.</strong> El censo de 2020 decidió cuántos escaños tiene hoy Illinois en la Cámara. Averigua cuántos escaños tiene Illinois ahora y si ganó o perdió escaños después del último censo.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Look for an official source, like the U.S. Census Bureau's apportionment results. Compare the number of seats Illinois had after the 2010 census with the number after the 2020 census, and think about what population changes might explain the difference.</p></details>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois Social Science standards SS.6-8.CV.2.MCa: analyze how the application of laws, and the granting or denial of rights, affects the participation and power of different groups.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>
