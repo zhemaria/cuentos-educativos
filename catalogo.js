@@ -3183,8 +3183,441 @@ window.CATALOGO = [
     },
     "imagen": "grade7-social-studies-12-review.jpg",
     "escena": "A long school hallway in Chicago with a very long strip of paper taped along the wall like a timeline, with simple colorful drawings and no words or numbers: a library with shelves, a small seashell, a bundle of knotted strings, a gray paper bill with a dragon border and red square seals, a round brass astrolabe, a canoe on a river, two sealed letters, a domed government building, a river with a canal and a card with small holes; an Asian American girl about thirteen years old with straight black hair and bangs, in a purple jacket, an African American boy about thirteen years old with short curly black hair and round glasses, in an orange t-shirt, a girl about thirteen years old with brown skin and long black hair in a single braid, in a yellow t-shirt, a girl about thirteen years old with olive skin and curly light brown hair in a ponytail, in a teal sweater, a Latina girl about thirteen years old with long wavy dark hair and a headband, in a pink blouse, a Latino boy about thirteen years old with short black hair and light tan skin, in a blue hoodie, and a Latino boy about thirteen years old with wavy chestnut-brown hair, in a red t-shirt, tape drawings to the paper; a friendly woman social studies teacher in her forties with short blond hair and red glasses, in a navy blue blazer, stretches a long red yarn from one drawing to another; there are exactly seven students and each one appears only once in the picture, each person has exactly two arms and two hands, no text, letters or numbers anywhere in the picture, soft watercolor fairy-tale style, simple bright scene for a seventh grade picture book, wide 16:9 landscape format"
+  },
+  /* grado 8 */
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 1,
+    "estandar": "MS-PS2-2",
+    "es": {
+      "titulo": "La bola que nunca quería detenerse",
+      "archivo": "grade8-science-01-forces-motion.html",
+      "tema": "Fuerzas y movimiento: las rampas de Galileo, la inercia, la fricción, la masa y las fuerzas equilibradas"
+    },
+    "en": {
+      "titulo": "The ball that never wanted to stop",
+      "archivo": "grade8-science-01-forces-motion.html",
+      "tema": "Forces and motion: Galileo's ramps, inertia, friction, mass and balanced forces"
+    },
+    "imagen": "grade8-science-01-forces-motion.jpg",
+    "escena": "In the science lab, a steel ball sits at the top of a wooden ramp on a long table; Mr. Mensah holds a ruler while two students pull a small wooden cart from opposite ends with spring scales, and three classmates watch."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 2,
+    "estandar": "MS-PS2-1",
+    "es": {
+      "titulo": "El cohete que aterrizó en un campo de coles",
+      "archivo": "grade8-science-02-rockets.html",
+      "tema": "La tercera ley de Newton: el primer cohete de combustible líquido de Goddard y un parachoques para un choque"
+    },
+    "en": {
+      "titulo": "The rocket that landed in a cabbage patch",
+      "archivo": "grade8-science-02-rockets.html",
+      "tema": "Newton's third law: Goddard's first liquid-fueled rocket and a bumper for a collision"
+    },
+    "imagen": "grade8-science-02-rockets.jpg",
+    "escena": "In the school gym, a boy and a girl stand on two skateboards and push each other's palms so they roll apart, while a long blue balloon zooms along a string; Mr. Mensah holds a framed picture of a rocket in the snow."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 3,
+    "estandar": "MS-PS2-4",
+    "es": {
+      "titulo": "El hombre que pesó el mundo",
+      "archivo": "grade8-science-03-gravity.html",
+      "tema": "La gravedad: Cavendish pesa el mundo con cuatro bolas de plomo"
+    },
+    "en": {
+      "titulo": "The man who weighed the world",
+      "archivo": "grade8-science-03-gravity.html",
+      "tema": "Gravity: Cavendish weighs the world with four lead balls"
+    },
+    "imagen": "grade8-science-03-gravity.jpg",
+    "escena": "In the science lab, Mr. Mensah holds an apple and points to a drawing on the board: a closed room with a long rod hanging from a wire, small and large lead balls, and a telescope looking in through the wall; three students watch."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 4,
+    "estandar": "MS-PS1-2",
+    "es": {
+      "titulo": "La corona que no era toda de oro",
+      "archivo": "grade8-science-04-density.html",
+      "tema": "La densidad: Arquímedes, la corona del rey y la balanza del joven Galileo"
+    },
+    "en": {
+      "titulo": "The crown that was not all gold",
+      "archivo": "grade8-science-04-density.html",
+      "tema": "Density: Archimedes, the king's crown and a young Galileo's balance"
+    },
+    "imagen": "grade8-science-04-density.jpg",
+    "escena": "In the science lab, Selena lowers a rock into a tall graduated cylinder of water while Israel reads the water level; on the table, a balance holds a gold-painted paper crown on one side and a small block on the other, and both hang over two bowls of water."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 5,
+    "estandar": "MS-PS4-3",
+    "es": {
+      "titulo": "El mensaje hecho de puntos y rayas",
+      "archivo": "grade8-science-05-digital-signals.html",
+      "tema": "Señales digitales: el primer mensaje de Morse y por qué lo digital es más confiable"
+    },
+    "en": {
+      "titulo": "The message made of dots and dashes",
+      "archivo": "grade8-science-05-digital-signals.html",
+      "tema": "Digital signals: Morse's first message and why digital is more reliable"
+    },
+    "imagen": "grade8-science-05-digital-signals.jpg",
+    "escena": "In the science lab, Mr. Mensah taps a brass telegraph key on his desk while students sit in a line passing a whispered message; at the back of the room, Athena and Israel flash a flashlight in short and long blinks toward a paper strip with dots and dashes."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 6,
+    "estandar": "MS-PS4-2",
+    "es": {
+      "titulo": "El arcoíris escondido en un rayo de sol",
+      "archivo": "grade8-science-06-light.html",
+      "tema": "La luz: los prismas de Newton y la luz que se refleja, se absorbe o se transmite"
+    },
+    "en": {
+      "titulo": "The rainbow hiding in a sunbeam",
+      "archivo": "grade8-science-06-light.html",
+      "tema": "Light: Newton's prisms, and light that is reflected, absorbed or transmitted"
+    },
+    "imagen": "grade8-science-06-light.jpg",
+    "escena": "In the darkened science lab, a sunbeam enters through a small gap in the blinds and passes through a glass prism, painting a band of rainbow colors on a white screen; Selena holds a second prism, and Daniel shines a blue flashlight on a red apple."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 7,
+    "estandar": "MS-ESS1-1",
+    "es": {
+      "titulo": "Oscuridad a las dos de la tarde",
+      "archivo": "grade8-science-07-eclipse.html",
+      "tema": "La Tierra, el Sol y la Luna: los eclipses sobre Carbondale, las fases de la Luna y las estaciones"
+    },
+    "en": {
+      "titulo": "Darkness at two in the afternoon",
+      "archivo": "grade8-science-07-eclipse.html",
+      "tema": "The Earth, the Sun and the Moon: eclipses over Carbondale, moon phases and seasons"
+    },
+    "imagen": "grade8-science-07-eclipse.jpg",
+    "escena": "In a darkened classroom, a bright lamp stands on a table as the Sun while Selena holds a globe and Elías holds a small white ball on a stick between them, casting a tiny shadow on the globe; on the wall hangs a photo of a black Sun with a white glowing ring."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 8,
+    "estandar": "MS-ESS1-3",
+    "es": {
+      "titulo": "El pasillo donde cabía el sistema solar",
+      "archivo": "grade8-science-08-scale.html",
+      "tema": "La escala: un sistema solar en el pasillo y la regla de Leavitt para el universo"
+    },
+    "en": {
+      "titulo": "The hallway that held the solar system",
+      "archivo": "grade8-science-08-scale.html",
+      "tema": "Scale: a solar system in the hallway, and Leavitt's ruler for the universe"
+    },
+    "imagen": "grade8-science-08-scale.jpg",
+    "escena": "In a long school hallway, Daniel holds a yellow ball the size of a large grapefruit at one end while Athena kneels many steps away beside a tiny peppercorn on an index card; farther down the hallway, Israel stretches a measuring tape past the open doors."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 9,
+    "estandar": "MS-ESS1-4",
+    "es": {
+      "titulo": "Las rocas que marearon a un científico",
+      "archivo": "grade8-science-09-deep-time.html",
+      "tema": "El tiempo profundo: las rocas de Hutton en Siccar Point y la escala del tiempo geológico"
+    },
+    "en": {
+      "titulo": "The rocks that made a scientist dizzy",
+      "archivo": "grade8-science-09-deep-time.html",
+      "tema": "Deep time: Hutton's rocks at Siccar Point and the geologic time scale"
+    },
+    "imagen": "grade8-science-09-deep-time.jpg",
+    "escena": "In the school hallway, students unroll a long strip of paper marked with dates while Mr. Mensah shows a picture of a rocky sea cliff in Scotland where standing gray rock layers lie under flat red layers; Salma points to a tiny mark at the very end of the strip."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 10,
+    "estandar": "MS-ESS2-5",
+    "es": {
+      "titulo": "Sesenta y cinco grados, y después veintitrés pulgadas",
+      "archivo": "grade8-science-10-blizzard.html",
+      "tema": "Masas de aire y frentes: la gran tormenta de nieve de Chicago de 1967"
+    },
+    "en": {
+      "titulo": "Sixty-five degrees, then twenty-three inches",
+      "archivo": "grade8-science-10-blizzard.html",
+      "tema": "Air masses and fronts: the Chicago blizzard of 1967"
+    },
+    "imagen": "grade8-science-10-blizzard.jpg",
+    "escena": "In the classroom, a weather map with a red warm air mass and a blue cold air mass meeting over Chicago is projected on the screen, beside an old black-and-white photo of cars and buses buried in snow on a Chicago street; Israel reads a thermometer at the window while Athena writes numbers in a data table."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 11,
+    "estandar": "MS-LS4-6",
+    "es": {
+      "titulo": "Las polillas que cambiaron de color",
+      "archivo": "grade8-science-11-natural-selection.html",
+      "tema": "La selección natural: las polillas moteadas de Mánchester"
+    },
+    "en": {
+      "titulo": "The moths that changed color",
+      "archivo": "grade8-science-11-natural-selection.html",
+      "tema": "Natural selection: the peppered moths of Manchester"
+    },
+    "imagen": "grade8-science-11-natural-selection.jpg",
+    "escena": "In the science lab, paper moths, some white with black speckles and some dark, are taped on two big pictures of tree bark, one pale with lichens and one black with soot; two students tape and move the moths while Salma draws a line graph in her notebook."
+  },
+  {
+    "grado": 8,
+    "area": "ciencias",
+    "orden": 12,
+    "estandar": "MS-PS · MS-ESS · MS-LS",
+    "es": {
+      "titulo": "La última noche de ciencias",
+      "archivo": "grade8-science-12-review.html",
+      "tema": "Repaso: la última noche de ciencias antes de la secundaria superior"
+    },
+    "en": {
+      "titulo": "The last science night",
+      "archivo": "grade8-science-12-review.html",
+      "tema": "Review: the last science night before high school"
+    },
+    "imagen": "grade8-science-12-review.jpg",
+    "escena": "In a classroom decorated with flags and lights for a family science night, students stand at tables with a ramp and a ball, a balloon rocket on a string, a prism making a rainbow, a lamp with a globe and a small ball, and paper moths on bark; parents and grandparents walk between the tables while Mr. Mensah watches from the middle."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 1,
+    "estandar": "SS.6-8.H.3.MdC",
+    "es": {
+      "titulo": "El almanaque que le escribió a Jefferson",
+      "archivo": "grade8-social-studies-01-banneker.html",
+      "tema": "Leer una fuente primaria: Benjamin Banneker, la medición de la capital y su carta a Jefferson"
+    },
+    "en": {
+      "titulo": "The almanac that wrote to Jefferson",
+      "archivo": "grade8-social-studies-01-banneker.html",
+      "tema": "Reading a primary source: Benjamin Banneker, the survey of the capital and his letter to Jefferson"
+    },
+    "imagen": "grade8-social-studies-01-banneker.jpg",
+    "escena": "In the social studies classroom, Ms. Novak shows an old plan of the city of Washington with straight streets and diagonal avenues, while Selena reads a copy of a handwritten letter and Elías looks at a drawing of a man with a surveyor's instrument under the stars."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 2,
+    "estandar": "SS.6-8.G.2.MdC",
+    "es": {
+      "titulo": "Los cuadrados que se ven desde el cielo",
+      "archivo": "grade8-social-studies-02-land-ordinance.html",
+      "tema": "Mapas y patrones: la Ordenanza de Tierras de 1785, los municipios, las secciones y la sección escolar"
+    },
+    "en": {
+      "titulo": "The squares you can see from the sky",
+      "archivo": "grade8-social-studies-02-land-ordinance.html",
+      "tema": "Maps and patterns: the Land Ordinance of 1785, townships, sections and the school section"
+    },
+    "imagen": "grade8-social-studies-02-land-ordinance.jpg",
+    "escena": "In the classroom, an aerial photo of Illinois farmland in neat squares is projected on the screen, while Athena draws a big square divided into 36 small squares on the board and circles the square numbered 16."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 3,
+    "estandar": "SS.6-8.CV.2.LC",
+    "es": {
+      "titulo": "Seis artículos para un territorio nuevo",
+      "archivo": "grade8-social-studies-03-northwest-ordinance.html",
+      "tema": "Un documento de gobierno: la Ordenanza del Noroeste de 1787, sus promesas y sus límites"
+    },
+    "en": {
+      "titulo": "Six articles for a new territory",
+      "archivo": "grade8-social-studies-03-northwest-ordinance.html",
+      "tema": "A governing document: the Northwest Ordinance of 1787, its promises and its limits"
+    },
+    "imagen": "grade8-social-studies-03-northwest-ordinance.jpg",
+    "escena": "In the classroom, Ms. Novak shows a large copy of an old handwritten document, while the students sit in groups around six cards labeled Article 1 to Article 6; on the wall, a map of the Northwest Territory shows the future states of Ohio, Indiana, Illinois, Michigan and Wisconsin."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 4,
+    "estandar": "SS.6-8.CV.2.MCa",
+    "es": {
+      "titulo": "Quién contaba y a quién contaron",
+      "archivo": "grade8-social-studies-04-census-1790.html",
+      "tema": "Derechos y poder: el primer censo de 1790 y el Compromiso de las Tres Quintas Partes"
+    },
+    "en": {
+      "titulo": "Who counted, and who was counted",
+      "archivo": "grade8-social-studies-04-census-1790.html",
+      "tema": "Rights and power: the first census of 1790 and the Three-Fifths Compromise"
+    },
+    "imagen": "grade8-social-studies-04-census-1790.jpg",
+    "escena": "In the classroom, a timeline on the wall shows 1790 and 1868, while Daniel and Salma build a bar graph of states' seats in Congress with paper strips, and Ms. Novak holds a drawing of a census taker on horseback with a notebook."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 5,
+    "estandar": "SS.6-8.H.1.LC",
+    "es": {
+      "titulo": "El campamento de invierno frente al Misuri",
+      "archivo": "grade8-social-studies-05-camp-dubois.html",
+      "tema": "Perspectivas: el campamento de invierno de Lewis y Clark en Illinois y las naciones a lo largo del río"
+    },
+    "en": {
+      "titulo": "The winter camp across from the Missouri",
+      "archivo": "grade8-social-studies-05-camp-dubois.html",
+      "tema": "Perspectives: Lewis and Clark's winter camp in Illinois and the nations along the river"
+    },
+    "imagen": "grade8-social-studies-05-camp-dubois.jpg",
+    "escena": "On a class field trip at a reconstructed log fort beside a wide river, Ms. Novak points at a large wooden keelboat while Israel holds a model sextant up toward the sky and Salma reads a sign about the winter camp of 1803–1804."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 6,
+    "estandar": "SS.6-8.EC.1.LC",
+    "es": {
+      "titulo": "La zanja que construyó una ciudad",
+      "archivo": "grade8-social-studies-06-im-canal.html",
+      "tema": "Decisiones económicas: el Canal de Illinois y Míchigan y el crecimiento de Chicago"
+    },
+    "en": {
+      "titulo": "The ditch that built a city",
+      "archivo": "grade8-social-studies-06-im-canal.html",
+      "tema": "Economic decisions: the Illinois and Michigan Canal and the growth of Chicago"
+    },
+    "imagen": "grade8-social-studies-06-im-canal.jpg",
+    "escena": "On a walk beside a quiet old canal with a stone lock, Ms. Novak shows the class a picture of a canal boat pulled by mules on a towpath, while Daniel and Athena draw a graph of Chicago's population that rises steeply."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 7,
+    "estandar": "SS.6-8.H.4.MC",
+    "es": {
+      "titulo": "El abogado que estudiaba triángulos",
+      "archivo": "grade8-social-studies-07-lincoln-euclid.html",
+      "tema": "Construir un argumento: Lincoln estudia a Euclides, y los debates de 1858"
+    },
+    "en": {
+      "titulo": "The lawyer who studied triangles",
+      "archivo": "grade8-social-studies-07-lincoln-euclid.html",
+      "tema": "Building an argument: Lincoln studies Euclid, and the debates of 1858"
+    },
+    "imagen": "grade8-social-studies-07-lincoln-euclid.jpg",
+    "escena": "In the classroom, a map of Illinois with seven stars marks the debate towns, while Israel holds an old geometry book open to a drawing of a triangle and Athena and Daniel stand at two podiums facing each other."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 8,
+    "estandar": "SS.6-8.CV.4.LC",
+    "es": {
+      "titulo": "Cuatro veintenas y siete años",
+      "archivo": "grade8-social-studies-08-gettysburg.html",
+      "tema": "Principios fundacionales: el Discurso de Gettysburg y sus 87 años"
+    },
+    "en": {
+      "titulo": "Four score and seven years",
+      "archivo": "grade8-social-studies-08-gettysburg.html",
+      "tema": "Founding principles: the Gettysburg Address and its 87 years"
+    },
+    "imagen": "grade8-social-studies-08-gettysburg.jpg",
+    "escena": "In the classroom, the board shows the calculation 4 × 20 + 7 = 87 and 1863 − 87 = 1776, while Salma holds a copy of a handwritten page and Ms. Novak points to a photo of a crowd at a cemetery in 1863."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 9,
+    "estandar": "SS.6-8.CV.3.LC",
+    "es": {
+      "titulo": "El estado que votó primero",
+      "archivo": "grade8-social-studies-09-13th-amendment.html",
+      "tema": "Derechos que cambian: Illinois ratifica la Decimotercera Enmienda y la lucha contra las Leyes Negras"
+    },
+    "en": {
+      "titulo": "The state that voted first",
+      "archivo": "grade8-social-studies-09-13th-amendment.html",
+      "tema": "Changing rights: Illinois ratifies the Thirteenth Amendment, and the fight against the Black Laws"
+    },
+    "imagen": "grade8-social-studies-09-13th-amendment.jpg",
+    "escena": "In the classroom, a large copy of a handwritten resolution with many signatures hangs on the board, while Elías reads a timeline with the dates January 31 and February 1, 1865, and Selena holds a picture of a man in a 19th-century suit standing in front of a tailor shop."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 10,
+    "estandar": "SS.6-8.H.4.LC",
+    "es": {
+      "titulo": "El día en que los relojes dieron dos veces el mediodía",
+      "archivo": "grade8-social-studies-10-time-zones.html",
+      "tema": "Causas y efectos: los ferrocarriles y el Día de los Dos Mediodías de 1883"
+    },
+    "en": {
+      "titulo": "The day the clocks struck noon twice",
+      "archivo": "grade8-social-studies-10-time-zones.html",
+      "tema": "Causes and effects: railroads and the Day of Two Noons in 1883"
+    },
+    "imagen": "grade8-social-studies-10-time-zones.jpg",
+    "escena": "In the classroom, a map of the United States with four colored time zones hangs on the wall next to an old railroad station clock, while Daniel and Salma move the hands of two cardboard clocks and Ms. Novak holds a picture of a steam locomotive."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 11,
+    "estandar": "SS.6-8.CV.3.MdC",
+    "es": {
+      "titulo": "El voto que cruzó el Misisipi",
+      "archivo": "grade8-social-studies-11-suffrage-1913.html",
+      "tema": "Derechos que cambian: las mujeres votan en Illinois en 1913, e Ida B. Wells-Barnett"
+    },
+    "en": {
+      "titulo": "The ballot that crossed the Mississippi",
+      "archivo": "grade8-social-studies-11-suffrage-1913.html",
+      "tema": "Changing rights: women vote in Illinois in 1913, and Ida B. Wells-Barnett"
+    },
+    "imagen": "grade8-social-studies-11-suffrage-1913.jpg",
+    "escena": "In the classroom, Athena and Salma hold a hand-painted banner reading VOTES FOR WOMEN, while Ms. Novak shows a portrait of Ida B. Wells-Barnett and a map of the United States with Illinois highlighted east of the Mississippi River."
+  },
+  {
+    "grado": 8,
+    "area": "sociales",
+    "orden": 12,
+    "estandar": "SS.6-8.H · CV · EC · G",
+    "es": {
+      "titulo": "El mapa que contaba muchas historias",
+      "archivo": "grade8-social-studies-12-review.html",
+      "tema": "Repaso: los cuentos del año en un mapa"
+    },
+    "en": {
+      "titulo": "The map that told many stories",
+      "archivo": "grade8-social-studies-12-review.html",
+      "tema": "Review: the stories of the year on one map"
+    },
+    "imagen": "grade8-social-studies-12-review.jpg",
+    "escena": "On the classroom floor, a giant hand-drawn map of the United States with Illinois in the center is covered with paper pins and pictures: a canal, a train clock, a log camp by a river, a handwritten document and a VOTES FOR WOMEN banner; the students kneel around it while Ms. Novak watches."
   }
-  /* fin grado 7 */
+  /* fin grado 8 */
 ];
 
 /* Libros en línea ya armados (uno por grado y área). */
@@ -3204,7 +3637,9 @@ window.LIBROS = [
   { grado: 6, area: 'ciencias', es: 'book-grade6-science.html', en: 'book-grade6-science.html' },
   { grado: 6, area: 'sociales', es: 'book-grade6-social-studies.html', en: 'book-grade6-social-studies.html' },
   { grado: 7, area: 'ciencias', es: 'book-grade7-science.html', en: 'book-grade7-science.html' },
-  { grado: 7, area: 'sociales', es: 'book-grade7-social-studies.html', en: 'book-grade7-social-studies.html' }
+  { grado: 7, area: 'sociales', es: 'book-grade7-social-studies.html', en: 'book-grade7-social-studies.html' },
+  { grado: 8, area: 'ciencias', es: 'book-grade8-science.html', en: 'book-grade8-science.html' },
+  { grado: 8, area: 'sociales', es: 'book-grade8-social-studies.html', en: 'book-grade8-social-studies.html' }
 ];
 
 /* ---- Prekínder: cuentos para escuchar (generado con herramientas/gen_prek.py) ---- */
