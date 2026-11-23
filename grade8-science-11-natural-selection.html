@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 8 · Science · MS-LS4-6
+  «The moths that changed color»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The moths that changed color · Educational stories</title>
+<meta name="description" content="A Grade 8 science story: the peppered moths of Manchester, soot from coal-burning factories, birds as predators, and how natural selection changes the percentage of a trait over time. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-8">Educational stories</a> · Grade 8 · Science</span>
+    <a class="idioma" href="book-grade8-science.html#capitulo-11">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade8-science-11-natural-selection.mp4">
+    <img src="grade8-science-11-natural-selection.jpg" width="1376" height="768"
+         alt="In the science lab, paper moths, some white with black speckles and some dark, are taped on two big pictures of tree bark, one pale with lichens and one black with soot; Elías and Selena, playing hungry birds, pick off moths while Salma draws a line graph that rises and then falls.">
+  </figure>
+
+  <p class="sello">Grade 8 · Science · MS-LS4-6</p>
+  <h1 id="titulo">The moths that changed color</h1>
+  <p class="entrada">A story about speckled moths, soot-covered trees in England, a game of paper moths, and a graph that went up and then came back down.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>Las polillas que cambiaron de color.</strong> Un cuento sobre polillas moteadas, árboles cubiertos de hollín en Inglaterra, un juego de polillas de papel y una gráfica que subió y después volvió a bajar.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="trait">trait</button></li>
+      <li><button type="button" class="voz" data-g="population">population</button></li>
+      <li><button type="button" class="voz" data-g="predator">predator</button></li>
+      <li><button type="button" class="voz" data-g="camouflage">camouflage</button></li>
+      <li><button type="button" class="voz" data-g="natural-selection">natural selection</button></li>
+      <li><button type="button" class="voz" data-g="pollution">pollution</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">Mr. Mensah held up a picture of a moth with white wings sprinkled with black dots, like pepper on salt. "This is a peppered moth," he said. "For hundreds of years in England, almost all of them looked like this. They rest on tree trunks during the day, on pale bark covered with lichens. Can you find the one in this picture?" It took the class almost a minute.</p>
+
+    <p id="p2"><span class="cita" id="c-a">"In 1848, in Manchester, a collector found a dark peppered moth," said Mr. Mensah. "By 1895, about 98 percent of the peppered moths around Manchester were dark."</span> "Ninety-eight percent!" said Israel. "What happened?"</p>
+
+    <p id="p3">"Factories," said Mr. Mensah. <span class="cita" id="c-b">"Manchester was full of coal-burning factories. Their <button type="button" class="voz" data-g="pollution">pollution</button> killed the pale lichens and covered the tree trunks with black soot."</span> He showed a second picture: a dark tree trunk, and on it, a white moth that stood out like a light bulb.</p>
+
+    <p id="p4">Then they played a game. Mr. Mensah taped 20 white paper moths and 20 dark ones on two big pictures of bark: one pale, one black with soot. Elías and Selena were the hungry birds. <span class="cita" id="c-c">On the pale bark, the birds found the dark moths quickly and missed many white ones. On the sooty bark, it was the opposite: the white moths were eaten first.</span></p>
+
+    <p id="p5"><span class="cita" id="c-d">"Birds are the <button type="button" class="voz" data-g="predator">predators</button>," said Mr. Mensah. "On sooty trees, dark moths had better <button type="button" class="voz" data-g="camouflage">camouflage</button>, so more of them survived and laid eggs. The dark color is a <button type="button" class="voz" data-g="trait">trait</button> that is passed from parents to offspring, so each generation had a higher percentage of dark moths. That's <button type="button" class="voz" data-g="natural-selection">natural selection</button>."</span></p>
+
+    <p id="p6">"Did the moths decide to turn dark?" asked Daniel. "No," said Mr. Mensah. "No single moth changed color. The <button type="button" class="voz" data-g="population">population</button> changed, because some moths survived more than others."</p>
+
+    <p id="p7"><span class="cita" id="c-e">"Then, in the 1950s, Britain passed laws for cleaner air," he said. "The soot slowly washed off, the lichens grew back, and the pale moths became common again."</span> Salma drew the graph: the percentage of dark moths climbed for years, then came back down.</p>
+
+    <p id="p8">Athena looked at the graph. "So the environment changed twice, and the moths changed twice." Sophia wrote in her notebook: Nature doesn't pick the best moth. It picks the moth that fits.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-trait"><dt>trait</dt><dd>A feature of a living thing, like the color of a moth's wings, that can be passed from parents to offspring.</dd><dd class="ayuda-es caja-es" lang="es"><strong>rasgo:</strong> Una característica de un ser vivo, como el color de las alas de una polilla, que puede pasar de los padres a la cría.</dd></div>
+    <div id="g-population"><dt>population</dt><dd>All the members of one species living in one area.</dd><dd class="ayuda-es caja-es" lang="es"><strong>población:</strong> Todos los individuos de una especie que viven en un lugar.</dd></div>
+    <div id="g-predator"><dt>predator</dt><dd>An animal that hunts and eats other animals.</dd><dd class="ayuda-es caja-es" lang="es"><strong>depredador:</strong> Un animal que caza y come a otros animales.</dd></div>
+    <div id="g-camouflage"><dt>camouflage</dt><dd>Colors or patterns that help a living thing blend into its surroundings.</dd><dd class="ayuda-es caja-es" lang="es"><strong>camuflaje:</strong> Colores o dibujos que ayudan a un ser vivo a confundirse con lo que lo rodea.</dd></div>
+    <div id="g-natural-selection"><dt>natural selection</dt><dd>The process in which living things with helpful traits survive and reproduce more, so those traits become more common over generations.</dd><dd class="ayuda-es caja-es" lang="es"><strong>selección natural:</strong> El proceso por el que los seres vivos con rasgos útiles sobreviven y se reproducen más, de modo que esos rasgos se vuelven más comunes con las generaciones.</dd></div>
+    <div id="g-pollution"><dt>pollution</dt><dd>Harmful things, like smoke and soot, that get into the air, water or soil.</dd><dd class="ayuda-es caja-es" lang="es"><strong>contaminación:</strong> Cosas dañinas, como el humo y el hollín, que llegan al aire, al agua o al suelo.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What percentage of peppered moths around Manchester were dark by 1895?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué porcentaje de las polillas moteadas de los alrededores de Manchester eran oscuras en 1895?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">About 98 percent</button>
+        <button class="opcion">About 10 percent</button>
+        <button class="opcion">About 50 percent</button>
+      </div>
+      <p class="explicacion" hidden>A dark moth was first found in 1848, and by 1895 about 98 percent were dark.</p>
+    </li>
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>How did the factories change the trees?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo cambiaron las fábricas los árboles?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">They planted new trees</button>
+        <button class="opcion">Their pollution killed the pale lichens and covered the bark with soot</button>
+        <button class="opcion">They made the trees grow taller</button>
+      </div>
+      <p class="explicacion" hidden>Coal-burning factories killed the lichens and blackened the tree trunks with soot.</p>
+    </li>
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>In the game, which moths were eaten first on the sooty bark?</span></p>
+      <p class="ayuda-es caja-es" lang="es">En el juego, ¿qué polillas se comieron primero en la corteza con hollín?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">The dark moths</button>
+        <button class="opcion">Both kinds at the same time</button>
+        <button class="opcion">The white moths</button>
+      </div>
+      <p class="explicacion" hidden>On the black bark, the white moths stood out, so the birds found them first.</p>
+    </li>
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>Why did the percentage of dark moths go up?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué subió el porcentaje de polillas oscuras?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">Dark moths survived more on sooty trees and passed the trait to their offspring</button>
+        <button class="opcion">White moths painted themselves dark</button>
+        <button class="opcion">Each moth decided to change color</button>
+      </div>
+      <p class="explicacion" hidden>With better camouflage, more dark moths survived and reproduced, so each generation had more dark moths.</p>
+    </li>
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>What happened after Britain passed laws for cleaner air?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué pasó después de que el Reino Unido aprobó leyes para limpiar el aire?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">All the moths disappeared</button>
+        <button class="opcion">The pale moths became common again</button>
+        <button class="opcion">The dark moths became even more common</button>
+      </div>
+      <p class="explicacion" hidden>The soot washed off, the lichens grew back, and pale moths had the better camouflage again.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Use math to explain</p>
+    <p class="reto-pregunta">In a forest, 10 out of 100 moths are dark. The trees become covered in soot, and each year more dark moths survive. Make a table for four years with a possible percentage of dark moths each year. Then explain your numbers using natural selection.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Usa las matemáticas para explicar.</strong> En un bosque, 10 de cada 100 polillas son oscuras. Los árboles se cubren de hollín y cada año sobreviven más polillas oscuras. Haz una tabla de cuatro años con un porcentaje posible de polillas oscuras para cada año. Después explica tus números usando la selección natural.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>A possible table: year 1, 10%; year 2, 25%; year 3, 50%; year 4, 75%. The percentage goes up because birds see the white moths more easily on sooty bark, so more dark moths survive and reproduce. Dark wings are a trait passed to the offspring, so each generation starts with more dark moths. If the air became clean again, the percentages would start going down.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-LS4-6: use mathematical representations to support explanations of how natural selection may lead to increases and decreases of specific traits in populations over time.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>

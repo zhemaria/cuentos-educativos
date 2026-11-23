@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 8 · Science · MS-ESS2-5
+  «Sixty-five degrees, then twenty-three inches»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sixty-five degrees, then twenty-three inches · Educational stories</title>
+<meta name="description" content="A Grade 8 science story: the Chicago blizzard of January 1967, warm and cold air masses, fronts, air pressure and how weather data help predict storms. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-8">Educational stories</a> · Grade 8 · Science</span>
+    <a class="idioma" href="book-grade8-science.html#capitulo-10">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade8-science-10-blizzard.mp4">
+    <img src="grade8-science-10-blizzard.jpg" width="1376" height="768"
+         alt="In the classroom, a weather map with a red warm air mass and a blue cold air mass meeting over Chicago is projected on the screen, beside an old black-and-white photo of cars and buses buried in snow on a Chicago street; Israel reads a thermometer at the window while Athena writes numbers in a data table.">
+  </figure>
+
+  <p class="sello">Grade 8 · Science · MS-ESS2-5</p>
+  <h1 id="titulo">Sixty-five degrees, then twenty-three inches</h1>
+  <p class="entrada">A story about a spring-like day in January, the biggest snowstorm in Chicago's history two days later, and the air masses that collided over the city.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>Sesenta y cinco grados, y después veintitrés pulgadas.</strong> Un cuento sobre un día de enero que parecía de primavera, la mayor nevada de la historia de Chicago dos días después y las masas de aire que chocaron sobre la ciudad.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="air-mass">air mass</button></li>
+      <li><button type="button" class="voz" data-g="front">front</button></li>
+      <li><button type="button" class="voz" data-g="humidity">humidity</button></li>
+      <li><button type="button" class="voz" data-g="air-pressure">air pressure</button></li>
+      <li><button type="button" class="voz" data-g="low-pressure-system">low-pressure system</button></li>
+      <li><button type="button" class="voz" data-g="forecast">forecast</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">Ms. Novak, the social studies teacher, came to science class with an old photo: a Chicago street buried in snow, with cars and city buses stuck up to their windows. "My grandmother was in fourth grade that week," she said. "On Tuesday, January 24, 1967, Chicago reached 65 degrees. Kids played outside without coats. Two days later, the biggest snowstorm in the city's history began."</p>
+
+    <p id="p2"><span class="cita" id="c-a">"The snow started at about five in the morning on January 26 and didn't stop until about ten the next morning," said Mr. Mensah. "By then, 23 inches had fallen. Winds of more than 50 miles per hour piled the snow into drifts up to six feet high."</span> "Six feet!" said Daniel. "That's taller than me."</p>
+
+    <p id="p3">"How can it be 65 degrees and then a blizzard?" asked Selena. Mr. Mensah projected a weather map. <span class="cita" id="c-b">"Weather happens when <button type="button" class="voz" data-g="air-mass">air masses</button> move and meet," he said. "An air mass is a huge body of air with about the same temperature and <button type="button" class="voz" data-g="humidity">humidity</button> all through it. That week, warm, wet air from the Gulf of Mexico flowed north, and a cold, dry air mass came down from Canada."</span></p>
+
+    <p id="p4"><span class="cita" id="c-c">"Where two air masses meet, there is a <button type="button" class="voz" data-g="front">front</button>," said Mr. Mensah. "The cold air is heavier, so it slides under the warm air and pushes it up. As the warm, wet air rises, it cools, and its water vapor turns into clouds and snow."</span></p>
+
+    <p id="p5"><span class="cita" id="c-d">"A strong <button type="button" class="voz" data-g="low-pressure-system">low-pressure system</button> formed to the south and pulled the air masses into each other," he went on. "In Chicago, the <button type="button" class="voz" data-g="air-pressure">air pressure</button> dropped, the winds roared off Lake Michigan, and the snow fell up to two inches an hour."</span></p>
+
+    <p id="p6">"Didn't anybody warn them?" asked Elías. <span class="cita" id="c-e">"The <button type="button" class="voz" data-g="forecast">forecast</button> said snow," said Ms. Novak, "but only about four inches at first. Forecasters had less data in 1967: fewer weather stations, no weather radar like today's and only the first weather satellites."</span></p>
+
+    <p id="p7">For the rest of the week, the class collected their own data three times a day: temperature, air pressure, wind direction and clouds. On Thursday, the pressure dropped, the wind turned to the south, and the air felt damp. "A front is coming," said Athena. That night, it rained.</p>
+
+    <p id="p8">Ms. Novak smiled. "My grandmother said the best part was that school was closed for two days." Sophia wrote in her notebook: Weather is what happens when two kinds of air argue. The data can tell you who is winning.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-air-mass"><dt>air mass</dt><dd>A huge body of air with about the same temperature and humidity all through it.</dd><dd class="ayuda-es caja-es" lang="es"><strong>masa de aire:</strong> Una enorme cantidad de aire con más o menos la misma temperatura y humedad en todas sus partes.</dd></div>
+    <div id="g-front"><dt>front</dt><dd>The boundary where two air masses with different temperatures meet. Fronts often bring storms.</dd><dd class="ayuda-es caja-es" lang="es"><strong>frente:</strong> El límite donde se encuentran dos masas de aire de temperaturas distintas. Los frentes suelen traer tormentas.</dd></div>
+    <div id="g-humidity"><dt>humidity</dt><dd>The amount of water vapor in the air.</dd><dd class="ayuda-es caja-es" lang="es"><strong>humedad:</strong> La cantidad de vapor de agua que hay en el aire.</dd></div>
+    <div id="g-air-pressure"><dt>air pressure</dt><dd>The push of the air above us. Falling pressure often means a storm is coming.</dd><dd class="ayuda-es caja-es" lang="es"><strong>presión atmosférica:</strong> El empuje del aire que está sobre nosotros. Cuando la presión baja, a menudo se acerca una tormenta.</dd></div>
+    <div id="g-low-pressure-system"><dt>low-pressure system</dt><dd>An area where air rises and the pressure is lower than around it. It pulls in air masses and often brings clouds, rain or snow.</dd><dd class="ayuda-es caja-es" lang="es"><strong>sistema de baja presión:</strong> Una zona donde el aire sube y la presión es más baja que alrededor. Atrae masas de aire y suele traer nubes, lluvia o nieve.</dd></div>
+    <div id="g-forecast"><dt>forecast</dt><dd>A prediction of the weather, based on data and models.</dd><dd class="ayuda-es caja-es" lang="es"><strong>pronóstico:</strong> Una predicción del tiempo, basada en datos y modelos.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>How much snow fell in Chicago in the blizzard of 1967?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cuánta nieve cayó en Chicago en la ventisca de 1967?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">About 4 inches</button>
+        <button class="opcion">23 inches</button>
+        <button class="opcion">65 inches</button>
+      </div>
+      <p class="explicacion" hidden>From about 5 a.m. on January 26 to 10 a.m. the next day, 23 inches of snow fell.</p>
+    </li>
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>What two air masses met over Chicago that week?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué dos masas de aire se encontraron sobre Chicago esa semana?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">Warm, wet air from the Gulf of Mexico and cold, dry air from Canada</button>
+        <button class="opcion">Two cold air masses from the ocean</button>
+        <button class="opcion">Hot, dry air from a desert and warm air from Florida</button>
+      </div>
+      <p class="explicacion" hidden>Warm, wet air flowed north from the Gulf of Mexico and cold, dry air came down from Canada.</p>
+    </li>
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>What happens at a front where cold air meets warm air?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué pasa en un frente donde el aire frío se encuentra con el aire cálido?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">The warm air sinks under the cold air</button>
+        <button class="opcion">The air masses stop moving</button>
+        <button class="opcion">The cold air slides under, the warm air rises and cools, and clouds form</button>
+      </div>
+      <p class="explicacion" hidden>Cold air is heavier, so it pushes the warm, wet air up. As it rises, it cools, and its water vapor makes clouds and snow.</p>
+    </li>
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>What did the low-pressure system do?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué hizo el sistema de baja presión?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">It pulled the air masses into each other and brought strong winds</button>
+        <button class="opcion">It stopped the snow</button>
+        <button class="opcion">It raised the air pressure in Chicago</button>
+      </div>
+      <p class="explicacion" hidden>The low pulled the air masses together; the pressure dropped, the winds roared and the snow fell fast.</p>
+    </li>
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>Why was the 1967 forecast too low?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué el pronóstico de 1967 se quedó corto?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">Forecasters didn't care about snow</button>
+        <button class="opcion">Forecasters had less data and no radar like today's</button>
+        <button class="opcion">The storm came from the lake</button>
+      </div>
+      <p class="explicacion" hidden>In 1967 there were fewer weather stations, no radar like today's and only the first weather satellites.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Collect data as evidence</p>
+    <p class="reto-pregunta">For three days, record the temperature, the air pressure (from a weather app or a barometer), the wind direction and the clouds. Did the weather change? Use your data as evidence to explain whether an air mass or a front moved through.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Reúne datos como evidencia.</strong> Durante tres días, anota la temperatura, la presión atmosférica (de una aplicación del tiempo o un barómetro), la dirección del viento y las nubes. ¿Cambió el tiempo? Usa tus datos como evidencia para explicar si pasó una masa de aire o un frente.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Look for changes that happen together. Falling pressure, more clouds and a change in wind direction often mean a front is coming. A big drop in temperature after rain or snow, with winds from the north or northwest, suggests a cold air mass arrived. Steady pressure and clear skies for days usually mean the same air mass is staying over you.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-ESS2-5: collect data to provide evidence for how the motions and complex interactions of air masses result in changes in weather conditions.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>
