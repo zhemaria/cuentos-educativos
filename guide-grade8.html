@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Teacher guide · Grade 8 (Science and Social studies)
+  One guide per grade: how to use the stories, hands-on science activities,
+  social studies activities and a one-page card to print.
+  José M. Fernández · Claude (Anthropic)
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teacher guide · Grade 8 · Educational stories</title>
+<meta name="description" content="Teacher guide for the Grade 8 Science and Social Studies stories: tips for using the stories, hands-on activities, discussion questions and a card to print.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+<style>
+/* Guía para el docente: secciones, consejos y tarjeta para imprimir */
+.saltos-guia{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.5rem;padding:0;list-style:none}
+.saltos-guia a{display:inline-flex;align-items:center;min-height:44px;padding:.4rem .9rem;border-radius:999px;
+  border:2px solid var(--verde);color:var(--verde);background:var(--papel-claro);font-weight:700;text-decoration:none}
+.saltos-guia a:hover{background:var(--verde);color:#fff}
+.parte{scroll-margin-top:1rem;margin-top:2.2rem}
+.parte > h2{border-bottom:3px solid var(--verde);padding-bottom:.3rem}
+.consejo{background:var(--papel-claro);border:1px solid var(--borde);border-radius:var(--radio);padding:.9rem 1.1rem;margin:.8rem 0}
+.consejo h3{margin:0 0 .4rem;font-size:1.08rem}
+.consejo ul{margin:.2rem 0 .2rem 1.2rem;padding:0}
+.consejo li{margin:.25rem 0}
+.ojo{border-left:5px solid var(--verde);padding:.4rem .8rem;background:var(--verde-claro)}
+.seguridad{border-left:5px solid var(--rosa);padding:.4rem .8rem;background:var(--rosa-claro)}
+.tarjeta{border:3px solid var(--verde);border-radius:var(--radio);padding:1rem 1.2rem;background:#fff}
+.tarjeta h2{margin-top:0}
+.tarjeta .rejilla{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:.6rem 1.2rem}
+.tarjeta h3{margin:.4rem 0 .2rem;font-size:1rem;color:var(--verde)}
+.tarjeta ul{margin:0 0 0 1.1rem;padding:0;font-size:.95rem}
+.pie-std{font-size:.85rem;color:var(--tinta-suave)}
+@media print{
+  body.solo-tarjeta main > *:not(#tarjeta){display:none!important}
+  body.solo-tarjeta #tarjeta{display:block!important;margin:0}
+  body.solo-tarjeta #tarjeta .no-imprimir{display:none!important}
+}
+</style>
+</head>
+<body>
+<a class="salto" href="#indice">Skip to the contents</a>
+<main class="hoja">
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-8">Educational stories</a> · Grade 8 · Teacher guide</span>
+    <span><a class="idioma" href="book-grade8-science.html">📖 Science book</a> <a class="idioma" href="book-grade8-social-studies.html">📖 Social studies book</a></span>
+  </nav>
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print or save as PDF</button>
+  </div>
+  <header class="portada-libro">
+    <p class="sello">Teacher guide · Grade 8</p>
+    <h1>Science and Social Studies</h1>
+    <p class="subtitulo">How to get the most out of the stories</p>
+    <p class="ayuda-es caja-es" lang="es">Guía para el docente de 8.º grado: consejos para usar los cuentos, actividades prácticas de ciencias, actividades de estudios sociales y una tarjeta de una página para imprimir. El botón «Ayuda en español» muestra un resumen en español de cada parte.</p>
+  </header>
+
+  <h2 id="indice" tabindex="-1">Contents</h2>
+  <nav aria-label="Parts of this guide"><ul class="saltos-guia">
+    <li><a href="#consejos"><span aria-hidden="true">💡 </span>1. Tips for using the stories</a></li>
+    <li><a href="#ciencias"><span aria-hidden="true">🔬 </span>2. Science</a></li>
+    <li><a href="#sociales"><span aria-hidden="true">🌎 </span>3. Social studies</a></li>
+    <li><a href="#tarjeta"><span aria-hidden="true">🖨️ </span>4. Card to print</a></li>
+  </ul></nav>
+
+  <section class="parte" id="consejos" aria-labelledby="t-consejos">
+    <h2 id="t-consejos">1. Tips for using the stories</h2>
+    <p>These are the small things that make the biggest difference, and the ones that are easiest to forget on a busy day. They work for both books. In Grade 8, every story is a <strong>true story from history</strong>: a rocket that landed in a cabbage patch, a man who weighed the world, a blizzard that buried Chicago, a state that voted first. The characters around the story (Ms. Novak, Mr. Mensah and the seven friends) are invented; the historical facts are real and have been checked.</p>
+    <p class="ayuda-es caja-es" lang="es">En 8.º grado cada cuento es una historia real: un cohete que cayó en un campo de coles, un hombre que pesó el mundo, una tormenta de nieve que enterró a Chicago, un estado que votó primero. Los maestros y los siete amigos son personajes inventados; los hechos históricos son reales y se verificaron.</p>
+    <div class="consejo" id="consejo-before"><h3>Before reading: give the story a purpose</h3><ul><li>Look at the picture together for two minutes before anyone reads. Ask: <em>What do you see? What do you think? What do you wonder?</em></li><li>Teach two or three of the key words first. Each story lists them at the top, and the glossary opens with one tap.</li><li>Ask what students already know about the person, the place or the time. Write the date of the story on a class timeline.</li><li>Write one question on the board that the story will answer. Students read to find the answer, not just to finish.</li></ul><p class="ayuda-es caja-es" lang="es">Antes de leer: mirar la ilustración dos minutos (¿qué ves?, ¿qué piensas?, ¿qué te preguntas?), enseñar dos o tres palabras clave, preguntar qué saben de la persona, el lugar o la época, ubicar la fecha en una línea del tiempo y escribir la pregunta que el cuento va a contestar.</p></div>
+    <div class="consejo" id="consejo-during"><h3>During reading: slow down</h3><ul><li>Read the story aloud first, or let Lumi read it with the voice button. Then students read it again on their own or with a partner. A second reading is where comprehension happens.</li><li>Stop at the <em>pause to connect</em> and at the questions. They are not interruptions: they are the lesson.</li><li>When a student answers a question wrong, the story highlights the sentence with the evidence. Ask the student to read it aloud and try again: the goal is to find the answer in the text, not to guess.</li><li>One story per session is enough (25 to 35 minutes). Follow the order of your class units.</li></ul><p class="ayuda-es caja-es" lang="es">Durante la lectura: leer primero en voz alta (o con la voz de Lumi) y luego releer; detenerse en las pausas y preguntas; cuando un estudiante se equivoca, el cuento resalta la oración con la evidencia: que la lea en voz alta y vuelva a intentarlo. Un cuento por sesión.</p></div>
+    <div class="consejo" id="consejo-wait"><h3>Questions: wait, then listen</h3><ul><li>After you ask a question, count silently to five before calling on anyone.</li><li>Use <em>turn and talk</em>: every student tells a partner first, then a few share with the class. Everybody thinks, not only the fastest.</li><li>Ask students to choose an answer before they tap it, and to say which sentence of the story supports it.</li></ul><p class="ayuda-es caja-es" lang="es">Preguntas: esperar cinco segundos antes de dar la palabra; que todos lo digan primero a un compañero; que elijan la respuesta antes de tocarla y digan qué oración del cuento la apoya.</p></div>
+    <div class="consejo" id="consejo-ayuda"><h3>«Ayuda en español»: a bridge, not a replacement</h3><ul><li>The button translates instructions, questions, the glossary and the challenge. The story itself stays in English on purpose.</li><li>Suggested routine: first reading in English, then turn the help on to check understanding, then a final reading without it.</li><li>Turn the help off little by little during the year. Celebrate the day a student no longer needs it.</li><li>Spanish at home is an asset. Invite families to talk about the story in the language they speak best.</li></ul><p class="ayuda-es caja-es" lang="es">La «Ayuda en español» es un puente, no un sustituto: primera lectura en inglés, luego la ayuda para comprobar, y una última lectura sin ella. Retirarla poco a poco durante el año. El español en casa es una fortaleza.</p></div>
+    <div class="consejo" id="consejo-dua"><h3>Universal Design for Learning: let every student in</h3><ul><li>Show students the reading supports on the first day: bigger or smaller text (A+ / A−), high contrast, the voice and printing.</li><li>Accept more than one way to answer the challenge: writing, drawing a model or a diagram, explaining out loud or recording a short audio.</li><li>Give sentence starters for the challenge: <em>I claim… The evidence is… This shows that… because…</em></li><li>For students without a device, print the story with the «Print or save as PDF» button.</li></ul><p class="ayuda-es caja-es" lang="es">Diseño Universal para el Aprendizaje: enseñar los apoyos el primer día (A+/A−, alto contraste, voz, imprimir); aceptar varias formas de contestar el reto (escribir, dibujar un modelo, decirlo en voz alta, grabar un audio); dar inicios de oración; imprimir el cuento para quien no tiene tableta.</p></div>
+    <div class="consejo" id="consejo-reto"><h3>The challenge and «Go further»</h3><ul><li>Every story ends with a challenge. Ask for three parts: a claim, evidence from the story and reasoning that connects them.</li><li>Many stories add an optional <strong>Go further</strong> question. Offer it to students who finish early or as homework: it asks for more complex reasoning, such as comparing perspectives or evaluating a decision.</li><li>Use the challenge as an exit ticket. Keep the answers in a folder; in May, students compare their first and last answers and see how much they grew.</li></ul><p class="ayuda-es caja-es" lang="es">El reto: pedir afirmación, evidencia y razonamiento. La pregunta opcional «Go further» pide un razonamiento más complejo; ofrecerla a quien termina antes o como tarea. Guardar las respuestas en una carpeta para comparar al final del año.</p></div>
+    <div class="consejo" id="consejo-errores"><h3>History is full of wrong ideas</h3><ul><li>Many stories show real people who were wrong or who were not believed: a newspaper made fun of Goddard's rockets, and Hutton's idea of an Earth with “no vestige of a beginning” sounded impossible to many. That is on purpose: science advances when people test ideas with evidence.</li><li>Before the reading, ask students what they think. Write their ideas on the board without correcting them, and come back to the list after the story.</li><li>Each activity below has a <em>watch for</em> note with the most common misunderstanding.</li></ul><p class="ayuda-es caja-es" lang="es">La historia está llena de ideas equivocadas: un periódico se burló de los cohetes de Goddard y a muchos les pareció imposible la Tierra antiquísima de Hutton. Anotar lo que piensan antes de leer, sin corregir, y volver a la lista después del cuento.</p></div>
+    <div class="consejo" id="consejo-mate"><h3>Connect with math and reading</h3><ul><li>The Grade 8 math and reading activities in Lumi share some of these stories: Galileo's rolling balls in the functions games, President Garfield's proof in the Pythagorean theorem and the reading articles, Hubble (the boy from Wheaton) and Leavitt's ruler for the universe, the Chicago River in the slope games. Use the story as a bridge before or after the math lesson.</li><li>Lincoln studied Euclid to learn what it means to prove something. Story 7 of the social studies book is a natural partner for the geometry proofs.</li><li>Ask students to find the numbers in each story (26 steps for each astronomical unit, 4.6 billion years, 23 inches of snow, 3,929,214 people, 640 acres) and to explain what they show.</li></ul><p class="ayuda-es caja-es" lang="es">Conectar con matemáticas y lectura: las actividades de 8.º en Lumi comparten historias con estos cuentos (las bolas de Galileo en funciones, la demostración de Garfield en el teorema de Pitágoras y en los artículos de lectura, Hubble y la regla de Leavitt, el río Chicago en pendiente). Lincoln estudió a Euclides para aprender a demostrar: el cuento 7 de estudios sociales acompaña bien las demostraciones de geometría. Pedir que busquen los números de cada cuento y expliquen qué muestran.</p></div>
+    <div class="consejo" id="consejo-seguridad"><h3>Hands-on activities: safety first</h3><ul><li>Wear safety goggles for launches, collisions and anything that can splash or fly. The adult handles heat and sharp tools.</li><li>Check food and latex allergies before the activities (balloons, eggs). Scientists never taste the materials.</li><li>Never look directly at the Sun, not even through a prism, binoculars or dark sunglasses. Only certified eclipse glasses (ISO 12312-2) are safe.</li><li>Every activity can also be done as a teacher demonstration or with a video if materials or time are short.</li></ul><p class="ayuda-es caja-es" lang="es">Seguridad: gafas en lanzamientos, choques y todo lo que pueda salpicar o volar; el adulto maneja el calor y lo filoso; revisar alergias al látex y a alimentos (globos, huevos); nunca mirar el Sol directamente, solo con lentes certificados para eclipses (ISO 12312-2).</p></div>
+    <div class="consejo" id="consejo-casa"><h3>Beyond the classroom</h3><ul><li>Share the address www.lumi-educa.com with families. The stories work on a phone, a tablet or a computer, and the voice can read them aloud.</li><li>Story 12 of each book reviews the whole year. Use it in May as a celebration and as a review before the final assessment.</li></ul><p class="ayuda-es caja-es" lang="es">Fuera del salón: compartir www.lumi-educa.com con las familias; usar el cuento 12 de cada libro como repaso y celebración de fin de año.</p></div>
+  </section>
+
+  <section class="parte" id="ciencias" aria-labelledby="t-ciencias">
+    <h2 id="t-ciencias">2. Science</h2>
+    <p>Each story tells a real discovery and has a hands-on activity with classroom materials, questions to talk about and a note on the most common misunderstanding. The activities are optional and can be done before the story (to wonder) or after it (to check the idea). Several of them are also the engineering challenges of the stories: the egg bumper, the hallway model and the time strip.</p>
+    <p class="ayuda-es caja-es" lang="es">Cada cuento de ciencias cuenta un descubrimiento real y tiene una actividad práctica con materiales del salón, preguntas para conversar y una nota sobre la confusión más común. Se pueden hacer antes del cuento (para despertar preguntas) o después (para comprobar la idea).</p>
+    <div class="acordeon">
+  <details class="capitulo" id="capitulo-c1" name="guia">
+    <summary><span class="num" aria-hidden="true">1</span><span class="cab"><h3><span class="titulo-cap">The ball that never wanted to stop</span></h3><small>Forces and motion: Galileo's ramps, inertia, friction, mass and balanced forces · MS-PS2-2</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-01-forces-motion.html">Open the story</a></p>
+      <h4>Hands-on activity: Galileo's ramps and a heavy cart</h4>
+      <p><strong>Materials:</strong> two grooved rulers or a foam pipe insulation tube cut in half, a marble, a stack of books, two toy carts or rolling chairs, a spring scale or a rubber band, a meter stick.</p>
+      <ol><li>Make a V with the two ramps. Release the marble from a marked height and measure how high it climbs on the other side. Lower the second ramp step by step, and measure how far the marble rolls each time.</li><li>Repeat on carpet, paper and a smooth table. Record which surface lets the marble roll farthest, and name the force that stops it.</li><li>Pull an empty cart and a cart loaded with books with the same reading on the spring scale (or the same stretch of the rubber band). Compare how quickly each one speeds up.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>If the second ramp were perfectly flat and perfectly smooth, what would happen to the marble? Why do we need a bigger force to change the motion of the loaded cart?</p>
+      <p class="ojo"><strong>Watch for:</strong> Many students believe that a moving object needs a force to keep moving, and that it stops because the force “runs out”. An object keeps moving until a force such as friction changes its motion.</p>
+      <p class="seguridad"><strong>Safety:</strong> Keep the floor clear where the marble and the carts land.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Las rampas de Galileo y un carrito pesado. Se suelta una canica en una V de rampas y se mide hasta dónde sube; se baja la segunda rampa poco a poco; se prueba en distintas superficies; se tira con la misma fuerza de un carrito vacío y de uno cargado de libros.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS2-2. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c2" name="guia">
+    <summary><span class="num" aria-hidden="true">2</span><span class="cab"><h3><span class="titulo-cap">The rocket that landed in a cabbage patch</span></h3><small>Newton's third law: Goddard's first liquid-fueled rocket and a bumper for a collision · MS-PS2-1</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-02-rockets.html">Open the story</a></p>
+      <h4>Hands-on activity: Balloon rockets and an egg bumper</h4>
+      <p><strong>Materials:</strong> long balloons, drinking straws, 5 meters of string, tape, a meter stick, two toy carts, raw eggs in sealed plastic bags, cardboard, sponges, rubber bands and other scrap materials.</p>
+      <ol><li>Tape a balloon to a straw that runs along a string stretched across the room. Let the air out and measure how far the rocket travels. Change one thing (more air, a second balloon) and test again.</li><li>Draw arrows for the two forces: the balloon pushes the air backward, and the air pushes the balloon forward.</li><li>Design challenge: each team designs a bumper so that a cart with an egg in a bag can crash into a wall from a marked ramp height without breaking the egg. Write two criteria, test, improve and test again.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Goddard's rocket had no air to push against in space. Why can a rocket still fly there? Which bumper worked best, and how did it change the collision?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often say the rocket moves because the air behind it “pushes on the room” or on the ground. The forces come in pairs: the rocket pushes the gas out, and the gas pushes the rocket forward, even in empty space.</p>
+      <p class="seguridad"><strong>Safety:</strong> Goggles during launches and crashes. Check for latex allergies; use latex-free balloons if needed. Keep the eggs in sealed bags and wash hands after handling them.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Cohetes de globo y un parachoques para un huevo. El globo avanza por un hilo; se dibujan las dos fuerzas del par; cada equipo diseña un parachoques para que un carrito con un huevo choque sin romperlo, con dos criterios, prueba y mejora.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS2-1. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c3" name="guia">
+    <summary><span class="num" aria-hidden="true">3</span><span class="cab"><h3><span class="titulo-cap">The man who weighed the world</span></h3><small>Gravity: Cavendish weighs the world with four lead balls · MS-PS2-4</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-03-gravity.html">Open the story</a></p>
+      <h4>Hands-on activity: A tiny twist and the pull of the planets</h4>
+      <p><strong>Materials:</strong> a meter stick or a light dowel, thin thread, two clay balls of equal size, tape, a sheet of paper with a reference line, a data card with the weight of a 50 kg student on different worlds.</p>
+      <ol><li>Hang the stick from its middle with a long thread, with a clay ball at each end, as in a model of Cavendish's balance. Wait until it stops turning.</li><li>Blow very gently on one ball, or touch it with a feather, and watch how far and how slowly it turns. Discuss: Cavendish had to see a twist this small, caused only by gravity, which is why he watched through a telescope from outside the room.</li><li>Use the data card: a 50 kg student weighs about 490 newtons on Earth, 81 on the Moon, 186 on Mars and about 1,240 on Jupiter. Order the worlds by mass, and look for the pattern.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why can't we feel the pull between two students, if every pair of objects attracts each other? Why did Cavendish stay outside the room during the experiment?</p>
+      <p class="ojo"><strong>Watch for:</strong> Many students think that gravity needs air, or that it only acts on things that fall. Gravity is always an attraction between any two masses, and it is stronger when the masses are larger.</p>
+      
+      <p class="ayuda-es caja-es" lang="es">Actividad: Un giro diminuto y la atracción de los planetas. Se cuelga una regla con dos bolas de plastilina como modelo de la balanza de Cavendish y se ve cuánto gira con un soplido suave; con una tarjeta de datos se compara el peso de un estudiante de 50 kg en la Tierra, la Luna, Marte y Júpiter.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS2-4. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c4" name="guia">
+    <summary><span class="num" aria-hidden="true">4</span><span class="cab"><h3><span class="titulo-cap">The crown that was not all gold</span></h3><small>Density: Archimedes, the king's crown and a young Galileo's balance · MS-PS1-2</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-04-density.html">Open the story</a></p>
+      <h4>Hands-on activity: Density detectives</h4>
+      <p><strong>Materials:</strong> a kitchen scale, a measuring cup or graduated cylinder, water, a tray, and objects of the same size made of different materials (a metal washer stack, a rock, a block of wood, a ball of clay), aluminum foil.</p>
+      <ol><li>Measure the mass of each object. Then measure its volume by displacement: the rise of the water in the cup, as Archimedes did with the crown.</li><li>Calculate the density of each one (mass ÷ volume, in grams per cubic centimeter) and compare it with a table of known densities.</li><li>Mystery crown: wrap metal washers in foil so they look like one object, and ask another group to decide, with density, whether it is “all aluminum”.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Two objects have the same mass but different volumes. Which one is denser, and how do you know? Why did Galileo look for a better method than Archimedes' overflowing bowl?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often confuse “heavy” with “dense”. A big log is heavier than a small coin, but the coin is denser. Density compares mass and volume, so the size of the sample does not change it.</p>
+      <p class="seguridad"><strong>Safety:</strong> Clean up spilled water right away so no one slips.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Detectives de la densidad. Se mide la masa de cada objeto y su volumen por desplazamiento del agua, como Arquímedes; se calcula masa ÷ volumen y se compara con una tabla; una «corona misteriosa» de arandelas envueltas en papel de aluminio pone a prueba a otro grupo.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS1-2. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c5" name="guia">
+    <summary><span class="num" aria-hidden="true">5</span><span class="cab"><h3><span class="titulo-cap">The message made of dots and dashes</span></h3><small>Digital signals: Morse's first message and why digital is more reliable · MS-PS4-3</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-05-digital-signals.html">Open the story</a></p>
+      <h4>Hands-on activity: Whisper chain versus flashlight code</h4>
+      <p><strong>Materials:</strong> a Morse code chart, flashlights or the flashlight of a tablet, short message cards, a long line of students.</p>
+      <ol><li>Analog test: whisper a long sentence down a line of ten students and write what arrives at the end.</li><li>Digital test: send a short word down the same line with the flashlight, using only on and off (short and long flashes). Each student reads and repeats the code exactly.</li><li>Compare: count the mistakes in each method. Then add “noise” (talking, a second light) and test again.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why did the coded message arrive correctly even when it was weak or the room was noisy? Where do you use digital signals every day?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students may think that digital means “electronic” or “modern”. A digital signal is made of a few clear values, like on and off, so small changes do not change the message. Morse's telegraph in 1844 was already digital.</p>
+      <p class="seguridad"><strong>Safety:</strong> Do not point flashlights into anyone's eyes.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Cadena de susurros contra código con linterna. Una oración se pasa en susurros por una fila de diez estudiantes (señal analógica) y una palabra en código Morse con una linterna (señal digital); se cuentan los errores, con y sin «ruido».</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS4-3. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c6" name="guia">
+    <summary><span class="num" aria-hidden="true">6</span><span class="cab"><h3><span class="titulo-cap">The rainbow hiding in a sunbeam</span></h3><small>Light: Newton's prisms, and light that is reflected, absorbed or transmitted · MS-PS4-2</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-06-light.html">Open the story</a></p>
+      <h4>Hands-on activity: Light that is reflected, absorbed or transmitted</h4>
+      <p><strong>Materials:</strong> a glass prism or a clear glass of water, a sunny window or a bright flashlight, white paper, red, green and blue cellophane, a mirror, a black notebook, colored objects.</p>
+      <ol><li>Split white light with the prism or the glass of water onto white paper, as Newton did in a dark room. Record the order of the colors.</li><li>Shine the light at a window, a mirror and a black notebook. Decide for each one whether most of the light is transmitted, reflected or absorbed, and draw arrows.</li><li>Look at a red apple and a green leaf through blue cellophane. Explain why their colors change or turn dark.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why does a red apple look red in white light? What happened in Newton's second prism, the one that could not split red light any further?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often think that color is something an object “has”, and that black objects reflect black light. The color we see is the light the object reflects; a black object absorbs most of the light that hits it.</p>
+      <p class="seguridad"><strong>Safety:</strong> Never look at the Sun through the prism, a lens or the cellophane.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Luz que se refleja, se absorbe o se transmite. Se separa la luz blanca con un prisma o un vaso de agua; se dibujan flechas para una ventana, un espejo y un cuaderno negro; se miran objetos de colores con celofán azul.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS4-2. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c7" name="guia">
+    <summary><span class="num" aria-hidden="true">7</span><span class="cab"><h3><span class="titulo-cap">Darkness at two in the afternoon</span></h3><small>The Earth, the Sun and the Moon: eclipses over Carbondale, moon phases and seasons · MS-ESS1-1</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-07-eclipse.html">Open the story</a></p>
+      <h4>Hands-on activity: Lamp, globe and ball</h4>
+      <p><strong>Materials:</strong> a lamp without a shade, a globe or a large ball, a small ball on a stick or pencil, a dark room.</p>
+      <ol><li>The lamp is the Sun. One student holds the globe; another carries the small Moon around it. Stop at new moon, first quarter, full moon and last quarter, and draw the lit part seen from Earth.</li><li>Find the position where the shadow of the Moon falls on the globe: a solar eclipse. Find the position where the Earth's shadow falls on the Moon: a lunar eclipse.</li><li>Tilt the Moon's path a little and repeat. Discuss why we do not have an eclipse every month. Locate Carbondale, which saw totality in 2017 and 2024.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why can a solar eclipse happen only at new moon? Why does the shadow cover only a narrow strip of the Earth?</p>
+      <p class="ojo"><strong>Watch for:</strong> Many students believe that the phases of the Moon are caused by the Earth's shadow. Phases come from how much of the Moon's sunlit half we can see; only a lunar eclipse is caused by the Earth's shadow.</p>
+      <p class="seguridad"><strong>Safety:</strong> Never look directly at the Sun, even during a partial eclipse. Only certified eclipse glasses (ISO 12312-2) or a pinhole viewer are safe.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Lámpara, globo y pelota. La lámpara es el Sol; se lleva la Luna alrededor del globo para ver las fases y buscar las posiciones de los eclipses solar y lunar; se inclina la órbita para entender por qué no hay eclipses cada mes.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-ESS1-1. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c8" name="guia">
+    <summary><span class="num" aria-hidden="true">8</span><span class="cab"><h3><span class="titulo-cap">The hallway that held the solar system</span></h3><small>Scale: a solar system in the hallway, and Leavitt's ruler for the universe · MS-ESS1-3</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-08-scale.html">Open the story</a></p>
+      <h4>Hands-on activity: The solar system in the hallway</h4>
+      <p><strong>Materials:</strong> a ball about 20 cm wide for the Sun, a peppercorn, a pinhead and other tiny objects for the planets, cards with the names, a long hallway or the playground.</p>
+      <ol><li>Use the scale of the story: 1 astronomical unit (the distance from the Earth to the Sun) is 26 steps.</li><li>Calculate and walk the distances: Mercury about 10 steps, Venus 19, Earth 26 (the peppercorn), Mars 39, Jupiter about 135 and Saturn about 247. Leave a card at each planet.</li><li>Look back at the Sun from Saturn. Then discuss how Henrietta Leavitt's stars gave astronomers a ruler for distances far bigger than the solar system.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>What surprised you most about the size of the solar system? Why can't we draw the sizes and the distances of the planets to the same scale on one sheet of paper?</p>
+      <p class="ojo"><strong>Watch for:</strong> Textbook pictures put the planets close together and almost the same size. In reality the solar system is mostly empty space: at this scale, the Earth is a peppercorn 26 steps from a ball.</p>
+      <p class="seguridad"><strong>Safety:</strong> Choose a safe route and stay together outside the classroom.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: El sistema solar en el pasillo. Con la escala del cuento (1 unidad astronómica = 26 pasos) se calculan y se caminan las distancias de los planetas, con una pimienta como la Tierra; desde Saturno se mira el Sol y se habla de la «regla» de Leavitt.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-ESS1-3. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c9" name="guia">
+    <summary><span class="num" aria-hidden="true">9</span><span class="cab"><h3><span class="titulo-cap">The rocks that made a scientist dizzy</span></h3><small>Deep time: Hutton's rocks at Siccar Point and the geologic time scale · MS-ESS1-4</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-09-deep-time.html">Open the story</a></p>
+      <h4>Hands-on activity: A 46-meter strip of time</h4>
+      <p><strong>Materials:</strong> a roll of adding-machine paper or register tape at least 46 meters long, meter sticks, markers, event cards with dates.</p>
+      <ol><li>Use the scale 1 centimeter = 1 million years. The whole Earth, 4.6 billion years, is 46 meters long.</li><li>Mark the events: the first life (about 3.5 billion years ago, 35 meters from the end), the first fish (about 500 million, 5 meters), the end of the dinosaurs (66 million, 66 centimeters) and all of human history (less than one millimeter).</li><li>Build a layer model with colored clay or sand in a clear cup, with a “fossil” in each layer. Exchange cups and decide which layer is oldest.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why did Hutton's rocks at Siccar Point make his friends feel dizzy? How can a geologist tell which layer is older without a date written on it?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often imagine that humans and dinosaurs lived at the same time, or that the Earth's history can be measured in thousands of years. The time strip shows how long the Earth existed before us, and how recent we are.</p>
+      
+      <p class="ayuda-es caja-es" lang="es">Actividad: Una tira de tiempo de 46 metros. Con la escala 1 cm = 1 millón de años, la historia de la Tierra mide 46 metros; se marcan la primera vida, los primeros peces, el fin de los dinosaurios y la historia humana (menos de un milímetro); se hace un modelo de capas en un vaso.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-ESS1-4. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c10" name="guia">
+    <summary><span class="num" aria-hidden="true">10</span><span class="cab"><h3><span class="titulo-cap">Sixty-five degrees, then twenty-three inches</span></h3><small>Air masses and fronts: the Chicago blizzard of 1967 · MS-ESS2-5</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-10-blizzard.html">Open the story</a></p>
+      <h4>Hands-on activity: Our weather station</h4>
+      <p><strong>Materials:</strong> a thermometer, a weather app or a barometer, a compass or a wind sock, a cloud chart, a class data table, a map of North America.</p>
+      <ol><li>Record the temperature, the air pressure, the wind direction and the clouds at the same time every day for at least three days, as in the challenge.</li><li>Draw arrows on the map for the two air masses of January 1967: cold, dry air from Canada and warm, moist air from the Gulf of Mexico. Mark where they met.</li><li>Look for a change in your own data (a drop in pressure, a change in wind direction or temperature) and decide whether a front moved through.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Why can the weather change so quickly when a front arrives? What clues in your data would warn you that a storm is coming?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students often think that weather simply “comes from the clouds”. Weather changes when air masses with different temperature and humidity move and meet. The pressure drop came before the snow in 1967.</p>
+      <p class="seguridad"><strong>Safety:</strong> Stay inside during thunder and lightning; collect outdoor data only in safe weather.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Nuestra estación meteorológica. Se registran temperatura, presión, viento y nubes durante tres días o más; se dibujan en el mapa las dos masas de aire de enero de 1967 (el aire frío de Canadá y el húmedo del Golfo) y se buscan en los datos las señales de un frente.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-ESS2-5. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c11" name="guia">
+    <summary><span class="num" aria-hidden="true">11</span><span class="cab"><h3><span class="titulo-cap">The moths that changed color</span></h3><small>Natural selection: the peppered moths of Manchester · MS-LS4-6</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-11-natural-selection.html">Open the story</a></p>
+      <h4>Hands-on activity: Hungry birds and paper moths</h4>
+      <p><strong>Materials:</strong> small paper moths cut from white, gray and black paper (or a hole punch), a sheet of newspaper or light bark picture, a dark sheet covered in charcoal or soot-colored paper, a timer, a data table.</p>
+      <ol><li>Spread 20 light and 20 dark moths on the light background. The “birds” have 15 seconds to pick up moths one at a time. Count the survivors of each color.</li><li>Each survivor “has a baby” of its own color. Repeat for three generations and record the percentages.</li><li>Do the same on the dark, sooty background, and graph the percentage of dark moths over the generations for both backgrounds.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Did any single moth change its color? What changed in the population, and why? What happened to the moths when the air became cleaner?</p>
+      <p class="ojo"><strong>Watch for:</strong> The most common idea is that moths changed color “in order to” hide. No individual moth changes. The moths that blend in survive and have more offspring, so the share of that color grows over the generations.</p>
+      
+      <p class="ayuda-es caja-es" lang="es">Actividad: Pájaros hambrientos y polillas de papel. Se reparten polillas claras y oscuras sobre un fondo claro y otro oscuro; los «pájaros» recogen polillas durante 15 segundos; las sobrevivientes se reproducen y se grafica el porcentaje de polillas oscuras durante tres generaciones.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-LS4-6. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-c12" name="guia">
+    <summary><span class="num" aria-hidden="true">12</span><span class="cab"><h3><span class="titulo-cap">The last science night</span></h3><small>Review: the last science night before high school · MS-PS · MS-ESS · MS-LS</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-science-12-review.html">Open the story</a></p>
+      <h4>Hands-on activity: Our science night</h4>
+      <p><strong>Materials:</strong> the materials of the year's activities, poster paper, table labels, question cards for visitors.</p>
+      <ol><li>Each group prepares a table about one big idea of the year: the story, the evidence and a short demonstration (the ramps, the balloon rocket, the crown in water, the prism, the eclipse model, the time strip, the paper moths).</li><li>Invite families or another class. The students are the guides, and each visitor leaves one question card.</li><li>Each student chooses two stories that seem very different and explains what connects them, as in the challenge.</li></ol>
+      <h4>Discussion questions</h4>
+      <p>Which idea of this year would you explain first to a younger student, and why? What do the scientists of this year have in common?</p>
+      <p class="ojo"><strong>Watch for:</strong> Students tend to see each discovery as a lucky moment. Remind them of the years of work, the wrong ideas and the evidence behind each one.</p>
+      <p class="seguridad"><strong>Safety:</strong> Review the safety rules of each activity that is repeated.</p>
+      <p class="ayuda-es caja-es" lang="es">Actividad: Nuestra noche de ciencias. Cada grupo prepara una mesa con una gran idea del año, su historia, su evidencia y una demostración; las familias u otra clase visitan y dejan preguntas; cada estudiante une dos cuentos muy distintos.</p>
+      <p class="pie-std">Illinois Learning Standards for Science (NGSS): MS-PS · MS-ESS · MS-LS. The challenge at the end of the story is the evidence of learning.</p>
+      <p><a class="al-indice cerrar-cap" href="#ciencias">↑ Close and go back to Science</a></p>
+    </div>
+  </details>
+    </div>
+  </section>
+
+  <section class="parte" id="sociales" aria-labelledby="t-sociales">
+    <h2 id="t-sociales">3. Social studies</h2>
+    <p>The Grade 8 stories follow the history of the United States from the young republic to 1913, with Illinois at the center. Each story has a <strong>pause to connect</strong> that a student can do alone on a tablet: look at a primary source from the time, such as a handwritten document, an old map, a newspaper report or a historic portrait. The activities in this guide are for the whole class or small groups. They are optional.</p>
+    <p>The arts connections follow Anchor Standard 11 (Connecting) of the Illinois Arts Learning Standards. The stories use only well-established historical facts and do not put invented words in the mouths of real people. When students write from the point of view of a historical person, present it clearly as their own creative writing.</p>
+    <p>The Illinois Social Science Standards for middle school are written for the grade band 6–8. Many history and civics standards come in three levels of complexity: LC (Less Complex), MdC (Moderately Complex) and MC (More Complex). In Grade 8, each story names the level it works toward; the challenge and the optional <strong>Go further</strong> question give students the chance to show it. Whether a student's answer reaches that level must be judged answer by answer.</p>
+    <p>Some stories touch on hard parts of history: slavery and the Three-Fifths Compromise, the Black Laws of Illinois, the lands taken from the Native nations and the people left out of the vote. Name them honestly and give students time to talk about them. Do not use role-plays or simulations of enslavement.</p>
+    <p class="ayuda-es caja-es" lang="es">Cada cuento de estudios sociales sigue la historia de Estados Unidos, con Illinois en el centro, y tiene una pausa para conectar con una fuente primaria de la época; aquí hay una actividad de grupo, preguntas para conversar y el estándar de Illinois con su nivel de complejidad. Algunos cuentos tocan partes difíciles de la historia (la esclavitud, las Leyes Negras de Illinois, las tierras quitadas a las naciones nativas, quienes quedaron sin voto): nombrarlas con honestidad, dar tiempo para conversar y no hacer simulaciones de la esclavitud.</p>
+    <div class="acordeon">
+  <details class="capitulo" id="capitulo-s1" name="guia">
+    <summary><span class="num" aria-hidden="true">1</span><span class="cab"><h3><span class="titulo-cap">The almanac that wrote to Jefferson</span></h3><small>Reading a primary source: Benjamin Banneker, the survey of the capital and his letter to Jefferson · SS.6-8.H.3.MdC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-01-banneker.html">Open the story</a></p>
+      <h4>Group activity: Source detectives: author, purpose, audience</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>Give each group a card about one source connected with Banneker: his 1791 letter to Jefferson, Jefferson's short reply, a page of his almanac and the 1792 engraved plan of Washington. Each group answers three questions on a poster: Who made it? Why? For whom? Then the groups compare: which source tells us the most about Banneker, and what is missing from each one? Finish with the plan of Washington: whose names appear on it, and whose work is not named?</p>
+      <h4>Discussion questions</h4>
+      <p>Why might a polite letter not tell us everything the writer thought? How does knowing the author, the purpose and the audience change the way we read a source?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Visit the Library of Congress page about Benjamin Banneker. From there, you can open the 1792 plan of the city of Washington that grew out of the survey he helped with.</p>
+      <p class="ayuda-es caja-es" lang="es">El almanaque que le escribió a Jefferson: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.H.3.MdC: detect possible limitations and bias in the historical record by examining a source's author, purpose and audience. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s2" name="guia">
+    <summary><span class="num" aria-hidden="true">2</span><span class="cab"><h3><span class="titulo-cap">The squares you can see from the sky</span></h3><small>Maps and patterns: the Land Ordinance of 1785, townships, sections and the school section · SS.6-8.G.2.MdC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-02-land-ordinance.html">Open the story</a></p>
+      <h4>Group activity: A township on the floor</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>With masking tape, groups build a township of 6 by 6 sections on the floor and number the 36 sections. Each square mile (a section) has 640 acres. Families buy quarter sections of 160 acres, and section 16 is reserved for schools. Then look at a satellite map of central Illinois and of Chicago: the roads that run a mile apart (Western, Kedzie, Pulaski, Cicero) are the grid of 1785 that you can still see from the sky. Each group draws a decorated map of its township, like the old surveyors' maps.</p>
+      <h4>Discussion questions</h4>
+      <p>How did a grid make it easier to sell land and settle it? Who already lived on the land before the surveyors drew the squares, and what did the grid ignore?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Read the Library of Congress blog post about land surveying and find the map of Allin Township, in McLean County, Illinois.</p>
+      <p class="ayuda-es caja-es" lang="es">Los cuadrados que se ven desde el cielo: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.G.2.MdC: use mapping and graphing to represent and analyze spatial patterns of different environmental and cultural characteristics. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s3" name="guia">
+    <summary><span class="num" aria-hidden="true">3</span><span class="cab"><h3><span class="titulo-cap">Six articles for a new territory</span></h3><small>A governing document: the Northwest Ordinance of 1787, its promises and its limits · SS.6-8.CV.2.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-03-northwest-ordinance.html">Open the story</a></p>
+      <h4>Group activity: Promises on trial</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>Each group receives one article of the Northwest Ordinance, summarized in plain words. The group explains its article to the class and then holds a short “trial”: was the promise kept, broken or kept only in part? Students give evidence from the story for each verdict. The class makes a two-column wall chart: “Promises kept” and “Promises broken or limited”.</p>
+      <h4>Discussion questions</h4>
+      <p>Which promise of the Northwest Ordinance shaped Illinois the most? Why was the promise of good faith toward the Native nations broken?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at the Northwest Ordinance on the National Archives website.</p>
+      <p class="ayuda-es caja-es" lang="es">Seis artículos para un territorio nuevo: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.CV.2.LC: identify the origins, purposes and impacts of governing documents and policies. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s4" name="guia">
+    <summary><span class="num" aria-hidden="true">4</span><span class="cab"><h3><span class="titulo-cap">Who counted, and who was counted</span></h3><small>Rights and power: the first census of 1790 and the Three-Fifths Compromise · SS.6-8.CV.2.MCa</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-04-census-1790.html">Open the story</a></p>
+      <h4>Group activity: Counting and power</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>Use two invented states, not real people. State A has 60,000 free people and 40,000 enslaved people; State B has 100,000 free people. Each state gets one seat for every 30,000 people counted. Groups calculate the seats of State A with and without the three-fifths rule, and compare them with State B. Then they explain who gained power from the rule and who gained no rights at all. Do not role-play enslavement: keep the activity on numbers, maps and the words of the Constitution.</p>
+      <h4>Discussion questions</h4>
+      <p>Why did counting enslaved people as three fifths give more power to the states that held them in slavery? Who else was left out of the count or of the vote in 1790?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at the 1790 Population Map from the U.S. Census Bureau, made from the records of the first census.</p>
+      <p class="ayuda-es caja-es" lang="es">Quién contaba y a quién contaron: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.CV.2.MCa: analyze how the application of laws, and the granting or denial of rights, affects the participation and power of different groups. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s5" name="guia">
+    <summary><span class="num" aria-hidden="true">5</span><span class="cab"><h3><span class="titulo-cap">The winter camp across from the Missouri</span></h3><small>Perspectives: Lewis and Clark's winter camp in Illinois and the nations along the river · SS.6-8.H.1.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-05-camp-dubois.html">Open the story</a></p>
+      <h4>Group activity: Three points of view on one riverbank</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>Groups receive one perspective each: William Clark, York (the man Clark held in slavery, who made the whole journey) and a member of a Native nation along the Missouri River. Each group writes a short journal entry for May 14, 1804, the day the expedition left the camp: hopes, worries and what each one knows about the land. Present it clearly as the students' own creative writing, not as the real words of real people. The groups read their entries aloud in a circle and compare.</p>
+      <h4>Discussion questions</h4>
+      <p>Why was the land not “unknown”, even if it was unknown to the expedition? How does a story change when we hear it from a different perspective?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at the National Park Service page about Camp Dubois, with a drawing William Clark made in his field notes.</p>
+      <p class="ayuda-es caja-es" lang="es">El campamento de invierno frente al Misuri: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.H.1.LC: identify and describe the contexts of a series of historical events and developments as examples of change and/or continuity, based on the perspectives of multiple diverse groups. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s6" name="guia">
+    <summary><span class="num" aria-hidden="true">6</span><span class="cab"><h3><span class="titulo-cap">The ditch that built a city</span></h3><small>Economic decisions: the Illinois and Michigan Canal and the growth of Chicago · SS.6-8.EC.1.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-06-im-canal.html">Open the story</a></p>
+      <h4>Group activity: The canal town meeting</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>Groups play the roles of farmers, canal workers, Chicago merchants and the state government in 1836. Each group lists one benefit and one cost of the canal and prepares a one-minute speech. The class votes, and then compares its decision with the data of the story: Chicago grew from about 4,000 people in 1836 to more than 112,000 in 1860. Students graph the growth and mark the year the canal opened.</p>
+      <h4>Discussion questions</h4>
+      <p>Who paid the highest price for building the canal, and who gained the most? Was it a good economic decision for Illinois? Explain with your chart.</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Read the Encyclopedia of Chicago entry about the Illinois and Michigan Canal and open its map of the canal corridor.</p>
+      <p class="ayuda-es caja-es" lang="es">La zanja que construyó una ciudad: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.EC.1.LC: explain how economic decisions affect the well-being of individuals, businesses and society. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s7" name="guia">
+    <summary><span class="num" aria-hidden="true">7</span><span class="cab"><h3><span class="titulo-cap">The lawyer who studied triangles</span></h3><small>Building an argument: Lincoln studies Euclid, and the debates of 1858 · SS.6-8.H.4.MC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-07-lincoln-euclid.html">Open the story</a></p>
+      <h4>Group activity: Arguing like Euclid</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>Each group chooses a question about the school and builds an argument the way Lincoln learned it from Euclid: a starting point that everyone accepts, two steps supported by evidence, and a conclusion. Groups exchange arguments and look for the weakest step. Then mark the seven towns of the 1858 debates on a map of Illinois (Ottawa, Freeport, Jonesboro, Charleston, Galesburg, Quincy and Alton) and discuss why the candidates traveled across the whole state.</p>
+      <h4>Discussion questions</h4>
+      <p>Why did Lincoln think that a lawyer needed to learn what it means to prove something? What makes an argument convincing: the evidence, the order of the steps or both?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Visit the Lincoln Home National Historic Site page about the 1858 debates and look at its map of Illinois.</p>
+      <p class="ayuda-es caja-es" lang="es">El abogado que estudiaba triángulos: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.H.4.MC: organize applicable evidence into a coherent argument about the past. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s8" name="guia">
+    <summary><span class="num" aria-hidden="true">8</span><span class="cab"><h3><span class="titulo-cap">Four score and seven years</span></h3><small>Founding principles: the Gettysburg Address and its 87 years · SS.6-8.CV.4.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-08-gettysburg.html">Open the story</a></p>
+      <h4>Group activity: Reading the Gettysburg Address closely</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>Groups receive one sentence each of the Gettysburg Address (a public domain text). They underline the key words, explain the sentence in their own words and connect it with a principle of the Declaration of Independence: equality, liberty or government by the people. The class then reads the whole speech aloud in order, each group reading its sentence. Calculate together: four score and seven years before 1863 is 1776.</p>
+      <h4>Discussion questions</h4>
+      <p>Why did Lincoln begin with the year 1776 instead of the Constitution of 1787? Which principle do you think was the most important for him, and why?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at the Library of Congress exhibition items for the Gettysburg Address.</p>
+      <p class="ayuda-es caja-es" lang="es">Cuatro veintenas y siete años: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.CV.4.LC: explain the connection between the founding documents of the United States and the democratic principles they express. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s9" name="guia">
+    <summary><span class="num" aria-hidden="true">9</span><span class="cab"><h3><span class="titulo-cap">The state that voted first</span></h3><small>Changing rights: Illinois ratifies the Thirteenth Amendment, and the fight against the Black Laws · SS.6-8.CV.3.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-09-13th-amendment.html">Open the story</a></p>
+      <h4>Group activity: Two roads to change</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>The class makes a two-lane chart on the board. One lane is the vote in Springfield on February 1, 1865; the other lane is the long work of activists like John Jones against the Black Laws. Groups place event cards from the story on the correct lane, and then design a broadside, a one-page printed poster in the style of the 1800s, announcing one of the two changes.</p>
+      <h4>Discussion questions</h4>
+      <p>Why were both the vote and the work of activists needed? What rights did Black people in Illinois still lack after 1865?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Look at the Thirteenth Amendment on the National Archives website.</p>
+      <p class="ayuda-es caja-es" lang="es">El estado que votó primero: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.CV.3.LC: describe the ways in which individuals and groups have maintained or changed power and rights. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s10" name="guia">
+    <summary><span class="num" aria-hidden="true">10</span><span class="cab"><h3><span class="titulo-cap">The day the clocks struck noon twice</span></h3><small>Causes and effects: railroads and the Day of Two Noons in 1883 · SS.6-8.H.4.LC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-10-time-zones.html">Open the story</a></p>
+      <h4>Group activity: The Day of Two Noons, on the air</h4>
+      <p class="pausa-arte">MA:Cn11.0.8</p>
+      <p>Groups prepare a two-minute radio or video news report about November 18, 1883, as if they were reporters that day: the old local times, the railroad meeting in Chicago and the clocks that struck noon twice. Each report must include one cause and one effect. Then the class builds a cause-and-effect chain with yarn from “Railroads made travel much faster” to something in students' lives today.</p>
+      <h4>Discussion questions</h4>
+      <p>Why did the railroads, and not the government, create the time zones? What would happen to a train schedule, a video call or a phone today without standard time?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Read how The New York Times reported the change on November 18, 1883, on the History Matters website.</p>
+      <p class="ayuda-es caja-es" lang="es">El día en que los relojes dieron dos veces el mediodía: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.H.4.LC: explain how events are related chronologically to one another, and identify multiple causes and effects of historical events and developments. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): MA:Cn11.0.8: the grade 8 media arts expectation for this anchor standard: relate artistic ideas and works with societal, cultural and historical context to deepen understanding, here through a news report made by students.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s11" name="guia">
+    <summary><span class="num" aria-hidden="true">11</span><span class="cab"><h3><span class="titulo-cap">The ballot that crossed the Mississippi</span></h3><small>Changing rights: women vote in Illinois in 1913, and Ida B. Wells-Barnett · SS.6-8.CV.3.MdC</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-11-suffrage-1913.html">Open the story</a></p>
+      <h4>Group activity: A banner for the vote</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>In groups, students make a timeline with three steps: the Illinois law of June 26, 1913, the March 1913 parade in Washington, and the Nineteenth Amendment in 1920. Then each group designs a suffrage banner or poster, as the suffragists did, with a message, a color and a symbol. Display the banners and let each group explain what its design says about who it wanted to include.</p>
+      <h4>Discussion questions</h4>
+      <p>Why did the suffragists in Illinois accept a partial victory first? What did Ida B. Wells-Barnett show by refusing to march at the back of the parade?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>Read the National Park Service article about Ida B. Wells-Barnett and the 1913 suffrage march.</p>
+      <p class="ayuda-es caja-es" lang="es">El voto que cruzó el Misisipi: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). The story works toward SS.6-8.CV.3.MdC: explain the origins, purposes and processes of maintaining or changing power and rights. The challenge lets students show it; the optional “Go further” question invites deeper analysis. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+  <details class="capitulo" id="capitulo-s12" name="guia">
+    <summary><span class="num" aria-hidden="true">12</span><span class="cab"><h3><span class="titulo-cap">The map that told many stories</span></h3><small>Review: the stories of the year on one map · SS.6-8.H · CV · EC · G</small></span></summary>
+    <div class="cuerpo-cap">
+      <p><a class="al-indice" href="grade8-social-studies-12-review.html">Open the story</a></p>
+      <h4>Group activity: The stories of the year on one map</h4>
+      <p class="pausa-arte">VA:Cn11.1.8</p>
+      <p>As in the story, the class lays out a large map of Illinois on the floor. Each group places one story of the year with a small drawing or object (a plan of Washington, a checkerboard township, a canal boat, a clock, a ballot) and writes a label: which promise is this story about, and was it kept, broken or kept only after a long time? Connect the stories with yarn, and invite another class to visit.</p>
+      <h4>Discussion questions</h4>
+      <p>Which story of the year is connected to the most other stories? Do you agree with Athena that all the stories are about promises?</p>
+      <h4>Pause to connect (done alone in the story)</h4>
+      <p>This story has no pause to connect. Instead, students look back at the sources of the year, from Banneker's almanac to the 1913 suffrage march, and choose the one that taught them the most.</p>
+      <p class="ayuda-es caja-es" lang="es">El mapa que contaba muchas historias: la actividad de grupo, las preguntas para conversar y la pausa para conectar están arriba; el botón «Ayuda en español» del cuento traduce las instrucciones y las preguntas.</p>
+      <p class="pie-std">Illinois Learning Standards for Social Science (revised; in effect since the 2022–2023 school year). This story reviews the Grade 8 standards in history, geography, civics and economics: SS.6-8.H.1.LC, SS.6-8.H.3.MdC, SS.6-8.H.4.LC, SS.6-8.H.4.MC, SS.6-8.CV.2.LC, SS.6-8.CV.2.MCa, SS.6-8.CV.3.LC, SS.6-8.CV.3.MdC, SS.6-8.CV.4.LC, SS.6-8.EC.1.LC and SS.6-8.G.2.MdC. Arts connection (Illinois Arts Learning Standards, Anchor Standard 11, Connecting): VA:Cn11.1.8: distinguish different ways art is used to represent, establish, reinforce and reflect group identity.</p>
+      <p><a class="al-indice cerrar-cap" href="#sociales">↑ Close and go back to Social studies</a></p>
+    </div>
+  </details>
+    </div>
+  </section>
+
+  <section class="parte" id="tarjeta" aria-labelledby="t-tarjeta">
+    <div class="tarjeta">
+      <h2 id="t-tarjeta">4. The stories in one page · Grade 8</h2>
+      <div class="rejilla"><div><h3>Before</h3><ul><li>Look at the picture for 2 minutes: see, think, wonder.</li><li>Teach 2 or 3 key words.</li><li>Place the date on the class timeline.</li><li>Write the question the story will answer.</li></ul></div><div><h3>During</h3><ul><li>Read aloud first; then students reread.</li><li>Stop at the pause and the questions.</li><li>Wrong answer? Read the highlighted evidence and try again.</li><li>Count to 5 before calling on anyone. Turn and talk.</li></ul></div><div><h3>After</h3><ul><li>Challenge: claim, evidence, reasoning.</li><li>«Go further» for those who want more.</li><li>Accept drawings and oral answers.</li><li>Keep the answer as an exit ticket.</li></ul></div><div><h3>Always</h3><ul><li>«Ayuda en español» after the first English reading; withdraw it little by little.</li><li>Show the supports: A+/A−, high contrast, voice, print.</li><li>Goggles, no tasting, never look at the Sun.</li><li>Real history, honest about the hard parts.</li></ul></div></div>
+      <p class="ayuda-es caja-es" lang="es">Antes: ilustración 2 minutos, 2 o 3 palabras clave, la fecha en la línea del tiempo, la pregunta del cuento. Durante: leer en voz alta y releer, detenerse en las pausas, ante un error leer la evidencia resaltada, esperar 5 segundos. Después: afirmación, evidencia y razonamiento; «Go further» para quien quiera más; aceptar dibujos y respuestas orales. Siempre: la ayuda en español después de la primera lectura en inglés; mostrar los apoyos; seguridad (gafas, no probar, nunca mirar el Sol); historia real, honesta con lo difícil.</p>
+      <p class="no-imprimir"><button type="button" id="btn-tarjeta">🖨️ Print only this card</button></p>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <p>José M. Fernández · Development: Claude (Anthropic).</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+<script>
+/* Imprimir solo la tarjeta de una página */
+(function(){
+  var b = document.getElementById('btn-tarjeta');
+  if(!b) return;
+  b.addEventListener('click', function(){
+    document.body.classList.add('solo-tarjeta');
+    window.print();
+  });
+  window.addEventListener('afterprint', function(){ document.body.classList.remove('solo-tarjeta'); });
+})();
+</script>
+</body>
+</html>
