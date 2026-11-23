@@ -3435,7 +3435,7 @@ window.CATALOGO = [
       "tema": "Maps and patterns: the Land Ordinance of 1785, townships, sections and the school section"
     },
     "imagen": "grade8-social-studies-02-land-ordinance.jpg",
-    "escena": "In the classroom, an aerial photo of Illinois farmland in neat squares is projected on the screen, while Athena draws a big square divided into 36 small squares on the board and circles the square numbered 16."
+    "escena": "In the classroom, an aerial photo of Illinois farmland in neat squares is projected on the screen, while Athena draws a big grid of small squares on the board and circles one of them."
   },
   {
     "grado": 8,
@@ -3453,7 +3453,7 @@ window.CATALOGO = [
       "tema": "A governing document: the Northwest Ordinance of 1787, its promises and its limits"
     },
     "imagen": "grade8-social-studies-03-northwest-ordinance.jpg",
-    "escena": "In the classroom, Ms. Novak shows a large copy of an old handwritten document, while the students sit in groups around six cards labeled Article 1 to Article 6; on the wall, a map of the Northwest Territory shows the future states of Ohio, Indiana, Illinois, Michigan and Wisconsin."
+    "escena": "In the classroom, Ms. Novak holds up a large copy of an old handwritten document, while the students sit in groups with six colored cards; on the wall, a map shows the future states of Ohio, Indiana, Illinois, Michigan and Wisconsin in soft colors."
   },
   {
     "grado": 8,
@@ -3471,7 +3471,7 @@ window.CATALOGO = [
       "tema": "Rights and power: the first census of 1790 and the Three-Fifths Compromise"
     },
     "imagen": "grade8-social-studies-04-census-1790.jpg",
-    "escena": "In the classroom, a timeline on the wall shows 1790 and 1868, while Daniel and Salma build a bar graph of states' seats in Congress with paper strips, and Ms. Novak holds a drawing of a census taker on horseback with a notebook."
+    "escena": "In the classroom, Daniel and Salma build a bar graph of states' seats in Congress with paper strips, while Ms. Novak holds a drawing of a census taker on horseback with a notebook, under a timeline on the wall."
   },
   {
     "grado": 8,
@@ -3507,7 +3507,7 @@ window.CATALOGO = [
       "tema": "Economic decisions: the Illinois and Michigan Canal and the growth of Chicago"
     },
     "imagen": "grade8-social-studies-06-im-canal.jpg",
-    "escena": "On a walk beside a quiet old canal with a stone lock, Ms. Novak shows the class a picture of a canal boat pulled by mules on a towpath, while Daniel and Athena draw a graph of Chicago's population that rises steeply."
+    "escena": "On a walk beside a quiet old canal with a stone lock, Ms. Novak shows the class a picture of a canal boat pulled by a mule on a towpath, while Daniel and Athena draw graphs of Chicago's population at a picnic table."
   },
   {
     "grado": 8,
@@ -3543,7 +3543,7 @@ window.CATALOGO = [
       "tema": "Founding principles: the Gettysburg Address and its 87 years"
     },
     "imagen": "grade8-social-studies-08-gettysburg.jpg",
-    "escena": "In the classroom, the board shows the calculation 4 × 20 + 7 = 87 and 1863 − 87 = 1776, while Salma holds a copy of a handwritten page and Ms. Novak points to a photo of a crowd at a cemetery in 1863."
+    "escena": "In the classroom, Salma holds a copy of an old handwritten page while Ms. Novak points to a photo of a crowd at a cemetery in 1863."
   },
   {
     "grado": 8,
@@ -3561,7 +3561,7 @@ window.CATALOGO = [
       "tema": "Changing rights: Illinois ratifies the Thirteenth Amendment, and the fight against the Black Laws"
     },
     "imagen": "grade8-social-studies-09-13th-amendment.jpg",
-    "escena": "In the classroom, a large copy of a handwritten resolution with many signatures hangs on the board, while Elías reads a timeline with the dates January 31 and February 1, 1865, and Selena holds a picture of a man in a 19th-century suit standing in front of a tailor shop."
+    "escena": "In the classroom, a large copy of an old handwritten resolution with many signatures hangs on the wall, while Ms. Novak stands beside a timeline on the board and Selena holds a picture of a man in a 19th-century suit in a tailor shop."
   },
   {
     "grado": 8,
@@ -3579,7 +3579,7 @@ window.CATALOGO = [
       "tema": "Causes and effects: railroads and the Day of Two Noons in 1883"
     },
     "imagen": "grade8-social-studies-10-time-zones.jpg",
-    "escena": "In the classroom, a map of the United States with four colored time zones hangs on the wall next to an old railroad station clock, while Daniel and Salma move the hands of two cardboard clocks and Ms. Novak holds a picture of a steam locomotive."
+    "escena": "In the classroom, a map of the United States with colored time zones hangs on the wall next to an old pendulum clock, while Daniel and Salma move the hands of two cardboard clocks and Ms. Novak holds a picture of a steam locomotive."
   },
   {
     "grado": 8,
@@ -3597,7 +3597,7 @@ window.CATALOGO = [
       "tema": "Changing rights: women vote in Illinois in 1913, and Ida B. Wells-Barnett"
     },
     "imagen": "grade8-social-studies-11-suffrage-1913.jpg",
-    "escena": "In the classroom, Athena and Salma hold a hand-painted banner reading VOTES FOR WOMEN, while Ms. Novak shows a portrait of Ida B. Wells-Barnett and a map of the United States with Illinois highlighted east of the Mississippi River."
+    "escena": "In the classroom, Athena and Salma hold a hand-painted suffrage banner with a golden sun and purple and gold borders, while Ms. Novak shows a portrait of Ida B. Wells-Barnett, under a map of the United States with Illinois highlighted east of the Mississippi River."
   },
   {
     "grado": 8,
@@ -3615,7 +3615,7 @@ window.CATALOGO = [
       "tema": "Review: the stories of the year on one map"
     },
     "imagen": "grade8-social-studies-12-review.jpg",
-    "escena": "On the classroom floor, a giant hand-drawn map of the United States with Illinois in the center is covered with paper pins and pictures: a canal, a train clock, a log camp by a river, a handwritten document and a VOTES FOR WOMEN banner; the students kneel around it while Ms. Novak watches."
+    "escena": "On the classroom floor, a giant hand-drawn map of the United States with Illinois highlighted is covered with pins and pictures: a canal lock, a clock, a log camp, an old document and a suffrage banner with a sun; the students and Ms. Novak kneel around it."
   }
   /* fin grado 8 */
 ];
