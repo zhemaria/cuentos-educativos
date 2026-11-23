@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 8 · Science · MS-PS2-1
+  «The rocket that landed in a cabbage patch»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The rocket that landed in a cabbage patch · Educational stories</title>
+<meta name="description" content="A Grade 8 science story: Robert Goddard&#x27;s first liquid-fueled rocket, Newton&#x27;s third law, force pairs, and how to design a bumper for two colliding carts. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-8">Educational stories</a> · Grade 8 · Science</span>
+    <a class="idioma" href="book-grade8-science.html#capitulo-2">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade8-science-02-rockets.mp4">
+    <img src="grade8-science-02-rockets.jpg" width="1376" height="768"
+         alt="In the school gym, Elías and Selena stand on two skateboards and push each other&#x27;s palms so they roll apart, while a long balloon taped to a straw zooms along a string; Mr. Mensah holds an old photo of a thin rocket in a metal frame in the snow.">
+  </figure>
+
+  <p class="sello">Grade 8 · Science · MS-PS2-1</p>
+  <h1 id="titulo">The rocket that landed in a cabbage patch</h1>
+  <p class="entrada">A story about the first liquid-fueled rocket, the push that always comes back, and a team that saves an egg in a crash.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>El cohete que aterrizó en un campo de coles.</strong> Un cuento sobre el primer cohete de combustible líquido, el empujón que siempre regresa y un equipo que salva un huevo en un choque.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="third-law">Newton's third law</button></li>
+      <li><button type="button" class="voz" data-g="force-pair">force pair</button></li>
+      <li><button type="button" class="voz" data-g="thrust">thrust</button></li>
+      <li><button type="button" class="voz" data-g="vacuum">vacuum</button></li>
+      <li><button type="button" class="voz" data-g="collision">collision</button></li>
+      <li><button type="button" class="voz" data-g="criteria">criteria</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">On a cold March morning, Mr. Mensah held up an old photo: a thin man in a heavy coat stood in the snow next to a tall, skinny metal frame. "This is Robert Goddard," he said, "on March 16, 1926, at his Aunt Effie's farm in Auburn, Massachusetts. A few minutes later, his rocket flew for 2.5 seconds, rose 41 feet and landed 184 feet away, in a cabbage patch."</p>
+
+    <p id="p2">"That's not very far," said Daniel. "It was the first rocket in history to fly with liquid fuel," said Mr. Mensah. "And a few years earlier, in 1920, a newspaper had made fun of Goddard. It said a rocket could never work in space, because in a <button type="button" class="voz" data-g="vacuum">vacuum</button> there is nothing to push against."</p>
+
+    <p id="p3">He asked Elías and Selena to stand on two skateboards, face to face, with their palms together. Only Elías pushed, but both of them rolled apart. <span class="cita" id="c-a">"When Elías pushed on Selena, Selena's hands pushed back on Elías with a force of the same size, in the opposite direction," said Mr. Mensah. "That is <button type="button" class="voz" data-g="third-law">Newton's third law</button>. The two forces always come together, as a <button type="button" class="voz" data-g="force-pair">force pair</button>."</span></p>
+
+    <p id="p4">Next, Salma blew up a long balloon, taped it to a straw on a string that crossed the gym and let it go. It zoomed to the other side. <span class="cita" id="c-b">"The balloon pushes the air out backward, and the air pushes the balloon forward," said Mr. Mensah. "A rocket works the same way. It doesn't need air to push against: it pushes on its own hot gases, and the gases push it forward. That push is called <button type="button" class="voz" data-g="thrust">thrust</button>."</span></p>
+
+    <p id="p5">Then he put a squeezed spring between two carts, one empty and one full of textbooks, and cut the string that held the spring. The carts shot apart. <span class="cita" id="c-c">The two forces were equal, but the empty cart rolled much farther, because it had less mass.</span></p>
+
+    <p id="p6">"Now, a problem for engineers," said Mr. Mensah. Each team got a cart with a raw egg in it. The carts would roll toward each other and crash. The <button type="button" class="voz" data-g="criteria">criteria</button>: the egg must not break, and the bumper must fit on the front of the cart. <span class="cita" id="c-d">"In a <button type="button" class="voz" data-g="collision">collision</button>, the two carts push on each other with equal forces, so you can't make the forces disappear," said Mr. Mensah. "But a soft bumper makes the crash last longer, so the push at each moment is smaller."</span></p>
+
+    <p id="p7">Israel's team used a paper cup. Crack! Athena's team used a sponge and two rubber bands, and their egg survived without a scratch. "The sponge squished slowly," said Athena. "It spread the push out over more time."</p>
+
+    <p id="p8">At the end of class, Mr. Mensah told one more fact. <span class="cita" id="c-e">Goddard died in 1945. In July 1969, while Apollo 11 was flying to the Moon, the same newspaper printed a correction: a rocket can work in a vacuum.</span> "He was right for almost fifty years," said Selena. Sophia wrote in her notebook: Every push comes back. Design for it.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-third-law"><dt>Newton's third law</dt><dd>When one object pushes or pulls on another, the second object pushes or pulls back with a force of the same size in the opposite direction.</dd><dd class="ayuda-es caja-es" lang="es"><strong>tercera ley de Newton:</strong> Cuando un objeto empuja o tira de otro, el segundo empuja o tira del primero con una fuerza del mismo tamaño en dirección contraria.</dd></div>
+    <div id="g-force-pair"><dt>force pair</dt><dd>The two equal and opposite forces that two objects put on each other at the same time.</dd><dd class="ayuda-es caja-es" lang="es"><strong>par de fuerzas:</strong> Las dos fuerzas iguales y opuestas que dos objetos se hacen el uno al otro al mismo tiempo.</dd></div>
+    <div id="g-thrust"><dt>thrust</dt><dd>The forward push on a rocket, made when it pushes hot gases out backward.</dd><dd class="ayuda-es caja-es" lang="es"><strong>empuje:</strong> El empujón hacia adelante que recibe un cohete cuando expulsa gases calientes hacia atrás.</dd></div>
+    <div id="g-vacuum"><dt>vacuum</dt><dd>A space with no air, like outer space.</dd><dd class="ayuda-es caja-es" lang="es"><strong>vacío:</strong> Un espacio sin aire, como el espacio exterior.</dd></div>
+    <div id="g-collision"><dt>collision</dt><dd>A crash in which two moving objects hit each other.</dd><dd class="ayuda-es caja-es" lang="es"><strong>choque (colisión):</strong> Un golpe en el que dos objetos en movimiento se encuentran.</dd></div>
+    <div id="g-criteria"><dt>criteria</dt><dd>The things a design must do to be successful.</dd><dd class="ayuda-es caja-es" lang="es"><strong>criterios:</strong> Lo que un diseño tiene que lograr para tener éxito.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>When Elías pushed Selena, why did both of them roll apart?</span></p>
+      <p class="ayuda-es caja-es" lang="es">Cuando Elías empujó a Selena, ¿por qué se separaron los dos?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">Selena pushed back on Elías with a force of the same size</button>
+        <button class="opcion">Only Elías was pushed by the floor</button>
+        <button class="opcion">The skateboards were on a ramp</button>
+      </div>
+      <p class="explicacion" hidden>By Newton's third law, Selena's hands pushed back on Elías with an equal force in the opposite direction.</p>
+    </li>
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>How can a rocket move in space, where there is no air?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo puede moverse un cohete en el espacio, donde no hay aire?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">It pushes against the stars</button>
+        <button class="opcion">It pushes its own gases backward, and the gases push it forward</button>
+        <button class="opcion">It is pulled by the Moon</button>
+      </div>
+      <p class="explicacion" hidden>The rocket pushes its gases out backward, and the gases push the rocket forward: that is thrust.</p>
+    </li>
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>Why did the empty cart roll farther than the cart full of books?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué el carrito vacío rodó más lejos que el carrito lleno de libros?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">The spring pushed the empty cart harder</button>
+        <button class="opcion">The empty cart had more friction</button>
+        <button class="opcion">The forces were equal, but the empty cart had less mass</button>
+      </div>
+      <p class="explicacion" hidden>The force pair was equal, but the same force changes the motion of an object with less mass more.</p>
+    </li>
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>How does a soft bumper help in a collision?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Cómo ayuda un parachoques blando en un choque?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">It makes the crash last longer, so the push at each moment is smaller</button>
+        <button class="opcion">It makes the forces disappear</button>
+        <button class="opcion">It makes one cart push harder than the other</button>
+      </div>
+      <p class="explicacion" hidden>The forces are still equal, but a soft bumper spreads the push over more time.</p>
+    </li>
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>What did the newspaper print in July 1969?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué publicó el periódico en julio de 1969?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">That Goddard's rocket had landed on the Moon</button>
+        <button class="opcion">A correction saying that a rocket can work in a vacuum</button>
+        <button class="opcion">An article about cabbage farms</button>
+      </div>
+      <p class="explicacion" hidden>While Apollo 11 flew to the Moon, the newspaper corrected its 1920 article: a rocket can work in a vacuum.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Design a solution</p>
+    <p class="reto-pregunta">Your team must design a bumper so that two carts can crash without breaking an egg. Write two criteria for your design, choose your materials, and use Newton's third law to explain why your bumper protects the egg.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Diseña una solución.</strong> Tu equipo debe diseñar un parachoques para que dos carritos choquen sin que se rompa un huevo. Escribe dos criterios para tu diseño, elige tus materiales y usa la tercera ley de Newton para explicar por qué tu parachoques protege el huevo.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Criteria could be: the egg must not crack, and the bumper must fit on the front of the cart. A good material squishes slowly, like a sponge, foam or a folded towel. By Newton's third law, the carts push on each other with equal forces, and a bumper can't change that. But a soft bumper makes the collision last longer, so the force at each moment is smaller, and the egg survives. Test your bumper, then improve it.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-PS2-1: apply Newton's third law to design a solution to a problem involving the motion of two colliding objects.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>

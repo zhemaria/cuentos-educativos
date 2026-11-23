@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 8 · Science · MS-PS2-4
+  «The man who weighed the world»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The man who weighed the world · Educational stories</title>
+<meta name="description" content="A Grade 8 science story: Henry Cavendish&#x27;s 1798 experiment with lead balls, why gravity always attracts, and how it depends on mass. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-8">Educational stories</a> · Grade 8 · Science</span>
+    <a class="idioma" href="book-grade8-science.html#capitulo-3">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade8-science-03-gravity.mp4">
+    <img src="grade8-science-03-gravity.jpg" width="1376" height="768"
+         alt="In the science lab, Mr. Mensah holds an apple in one hand and points to a drawing on the board of a long wooden rod hanging from a wire with small and large lead balls; Daniel and Salma look through a telescope set up outside a small closed shed in the drawing.">
+  </figure>
+
+  <p class="sello">Grade 8 · Science · MS-PS2-4</p>
+  <h1 id="titulo">The man who weighed the world</h1>
+  <p class="entrada">A story about a very shy scientist, a closed room with four lead balls, and the tiny pull that showed how heavy the Earth is.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>El hombre que pesó el mundo.</strong> Un cuento sobre un científico muy tímido, un cuarto cerrado con cuatro bolas de plomo y el tirón diminuto que mostró cuánto pesa la Tierra.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="gravity">gravity</button></li>
+      <li><button type="button" class="voz" data-g="attract">attract</button></li>
+      <li><button type="button" class="voz" data-g="torsion-balance">torsion balance</button></li>
+      <li><button type="button" class="voz" data-g="density">density</button></li>
+      <li><button type="button" class="voz" data-g="core">core</button></li>
+      <li><button type="button" class="voz" data-g="argument">argument</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">Mr. Mensah held up an apple and let it fall into his other hand. "Here is a question for scientists," he said. "The Earth pulls the apple down. Does the apple pull the Earth up?" Half of the class said yes, and half said no. "Let's build an <button type="button" class="voz" data-g="argument">argument</button> with evidence," he said, "and our evidence comes from a man who weighed the world."</p>
+
+    <p id="p2">He drew on the board. "In 1797 and 1798, in London, a very shy scientist named Henry Cavendish used a <button type="button" class="voz" data-g="torsion-balance">torsion balance</button> that his friend John Michell had built before he died. It was a wooden rod about six feet long, hanging from a thin wire, with a small lead ball at each end. Next to them, Cavendish placed two big lead balls that weighed about 350 pounds each."</p>
+
+    <p id="p3"><span class="cita" id="c-a">When the big balls were placed near the small ones, the rod turned a tiny bit: the big balls pulled the small ones toward them. <button type="button" class="voz" data-g="gravity">Gravity</button> always <button type="button" class="voz" data-g="attract">attracts</button>; it never pushes objects away.</span> "So any two objects pull on each other?" asked Elías. "Even you and me," said Mr. Mensah.</p>
+
+    <p id="p4">"Then why don't I feel Daniel pulling me?" asked Selena. <span class="cita" id="c-b">"Because the pull depends on mass," said Mr. Mensah. "The more mass two objects have, the stronger the gravity between them. Daniel has very little mass compared with the Earth, so his pull is far too small to feel."</span></p>
+
+    <p id="p5"><span class="cita" id="c-c">The pull between the lead balls was so weak that even the warmth of a person's body could stir the air and ruin the measurement.</span> So Cavendish closed the instrument inside a room and never went in. He moved the balls with ropes from outside and read the tiny movements through a telescope pointed through the wall.</p>
+
+    <p id="p6">From the size of that tiny pull, Cavendish calculated how much mass the Earth must have. <span class="cita" id="c-d">He found that the Earth's <button type="button" class="voz" data-g="density">density</button> is about five and a half times that of water, much greater than the density of the rocks on its surface. So the inside of the Earth must be made of something heavier, like the iron of its <button type="button" class="voz" data-g="core">core</button>.</span> His result was within about one percent of the value scientists use today.</p>
+
+    <p id="p7">"Now, back to the apple," said Mr. Mensah. <span class="cita" id="c-e">"The apple does pull the Earth, with a force exactly as big as the Earth's pull on the apple. But the Earth has so much mass that its motion barely changes, while the apple falls."</span> Athena smiled. "Newton's third law again."</p>
+
+    <p id="p8">Israel looked at the drawing of the closed room. "He weighed the whole world without leaving his house," he said. Sophia wrote in her notebook: Every object pulls every other object. Mass decides how much.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-gravity"><dt>gravity</dt><dd>The force of attraction between any two objects that have mass.</dd><dd class="ayuda-es caja-es" lang="es"><strong>gravedad:</strong> La fuerza de atracción entre dos objetos cualesquiera que tienen masa.</dd></div>
+    <div id="g-attract"><dt>attract</dt><dd>To pull toward. Gravity always attracts; it never pushes objects apart.</dd><dd class="ayuda-es caja-es" lang="es"><strong>atraer:</strong> Tirar hacia sí. La gravedad siempre atrae; nunca separa los objetos.</dd></div>
+    <div id="g-torsion-balance"><dt>torsion balance</dt><dd>An instrument with a rod hanging from a thin wire. A very small force makes the wire twist, and the twist can be measured.</dd><dd class="ayuda-es caja-es" lang="es"><strong>balanza de torsión:</strong> Un instrumento con una varilla que cuelga de un alambre fino. Una fuerza muy pequeña hace que el alambre se tuerza, y la torsión se puede medir.</dd></div>
+    <div id="g-density"><dt>density</dt><dd>How much mass is packed into a certain volume.</dd><dd class="ayuda-es caja-es" lang="es"><strong>densidad:</strong> Cuánta masa hay en un volumen determinado.</dd></div>
+    <div id="g-core"><dt>core</dt><dd>The center of the Earth, made mostly of iron and nickel.</dd><dd class="ayuda-es caja-es" lang="es"><strong>núcleo:</strong> El centro de la Tierra, hecho sobre todo de hierro y níquel.</dd></div>
+    <div id="g-argument"><dt>argument</dt><dd>In science, a claim supported by evidence and reasoning.</dd><dd class="ayuda-es caja-es" lang="es"><strong>argumento:</strong> En ciencias, una afirmación apoyada con evidencia y razonamiento.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What happened when the big lead balls were placed near the small ones?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué pasó cuando se colocaron las bolas grandes de plomo cerca de las pequeñas?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">The small balls were pushed away</button>
+        <button class="opcion">The rod turned a little, because the big balls pulled the small ones</button>
+        <button class="opcion">Nothing moved at all</button>
+      </div>
+      <p class="explicacion" hidden>The big balls attracted the small ones, and the rod turned a tiny bit. Gravity always attracts.</p>
+    </li>
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>Why can't Selena feel Daniel's gravity?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué Selena no siente la gravedad de Daniel?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">Daniel has very little mass compared with the Earth</button>
+        <button class="opcion">Gravity only works outdoors</button>
+        <button class="opcion">Daniel's gravity pushes instead of pulling</button>
+      </div>
+      <p class="explicacion" hidden>The pull depends on mass. Daniel's mass is tiny compared with the Earth's, so his pull is too small to feel.</p>
+    </li>
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>Why did Cavendish never go into the room with the instrument?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué Cavendish nunca entraba en el cuarto del instrumento?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">He was afraid of the lead balls</button>
+        <button class="opcion">The room was too cold</button>
+        <button class="opcion">Even the warmth of his body could stir the air and ruin the measurement</button>
+      </div>
+      <p class="explicacion" hidden>The pull was so weak that air moved by body heat could ruin it, so he read it with a telescope from outside.</p>
+    </li>
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>What did Cavendish's result show about the inside of the Earth?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué mostró el resultado de Cavendish sobre el interior de la Tierra?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">It is hollow and full of air</button>
+        <button class="opcion">It must be made of something denser than surface rocks, like iron</button>
+        <button class="opcion">It is made of water</button>
+      </div>
+      <p class="explicacion" hidden>The Earth is about five and a half times as dense as water, denser than surface rocks, so its inside must be heavier, like an iron core.</p>
+    </li>
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>Does the apple pull the Earth?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿La manzana tira de la Tierra?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">No, only big objects have gravity</button>
+        <button class="opcion">Yes, but with a much smaller force than the Earth's pull</button>
+        <button class="opcion">Yes, with the same force, but the Earth's motion barely changes</button>
+      </div>
+      <p class="explicacion" hidden>The apple pulls the Earth with the same force, but the Earth has so much mass that its motion barely changes.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Build an argument</p>
+    <p class="reto-pregunta">Claim: gravity is always an attraction, and it is stronger between objects with more mass. Write an argument for this claim. Use two pieces of evidence from the story and explain your reasoning.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Construye un argumento.</strong> Afirmación: la gravedad siempre es una atracción, y es más fuerte entre objetos con más masa. Escribe un argumento para esta afirmación. Usa dos evidencias del cuento y explica tu razonamiento.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Evidence 1: in Cavendish's experiment, the big lead balls pulled the small ones toward them; the rod never turned the other way, so gravity attracts. Evidence 2: we feel the pull of the enormous Earth, but not the pull of a classmate. Reasoning: the Earth has much more mass than a person, so its gravity is much stronger. That supports the claim that gravity depends on mass.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-PS2-4: construct and present arguments using evidence to support the claim that gravitational interactions are attractive and depend on the masses of interacting objects.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>

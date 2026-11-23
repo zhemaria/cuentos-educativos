@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 8 · Science · MS-PS2-2
+  «The ball that never wanted to stop»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The ball that never wanted to stop · Educational stories</title>
+<meta name="description" content="A Grade 8 science story: Galileo&#x27;s ramps, inertia, friction, mass, and how balanced and unbalanced forces change motion. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-8">Educational stories</a> · Grade 8 · Science</span>
+    <a class="idioma" href="book-grade8-science.html#capitulo-1">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade8-science-01-forces-motion.mp4">
+    <img src="grade8-science-01-forces-motion.jpg" width="1376" height="768"
+         alt="In the science lab, two wooden ramps form a V on a long table while a steel ball rolls down one side; Mr. Mensah holds a ruler, Selena and Elías pull a small cart from opposite ends with spring scales, and Israel, Salma and Daniel watch.">
+  </figure>
+
+  <p class="sello">Grade 8 · Science · MS-PS2-2</p>
+  <h1 id="titulo">The ball that never wanted to stop</h1>
+  <p class="entrada">A story about Galileo's ramps, the force that stops a rolling ball, and why the same push moves an empty cart more than a full one.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>La bola que nunca quería detenerse.</strong> Un cuento sobre las rampas de Galileo, la fuerza que detiene una bola que rueda y por qué el mismo empujón mueve más un carrito vacío que uno lleno.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="force">force</button></li>
+      <li><button type="button" class="voz" data-g="friction">friction</button></li>
+      <li><button type="button" class="voz" data-g="inertia">inertia</button></li>
+      <li><button type="button" class="voz" data-g="mass">mass</button></li>
+      <li><button type="button" class="voz" data-g="balanced-forces">balanced forces</button></li>
+      <li><button type="button" class="voz" data-g="unbalanced-forces">unbalanced forces</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">On the first Monday of eighth grade, Mr. Mensah's lab table looked like a skate park. Two long wooden ramps leaned against each other to make a V, and a steel ball waited at the top of one side. "In 1638," said Mr. Mensah, "Galileo Galilei published a book about motion. To study falling, he rolled bronze balls down a long wooden groove, smooth as he could make it, and timed them with a water clock."</p>
+
+    <p id="p2">He let the ball go. It rushed down the first ramp, crossed the bottom and climbed the second one. Daniel held a ruler next to it. <span class="cita" id="c-a">The ball climbed almost back to the height where it had started. Mr. Mensah made the second ramp steeper, then less steep, and every time the ball rose to nearly the same height.</span></p>
+
+    <p id="p3">"Now watch," said Mr. Mensah, and he lowered the second ramp until it was almost flat. The ball rolled and rolled, all the way to the end of the table, where Salma caught it. <span class="cita" id="c-b">"Galileo asked a strange question," said Mr. Mensah. "What if the second ramp were perfectly flat and perfectly smooth? The ball would never reach its starting height again, so it would just keep rolling forever."</span></p>
+
+    <p id="p4">"But real balls stop," said Israel. "Because something stops them," said Mr. Mensah. <span class="cita" id="c-c">"<button type="button" class="voz" data-g="friction">Friction</button> is a <button type="button" class="voz" data-g="force">force</button> that acts against motion, between the ball and the table, and between the ball and the air. A ball doesn't stop because it gets tired. It stops because a force slows it down."</span> He wrote a word on the board: <button type="button" class="voz" data-g="inertia">inertia</button>. "Objects keep doing what they are doing, moving or still, until a force changes it."</p>
+
+    <p id="p5">Next, he brought out two carts. One was empty, and the other carried a stack of textbooks. Athena pushed each one with a spring scale, always pulling the needle to the same number. <span class="cita" id="c-d">With the same push, the empty cart sped across the floor, but the cart full of books barely moved. "More <button type="button" class="voz" data-g="mass">mass</button>," said Sophia, "means the same force changes its motion less."</span></p>
+
+    <p id="p6">Then Elías and Selena hooked spring scales to the two ends of the empty cart and pulled in opposite directions. Both scales read 5 newtons, and the cart didn't move at all. Then Elías pulled harder, and the cart rolled toward him. <span class="cita" id="c-e">"When the forces are equal and opposite, they are <button type="button" class="voz" data-g="balanced-forces">balanced</button>, and the motion doesn't change," said Mr. Mensah. "When one side wins, the forces are <button type="button" class="voz" data-g="unbalanced-forces">unbalanced</button>, and the cart speeds up, slows down or changes direction."</span></p>
+
+    <p id="p7">"Galileo died in 1642," Mr. Mensah said. "Around that time, Isaac Newton was born in England. In 1687, Newton turned Galileo's idea into his first law of motion: an object keeps moving in a straight line at the same speed, or stays still, unless a force acts on it."</p>
+
+    <p id="p8">The bell rang, and Israel picked up the steel ball. "So, on a perfect ramp, this ball would still be rolling," he said. "Somewhere, in Galileo's head, it still is," said Mr. Mensah. Sophia wrote in her notebook: Things don't stop on their own. Look for the force.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-force"><dt>force</dt><dd>A push or a pull on an object. Forces are measured in newtons.</dd><dd class="ayuda-es caja-es" lang="es"><strong>fuerza:</strong> Un empujón o un tirón sobre un objeto. Las fuerzas se miden en newtons.</dd></div>
+    <div id="g-friction"><dt>friction</dt><dd>A force between two surfaces that rub together. It acts against motion and slows objects down.</dd><dd class="ayuda-es caja-es" lang="es"><strong>fricción (rozamiento):</strong> Una fuerza entre dos superficies que se rozan. Actúa en contra del movimiento y frena los objetos.</dd></div>
+    <div id="g-inertia"><dt>inertia</dt><dd>The tendency of an object to keep doing what it is doing: to stay still, or to keep moving at the same speed in the same direction.</dd><dd class="ayuda-es caja-es" lang="es"><strong>inercia:</strong> La tendencia de un objeto a seguir haciendo lo que hace: quedarse quieto o seguir moviéndose a la misma velocidad y en la misma dirección.</dd></div>
+    <div id="g-mass"><dt>mass</dt><dd>The amount of matter in an object. An object with more mass is harder to speed up, slow down or turn.</dd><dd class="ayuda-es caja-es" lang="es"><strong>masa:</strong> La cantidad de materia de un objeto. Un objeto con más masa es más difícil de acelerar, frenar o desviar.</dd></div>
+    <div id="g-balanced-forces"><dt>balanced forces</dt><dd>Forces on an object that cancel each other out, so its motion does not change.</dd><dd class="ayuda-es caja-es" lang="es"><strong>fuerzas equilibradas:</strong> Fuerzas sobre un objeto que se anulan entre sí, de modo que su movimiento no cambia.</dd></div>
+    <div id="g-unbalanced-forces"><dt>unbalanced forces</dt><dd>Forces on an object that do not cancel out. They change its motion: it speeds up, slows down or changes direction.</dd><dd class="ayuda-es caja-es" lang="es"><strong>fuerzas no equilibradas:</strong> Fuerzas sobre un objeto que no se anulan. Cambian su movimiento: acelera, frena o cambia de dirección.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What happened when the ball rolled down one ramp and up the other?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué pasó cuando la bola bajó por una rampa y subió por la otra?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">It climbed much higher than where it started</button>
+        <button class="opcion">It climbed almost back to its starting height</button>
+        <button class="opcion">It stopped at the bottom of the V</button>
+      </div>
+      <p class="explicacion" hidden>Every time, the ball rose to nearly the same height where it had started, whatever the slope of the second ramp.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>According to Galileo, what would happen on a perfectly flat, perfectly smooth ramp?</span></p>
+      <p class="ayuda-es caja-es" lang="es">Según Galileo, ¿qué pasaría en una rampa perfectamente plana y perfectamente lisa?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">The ball would keep rolling forever</button>
+        <button class="opcion">The ball would roll back to the first ramp</button>
+        <button class="opcion">The ball would stop right away</button>
+      </div>
+      <p class="explicacion" hidden>The ball could never climb back to its starting height, so, with nothing to slow it down, it would keep rolling forever.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>Why does a real rolling ball stop?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué se detiene una bola real que rueda?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">It runs out of energy because it gets tired</button>
+        <button class="opcion">Its inertia pulls it backward</button>
+        <button class="opcion">Friction, a force against motion, slows it down</button>
+      </div>
+      <p class="explicacion" hidden>Friction between the ball and the table, and between the ball and the air, is a force that slows it down.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>With the same push, why did the cart full of books barely move?</span></p>
+      <p class="ayuda-es caja-es" lang="es">Con el mismo empujón, ¿por qué el carrito lleno de libros casi no se movió?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">It had more mass, so the same force changed its motion less</button>
+        <button class="opcion">Athena pushed it with less force</button>
+        <button class="opcion">Books create balanced forces</button>
+      </div>
+      <p class="explicacion" hidden>Athena used the same force on both carts. The cart with more mass changed its motion less.</p>
+    </li>
+
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>Why didn't the cart move when both scales read 5 newtons?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué no se movió el carrito cuando las dos balanzas marcaban 5 newtons?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">The cart had too much friction to ever move</button>
+        <button class="opcion">The forces were balanced, so its motion didn't change</button>
+        <button class="opcion">Five newtons is too small to be a force</button>
+      </div>
+      <p class="explicacion" hidden>Equal forces in opposite directions are balanced: they cancel out, so the motion doesn't change.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Plan an investigation</p>
+    <p class="reto-pregunta">You want to test this question: does adding mass to a cart change how much the same push changes its motion? Plan your investigation. What will you change, what will you keep the same, and what will you measure?</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Planea una investigación.</strong> Quieres poner a prueba esta pregunta: ¿añadir masa a un carrito cambia cuánto modifica su movimiento un mismo empujón? Planea tu investigación. ¿Qué vas a cambiar, qué vas a mantener igual y qué vas a medir?</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Change only the mass: for example, add one, two and three textbooks. Keep the same the push (the same reading on the spring scale), the cart, the floor and the starting point. Measure how far the cart rolls, or how fast it goes, after each push. If the carts with more mass roll a shorter distance, the evidence shows that more mass means the same force changes motion less. Repeat each trial three times to make sure.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-PS2-2: plan an investigation to provide evidence that the change in an object's motion depends on the sum of the forces on the object and the mass of the object.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>

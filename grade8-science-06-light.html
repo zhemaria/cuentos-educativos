@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+  Educational stories · Grade 8 · Science · MS-PS4-2
+  «The rainbow hiding in a sunbeam»
+  From Grade 5 on, the stories are in English, with optional help in Spanish.
+  Author: José M. Fernández · Development: Claude (Anthropic) · Illustration: AI
+  License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The rainbow hiding in a sunbeam · Educational stories</title>
+<meta name="description" content="A Grade 8 science story: Isaac Newton&#x27;s prism experiments, the spectrum, and how light is reflected, absorbed and transmitted by different materials. With vocabulary, glossary, comprehension questions and optional help in Spanish.">
+<meta name="author" content="José M. Fernández">
+<meta name="license" content="CC BY-NC-SA 4.0">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="cuentos.css">
+</head>
+<body>
+<a class="salto" href="#cuento">Skip to the story</a>
+
+<main class="hoja">
+
+  <nav class="migas" aria-label="Location">
+    <span><a href="index-en.html#grade-8">Educational stories</a> · Grade 8 · Science</span>
+    <a class="idioma" href="book-grade8-science.html#capitulo-6">📖 The whole book</a>
+  </nav>
+
+  <div class="apoyos" role="group" aria-label="Reading supports">
+    <button type="button" id="btn-voz" aria-pressed="false">Listen to the story</button>
+    <button type="button" id="btn-ayuda" class="btn-ayuda" aria-pressed="false" lang="es"><span aria-hidden="true">🌐 </span>Ayuda en español</button>
+    <button type="button" id="btn-menor">A<span aria-hidden="true">−</span><span class="sr-only"> Smaller text</span></button>
+    <button type="button" id="btn-mayor">A<span aria-hidden="true">+</span><span class="sr-only"> Bigger text</span></button>
+    <button type="button" id="btn-contraste" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-imprimir">Print</button>
+  </div>
+
+  <figure class="lamina" data-video="grade8-science-06-light.mp4">
+    <img src="grade8-science-06-light.jpg" width="1376" height="768"
+         alt="In the darkened science lab, a sunbeam enters through a small gap in the blinds and passes through a glass prism, painting a band of rainbow colors on a white screen; Selena holds a second prism, and Daniel shines a blue flashlight on a red apple.">
+  </figure>
+
+  <p class="sello">Grade 8 · Science · MS-PS4-2</p>
+  <h1 id="titulo">The rainbow hiding in a sunbeam</h1>
+  <p class="entrada">A story about a young Isaac Newton in a dark room, a second prism that changed everything, and why a red apple looks black under blue light.</p>
+  <p class="ayuda-es caja-es" lang="es"><strong>El arcoíris escondido en un rayo de sol.</strong> Un cuento sobre un joven Isaac Newton en un cuarto oscuro, un segundo prisma que lo cambió todo y por qué una manzana roja se ve negra bajo una luz azul.</p>
+
+  <ul class="indice" aria-label="Parts of this page">
+    <li><a href="#palabras">Science words</a></li>
+    <li><a href="#cuento">The story</a></li>
+    <li><a href="#glosario">Glossary</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+    <li><a href="#reto">Challenge</a></li>
+  </ul>
+
+  <section class="clave" id="palabras" aria-labelledby="tit-palabras">
+    <h2 id="tit-palabras">Science words you will learn</h2>
+    <ul class="fichas">
+      <li><button type="button" class="voz" data-g="prism">prism</button></li>
+      <li><button type="button" class="voz" data-g="spectrum">spectrum</button></li>
+      <li><button type="button" class="voz" data-g="transmit">transmit</button></li>
+      <li><button type="button" class="voz" data-g="refraction">refraction</button></li>
+      <li><button type="button" class="voz" data-g="reflect">reflect</button></li>
+      <li><button type="button" class="voz" data-g="absorb">absorb</button></li>
+    </ul>
+    <p style="margin:.7rem 0 0;font-size:.95rem">Tap a green word to see what it means.</p>
+    <p class="ayuda-es caja-es" lang="es">Toca una palabra verde para ver qué significa. Con la ayuda activada, verás también la definición en español.</p>
+  </section>
+
+  <h2 id="cuento" tabindex="-1">The story</h2>
+  <p class="ayuda-es caja-es" lang="es">El cuento está en inglés. Pulsa «Listen to the story» para escucharlo y toca las palabras verdes cuando no entiendas una.</p>
+  <div class="cuento">
+    <p id="p1">Mr. Mensah closed the blinds until only a thin sunbeam came through a gap. "In 1665, a terrible plague closed Cambridge University in England," he said, "and a young student named Isaac Newton went home to his family's farm. Around 1666, he darkened a room, let a beam of sunlight in through a small hole, and put a glass <button type="button" class="voz" data-g="prism">prism</button> in its path."</p>
+
+    <p id="p2">He held up a prism. The sunbeam went in white and came out the other side as a band of colors on the white screen. Selena read them out loud. <span class="cita" id="c-a">"Red, orange, yellow, green, blue, violet!" White light had separated into a band of colors, which Newton called a <button type="button" class="voz" data-g="spectrum">spectrum</button>.</span></p>
+
+    <p id="p3">"People in Newton's time thought the glass added the colors to the light," said Mr. Mensah. "So Newton tried something clever." He let only the red part of the band pass through a hole in a card and into a second prism. <span class="cita" id="c-b">The red light came out of the second prism still red. "The prism doesn't make the colors," said Mr. Mensah. "The colors were already inside white light. The prism only separates them."</span></p>
+
+    <p id="p4">"But why does a prism separate them?" asked Elías. <span class="cita" id="c-c">"Glass <button type="button" class="voz" data-g="transmit">transmits</button> light: it lets it pass through. But when light goes from air into glass, it bends, and that bending is called <button type="button" class="voz" data-g="refraction">refraction</button>," said Mr. Mensah. "Each color bends a slightly different amount, so the colors spread apart."</span></p>
+
+    <p id="p5">Then he turned on the lights and put a red apple on the table. Daniel shone a blue flashlight on it, and the apple looked almost black. <span class="cita" id="c-d">"A red apple <button type="button" class="voz" data-g="reflect">reflects</button> red light and <button type="button" class="voz" data-g="absorb">absorbs</button> the other colors," said Mr. Mensah. "Under blue light, there's no red light to reflect, so it looks dark."</span></p>
+
+    <p id="p6">Salma thought about it. "So that's why my black T-shirt gets so hot in the sun?" <span class="cita" id="c-e">"Exactly," said Mr. Mensah. "A black shirt absorbs almost all the colors, and the energy of the absorbed light becomes heat. A white shirt reflects most of the light, so it stays cooler."</span></p>
+
+    <p id="p7">"Newton wrote about his experiments in a letter to the Royal Society in London in 1672," Mr. Mensah said. "Some scientists argued with him for years. But the second prism was hard to argue with."</p>
+
+    <p id="p8">As the class left, the sun came out from behind a cloud, and the prism on the windowsill threw a tiny rainbow on the wall. Sophia wrote in her notebook: White light isn't one color. It's all of them, waiting to be separated.</p>
+  </div>
+
+  <h2 id="tit-glosario">Glossary</h2>
+  <dl class="glosario" id="glosario" aria-labelledby="tit-glosario">
+    <div id="g-prism"><dt>prism</dt><dd>A clear block of glass with flat sides that bends light and can separate it into colors.</dd><dd class="ayuda-es caja-es" lang="es"><strong>prisma:</strong> Un bloque de vidrio transparente con caras planas que desvía la luz y puede separarla en colores.</dd></div>
+    <div id="g-spectrum"><dt>spectrum</dt><dd>The band of colors that makes up white light: red, orange, yellow, green, blue and violet.</dd><dd class="ayuda-es caja-es" lang="es"><strong>espectro:</strong> La banda de colores que forma la luz blanca: rojo, naranja, amarillo, verde, azul y violeta.</dd></div>
+    <div id="g-transmit"><dt>transmit</dt><dd>To let light or another wave pass through. Glass and clear water transmit light.</dd><dd class="ayuda-es caja-es" lang="es"><strong>transmitir:</strong> Dejar pasar la luz u otra onda. El vidrio y el agua clara transmiten la luz.</dd></div>
+    <div id="g-refraction"><dt>refraction</dt><dd>The bending of light when it passes from one material into another, like from air into glass.</dd><dd class="ayuda-es caja-es" lang="es"><strong>refracción:</strong> El cambio de dirección de la luz cuando pasa de un material a otro, por ejemplo del aire al vidrio.</dd></div>
+    <div id="g-reflect"><dt>reflect</dt><dd>To bounce light or another wave back from a surface.</dd><dd class="ayuda-es caja-es" lang="es"><strong>reflejar:</strong> Hacer rebotar la luz u otra onda en una superficie.</dd></div>
+    <div id="g-absorb"><dt>absorb</dt><dd>To take in light or another wave. The energy of absorbed light often becomes heat.</dd><dd class="ayuda-es caja-es" lang="es"><strong>absorber:</strong> Recibir y quedarse con la luz u otra onda. La energía de la luz absorbida a menudo se convierte en calor.</dd></div>
+  </dl>
+
+  <h2 id="preguntas">Questions</h2>
+  <p>Choose the correct answer. If you make a mistake, the story shows you where the answer is.</p>
+  <p class="ayuda-es caja-es" lang="es">Elige la respuesta correcta. Si te equivocas, el cuento te muestra dónde está la respuesta.</p>
+  <ol class="preguntas">
+    <li class="pregunta" id="pregunta-a" data-cita="c-a" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">A</span><span class="texto-enunciado"><span class="sr-only">Question A. </span>What happened when sunlight passed through the prism?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué pasó cuando la luz del sol atravesó el prisma?</p>
+      <div class="opciones" role="group" aria-label="Options for question A">
+        <button class="opcion">The light disappeared</button>
+        <button class="opcion">The light turned completely red</button>
+        <button class="opcion">White light separated into a band of colors</button>
+      </div>
+      <p class="explicacion" hidden>White light came out as a spectrum: red, orange, yellow, green, blue and violet.</p>
+    </li>
+    <li class="pregunta" id="pregunta-b" data-cita="c-b" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">B</span><span class="texto-enunciado"><span class="sr-only">Question B. </span>What did Newton's second prism show?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Qué mostró el segundo prisma de Newton?</p>
+      <div class="opciones" role="group" aria-label="Options for question B">
+        <button class="opcion">The colors were already in white light; the prism only separates them</button>
+        <button class="opcion">The glass adds new colors to light</button>
+        <button class="opcion">Red light turns into white light</button>
+      </div>
+      <p class="explicacion" hidden>The red light came out still red, so the prism doesn't make colors; it separates the colors already in white light.</p>
+    </li>
+    <li class="pregunta" id="pregunta-c" data-cita="c-c" data-correcta="1">
+      <p class="enunciado"><span class="letra" aria-hidden="true">C</span><span class="texto-enunciado"><span class="sr-only">Question C. </span>Why does a prism separate the colors?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué un prisma separa los colores?</p>
+      <div class="opciones" role="group" aria-label="Options for question C">
+        <button class="opcion">The glass absorbs the white light</button>
+        <button class="opcion">Each color bends a different amount when it enters the glass</button>
+        <button class="opcion">The colors bounce off the outside of the glass</button>
+      </div>
+      <p class="explicacion" hidden>Light bends when it passes from air into glass (refraction), and each color bends a slightly different amount.</p>
+    </li>
+    <li class="pregunta" id="pregunta-d" data-cita="c-d" data-correcta="0">
+      <p class="enunciado"><span class="letra" aria-hidden="true">D</span><span class="texto-enunciado"><span class="sr-only">Question D. </span>Why did the red apple look almost black under blue light?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué la manzana roja se veía casi negra bajo la luz azul?</p>
+      <div class="opciones" role="group" aria-label="Options for question D">
+        <button class="opcion">Blue light has no red light for the apple to reflect</button>
+        <button class="opcion">The apple absorbs red light</button>
+        <button class="opcion">Blue light makes apples rot</button>
+      </div>
+      <p class="explicacion" hidden>A red apple reflects red light and absorbs the others. Blue light has no red to reflect, so the apple looks dark.</p>
+    </li>
+    <li class="pregunta" id="pregunta-e" data-cita="c-e" data-correcta="2">
+      <p class="enunciado"><span class="letra" aria-hidden="true">E</span><span class="texto-enunciado"><span class="sr-only">Question E. </span>Why does a black T-shirt get hotter in the sun than a white one?</span></p>
+      <p class="ayuda-es caja-es" lang="es">¿Por qué una camiseta negra se calienta más al sol que una blanca?</p>
+      <div class="opciones" role="group" aria-label="Options for question E">
+        <button class="opcion">It reflects more light</button>
+        <button class="opcion">It transmits light to your skin</button>
+        <button class="opcion">It absorbs more light, and the energy becomes heat</button>
+      </div>
+      <p class="explicacion" hidden>A black shirt absorbs almost all the colors, and the absorbed light energy becomes heat.</p>
+    </li>
+  </ol>
+  <p class="puntaje" id="puntaje" hidden role="status" aria-live="polite"></p>
+  <section class="reto" id="reto" aria-labelledby="tit-reto">
+    <h2 id="tit-reto">Challenge: explain your thinking</h2>
+    <p class="reto-tipo">Use a model</p>
+    <p class="reto-pregunta">Draw a model with three arrows to show what happens to light when it hits a window, a mirror and a black notebook. Label each arrow: reflected, absorbed or transmitted. Then explain your model.</p>
+    <p class="ayuda-es caja-es" lang="es"><strong>Usa un modelo.</strong> Dibuja un modelo con tres flechas para mostrar qué le pasa a la luz cuando llega a una ventana, a un espejo y a un cuaderno negro. Rotula cada flecha: reflejada, absorbida o transmitida. Después explica tu modelo.</p>
+    <p class="reto-como">Answer in your notebook or talk it over with a classmate. Use evidence from the story.</p>
+    <p class="ayuda-es caja-es" lang="es">Responde en tu cuaderno o coméntalo con un compañero. Usa evidencia del cuento.</p>
+    <details class="reto-pista"><summary>Check your thinking</summary><p>Window: most of the light is transmitted; the arrow goes straight through the glass (and bends a little as it enters and leaves). Mirror: the light is reflected; the arrow bounces back. Black notebook: the light is absorbed; the arrow stops at the surface, and the notebook warms up. Most materials do a little of all three, but one usually wins.</p></details>
+  </section>
+
+  <footer class="pie">
+    <p><strong>José M. Fernández</strong> · Development: Claude (Anthropic) · Illustration generated with artificial intelligence.</p>
+    <p>Illinois standard (NGSS) MS-PS4-2: develop and use a model to describe that waves are reflected, absorbed or transmitted through various materials.</p>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
+  </footer>
+</main>
+<script src="cuentos.js"></script>
+</body>
+</html>
